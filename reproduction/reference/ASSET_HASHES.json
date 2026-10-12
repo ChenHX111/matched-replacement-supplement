@@ -1,0 +1,13 @@
+{
+  "schema": "anonymous-paper-asset-hashes-v1",
+  "files": {
+    "table_primary_family.tex": "bf8430b1e1ae9dbde60095229de256a29a60b0953f716556ebfb39887350d4ef",
+    "table_p5_absolute.tex": "606c4c25b457268647b1e37401f64f0a64e0ec728fa1d1828678ad6236e0f5b6",
+    "table_transport_boundary.tex": "de8469f810d88ba55443f5b98bbc37fe9714387cc36fe6f0fbe2f3a7a7088827",
+    "table_p5_error_cost_variability.tex": "22838772b41229688fd6585fd70d77868d19d80acbc9db797fce6b1bca0741af",
+    "table_p4_scope.tex": "0e19bde55d4b19e0643a1b8109d80d2897b1411c6b4e6dcb48b91413db355c77",
+    "table_posthoc_count.tex": "3b113fcd4501554b13559e608b0dfc30b4fc8644e83c5c354052b1a5feaff4bd",
+    "figure_p5_fidelity.pdf": "c8fa802cdd38bdb290ce22c6a8bf7ed46b42a7895f292e09174218ca29716ce1",
+    "figure_posthoc_count.pdf": "da845331d787ee8f9b2136c7b5689b472f9b54f03594fe666c3eef3006ca735a"
+  }
+}

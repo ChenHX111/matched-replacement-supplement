@@ -1,0 +1,96 @@
+scope,setting,method,frozen_display_order,status,blocks_expected,contexts_expected,unavailable_context_count,primary_E04_variant,cross_seed_spearman,cross_seed_top_two_regret,same_realization_spearman,same_realization_mean_absolute_error,method_name
+p5_main_all_blocks_descriptive,p5_main,difficulty,0,available_descriptive,24,72,0,False,0.32605820105820105,0.22871521687971183,0.3002645502645503,,Difficulty
+p5_main_all_blocks_descriptive,p5_main,G20,1,available_descriptive,24,72,0,False,0.6372354497354498,0.09000493558404393,0.7129629629629629,0.19244982908171038,Matched reference (group of twenty)
+p5_main_all_blocks_descriptive,p5_main,G5_coherent,2,available_descriptive,24,72,0,False,0.6018518518518519,0.12847503351816222,0.6557539682539683,0.18222978643899754,Coherent group-of-five reference
+p5_main_all_blocks_descriptive,p5_main,G5_dispersed,3,available_descriptive,24,72,0,False,0.6011904761904762,0.11799287839311123,0.6871693121693121,0.19083856586887407,Dispersed group-of-five reference
+p5_main_all_blocks_descriptive,p5_main,R_half,4,available_descriptive,24,72,0,False,0.5873015873015873,0.12251633066992275,0.6954365079365079,0.20265648707356032,Half-background replacement reference
+p5_main_all_blocks_descriptive,p5_main,R_disj,5,available_descriptive,24,72,0,False,0.43452380952380953,0.19466891063972425,0.49933862433862436,0.2245246159965081,Role-disjoint reference
+p5_main_all_blocks_descriptive,p5_main,R_disj_next_block_reuse,6,available_descriptive,24,72,0,False,0.4636243386243386,0.17523496759350302,0.53505291005291,0.2299485288973395,Fixed next-original-block reference reuse
+p5_main_all_blocks_descriptive,p5_main,E02_plain_epoch,7,available_descriptive,24,72,0,False,0.22288359788359788,0.25897859446300364,0.1669973544973545,,Independent plain epoch-gradient diagnostic
+p5_main_all_blocks_descriptive,p5_main,m1_mlp_ekfac,8,blocked_qualification,24,72,72,True,,,,,MLP EK-FAC (primary)
+p5_main_all_blocks_descriptive,p5_main,m1_mlp_ekfac_damping_0p1,9,blocked_qualification,24,72,72,False,,,,,"MLP EK-FAC, damping factor 0.1"
+p5_main_all_blocks_descriptive,p5_main,m1_mlp_ekfac_damping_10p0,10,blocked_qualification,24,72,72,False,,,,,"MLP EK-FAC, damping factor 10"
+p5_main_all_blocks_descriptive,p5_main,m1_block_linear_ekfac,11,blocked_qualification,24,72,72,False,,,,,Block-linear EK-FAC (optional)
+p5_main_all_blocks_descriptive,p5_main,m2_epoch_preconditioned,12,blocked_qualification,24,72,72,True,,,,,Adam-checkpoint approximation (primary)
+p5_main_all_blocks_descriptive,p5_main,m2_epoch_plain,13,blocked_qualification,24,72,72,False,,,,,Epoch plain checkpoint (sensitivity)
+p5_main_all_blocks_descriptive,p5_main,m2_epoch_less_style_cosine,14,blocked_qualification,24,72,72,False,,,,,Epoch LESS-style cosine (sensitivity)
+p5_main_all_blocks_descriptive,p5_main,m2_actual_step_preconditioned,15,blocked_qualification,24,72,72,False,,,,,Actual-step preconditioned checkpoint (sensitivity)
+p5_main_all_blocks_descriptive,p5_main,m2_actual_step_plain,16,blocked_qualification,24,72,72,False,,,,,Actual-step plain checkpoint (sensitivity)
+p5_main_all_blocks_descriptive,p5_main,m2_actual_step_less_style_cosine,17,blocked_qualification,24,72,72,False,,,,,Actual-step LESS-style cosine (sensitivity)
+p5_main_all_blocks_descriptive,p5_main,m1_mlp_ekfac_removal_only,18,blocked_qualification,24,72,72,False,,,,,"MLP EK-FAC (primary), removal-only sensitivity"
+p5_main_all_blocks_descriptive,p5_main,m1_mlp_ekfac_damping_0p1_removal_only,19,blocked_qualification,24,72,72,False,,,,,"MLP EK-FAC, damping factor 0.1, removal-only sensitivity"
+p5_main_all_blocks_descriptive,p5_main,m1_mlp_ekfac_damping_10p0_removal_only,20,blocked_qualification,24,72,72,False,,,,,"MLP EK-FAC, damping factor 10, removal-only sensitivity"
+p5_main_all_blocks_descriptive,p5_main,m1_block_linear_ekfac_removal_only,21,blocked_qualification,24,72,72,False,,,,,"Block-linear EK-FAC (optional), removal-only sensitivity"
+p5_main_all_blocks_descriptive,p5_main,m2_epoch_preconditioned_removal_only,22,blocked_qualification,24,72,72,False,,,,,"Adam-checkpoint approximation (primary), removal-only sensitivity"
+p5_main_all_blocks_descriptive,p5_main,m2_epoch_plain_removal_only,23,blocked_qualification,24,72,72,False,,,,,"Epoch plain checkpoint (sensitivity), removal-only sensitivity"
+p5_main_all_blocks_descriptive,p5_main,m2_epoch_less_style_cosine_removal_only,24,blocked_qualification,24,72,72,False,,,,,"Epoch LESS-style cosine (sensitivity), removal-only sensitivity"
+p5_main_all_blocks_descriptive,p5_main,m2_actual_step_preconditioned_removal_only,25,blocked_qualification,24,72,72,False,,,,,"Actual-step preconditioned checkpoint (sensitivity), removal-only sensitivity"
+p5_main_all_blocks_descriptive,p5_main,m2_actual_step_plain_removal_only,26,blocked_qualification,24,72,72,False,,,,,"Actual-step plain checkpoint (sensitivity), removal-only sensitivity"
+p5_main_all_blocks_descriptive,p5_main,m2_actual_step_less_style_cosine_removal_only,27,blocked_qualification,24,72,72,False,,,,,"Actual-step LESS-style cosine (sensitivity), removal-only sensitivity"
+p5_corpus_all_blocks_descriptive,p5_corpus,difficulty,0,available_descriptive,8,24,0,False,0.6607142857142857,0.11313956058955378,0.5406746031746031,,Difficulty
+p5_corpus_all_blocks_descriptive,p5_corpus,G20,1,available_descriptive,8,24,0,False,0.5932539682539683,0.12168549596978233,0.8432539682539683,0.17355578230213056,Matched reference (group of twenty)
+p5_corpus_all_blocks_descriptive,p5_corpus,G5_coherent,2,available_descriptive,8,24,0,False,0.5873015873015873,0.1184123766549173,0.8283730158730158,0.13757421215921367,Coherent group-of-five reference
+p5_corpus_all_blocks_descriptive,p5_corpus,G5_dispersed,3,available_descriptive,8,24,0,False,0.5823412698412699,0.1351156145020844,0.8511904761904762,0.13485803613532088,Dispersed group-of-five reference
+p5_corpus_all_blocks_descriptive,p5_corpus,R_half,4,available_descriptive,8,24,0,False,0.558531746031746,0.16923731581827722,0.8283730158730158,0.1638368972255509,Half-background replacement reference
+p5_corpus_all_blocks_descriptive,p5_corpus,R_disj,5,available_descriptive,8,24,0,False,0.6021825396825397,0.1400826523776893,0.8392857142857142,0.19026787868365697,Role-disjoint reference
+p5_corpus_all_blocks_descriptive,p5_corpus,R_disj_next_block_reuse,6,available_descriptive,8,24,0,False,0.5763888888888888,0.14675590117307016,0.8055555555555556,0.20481746577678145,Fixed next-original-block reference reuse
+p5_corpus_all_blocks_descriptive,p5_corpus,E02_plain_epoch,7,available_descriptive,8,24,0,False,0.05158730158730159,0.4081622224688056,0.012896825396825391,,Independent plain epoch-gradient diagnostic
+p5_corpus_all_blocks_descriptive,p5_corpus,E02_raw_0.001,8,blocked_qualification,8,24,24,False,,,,,"LoGra, raw, damping 0.001"
+p5_corpus_all_blocks_descriptive,p5_corpus,E02_raw_0.01,9,blocked_qualification,8,24,24,False,,,,,"LoGra, raw, damping 0.01"
+p5_corpus_all_blocks_descriptive,p5_corpus,E02_raw_0.0001,10,blocked_qualification,8,24,24,False,,,,,"LoGra, raw, damping 0.0001"
+p5_corpus_all_blocks_descriptive,p5_corpus,E02_normalized_0.001,11,blocked_qualification,8,24,24,False,,,,,"LoGra, normalized, damping 0.001"
+p5_corpus_all_blocks_descriptive,p5_corpus,E02_normalized_0.01,12,blocked_qualification,8,24,24,False,,,,,"LoGra, normalized, damping 0.01"
+p5_corpus_all_blocks_descriptive,p5_corpus,E02_normalized_0.0001,13,blocked_qualification,8,24,24,False,,,,,"LoGra, normalized, damping 0.0001"
+p5_corpus_all_blocks_descriptive,p5_corpus,m1_mlp_ekfac,14,blocked_qualification,8,24,24,True,,,,,MLP EK-FAC (primary)
+p5_corpus_all_blocks_descriptive,p5_corpus,m1_mlp_ekfac_damping_0p1,15,blocked_qualification,8,24,24,False,,,,,"MLP EK-FAC, damping factor 0.1"
+p5_corpus_all_blocks_descriptive,p5_corpus,m1_mlp_ekfac_damping_10p0,16,blocked_qualification,8,24,24,False,,,,,"MLP EK-FAC, damping factor 10"
+p5_corpus_all_blocks_descriptive,p5_corpus,m1_block_linear_ekfac,17,blocked_qualification,8,24,24,False,,,,,Block-linear EK-FAC (optional)
+p5_corpus_all_blocks_descriptive,p5_corpus,m2_epoch_preconditioned,18,blocked_qualification,8,24,24,True,,,,,Adam-checkpoint approximation (primary)
+p5_corpus_all_blocks_descriptive,p5_corpus,m2_epoch_plain,19,blocked_qualification,8,24,24,False,,,,,Epoch plain checkpoint (sensitivity)
+p5_corpus_all_blocks_descriptive,p5_corpus,m2_epoch_less_style_cosine,20,blocked_qualification,8,24,24,False,,,,,Epoch LESS-style cosine (sensitivity)
+p5_corpus_all_blocks_descriptive,p5_corpus,m2_actual_step_preconditioned,21,blocked_qualification,8,24,24,False,,,,,Actual-step preconditioned checkpoint (sensitivity)
+p5_corpus_all_blocks_descriptive,p5_corpus,m2_actual_step_plain,22,blocked_qualification,8,24,24,False,,,,,Actual-step plain checkpoint (sensitivity)
+p5_corpus_all_blocks_descriptive,p5_corpus,m2_actual_step_less_style_cosine,23,blocked_qualification,8,24,24,False,,,,,Actual-step LESS-style cosine (sensitivity)
+p5_corpus_all_blocks_descriptive,p5_corpus,m1_mlp_ekfac_removal_only,24,blocked_qualification,8,24,24,False,,,,,"MLP EK-FAC (primary), removal-only sensitivity"
+p5_corpus_all_blocks_descriptive,p5_corpus,m1_mlp_ekfac_damping_0p1_removal_only,25,blocked_qualification,8,24,24,False,,,,,"MLP EK-FAC, damping factor 0.1, removal-only sensitivity"
+p5_corpus_all_blocks_descriptive,p5_corpus,m1_mlp_ekfac_damping_10p0_removal_only,26,blocked_qualification,8,24,24,False,,,,,"MLP EK-FAC, damping factor 10, removal-only sensitivity"
+p5_corpus_all_blocks_descriptive,p5_corpus,m1_block_linear_ekfac_removal_only,27,blocked_qualification,8,24,24,False,,,,,"Block-linear EK-FAC (optional), removal-only sensitivity"
+p5_corpus_all_blocks_descriptive,p5_corpus,m2_epoch_preconditioned_removal_only,28,blocked_qualification,8,24,24,False,,,,,"Adam-checkpoint approximation (primary), removal-only sensitivity"
+p5_corpus_all_blocks_descriptive,p5_corpus,m2_epoch_plain_removal_only,29,blocked_qualification,8,24,24,False,,,,,"Epoch plain checkpoint (sensitivity), removal-only sensitivity"
+p5_corpus_all_blocks_descriptive,p5_corpus,m2_epoch_less_style_cosine_removal_only,30,blocked_qualification,8,24,24,False,,,,,"Epoch LESS-style cosine (sensitivity), removal-only sensitivity"
+p5_corpus_all_blocks_descriptive,p5_corpus,m2_actual_step_preconditioned_removal_only,31,blocked_qualification,8,24,24,False,,,,,"Actual-step preconditioned checkpoint (sensitivity), removal-only sensitivity"
+p5_corpus_all_blocks_descriptive,p5_corpus,m2_actual_step_plain_removal_only,32,blocked_qualification,8,24,24,False,,,,,"Actual-step plain checkpoint (sensitivity), removal-only sensitivity"
+p5_corpus_all_blocks_descriptive,p5_corpus,m2_actual_step_less_style_cosine_removal_only,33,blocked_qualification,8,24,24,False,,,,,"Actual-step LESS-style cosine (sensitivity), removal-only sensitivity"
+p5_model_all_blocks_descriptive,p5_model,difficulty,0,available_descriptive,8,24,0,False,0.42956349206349204,0.07844103022818372,0.4087301587301587,,Difficulty
+p5_model_all_blocks_descriptive,p5_model,G20,1,available_descriptive,8,24,0,False,0.9553571428571428,0.00543265944527125,0.9722222222222222,0.013793600907290964,Matched reference (group of twenty)
+p5_model_all_blocks_descriptive,p5_model,R_half,2,available_descriptive,8,24,0,False,0.8373015873015873,0.009696826088988052,0.8501984126984128,0.04519445576398147,Half-background replacement reference
+p5_model_all_blocks_descriptive,p5_model,R_disj,3,available_descriptive,8,24,0,False,0.6349206349206349,0.029454560958738277,0.6498015873015873,0.0769874090172055,Role-disjoint reference
+p5_model_all_blocks_descriptive,p5_model,R_disj_next_block_reuse,4,available_descriptive,8,24,0,False,0.5347222222222222,0.04414113284721224,0.5337301587301587,0.07838074480358173,Fixed next-original-block reference reuse
+p5_model_all_blocks_descriptive,p5_model,m1_mlp_ekfac,5,blocked_qualification,8,24,24,True,,,,,MLP EK-FAC (primary)
+p5_model_all_blocks_descriptive,p5_model,m1_mlp_ekfac_damping_0p1,6,blocked_qualification,8,24,24,False,,,,,"MLP EK-FAC, damping factor 0.1"
+p5_model_all_blocks_descriptive,p5_model,m1_mlp_ekfac_damping_10p0,7,blocked_qualification,8,24,24,False,,,,,"MLP EK-FAC, damping factor 10"
+p5_model_all_blocks_descriptive,p5_model,m1_block_linear_ekfac,8,blocked_qualification,8,24,24,False,,,,,Block-linear EK-FAC (optional)
+p5_model_all_blocks_descriptive,p5_model,m2_epoch_preconditioned,9,blocked_qualification,8,24,24,True,,,,,Adam-checkpoint approximation (primary)
+p5_model_all_blocks_descriptive,p5_model,m2_epoch_plain,10,blocked_qualification,8,24,24,False,,,,,Epoch plain checkpoint (sensitivity)
+p5_model_all_blocks_descriptive,p5_model,m2_epoch_less_style_cosine,11,blocked_qualification,8,24,24,False,,,,,Epoch LESS-style cosine (sensitivity)
+p5_model_all_blocks_descriptive,p5_model,m2_actual_step_preconditioned,12,blocked_qualification,8,24,24,False,,,,,Actual-step preconditioned checkpoint (sensitivity)
+p5_model_all_blocks_descriptive,p5_model,m2_actual_step_plain,13,blocked_qualification,8,24,24,False,,,,,Actual-step plain checkpoint (sensitivity)
+p5_model_all_blocks_descriptive,p5_model,m2_actual_step_less_style_cosine,14,blocked_qualification,8,24,24,False,,,,,Actual-step LESS-style cosine (sensitivity)
+p5_model_all_blocks_descriptive,p5_model,m1_mlp_ekfac_removal_only,15,blocked_qualification,8,24,24,False,,,,,"MLP EK-FAC (primary), removal-only sensitivity"
+p5_model_all_blocks_descriptive,p5_model,m1_mlp_ekfac_damping_0p1_removal_only,16,blocked_qualification,8,24,24,False,,,,,"MLP EK-FAC, damping factor 0.1, removal-only sensitivity"
+p5_model_all_blocks_descriptive,p5_model,m1_mlp_ekfac_damping_10p0_removal_only,17,blocked_qualification,8,24,24,False,,,,,"MLP EK-FAC, damping factor 10, removal-only sensitivity"
+p5_model_all_blocks_descriptive,p5_model,m1_block_linear_ekfac_removal_only,18,blocked_qualification,8,24,24,False,,,,,"Block-linear EK-FAC (optional), removal-only sensitivity"
+p5_model_all_blocks_descriptive,p5_model,m2_epoch_preconditioned_removal_only,19,blocked_qualification,8,24,24,False,,,,,"Adam-checkpoint approximation (primary), removal-only sensitivity"
+p5_model_all_blocks_descriptive,p5_model,m2_epoch_plain_removal_only,20,blocked_qualification,8,24,24,False,,,,,"Epoch plain checkpoint (sensitivity), removal-only sensitivity"
+p5_model_all_blocks_descriptive,p5_model,m2_epoch_less_style_cosine_removal_only,21,blocked_qualification,8,24,24,False,,,,,"Epoch LESS-style cosine (sensitivity), removal-only sensitivity"
+p5_model_all_blocks_descriptive,p5_model,m2_actual_step_preconditioned_removal_only,22,blocked_qualification,8,24,24,False,,,,,"Actual-step preconditioned checkpoint (sensitivity), removal-only sensitivity"
+p5_model_all_blocks_descriptive,p5_model,m2_actual_step_plain_removal_only,23,blocked_qualification,8,24,24,False,,,,,"Actual-step plain checkpoint (sensitivity), removal-only sensitivity"
+p5_model_all_blocks_descriptive,p5_model,m2_actual_step_less_style_cosine_removal_only,24,blocked_qualification,8,24,24,False,,,,,"Actual-step LESS-style cosine (sensitivity), removal-only sensitivity"
+E02_frozen_main_evaluation20_descriptive,p5_main,G20,0,available_descriptive,20,60,0,False,0.6472222222222223,0.08241605772917396,0.7150793650793651,0.19890909033023177,Matched reference (group of twenty)
+E02_frozen_main_evaluation20_descriptive,p5_main,E02_plain_epoch,1,available_descriptive,20,60,0,False,0.19920634920634922,0.2628306435334614,0.16984126984126985,,Independent plain epoch-gradient diagnostic
+E02_frozen_main_evaluation20_descriptive,p5_main,E02_raw_0.001,2,blocked_qualification,20,60,60,False,,,,,"LoGra, raw, damping 0.001"
+E02_frozen_main_evaluation20_descriptive,p5_main,E02_raw_0.01,3,blocked_qualification,20,60,60,False,,,,,"LoGra, raw, damping 0.01"
+E02_frozen_main_evaluation20_descriptive,p5_main,E02_raw_0.0001,4,blocked_qualification,20,60,60,False,,,,,"LoGra, raw, damping 0.0001"
+E02_frozen_main_evaluation20_descriptive,p5_main,E02_normalized_0.001,5,blocked_qualification,20,60,60,False,,,,,"LoGra, normalized, damping 0.001"
+E02_frozen_main_evaluation20_descriptive,p5_main,E02_normalized_0.01,6,blocked_qualification,20,60,60,False,,,,,"LoGra, normalized, damping 0.01"
+E02_frozen_main_evaluation20_descriptive,p5_main,E02_normalized_0.0001,7,blocked_qualification,20,60,60,False,,,,,"LoGra, normalized, damping 0.0001"

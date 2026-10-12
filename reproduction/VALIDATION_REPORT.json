@@ -1,0 +1,180 @@
+{
+  "schema": "anonymous-numerical-reproduction-report-v1",
+  "status": "PASS",
+  "mode": "full_fixed_numerical_replay",
+  "checks": [
+    {
+      "id": "p4_main_later_D",
+      "original_5000_exact": true
+    },
+    {
+      "id": "p4_main_later_eta",
+      "original_5000_exact": true
+    },
+    {
+      "id": "p4_main_prefix_D",
+      "original_5000_exact": true
+    },
+    {
+      "id": "p4_main_prefix_eta",
+      "original_5000_exact": true
+    },
+    {
+      "id": "p5_main_G_positive_rank",
+      "original_5000_exact": true
+    },
+    {
+      "id": "p5_main_G_vs_A_median_absolute_error",
+      "original_5000_exact": true
+    },
+    {
+      "id": "p5_main_G_vs_A_spearman",
+      "original_5000_exact": true
+    },
+    {
+      "id": "p5_main_G_vs_A_top_two_regret",
+      "original_5000_exact": true
+    },
+    {
+      "id": "p5_main_corpus_vs_A_rank",
+      "original_5000_exact": true
+    },
+    {
+      "id": "p5_main_corpus_vs_difficulty_rank",
+      "original_5000_exact": true
+    },
+    {
+      "id": "p5_main_corpus_vs_difficulty_regret",
+      "original_5000_exact": true
+    },
+    {
+      "id": "count_k4_vs_uncovered_base_nll_k4_p5_main_spearman",
+      "count_comparison_exact": true
+    },
+    {
+      "id": "count_k4_vs_uncovered_base_nll_k4_p5_main_top_two_regret",
+      "count_comparison_exact": true
+    },
+    {
+      "id": "count_k4_vs_base_difficulty_nll_p5_main_spearman",
+      "count_comparison_exact": true
+    },
+    {
+      "id": "count_k4_vs_base_difficulty_nll_p5_main_top_two_regret",
+      "count_comparison_exact": true
+    },
+    {
+      "id": "count_k4_vs_uncovered_base_nll_k4_p5_corpus_spearman",
+      "count_comparison_exact": true
+    },
+    {
+      "id": "count_k4_vs_uncovered_base_nll_k4_p5_corpus_top_two_regret",
+      "count_comparison_exact": true
+    },
+    {
+      "id": "count_k4_vs_base_difficulty_nll_p5_corpus_spearman",
+      "count_comparison_exact": true
+    },
+    {
+      "id": "count_k4_vs_base_difficulty_nll_p5_corpus_top_two_regret",
+      "count_comparison_exact": true
+    },
+    {
+      "id": "count_k4_vs_uncovered_base_nll_k4_p5_model_spearman",
+      "count_comparison_exact": true
+    },
+    {
+      "id": "count_k4_vs_uncovered_base_nll_k4_p5_model_top_two_regret",
+      "count_comparison_exact": true
+    },
+    {
+      "id": "count_k4_vs_base_difficulty_nll_p5_model_spearman",
+      "count_comparison_exact": true
+    },
+    {
+      "id": "count_k4_vs_base_difficulty_nll_p5_model_top_two_regret",
+      "count_comparison_exact": true
+    },
+    {
+      "id": "count_k4_absolute_p5_main_spearman",
+      "count_absolute_exact": true
+    },
+    {
+      "id": "count_k4_absolute_p5_main_top_two_regret",
+      "count_absolute_exact": true
+    },
+    {
+      "id": "count_k4_absolute_p5_corpus_spearman",
+      "count_absolute_exact": true
+    },
+    {
+      "id": "count_k4_absolute_p5_corpus_top_two_regret",
+      "count_absolute_exact": true
+    },
+    {
+      "id": "count_k4_absolute_p5_model_spearman",
+      "count_absolute_exact": true
+    },
+    {
+      "id": "count_k4_absolute_p5_model_top_two_regret",
+      "count_absolute_exact": true
+    },
+    {
+      "id": "p4_main_later_D",
+      "same_100000_sequence_exact": true
+    },
+    {
+      "id": "p4_main_later_eta",
+      "same_100000_sequence_exact": true
+    },
+    {
+      "id": "p4_main_prefix_D",
+      "same_100000_sequence_exact": true
+    },
+    {
+      "id": "p4_main_prefix_eta",
+      "same_100000_sequence_exact": true
+    },
+    {
+      "id": "p5_main_G_positive_rank",
+      "same_100000_sequence_exact": true
+    },
+    {
+      "id": "p5_main_G_vs_A_median_absolute_error",
+      "same_100000_sequence_exact": true
+    },
+    {
+      "id": "p5_main_G_vs_A_spearman",
+      "same_100000_sequence_exact": true
+    },
+    {
+      "id": "p5_main_G_vs_A_top_two_regret",
+      "same_100000_sequence_exact": true
+    },
+    {
+      "id": "p5_main_corpus_vs_A_rank",
+      "same_100000_sequence_exact": true
+    },
+    {
+      "id": "p5_main_corpus_vs_difficulty_rank",
+      "same_100000_sequence_exact": true
+    },
+    {
+      "id": "p5_main_corpus_vs_difficulty_regret",
+      "same_100000_sequence_exact": true
+    }
+  ],
+  "source_summary_checks": 124,
+  "source_summary_max_absolute_difference": 3.3306690738754696e-16,
+  "byte_identical_paper_assets": 8,
+  "original_5000_tests": 11,
+  "count_checks": 18,
+  "same_100000_sensitivity_tests": 11,
+  "new_model_calls": 0,
+  "new_fits": 0,
+  "new_random_sequences": 0,
+  "python": "3.11.9",
+  "numpy": "1.26.4",
+  "manifest_inputs_verified": 18,
+  "original_decisions_retained": true
+}

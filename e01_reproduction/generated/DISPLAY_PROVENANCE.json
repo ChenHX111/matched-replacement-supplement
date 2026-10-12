@@ -1,0 +1,155 @@
+{
+ "E1": {
+  "branch": "RESOLVED_POSITIVE",
+  "endpoint_id": "E01FAR_far_G20far_vs_A_rank",
+  "estimate": 0.7701719576719577,
+  "interval": [
+   0.5684523809523809,
+   0.9482481812169313
+  ],
+  "source": "results/E01_ANALYSIS_RESULT.json"
+ },
+ "E2": {
+  "branch": "RESOLVED_POSITIVE",
+  "endpoint_id": "E01FAR_far_U4_vs_difficulty_rank",
+  "estimate": 0.29050925925925924,
+  "interval": [
+   0.15112351190476192,
+   0.43551669973544993
+  ],
+  "source": "results/E01_ANALYSIS_RESULT.json"
+ },
+ "E3": {
+  "branch": "RESOLVED_POSITIVE",
+  "endpoint_id": "E01FAR_far_G20far_vs_A_regret",
+  "estimate": 0.2983975137750498,
+  "interval": [
+   0.20557158966126024,
+   0.3864481771994807
+  ],
+  "source": "results/E01_ANALYSIS_RESULT.json"
+ },
+ "E4": {
+  "branch": "UNRESOLVED",
+  "endpoint_id": "E01FAR_far_minus_near_U4_vs_difficulty_rank",
+  "estimate": 0.04001322751322752,
+  "interval": [
+   -0.05638310185185183,
+   0.13558283730158746
+  ],
+  "source": "results/E01_ANALYSIS_RESULT.json"
+ },
+ "E5": {
+  "branch": "UNRESOLVED",
+  "endpoint_id": "E01FAR_far_minus_near_G20_vs_A_rank",
+  "estimate": 0.018518518518518528,
+  "interval": [
+   -0.08482225529100529,
+   0.12086640211640208
+  ],
+  "source": "results/E01_ANALYSIS_RESULT.json"
+ },
+ "desc.G20_far": {
+  "rank": {
+   "confidence": 0.95,
+   "estimate": 0.6588955026455027,
+   "index_stream_sha256": "a979da597e32b37887bb6f922321b0f7047a4bd8de130fae40ba96d113cca83c",
+   "interval": [
+    0.6061507936507936,
+    0.7108176256613753
+   ],
+   "seed": 836183521,
+   "status": "available_descriptive"
+  },
+  "regret": {
+   "confidence": 0.95,
+   "estimate": 0.08425645647739284,
+   "index_stream_sha256": "0f888fc8828380acfe17baf21236a6537ef57b5f22525c06bf70a4debd40c3e0",
+   "interval": [
+    0.06730880987323755,
+    0.10305985478859984
+   ],
+   "seed": 962982929,
+   "status": "available_descriptive"
+  },
+  "source": "results/E01_ANALYSIS_RESULT.json"
+ },
+ "desc.audit_loss_drop": {
+  "rank": {
+   "confidence": 0.95,
+   "estimate": -0.11127645502645502,
+   "index_stream_sha256": "324c5d54bd7bf8e1b2b695ba08cbe99f8a3e8b06b189fe66cba3bf041839ec6c",
+   "interval": [
+    -0.22569857804232799,
+    0.012404927248676888
+   ],
+   "seed": 1330157031,
+   "status": "available_descriptive"
+  },
+  "regret": {
+   "confidence": 0.95,
+   "estimate": 0.3826539702524427,
+   "index_stream_sha256": "56af5a52a0b003b21590b631dcd302ccacc5489d5b23a566ed5388bf8f670c0b",
+   "interval": [
+    0.3191229638941256,
+    0.4478642636764853
+   ],
+   "seed": 2086192983,
+   "status": "available_descriptive"
+  },
+  "source": "results/E01_ANALYSIS_RESULT.json"
+ },
+ "desc.base_difficulty_nll": {
+  "rank": {
+   "confidence": 0.95,
+   "estimate": 0.3745039682539683,
+   "index_stream_sha256": "285b5a983f228e7053e4e5d6b006f58142bf9c8f24f6a69b5f6a78a3deadd8a4",
+   "interval": [
+    0.24966931216931218,
+    0.486441798941799
+   ],
+   "seed": 2052667850,
+   "status": "available_descriptive"
+  },
+  "regret": {
+   "confidence": 0.95,
+   "estimate": 0.21541313933011708,
+   "index_stream_sha256": "bf86f034dc46cc56db3d43f29009939eb55f86bd7d489dbc8a815491a83531e9",
+   "interval": [
+    0.15778391546920864,
+    0.27869019266728057
+   ],
+   "seed": 1549033012,
+   "status": "available_descriptive"
+  },
+  "source": "results/E01_ANALYSIS_RESULT.json"
+ },
+ "desc.uncovered_base_nll_k4": {
+  "rank": {
+   "confidence": 0.95,
+   "estimate": 0.6650132275132276,
+   "index_stream_sha256": "07403dcc88509fcb68ec9903ec0b37ea35ba69f0ad92e216152d641bb0d030c9",
+   "interval": [
+    0.6003637566137566,
+    0.7296626984126985
+   ],
+   "seed": 726491513,
+   "status": "available_descriptive"
+  },
+  "regret": {
+   "confidence": 0.95,
+   "estimate": 0.08786295004214767,
+   "index_stream_sha256": "3fbfc0c4bcb36a91ba0a2c4827881e13ff60b5d884a87525c54237ad3a639b91",
+   "interval": [
+    0.0596696327910401,
+    0.11842149718463305
+   ],
+   "seed": 892299502,
+   "status": "available_descriptive"
+  },
+  "source": "results/E01_ANALYSIS_RESULT.json"
+ },
+ "posthoc": {
+  "source": "results/POSTHOC_E01.json"
+ }
+}

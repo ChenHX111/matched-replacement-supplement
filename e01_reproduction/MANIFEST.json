@@ -1,0 +1,75 @@
+{
+ "files": [
+  {
+   "bytes": 44283,
+   "path": "code/analysis_e01.py",
+   "sha256": "536fac37fb5617d8a00a06ce3c957260c16117eea41919346d41063812926dd5"
+  },
+  {
+   "bytes": 8005,
+   "path": "code/make_e01_tables.py",
+   "sha256": "a62daa30bca843c3e771365322f56ed3a0a99024bb20d5dd6a7eac59cec2e5a9"
+  },
+  {
+   "bytes": 5930,
+   "path": "code/posthoc_e01.py",
+   "sha256": "2549eb9c88ef1fee3af7bde680bb517c4b129f307ffd738f0a13ec11d014a208"
+  },
+  {
+   "bytes": 4019,
+   "path": "generated/DISPLAY_PROVENANCE.json",
+   "sha256": "3ae39a67c4af97a956aa5e499c537693b6ca11c95aa5076096563bc5b41cf1cd"
+  },
+  {
+   "bytes": 1039,
+   "path": "generated/e01_descriptive.tex",
+   "sha256": "9105f3e5ea86327aec1cde3b2ddd2f1b3d47eabb0d80fc6c5d3492c2436fa46a"
+  },
+  {
+   "bytes": 1166,
+   "path": "generated/e01_endpoints.tex",
+   "sha256": "6bfad315438105b3a122234cbdf40736fdc91121d369ec209934775f88157506"
+  },
+  {
+   "bytes": 977,
+   "path": "generated/e01_posthoc.tex",
+   "sha256": "e7c06bdf948e827de54014e0f4a11bafce405504c6b62695230fe1b028a5e381"
+  },
+  {
+   "bytes": 4496544,
+   "path": "inputs/E01_RETURN_ALL.json",
+   "sha256": "83434b3cb7cfd731fd1b5c475392c509fb7ebd2caa0a1993cdcbad804aa76370"
+  },
+  {
+   "bytes": 27390,
+   "path": "inputs/FAR_MAP_DESCRIPTORS.json",
+   "sha256": "37416e911dc6007ae75280df92179521346ba281674b304a8b4773eee6f8760d"
+  },
+  {
+   "bytes": 516106,
+   "path": "inputs/NEAR_INPUT_BUNDLE.json",
+   "sha256": "e3e5a9cf750eaca3e894a91d6dbab2ece054cc1cdc878a6b8a3ff009eab1a12c"
+  },
+  {
+   "bytes": 1707,
+   "path": "README.md",
+   "sha256": "9d0ff4d9b8e5ff251eb0f788659a28091ddfa8d008e2aaef0c997deabb6fc72a"
+  },
+  {
+   "bytes": 63550,
+   "path": "results/E01_ANALYSIS_RESULT.json",
+   "sha256": "267e846713c0e5d035800c17b32f12acaf9dff34c94f07ca2608a0fe722b9c5a"
+  },
+  {
+   "bytes": 2165,
+   "path": "results/POSTHOC_E01.json",
+   "sha256": "35826771906d4b8c1001d6171adce13f30c9f45bb267d81ac34cb2c28f5b8003"
+  },
+  {
+   "bytes": 2188,
+   "path": "verify_e01.py",
+   "sha256": "e8ea81ab3f9a6b81d8fb3e3ba967624e033486b14c96fb1be15763ea8f3d3030"
+  }
+ ],
+ "schema": "e01-reproduction-manifest-v1"
+}

@@ -1,0 +1,565 @@
+{
+  "schema": "anonymous-posthoc-numerical-protocol-v1",
+  "binding_protocol_sha256": "65db212ee2df6ecb3274c4998bc06f626c7651a5262d69b1591feebb599565af",
+  "timing": "Frozen before either new numerical check; original outcomes already known",
+  "label": "post_hoc_supplemental_not_new_preregistration",
+  "input_contract": {
+    "coverage_rows": 1920,
+    "setting_rows": {
+      "p5_main": 1152,
+      "p5_corpus": 384,
+      "p5_model": 384
+    },
+    "join_key": [
+      "setting",
+      "cluster",
+      "background",
+      "seed",
+      "query_id"
+    ],
+    "join": "Exactly one coverage row and one focal/context oracle per key; reject duplicate/unmatched/missing rows",
+    "focal_order": "Original saved focals array, not sorted by score or query ID; ascending vector position breaks top-two ties",
+    "clusters": {
+      "p5_main": 24,
+      "p5_corpus": 8,
+      "p5_model": 8,
+      "p4_main": 48
+    },
+    "contexts": "P5 backgrounds0,1 x seeds0,1,2; P4 backgrounds0,1 x seeds0,1",
+    "reference": "score[b,s] vs mean individual oracle[b,other two seeds]; no changed-background or population-seed substitution",
+    "denominator": "Exactly255 ordinary scored targets per focal, including true EOS",
+    "score": "uncovered_count_k4 /255; dimensionless, larger predicts larger benefit",
+    "eligible_complete_k4_endpoints": 251,
+    "coverage_rule": "Unchanged complete trailing-k4 content endpoints; first3 content positions/EOS/padding numerator0; exclude same source OR duplicate group",
+    "mask_evidence": "Use hash-bound validated saved count projection plus existing independent_mask_checks.csv; do not rebuild or change masks",
+    "rank_ties": "Average ranks, Pearson correlation of rank vectors",
+    "missing_rank": "Missing/nonfinite score or oracle and constant rank vectors remain undefined; any undefined cell precludes complete metric/contrast, no dropping",
+    "invalid_input": "Wrong denominator, count outside[0,251], noninteger count, changed focal ordering, missing key or duplicate key halts computation"
+  },
+  "count_check": {
+    "estimand": "original_cross_seed_same_background",
+    "endpoints": [
+      "spearman",
+      "top_two_regret"
+    ],
+    "absolute_method_summaries": [
+      {
+        "id": "count_k4_absolute_p5_main_spearman",
+        "setting": "p5_main",
+        "method": "unweighted_k4",
+        "endpoint": "spearman",
+        "bootstrap_seed": 1061191087
+      },
+      {
+        "id": "count_k4_absolute_p5_main_top_two_regret",
+        "setting": "p5_main",
+        "method": "unweighted_k4",
+        "endpoint": "top_two_regret",
+        "bootstrap_seed": 576380282
+      },
+      {
+        "id": "count_k4_absolute_p5_corpus_spearman",
+        "setting": "p5_corpus",
+        "method": "unweighted_k4",
+        "endpoint": "spearman",
+        "bootstrap_seed": 556538718
+      },
+      {
+        "id": "count_k4_absolute_p5_corpus_top_two_regret",
+        "setting": "p5_corpus",
+        "method": "unweighted_k4",
+        "endpoint": "top_two_regret",
+        "bootstrap_seed": 1570984174
+      },
+      {
+        "id": "count_k4_absolute_p5_model_spearman",
+        "setting": "p5_model",
+        "method": "unweighted_k4",
+        "endpoint": "spearman",
+        "bootstrap_seed": 360178888
+      },
+      {
+        "id": "count_k4_absolute_p5_model_top_two_regret",
+        "setting": "p5_model",
+        "method": "unweighted_k4",
+        "endpoint": "top_two_regret",
+        "bootstrap_seed": 1052577702
+      }
+    ],
+    "comparisons": [
+      {
+        "id": "count_k4_vs_uncovered_base_nll_k4_p5_main_spearman",
+        "setting": "p5_main",
+        "left": "unweighted_k4",
+        "right": "uncovered_base_nll_k4",
+        "endpoint": "spearman",
+        "direction": "greater",
+        "bootstrap_seed": 610687686
+      },
+      {
+        "id": "count_k4_vs_uncovered_base_nll_k4_p5_main_top_two_regret",
+        "setting": "p5_main",
+        "left": "unweighted_k4",
+        "right": "uncovered_base_nll_k4",
+        "endpoint": "top_two_regret",
+        "direction": "greater",
+        "bootstrap_seed": 480237797
+      },
+      {
+        "id": "count_k4_vs_base_difficulty_nll_p5_main_spearman",
+        "setting": "p5_main",
+        "left": "unweighted_k4",
+        "right": "base_difficulty_nll",
+        "endpoint": "spearman",
+        "direction": "greater",
+        "bootstrap_seed": 830080751
+      },
+      {
+        "id": "count_k4_vs_base_difficulty_nll_p5_main_top_two_regret",
+        "setting": "p5_main",
+        "left": "unweighted_k4",
+        "right": "base_difficulty_nll",
+        "endpoint": "top_two_regret",
+        "direction": "greater",
+        "bootstrap_seed": 1143720673
+      },
+      {
+        "id": "count_k4_vs_uncovered_base_nll_k4_p5_corpus_spearman",
+        "setting": "p5_corpus",
+        "left": "unweighted_k4",
+        "right": "uncovered_base_nll_k4",
+        "endpoint": "spearman",
+        "direction": "greater",
+        "bootstrap_seed": 2133918958
+      },
+      {
+        "id": "count_k4_vs_uncovered_base_nll_k4_p5_corpus_top_two_regret",
+        "setting": "p5_corpus",
+        "left": "unweighted_k4",
+        "right": "uncovered_base_nll_k4",
+        "endpoint": "top_two_regret",
+        "direction": "greater",
+        "bootstrap_seed": 1912468533
+      },
+      {
+        "id": "count_k4_vs_base_difficulty_nll_p5_corpus_spearman",
+        "setting": "p5_corpus",
+        "left": "unweighted_k4",
+        "right": "base_difficulty_nll",
+        "endpoint": "spearman",
+        "direction": "greater",
+        "bootstrap_seed": 1322523173
+      },
+      {
+        "id": "count_k4_vs_base_difficulty_nll_p5_corpus_top_two_regret",
+        "setting": "p5_corpus",
+        "left": "unweighted_k4",
+        "right": "base_difficulty_nll",
+        "endpoint": "top_two_regret",
+        "direction": "greater",
+        "bootstrap_seed": 1984081444
+      },
+      {
+        "id": "count_k4_vs_uncovered_base_nll_k4_p5_model_spearman",
+        "setting": "p5_model",
+        "left": "unweighted_k4",
+        "right": "uncovered_base_nll_k4",
+        "endpoint": "spearman",
+        "direction": "greater",
+        "bootstrap_seed": 139022581
+      },
+      {
+        "id": "count_k4_vs_uncovered_base_nll_k4_p5_model_top_two_regret",
+        "setting": "p5_model",
+        "left": "unweighted_k4",
+        "right": "uncovered_base_nll_k4",
+        "endpoint": "top_two_regret",
+        "direction": "greater",
+        "bootstrap_seed": 1027694493
+      },
+      {
+        "id": "count_k4_vs_base_difficulty_nll_p5_model_spearman",
+        "setting": "p5_model",
+        "left": "unweighted_k4",
+        "right": "base_difficulty_nll",
+        "endpoint": "spearman",
+        "direction": "greater",
+        "bootstrap_seed": 851867287
+      },
+      {
+        "id": "count_k4_vs_base_difficulty_nll_p5_model_top_two_regret",
+        "setting": "p5_model",
+        "left": "unweighted_k4",
+        "right": "base_difficulty_nll",
+        "endpoint": "top_two_regret",
+        "direction": "greater",
+        "bootstrap_seed": 26606488
+      }
+    ],
+    "replicates": 5000,
+    "confidence": 0.95,
+    "cluster_law": "Sorted original block order; sample N blocks with replacement using Python random.Random(seed). Keep all6 contexts and8 focal positions together; equal-block mean.",
+    "rank_contrast": "LEFT unweighted minus RIGHT weighted/difficulty",
+    "regret_contrast": "RIGHT weighted/difficulty minus LEFT unweighted",
+    "regret_unit": "Oracle nats/token: mean benefit of best two minus selected two, not raw score distance",
+    "multiplicity": "No correction; all12 paired comparisons and6 absolute metrics are supplemental, reported without confirmatory promotion",
+    "not_computed": [
+      "raw_score_magnitude_error",
+      "medianAE_for_dimensionless_score",
+      "new_weights",
+      "new_k",
+      "calibration",
+      "new_subgroups"
+    ],
+    "interpretation": "No nonsignificance or interval overlap as equivalence. If count is competitive or better, remove unique-weighting language, never erase the frozen k4-versus-difficulty finding. Any weighted advantage remains post-hoc."
+  },
+  "bootstrap_check": {
+    "comparisons": [
+      {
+        "direction": "greater",
+        "endpoint": "later:high:D",
+        "family": "LM_primary",
+        "id": "p4_main_later_D",
+        "null": 0.0,
+        "pilot": "P4",
+        "primary": true,
+        "setting": "p4_main",
+        "bootstrap_seed": 1743124832,
+        "original_estimate": 0.16710814746790023,
+        "original_interval": [
+          0.09333869154940097,
+          0.24927007302599202
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      {
+        "direction": "less",
+        "endpoint": "later:high:eta",
+        "family": "LM_primary",
+        "id": "p4_main_later_eta",
+        "null": 0.0,
+        "pilot": "P4",
+        "primary": true,
+        "setting": "p4_main",
+        "bootstrap_seed": 79414277,
+        "original_estimate": -0.026108308603592454,
+        "original_interval": [
+          -0.08858566465532033,
+          0.037883284247143385
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": false,
+        "original_confirmation_claim_allowed": false
+      },
+      {
+        "direction": "greater",
+        "endpoint": "prefix:high:D",
+        "family": "LM_primary",
+        "id": "p4_main_prefix_D",
+        "null": 0.0,
+        "pilot": "P4",
+        "primary": true,
+        "setting": "p4_main",
+        "bootstrap_seed": 1476586690,
+        "original_estimate": 0.45877210769653454,
+        "original_interval": [
+          0.32196609561722916,
+          0.6235192829624233
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      {
+        "direction": "less",
+        "endpoint": "prefix:high:eta",
+        "family": "LM_primary",
+        "id": "p4_main_prefix_eta",
+        "null": 0.0,
+        "pilot": "P4",
+        "primary": true,
+        "setting": "p4_main",
+        "bootstrap_seed": 521601288,
+        "original_estimate": -0.2223724829533589,
+        "original_interval": [
+          -0.3214126449983275,
+          -0.1341592089644599
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      {
+        "direction": "greater",
+        "endpoint": "spearman",
+        "estimand": "original_cross_seed",
+        "family": "LM_primary",
+        "id": "p5_main_G_positive_rank",
+        "left": "G20",
+        "null": 0.0,
+        "pilot": "P5",
+        "primary": true,
+        "right": null,
+        "setting": "p5_main",
+        "bootstrap_seed": 899712784,
+        "original_estimate": 0.6603835978835979,
+        "original_interval": [
+          0.5766876352813852,
+          0.7437808140933144
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      {
+        "direction": "greater",
+        "endpoint": "median_absolute_error",
+        "estimand": "original_cross_seed",
+        "family": "LM_primary",
+        "id": "p5_main_G_vs_A_median_absolute_error",
+        "left": "G20",
+        "pilot": "P5",
+        "primary": true,
+        "right": "audit_loss_drop",
+        "setting": "p5_main",
+        "bootstrap_seed": 260177988,
+        "original_estimate": 0.9726029654803973,
+        "original_interval": [
+          0.8568926420776055,
+          1.0485451426944727
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      {
+        "direction": "greater",
+        "endpoint": "spearman",
+        "estimand": "original_cross_seed",
+        "family": "LM_primary",
+        "id": "p5_main_G_vs_A_spearman",
+        "left": "G20",
+        "pilot": "P5",
+        "primary": true,
+        "right": "audit_loss_drop",
+        "setting": "p5_main",
+        "bootstrap_seed": 1170648390,
+        "original_estimate": 0.7516534391534391,
+        "original_interval": [
+          0.5707311207311205,
+          0.9075810185185192
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      {
+        "direction": "greater",
+        "endpoint": "top_two_regret",
+        "estimand": "original_cross_seed",
+        "family": "LM_primary",
+        "id": "p5_main_G_vs_A_top_two_regret",
+        "left": "G20",
+        "pilot": "P5",
+        "primary": true,
+        "right": "audit_loss_drop",
+        "setting": "p5_main",
+        "bootstrap_seed": 1309071750,
+        "original_estimate": 0.30441950052992384,
+        "original_interval": [
+          0.20674090235846165,
+          0.40849280617746303
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      {
+        "direction": "greater",
+        "endpoint": "spearman",
+        "estimand": "original_cross_seed",
+        "family": "LM_primary",
+        "id": "p5_main_corpus_vs_A_rank",
+        "left": "uncovered_base_nll_k4",
+        "pilot": "P5",
+        "primary": true,
+        "right": "audit_loss_drop",
+        "setting": "p5_main",
+        "bootstrap_seed": 1718477250,
+        "original_estimate": 0.6913029100529101,
+        "original_interval": [
+          0.5011574074074073,
+          0.8721294041606542
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      {
+        "direction": "greater",
+        "endpoint": "spearman",
+        "estimand": "original_cross_seed",
+        "family": "LM_primary",
+        "id": "p5_main_corpus_vs_difficulty_rank",
+        "left": "uncovered_base_nll_k4",
+        "pilot": "P5",
+        "primary": true,
+        "right": "base_difficulty_nll",
+        "setting": "p5_main",
+        "bootstrap_seed": 459976047,
+        "original_estimate": 0.25049603174603174,
+        "original_interval": [
+          0.080215473184223,
+          0.3944730038480046
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      {
+        "direction": "greater",
+        "endpoint": "top_two_regret",
+        "estimand": "original_cross_seed",
+        "family": "LM_primary",
+        "id": "p5_main_corpus_vs_difficulty_regret",
+        "left": "uncovered_base_nll_k4",
+        "pilot": "P5",
+        "primary": true,
+        "right": "base_difficulty_nll",
+        "setting": "p5_main",
+        "bootstrap_seed": 1544733227,
+        "original_estimate": 0.09887575286786236,
+        "original_interval": [
+          0.02492855556811518,
+          0.18049596685875827
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      }
+    ],
+    "original_family": [
+      "p5_main_G_positive_rank",
+      "p5_main_G_vs_A_spearman",
+      "p5_main_G_vs_A_median_absolute_error",
+      "p5_main_G_vs_A_top_two_regret",
+      "p5_main_corpus_vs_difficulty_rank",
+      "p5_main_corpus_vs_A_rank",
+      "p5_main_corpus_vs_difficulty_regret",
+      "p4_main_prefix_D",
+      "p4_main_prefix_eta",
+      "p4_main_later_D",
+      "p4_main_later_eta"
+    ],
+    "family_size": 11,
+    "family_alpha": 0.05,
+    "interval_confidence": 0.9954545454545455,
+    "original_replicates": 5000,
+    "sensitivity_replicates": 100000,
+    "reproduce_first": "Every estimate/interval/direction must equal the original saved result using the read-only original helper and the portable engine; stop sensitivity on any difference",
+    "equality": "Exact numeric equality of saved estimate and both interval endpoints, not a weakened inference tolerance",
+    "law": "Original per-comparison Python RNG seed; sorted original cluster order; for P4 partition by sorted original stratum names and resample each stratum at its original size; equal-target weights",
+    "mean": "Mean within cluster then equal-cluster mean, math.fsum arithmetic",
+    "medianAE": "Median of all focal/context absolute errors; paired RIGHT median minus LEFT median on identical block draws, not mean error or median paired difference",
+    "quantiles": "Sorted bootstrap values with linear interpolation at (R-1)*p; no different percentile method",
+    "checkpoint": "Fixed100000 draws once per primary endpoint; chunks1000 and RNG/value checkpoint each10000; resume exact next RNG state, never reroll",
+    "retention": "Keep original5000 intervals and decisions permanently. Report100000 as post-hoc Monte Carlo sensitivity, and flag any sign-decision change.",
+    "limits": "More draws add no blocks/targets, no power against structural dependence, and no new confirmatory evidence"
+  },
+  "primary_claim_thresholds": "G20 rank>0 and all three paired gains>0; k4 rank gains overA and difficulty plus regret gain over difficulty>0; P4 D>0 AND eta<0 separately by window; no practical-error/regret or oracle-stability threshold",
+  "source_input_hashes": [
+    {
+      "logical_name": "coverage_scalar_projection.csv",
+      "bytes": 485955,
+      "sha256": "1e87d04e4d8e02b70b0a95f49a0fba20c1aded302fd0177544a16584881f8123"
+    },
+    {
+      "logical_name": "independent_p5_contexts.jsonl",
+      "bytes": 1321613,
+      "sha256": "a43bacacfc535e6281e76a2a82414ccdd971d2130d011985c9cd2d4ef438dfb1"
+    },
+    {
+      "logical_name": "independent_p4_contexts.jsonl",
+      "bytes": 1016063,
+      "sha256": "ae981f38712d4f234b4af12d455f05345ae56490d2880d47944290a026be5894"
+    },
+    {
+      "logical_name": "frozen_lm_compact.json",
+      "bytes": 879572,
+      "sha256": "46bd4fa4ffc84fa746289bbb10a93dc5a3898fa79f5454883e94721702fee07f"
+    },
+    {
+      "logical_name": "LM_RESULTS.json",
+      "bytes": 373047,
+      "sha256": "7d1894367a81e8faae1e25c86e74e6aacfafc76d7ef0ba568e4e65d29c3a549c"
+    },
+    {
+      "logical_name": "exploratory_lm_diagnostics.json",
+      "bytes": 474645,
+      "sha256": "3df56d1b12226172dbfdbfc8a05c4b00b941222915f8f6970efe310eb0aae7de"
+    },
+    {
+      "logical_name": "independent_native_checks.json",
+      "bytes": 4666,
+      "sha256": "3f22d068b55834ea98ca9a98a63acc2e81f2b5fdb1a6817921d983ca36d02439"
+    },
+    {
+      "logical_name": "independent_statistics_checks.json",
+      "bytes": 2079,
+      "sha256": "876062fa1008d3a2f8a3f7043f7b6bebe67ec7e59a26339b602185228d5ed044"
+    },
+    {
+      "logical_name": "independent_mask_checks.csv",
+      "bytes": 28720,
+      "sha256": "8c44c8f1c1ff6bb95c6360bbe7cbd2ba405c5e377a41aaf4c549c991a08a11a1"
+    },
+    {
+      "logical_name": "UNITTEST_REPORT.json",
+      "bytes": 174,
+      "sha256": "9daf27d4c7a267a15a5e6c0b48e79fe060c914b62db4c508859b72133af7d7fe"
+    },
+    {
+      "logical_name": "ARTIFACT_MANIFEST.json",
+      "bytes": 11249,
+      "sha256": "80583821d2cd1ec59761af910aa27f2906ce731e79fbe4575050edd4eecbe854"
+    },
+    {
+      "logical_name": "lm_recompute_statistics.py",
+      "bytes": 18818,
+      "sha256": "1dd19cd39e8d9e0c81a8139c8621c4ad6dd26ea7a5cd82c2c2e3f5085748032b"
+    },
+    {
+      "logical_name": "lm_project_natives.py",
+      "bytes": 30467,
+      "sha256": "76ec3ddbbf10193c9cd5b3f174e4a2b9fd9ceb5a0df4fda4b4cb3b739a6ba536"
+    },
+    {
+      "logical_name": "lm_deep_dive.py",
+      "bytes": 12919,
+      "sha256": "f10bd4e074b4db57b322118b733c201b41a8c105e0c0daec17771915d4971cc3"
+    },
+    {
+      "logical_name": "lm_costs_by_setting_variant.csv",
+      "bytes": 7687,
+      "sha256": "e6a99ffec33139d42c80c15e55c9002319eec81f2febedf48c1a48c7f13fd246"
+    },
+    {
+      "logical_name": "LM_METHOD_SUMMARY.csv",
+      "bytes": 14299,
+      "sha256": "cd2e25235c8a1b81f9c0425bb6e706e5f6080663d8e6b00655798690d778335b"
+    },
+    {
+      "logical_name": "frozen_p4_effects.csv",
+      "bytes": 54446,
+      "sha256": "450a7a687c3189cd5d88996d72a7bfc9cd2b4f1c391f4a26baa49a55716620ce"
+    },
+    {
+      "logical_name": "independent_block_source_audit.csv",
+      "bytes": 2664,
+      "sha256": "f2a4b5aa1617d549c90203f298789943a9ba82c476e38f4e74cbea1012e1b559"
+    }
+  ],
+  "anonymization": "Original lexical cluster order and focal vector order preserved, with block/target/query IDs replaced by within-setting ordinal labels; no reverse map included"
+}

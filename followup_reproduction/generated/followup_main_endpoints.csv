@@ -1,0 +1,12 @@
+setting,setting_name,endpoint_id,contrast,status,blocks,family_denominator,confidence,estimate,ci_low,ci_high,unit,direction_resolved
+p5_main,MultiEURLEX / Pythia (main),E01_companion_error,Companion MAE: coherent minus dispersed,available,24,11,0.9954545454545455,-0.008608779429876572,-0.045028587934209496,0.019524101191822792,nats/token,unresolved
+p5_main,MultiEURLEX / Pythia (main),E01_selection,Selection regret: group of twenty minus dispersed five,available,24,11,0.9954545454545455,-0.0279879428090673,-0.05328148818602704,-0.0013178140126375206,nats/token,less
+p5_main,MultiEURLEX / Pythia (main),E02_rank,Rank: shared reference minus LoGra,blocked_incomplete,20,11,0.9954545454545455,,,,Spearman correlation,
+p5_main,MultiEURLEX / Pythia (main),E02_regret,Regret: LoGra minus shared reference,blocked_incomplete,20,11,0.9954545454545455,,,,nats/token,
+p5_main,MultiEURLEX / Pythia (main),E03_Q1,Rank: matched reference minus role-disjoint reference,available,24,11,0.9954545454545455,0.20271164021164023,0.09226190476190477,0.3255779521404528,Spearman correlation,greater
+p5_main,MultiEURLEX / Pythia (main),E03_Q2,Rank: disjoint minus difficulty,available,24,11,0.9954545454545455,0.10846560846560845,-0.07212151274651292,0.29720193001443346,Spearman correlation,unresolved
+p5_main,MultiEURLEX / Pythia (main),E03_Q3,Within-context score-difference/support association,available,24,11,0.9954545454545455,0.3152110509135623,0.16083728721585955,0.4555297607271645,Spearman correlation,greater
+p5_main,MultiEURLEX / Pythia (main),E04_M1_difficulty,Rank: MLP EK-FAC minus difficulty,blocked_incomplete,24,11,0.9954545454545455,,,,Spearman correlation,
+p5_main,MultiEURLEX / Pythia (main),E04_G20_M1,Rank: group of twenty minus MLP EK-FAC,blocked_incomplete,24,11,0.9954545454545455,,,,Spearman correlation,
+p5_main,MultiEURLEX / Pythia (main),E04_M2_difficulty,Rank: Adam-checkpoint approximation minus difficulty,blocked_incomplete,24,11,0.9954545454545455,,,,Spearman correlation,
+p5_main,MultiEURLEX / Pythia (main),E04_G20_M2,Rank: shared reference minus Adam-checkpoint approximation,blocked_incomplete,24,11,0.9954545454545455,,,,Spearman correlation,

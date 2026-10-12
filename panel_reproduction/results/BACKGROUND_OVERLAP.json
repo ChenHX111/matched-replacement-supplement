@@ -1,0 +1,57 @@
+{
+ "backgrounds": 48,
+ "backgrounds_containing_a_row": {
+  "1": 7776,
+  "2": 6057,
+  "3": 3056,
+  "4": 1135,
+  "5": 342,
+  "6": 72,
+  "7": 20,
+  "8": 3
+ },
+ "between_block_pairs": 276,
+ "between_block_shared_rows_same_background_label": {
+  "background_0": {
+   "max": 41,
+   "mean": 24.384057971014492,
+   "min": 9
+  },
+  "background_1": {
+   "max": 37,
+   "mean": 23.82608695652174,
+   "min": 12
+  }
+ },
+ "between_block_shared_union_rows": {
+  "max": 122,
+  "mean": 93.05797101449275,
+  "min": 65
+ },
+ "between_block_union_jaccard": {
+  "max": 0.043063889869396396,
+  "mean": 0.03263111826085008,
+  "min": 0.02249134948096886
+ },
+ "block_background_union_rows": {
+  "max": 1483,
+  "mean": 1472.875,
+  "min": 1461
+ },
+ "blocks": 24,
+ "distinct_background_rows": 18461,
+ "fraction_of_block_union_rows_present_in_another_block": {
+  "max": 0.7937372362151123,
+  "mean": 0.7762333402070012,
+  "min": 0.7455902306648575
+ },
+ "input_sha256": "a7f4c3cc92a86382ca8e0439ed958cda1867231f4fc3ee7a4d0257c6c36671a6",
+ "label": "post_hoc_input_only_description",
+ "note": "Whole-block resampling treats blocks as exchangeable; it does not model this sharing.",
+ "rows_per_background": 748,
+ "within_block_rows_shared_by_its_two_backgrounds": {
+  "max": 35,
+  "mean": 23.125,
+  "min": 13
+ }
+}

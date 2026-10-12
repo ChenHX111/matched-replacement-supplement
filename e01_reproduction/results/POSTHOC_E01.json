@@ -1,0 +1,90 @@
+{
+ "G20_far_minus_near": {
+  "blocks_negative": 6,
+  "blocks_positive": 18,
+  "estimate": 0.06817029621841095,
+  "nominal95": [
+   0.022375165537896247,
+   0.11389405755807398
+  ]
+ },
+ "draws": 20000,
+ "gap_vs_benefit_change_spearman": {
+  "note": "association across focal units; not causal; not a test",
+  "spearman": 0.4839914005913789,
+  "units": 192
+ },
+ "label": "post hoc; descriptive; outside the pre-registered E01 family; nominal 95% whole-block bootstrap",
+ "mean_theta_far": 0.5689967880879768,
+ "mean_theta_near": 0.5045214859159245,
+ "rank_agreement_far_near_same_context": {
+  "blocks_negative": 0,
+  "blocks_positive": 24,
+  "estimate": 0.5975529100529101,
+  "nominal95": [
+   0.5320767195767195,
+   0.660218253968254
+  ]
+ },
+ "rank_agreement_note": "same-context theta_far and theta_near share the same IN fit, which inflates agreement",
+ "seed": 14680510576214194228,
+ "seed_reliability_far": {
+  "blocks_negative": 0,
+  "blocks_positive": 24,
+  "estimate": 0.5077711640211641,
+  "nominal95": [
+   0.43733465608465605,
+   0.5805224867724867
+  ]
+ },
+ "seed_reliability_far_minus_near": {
+  "blocks_negative": 12,
+  "blocks_positive": 11,
+  "estimate": -0.025958994708994695,
+  "nominal95": [
+   -0.09953703703703703,
+   0.048280423280423305
+  ]
+ },
+ "seed_reliability_near": {
+  "blocks_negative": 0,
+  "blocks_positive": 24,
+  "estimate": 0.5337301587301587,
+  "nominal95": [
+   0.4641203703703704,
+   0.6018518518518519
+  ]
+ },
+ "share_cells_far_gt_near": 0.6145833333333334,
+ "supply_limited_focal_units": [
+  {
+   "far_pool_size": 4,
+   "mean_theta_far_minus_near": -0.04988772392888511,
+   "member_id": "p-r33570"
+  },
+  {
+   "far_pool_size": 3,
+   "mean_theta_far_minus_near": -0.0859589409437221,
+   "member_id": "p-r10067"
+  },
+  {
+   "far_pool_size": 3,
+   "mean_theta_far_minus_near": 0.019792161145069247,
+   "member_id": "p-r16084"
+  },
+  {
+   "far_pool_size": 5,
+   "mean_theta_far_minus_near": 0.06267398419671803,
+   "member_id": "p-r29060"
+  }
+ ],
+ "theta_far_minus_near": {
+  "blocks_negative": 3,
+  "blocks_positive": 21,
+  "estimate": 0.06447530217205223,
+  "nominal95": [
+   0.04280485377925231,
+   0.08724801833103324
+  ]
+ }
+}

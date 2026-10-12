@@ -1,0 +1,5 @@
+accepted_full_fits,definition,exclusive_reference_action_seconds,policy
+384,Accepted reference action durations only; excludes shared replay/qualification and does not impute historical G20 or separate reuse costs.,117708.97179390676,G5_coherent
+384,Accepted reference action durations only; excludes shared replay/qualification and does not impute historical G20 or separate reuse costs.,117691.4495667275,G5_dispersed
+120,Accepted reference action durations only; excludes shared replay/qualification and does not impute historical G20 or separate reuse costs.,32981.65951901302,R_disj
+120,Accepted reference action durations only; excludes shared replay/qualification and does not impute historical G20 or separate reuse costs.,32927.73240191303,R_half

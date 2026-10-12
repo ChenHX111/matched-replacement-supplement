@@ -1,0 +1,8 @@
+setting,setting_name,endpoint_id,contrast,status,blocks,family_denominator,confidence,estimate,ci_low,ci_high,unit,direction_resolved
+p5_model,MultiEURLEX / GPT-2 (exploratory),E03_Q1,Rank: matched reference minus role-disjoint reference,available,8,,0.95,0.3204365079365079,0.1736111111111111,0.48412698412698413,Spearman correlation,greater
+p5_model,MultiEURLEX / GPT-2 (exploratory),E03_Q2,Rank: disjoint minus difficulty,available,8,,0.95,0.20535714285714285,-0.018874007936507512,0.41369047619047616,Spearman correlation,unresolved
+p5_model,MultiEURLEX / GPT-2 (exploratory),E03_Q3,Within-context score-difference/support association,available,8,,0.95,0.427710449722378,0.22545312953344337,0.6061611834868518,Spearman correlation,greater
+p5_model,MultiEURLEX / GPT-2 (exploratory),E04_M1_difficulty,Rank: MLP EK-FAC minus difficulty,blocked_incomplete,8,,0.95,,,,Spearman correlation,
+p5_model,MultiEURLEX / GPT-2 (exploratory),E04_G20_M1,Rank: group of twenty minus MLP EK-FAC,blocked_incomplete,8,,0.95,,,,Spearman correlation,
+p5_model,MultiEURLEX / GPT-2 (exploratory),E04_M2_difficulty,Rank: Adam-checkpoint approximation minus difficulty,blocked_incomplete,8,,0.95,,,,Spearman correlation,
+p5_model,MultiEURLEX / GPT-2 (exploratory),E04_G20_M2,Rank: shared reference minus Adam-checkpoint approximation,blocked_incomplete,8,,0.95,,,,Spearman correlation,

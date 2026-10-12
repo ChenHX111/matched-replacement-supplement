@@ -1,0 +1,163 @@
+{
+  "E02_selection": {
+    "failure": "All six projected-influence configurations lack qualified development scores.",
+    "required_all_six_configurations": true,
+    "required_plain_diagnostic": true,
+    "selected_configuration": null,
+    "status": "blocked_development"
+  },
+  "E02_tie_order": [
+    "raw_0.001",
+    "raw_0.01",
+    "raw_0.0001",
+    "normalized_0.001",
+    "normalized_0.01",
+    "normalized_0.0001"
+  ],
+  "E04_variant_order": [
+    "m1_mlp_ekfac",
+    "m1_mlp_ekfac_damping_0p1",
+    "m1_mlp_ekfac_damping_10p0",
+    "m1_block_linear_ekfac",
+    "m2_epoch_preconditioned",
+    "m2_epoch_plain",
+    "m2_epoch_less_style_cosine",
+    "m2_actual_step_preconditioned",
+    "m2_actual_step_plain",
+    "m2_actual_step_less_style_cosine",
+    "m1_mlp_ekfac_removal_only",
+    "m1_mlp_ekfac_damping_0p1_removal_only",
+    "m1_mlp_ekfac_damping_10p0_removal_only",
+    "m1_block_linear_ekfac_removal_only",
+    "m2_epoch_preconditioned_removal_only",
+    "m2_epoch_plain_removal_only",
+    "m2_epoch_less_style_cosine_removal_only",
+    "m2_actual_step_preconditioned_removal_only",
+    "m2_actual_step_plain_removal_only",
+    "m2_actual_step_less_style_cosine_removal_only"
+  ],
+  "alpha": 0.05,
+  "availability": {
+    "E02": "unavailable_qualification",
+    "E04": "unavailable_qualification"
+  },
+  "backgrounds": [
+    0
+  ],
+  "bootstrap_replicates": 20000,
+  "development_blocks_in_frozen_order": [
+    "p5_main-block001",
+    "p5_main-block005",
+    "p5_main-block021",
+    "p5_main-block019"
+  ],
+  "endpoints": [
+    {
+      "desired_direction": "greater",
+      "endpoint": "mean_absolute_companion_error_coherent_minus_dispersed",
+      "experiment": "E01",
+      "id": "E01_companion_error",
+      "target": "same_realization",
+      "unit": "nats/token"
+    },
+    {
+      "desired_direction": "greater",
+      "endpoint": "regret_G20_minus_dispersed_G5",
+      "experiment": "E01",
+      "id": "E01_selection",
+      "target": "original_cross_seed",
+      "unit": "nats/token"
+    },
+    {
+      "desired_direction": "greater",
+      "endpoint": "rank_G20_minus_development_selected_LoGra",
+      "experiment": "E02",
+      "id": "E02_rank",
+      "target": "original_cross_seed",
+      "unit": "Spearman correlation"
+    },
+    {
+      "desired_direction": "greater",
+      "endpoint": "regret_development_selected_LoGra_minus_G20",
+      "experiment": "E02",
+      "id": "E02_regret",
+      "target": "original_cross_seed",
+      "unit": "nats/token"
+    },
+    {
+      "desired_direction": "greater",
+      "endpoint": "rank_G20_minus_disjoint",
+      "experiment": "E03",
+      "id": "E03_Q1",
+      "target": "original_cross_seed",
+      "unit": "Spearman correlation"
+    },
+    {
+      "desired_direction": "either",
+      "endpoint": "rank_disjoint_minus_difficulty",
+      "experiment": "E03",
+      "id": "E03_Q2",
+      "target": "original_cross_seed",
+      "unit": "Spearman correlation"
+    },
+    {
+      "desired_direction": "greater",
+      "endpoint": "rank_correlation_of_disjoint_minus_G20_with_ALL_OUT_covered_fraction",
+      "experiment": "E03",
+      "id": "E03_Q3",
+      "target": "support_association",
+      "unit": "Spearman correlation"
+    },
+    {
+      "desired_direction": "greater",
+      "endpoint": "rank_EKFAC_MLP_minus_difficulty",
+      "experiment": "E04",
+      "id": "E04_M1_difficulty",
+      "target": "original_cross_seed",
+      "unit": "Spearman correlation"
+    },
+    {
+      "desired_direction": "greater",
+      "endpoint": "rank_G20_minus_EKFAC_MLP",
+      "experiment": "E04",
+      "id": "E04_G20_M1",
+      "target": "original_cross_seed",
+      "unit": "Spearman correlation"
+    },
+    {
+      "desired_direction": "greater",
+      "endpoint": "rank_Adam_checkpoint_minus_difficulty",
+      "experiment": "E04",
+      "id": "E04_M2_difficulty",
+      "target": "original_cross_seed",
+      "unit": "Spearman correlation"
+    },
+    {
+      "desired_direction": "greater",
+      "endpoint": "rank_G20_minus_Adam_checkpoint",
+      "experiment": "E04",
+      "id": "E04_G20_M2",
+      "target": "original_cross_seed",
+      "unit": "Spearman correlation"
+    }
+  ],
+  "family_denominator": 11,
+  "fixed_training_rows": 768,
+  "focals_per_context": 8,
+  "main_blocks": 24,
+  "original_family_preserved": "Separate original two-background eleven-test/5000-draw family; not regenerated.",
+  "root_seed": 202610051754,
+  "schema": "anonymous-followup-numerical-protocol-v1",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "settings": [
+    "p5_main",
+    "p5_corpus",
+    "p5_model"
+  ],
+  "shifted_target_count_including_EOS": 255,
+  "transport_blocks": 8
+}

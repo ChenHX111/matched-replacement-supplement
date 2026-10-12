@@ -1,0 +1,35 @@
+{
+  "block_counts": {
+    "p5_corpus": 8,
+    "p5_main": 24,
+    "p5_model": 8
+  },
+  "context_axes": {
+    "backgrounds": [
+      0,
+      1
+    ],
+    "focals": 8,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fixed_splits": "separate equal block halves by mean control coverage and mean corpus-uncovered fraction",
+  "multiplicity_adjusted": false,
+  "new_confidence": 0.95,
+  "new_replicates": 20000,
+  "original_test_families": "unchanged",
+  "post_hoc": true,
+  "private_precomputation_specification_sha256": "a873653b8e884b458f60890edec209aa4c5cf668b840b9999eda028055d4b5c3",
+  "projection_boundary": "No original text/token sequences; descriptors verified locally before de-identification",
+  "reliability_or_outcome_based_selection": false,
+  "retained_diagnostics": "21 summaries exactly replayed using their original seeds and 5000 draws",
+  "root_seed": 20261010,
+  "schema": "review-saved-data-protocol-v1",
+  "seed_namespace": "review-v1",
+  "specification_sealed_utc": "2026-10-10T12:59:28.424069+00:00",
+  "target": "other-two-original-seed same-background mean",
+  "ties": "average ranks; frozen focal order for top-two selection"
+}

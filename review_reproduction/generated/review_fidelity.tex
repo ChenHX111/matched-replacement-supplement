@@ -1,0 +1,21 @@
+% Generated from fixed saved results; do not hand-edit numerical cells.
+\begin{table*}[tp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrl}
+\toprule
+Score & Rank $\uparrow$ & Top-two regret $\downarrow$ & MedianAE & Required access \\
+\midrule
+Total loss drop & -0.0913 [-0.1915, 0.0162] & 0.3914 [0.3331, 0.4499] & 1.2202 & Base + final losses \\
+Base difficulty & 0.3495 [0.2140, 0.4770] & 0.2240 [0.1708, 0.2756] & --- & Base loss only \\
+Final NLL$^\dagger$ & 0.4722 [0.3724, 0.5640] & 0.1752 [0.1365, 0.2171] & --- & Final loss only \\
+Count/255$^\dagger$ & 0.5661 [0.4652, 0.6603] & 0.1333 [0.0967, 0.1706] & --- & Query + training corpus \\
+$U_4$ & 0.6000 [0.4974, 0.6959] & 0.1251 [0.0868, 0.1637] & --- & Base losses + corpus \\
+$G_{20}$ & 0.6604 [0.6012, 0.7186] & 0.0870 [0.0655, 0.1091] & 0.2476 & IN + controls + 1 fit \\
+One-seed effect$^\dagger$ & 0.5942 [0.5286, 0.6584] & 0.1254 [0.1004, 0.1505] & 0.2472 & IN + controls + 8 fits \\
+\bottomrule
+\end{tabular}
+\caption{Main-setting fidelity and access: 24 blocks, two backgrounds, three seeds, eight focals. Rank and regret target other-two-seed benefit; regret and error are in nats/token. Intervals are nominal 95\%, not the adjusted primary comparisons. Unmarked rows and count retain their original 5,000-draw intervals. $\dagger$ denotes post-hoc evidence: final NLL uses new 20,000-draw intervals; count and the one-seed diagnostic retain earlier 5,000-draw intervals. The one-seed effect is not a ceiling. Fits are additional to IN. The full original score table remains in Appendix Table~\ref{tab:p5_absolute}.}
+\label{tab:review_fidelity}
+\end{table*}

@@ -1,0 +1,2 @@
+# Every file is hash-bound: keep exact bytes on every platform (no line-ending conversion).
+* -text

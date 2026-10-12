@@ -1,0 +1,13 @@
+setting,protocol_key,worker_score_key,status,selected_by_development,target,scope,mean_spearman,mean_top_two_regret,blocks
+p5_main,raw_0.001,raw-1e-3,blocked_selection,,original_cross_seed,"all six retained; descriptive evaluation points, no extra tests",,,20
+p5_main,raw_0.01,raw-1e-2,blocked_selection,,original_cross_seed,"all six retained; descriptive evaluation points, no extra tests",,,20
+p5_main,raw_0.0001,raw-1e-4,blocked_selection,,original_cross_seed,"all six retained; descriptive evaluation points, no extra tests",,,20
+p5_main,normalized_0.001,normalized-1e-3,blocked_selection,,original_cross_seed,"all six retained; descriptive evaluation points, no extra tests",,,20
+p5_main,normalized_0.01,normalized-1e-2,blocked_selection,,original_cross_seed,"all six retained; descriptive evaluation points, no extra tests",,,20
+p5_main,normalized_0.0001,normalized-1e-4,blocked_selection,,original_cross_seed,"all six retained; descriptive evaluation points, no extra tests",,,20
+p5_corpus,raw_0.001,raw-1e-3,blocked_selection,,original_cross_seed,"all six retained; descriptive evaluation points, no extra tests",,,8
+p5_corpus,raw_0.01,raw-1e-2,blocked_selection,,original_cross_seed,"all six retained; descriptive evaluation points, no extra tests",,,8
+p5_corpus,raw_0.0001,raw-1e-4,blocked_selection,,original_cross_seed,"all six retained; descriptive evaluation points, no extra tests",,,8
+p5_corpus,normalized_0.001,normalized-1e-3,blocked_selection,,original_cross_seed,"all six retained; descriptive evaluation points, no extra tests",,,8
+p5_corpus,normalized_0.01,normalized-1e-2,blocked_selection,,original_cross_seed,"all six retained; descriptive evaluation points, no extra tests",,,8
+p5_corpus,normalized_0.0001,normalized-1e-4,blocked_selection,,original_cross_seed,"all six retained; descriptive evaluation points, no extra tests",,,8

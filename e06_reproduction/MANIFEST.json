@@ -1,0 +1,80 @@
+{
+ "files": [
+  {
+   "bytes": 83825,
+   "path": "code/analysis_e06.py",
+   "sha256": "9869f7f89c82bbe6cad7ddc794478958f879373db6b72149accdc4ce9c2f60db"
+  },
+  {
+   "bytes": 13888,
+   "path": "code/make_e06_tables.py",
+   "sha256": "375acef38f3d8f64275c4816b7233e3864865112d2fa0e156127f5b7c83fb461"
+  },
+  {
+   "bytes": 11666,
+   "path": "code/posthoc_e06.py",
+   "sha256": "e616c09132b0daebbe116d898fb1831a325c132eebda4e9747c80b193c5cb741"
+  },
+  {
+   "bytes": 6423,
+   "path": "generated/DISPLAY_PROVENANCE.json",
+   "sha256": "be95879107a12d6ec8d0e19af4504f07d3a1ce82b69f680fc375adaf106f898a"
+  },
+  {
+   "bytes": 1966,
+   "path": "generated/e06_endpoints.tex",
+   "sha256": "dad4a4ec93d802422c2b580b864cb31878efa39b67b3d0312d08992c686707b5"
+  },
+  {
+   "bytes": 3221,
+   "path": "generated/e06_exposure.tex",
+   "sha256": "f777cf1a47d16c5e579ecbd5e04204ccff48f489de1266597ff87f5cd49b57cf"
+  },
+  {
+   "bytes": 2691,
+   "path": "generated/e06_gradient.tex",
+   "sha256": "f0a981c1effedf3ad7d61c0f627ba5c82baae27858338d60dd2c6a03386077b3"
+  },
+  {
+   "bytes": 1139,
+   "path": "generated/e06_main.tex",
+   "sha256": "115b3be4a86bc5e70c97c898c3f3702661a3ddfd0a1961b5955ef3c5429b1d5f"
+  },
+  {
+   "bytes": 1180,
+   "path": "generated/e06_posthoc.tex",
+   "sha256": "799b80ec2c2012e6fdcd85cf2ee52d0868662a62ce4344ab4a9851835852ca9c"
+  },
+  {
+   "bytes": 252495,
+   "path": "inputs/E01_IN_EPOCH_READOUTS.json",
+   "sha256": "ee0fdbb082a3fca970a9a127f77abbbe35d864524d509fa1d62a6117271eab89"
+  },
+  {
+   "bytes": 4524616,
+   "path": "inputs/E06_RETURN_ALL.json",
+   "sha256": "6258dfcbcb38848a698379da6379d60e7f3bb2952a85aff92b38bf9ecfd2e9d7"
+  },
+  {
+   "bytes": 3106,
+   "path": "README.md",
+   "sha256": "509490d578cba50452a576f8ed9062d8408efc5e4b2950c0478bdb39db9fcac6"
+  },
+  {
+   "bytes": 185126,
+   "path": "results/E06_ANALYSIS_RESULT.json",
+   "sha256": "ccca93c913e435f3037a9ae9db4fdbf70e23c1b82a309c349c338047baa53229"
+  },
+  {
+   "bytes": 51925,
+   "path": "results/POSTHOC_E06.json",
+   "sha256": "e0db88991db87f7c34002f1043766c59b1579239e69c1661629ad59f8e6dd179"
+  },
+  {
+   "bytes": 3364,
+   "path": "verify_e06.py",
+   "sha256": "49b65460ef158bc0f7626163445bfe71b8767cb9f15d2e992b35c73f94bd05a4"
+  }
+ ],
+ "schema": "e06-reproduction-manifest-v1"
+}

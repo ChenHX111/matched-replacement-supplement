@@ -1,0 +1,409 @@
+{
+ "schema": "panel-saved-data-checks-2-v1",
+ "status": "post hoc and descriptive; specified after the main analyses",
+ "inputs": {
+  "asset_scalars.json": {
+   "path": "reproduction\\data\\asset_scalars.json",
+   "sha256": "05b0a49f3d8de9691acf5e2f5e437e168223bef4bc4b06a738285f88b5cd0d84"
+  },
+  "cpu_inputs.json": {
+   "path": "reproduction\\data\\cpu_inputs.json",
+   "sha256": "58d3d9f6c18be94c84f11601ac71b38c300117716b28350629f08644dc6c6c5b"
+  }
+ },
+ "root_seed": 202610112045,
+ "permutations": 200000,
+ "bootstrap_draws": 20000,
+ "paired": {
+  "p5_main": {
+   "label": "MultiEURLEX/Pythia (main)",
+   "score_means": {
+    "G20": {
+     "rank": 0.660383597883598,
+     "regret": 0.08696497754051148
+    },
+    "U4": {
+     "rank": 0.600033068783069,
+     "regret": 0.12508502075188146
+    },
+    "difficulty": {
+     "rank": 0.34953703703703703,
+     "regret": 0.22396077361974384
+    },
+    "loss_drop": {
+     "rank": -0.09126984126984128,
+     "regret": 0.39138447807043525
+    },
+    "one_seed_effect": {
+     "rank": 0.5942460317460319,
+     "regret": 0.1254258040103886
+    }
+   },
+   "G20_minus_difficulty_rank": {
+    "estimate": 0.31084656084656087,
+    "nominal95": [
+     0.19279100529100535,
+     0.43205191798941733
+    ],
+    "favourable_blocks": 19,
+    "blocks": 24
+   },
+   "difficulty_minus_G20_regret": {
+    "estimate": 0.13699579607923235,
+    "nominal95": [
+     0.09007365150891151,
+     0.18412523849931417
+    ],
+    "favourable_blocks": 19,
+    "blocks": 24
+   },
+   "G20_minus_U4_rank": {
+    "estimate": 0.06035052910052908,
+    "nominal95": [
+     -0.023313492063492095,
+     0.14616815476190442
+    ],
+    "favourable_blocks": 15,
+    "blocks": 24
+   },
+   "U4_minus_G20_regret": {
+    "estimate": 0.038120043211369976,
+    "nominal95": [
+     0.004253921337246648,
+     0.071796810902716
+    ],
+    "favourable_blocks": 11,
+    "blocks": 24
+   },
+   "G20_minus_one_seed_effect_rank": {
+    "estimate": 0.06613756613756612,
+    "nominal95": [
+     0.02033730158730155,
+     0.1150793650793651
+    ],
+    "favourable_blocks": 18,
+    "blocks": 24
+   },
+   "one_seed_effect_minus_G20_regret": {
+    "estimate": 0.038460826469877134,
+    "nominal95": [
+     0.015299308550166821,
+     0.06096234022428808
+    ],
+    "favourable_blocks": 18,
+    "blocks": 24
+   }
+  },
+  "p5_corpus": {
+   "label": "IMDb/Pythia",
+   "score_means": {
+    "G20": {
+     "rank": 0.5882936507936509,
+     "regret": 0.1242283451199084
+    },
+    "U4": {
+     "rank": 0.6294642857142858,
+     "regret": 0.1137180013226291
+    },
+    "difficulty": {
+     "rank": 0.638888888888889,
+     "regret": 0.1137180013226291
+    },
+    "loss_drop": {
+     "rank": 0.47569444444444453,
+     "regret": 0.1942901029523598
+    },
+    "one_seed_effect": {
+     "rank": 0.589781746031746,
+     "regret": 0.14604399575389995
+    }
+   },
+   "G20_minus_difficulty_rank": {
+    "estimate": -0.05059523809523807,
+    "nominal95": [
+     -0.1780753968253968,
+     0.08582589285714189
+    ],
+    "favourable_blocks": 3,
+    "blocks": 8
+   },
+   "difficulty_minus_G20_regret": {
+    "estimate": -0.010510343797279312,
+    "nominal95": [
+     -0.0792578493106412,
+     0.06973764449941226
+    ],
+    "favourable_blocks": 3,
+    "blocks": 8
+   },
+   "G20_minus_U4_rank": {
+    "estimate": -0.04117063492063489,
+    "nominal95": [
+     -0.1607142857142857,
+     0.08234126984126991
+    ],
+    "favourable_blocks": 3,
+    "blocks": 8
+   },
+   "U4_minus_G20_regret": {
+    "estimate": -0.010510343797279312,
+    "nominal95": [
+     -0.07928940986177244,
+     0.07154213195687177
+    ],
+    "favourable_blocks": 3,
+    "blocks": 8
+   },
+   "G20_minus_one_seed_effect_rank": {
+    "estimate": -0.0014880952380951912,
+    "nominal95": [
+     -0.0391865079365079,
+     0.04067460317460322
+    ],
+    "favourable_blocks": 2,
+    "blocks": 8
+   },
+   "one_seed_effect_minus_G20_regret": {
+    "estimate": 0.02181565063399154,
+    "nominal95": [
+     -0.016710909754846254,
+     0.06593693555686345
+    ],
+    "favourable_blocks": 4,
+    "blocks": 8
+   }
+  },
+  "p5_model": {
+   "label": "MultiEURLEX/GPT-2",
+   "score_means": {
+    "G20": {
+     "rank": 0.9479166666666667,
+     "regret": 0.0051979683091291085
+    },
+    "U4": {
+     "rank": 0.7693452380952382,
+     "regret": 0.02654929163126372
+    },
+    "difficulty": {
+     "rank": 0.47023809523809534,
+     "regret": 0.07617060668022918
+    },
+    "loss_drop": {
+     "rank": 0.03025793650793654,
+     "regret": 0.14171141122078731
+    },
+    "one_seed_effect": {
+     "rank": 0.9389880952380953,
+     "regret": 0.004529552709345744
+    }
+   },
+   "G20_minus_difficulty_rank": {
+    "estimate": 0.47767857142857145,
+    "nominal95": [
+     0.32886904761904767,
+     0.6230158730158731
+    ],
+    "favourable_blocks": 8,
+    "blocks": 8
+   },
+   "difficulty_minus_G20_regret": {
+    "estimate": 0.07097263837110006,
+    "nominal95": [
+     0.0304200982474087,
+     0.12113648073406905
+    ],
+    "favourable_blocks": 7,
+    "blocks": 8
+   },
+   "G20_minus_U4_rank": {
+    "estimate": 0.17857142857142855,
+    "nominal95": [
+     0.06547619047619047,
+     0.3244047619047619
+    ],
+    "favourable_blocks": 7,
+    "blocks": 8
+   },
+   "U4_minus_G20_regret": {
+    "estimate": 0.021351323322134613,
+    "nominal95": [
+     0.0059299523673450715,
+     0.03697783991804994
+    ],
+    "favourable_blocks": 6,
+    "blocks": 8
+   },
+   "G20_minus_one_seed_effect_rank": {
+    "estimate": 0.008928571428571425,
+    "nominal95": [
+     0.0009920634920635302,
+     0.016369047619047575
+    ],
+    "favourable_blocks": 6,
+    "blocks": 8
+   },
+   "one_seed_effect_minus_G20_regret": {
+    "estimate": -0.0006684155997833649,
+    "nominal95": [
+     -0.0026092228230476565,
+     0.0011262224418332042
+    ],
+    "favourable_blocks": 1,
+    "blocks": 8
+   }
+  }
+ },
+ "repeatability": {
+  "p5_main": {
+   "label": "MultiEURLEX/Pythia (main)",
+   "individual_effect": 0.5337301587301587,
+   "G20": 0.6600529100529102,
+   "loss_drop": 0.693617724867725,
+   "note": "mean pairwise cross-seed Spearman within (block, background); difficulty and U4 are seed-free"
+  },
+  "p5_corpus": {
+   "label": "IMDb/Pythia",
+   "individual_effect": 0.49950396825396837,
+   "G20": 0.5084325396825399,
+   "loss_drop": 0.47817460317460325,
+   "note": "mean pairwise cross-seed Spearman within (block, background); difficulty and U4 are seed-free"
+  },
+  "p5_model": {
+   "label": "MultiEURLEX/GPT-2",
+   "individual_effect": 0.9250992063492065,
+   "G20": 0.9419642857142859,
+   "loss_drop": 0.969246031746032,
+   "note": "mean pairwise cross-seed Spearman within (block, background); difficulty and U4 are seed-free"
+  }
+ },
+ "variance_decomposition": {
+  "p5_main": {
+   "label": "MultiEURLEX/Pythia (main)",
+   "variance": {
+    "focal": 0.06472864483993669,
+    "focal_x_background": 0.0,
+    "seed_residual": 0.049041728468459084
+   },
+   "share": {
+    "focal": 0.5689411307852322,
+    "focal_x_background": 0.0,
+    "seed_residual": 0.4310588692147678
+   },
+   "method": "balanced within-block method of moments after removing context means"
+  },
+  "p5_corpus": {
+   "label": "IMDb/Pythia",
+   "variance": {
+    "focal": 0.10913629511705238,
+    "focal_x_background": 0.0,
+    "seed_residual": 0.07326934874950417
+   },
+   "share": {
+    "focal": 0.5983164380423107,
+    "focal_x_background": 0.0,
+    "seed_residual": 0.40168356195768923
+   },
+   "method": "balanced within-block method of moments after removing context means"
+  },
+  "p5_model": {
+   "label": "MultiEURLEX/GPT-2",
+   "variance": {
+    "focal": 0.017736366225413497,
+    "focal_x_background": 0.00037838295301997107,
+    "seed_residual": 0.0006368313909136095
+   },
+   "share": {
+    "focal": 0.9458597988484696,
+    "focal_x_background": 0.020178723154596786,
+    "seed_residual": 0.03396147799693366
+   },
+   "method": "balanced within-block method of moments after removing context means"
+  }
+ },
+ "primary_alternative_inference": {
+  "C1_G20_minus_lossdrop_rank": {
+   "estimate": 0.7516534391534394,
+   "sign_flip_p_two_sided": 4.9999750001249995e-06,
+   "cluster_t_95": {
+    "level": 0.95,
+    "interval": [
+     0.6260504636866056,
+     0.8772564146202733
+    ],
+    "t_quantile": 2.0686576104190477
+   },
+   "cluster_t_99_545": {
+    "level": 0.9954545454545455,
+    "interval": [
+     0.5607504623620478,
+     0.942556415944831
+    ],
+    "t_quantile": 3.1441364690874067
+   },
+   "positive_blocks": 24
+  },
+  "C2_U4_minus_difficulty_rank": {
+   "estimate": 0.2504960317460318,
+   "sign_flip_p_two_sided": 0.00044999775001124993,
+   "cluster_t_95": {
+    "level": 0.95,
+    "interval": [
+     0.13033278085536265,
+     0.37065928263670095
+    ],
+    "t_quantile": 2.0686576104190477
+   },
+   "cluster_t_99_545": {
+    "level": 0.9954545454545455,
+    "interval": [
+     0.06786084965182343,
+     0.43313121384024017
+    ],
+    "t_quantile": 3.1441364690874067
+   },
+   "positive_blocks": 21
+  },
+  "C3_lossdrop_minus_G20_regret": {
+   "estimate": 0.3044195005299238,
+   "sign_flip_p_two_sided": 4.9999750001249995e-06,
+   "cluster_t_95": {
+    "level": 0.95,
+    "interval": [
+     0.2329826919066939,
+     0.37585630915315366
+    ],
+    "t_quantile": 2.0686576104190477
+   },
+   "cluster_t_99_545": {
+    "level": 0.9954545454545455,
+    "interval": [
+     0.19584325567613373,
+     0.41299574538371386
+    ],
+    "t_quantile": 3.1441364690874067
+   },
+   "positive_blocks": 24
+  },
+  "C4_difficulty_minus_U4_regret": {
+   "estimate": 0.09887575286786236,
+   "sign_flip_p_two_sided": 0.002439987800061,
+   "cluster_t_95": {
+    "level": 0.95,
+    "interval": [
+     0.03828408878135799,
+     0.15946741695436673
+    ],
+    "t_quantile": 2.0686576104190477
+   },
+   "cluster_t_99_545": {
+    "level": 0.9954545454545455,
+    "interval": [
+     0.006782958092374697,
+     0.19096854764335003
+    ],
+    "t_quantile": 3.1441364690874067
+   },
+   "positive_blocks": 16
+  }
+ }
+}

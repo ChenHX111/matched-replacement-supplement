@@ -1,0 +1,1264 @@
+{
+  "Q1_reference_training_data_change": {
+    "checked_contexts": [
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block000-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block000-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block000-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block001-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block001-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block001-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block002-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block002-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block002-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block003-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block003-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block003-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block004-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block004-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block004-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block005-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block005-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block005-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block006-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block006-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block006-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block007-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block007-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_corpus-block007-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block000-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block000-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block000-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block001-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block001-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block001-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block002-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block002-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block002-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block003-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block003-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block003-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block004-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block004-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block004-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block005-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block005-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block005-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block006-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block006-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block006-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block007-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block007-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block007-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block008-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block008-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block008-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block009-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block009-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block009-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block010-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block010-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block010-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block011-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block011-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block011-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block012-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block012-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block012-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block013-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block013-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block013-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block014-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block014-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block014-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block015-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block015-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block015-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block016-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block016-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block016-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block017-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block017-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block017-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block018-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block018-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block018-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block019-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block019-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block019-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block020-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block020-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block020-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block021-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block021-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block021-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block022-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block022-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block022-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block023-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block023-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_main-block023-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block000-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block000-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block000-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block001-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block001-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block001-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block002-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block002-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block002-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block003-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block003-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block003-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block004-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block004-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block004-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block005-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block005-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block005-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block006-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block006-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block006-b0-s2"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block007-b0-s0"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block007-b0-s1"
+      },
+      {
+        "changed_background_slots": 748,
+        "changed_matched_control_slots": 20,
+        "changed_total_slots": 768,
+        "context_id": "p5_model-block007-b0-s2"
+      }
+    ],
+    "interpretation": "G20 versus the role-disjoint reference changes all 748 background rows AND the 20 matched controls; it is not an isolated background-information effect."
+  },
+  "assignment_objectives": [
+    {
+      "background": 0,
+      "block_id": "p5_corpus-block000",
+      "coherent_support_numerator": 8,
+      "denominator": 2040,
+      "dispersed_support_numerator": -7,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_corpus-block000",
+      "coherent_support_numerator": 8,
+      "denominator": 2040,
+      "dispersed_support_numerator": -7,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_corpus-block001",
+      "coherent_support_numerator": 6,
+      "denominator": 2040,
+      "dispersed_support_numerator": -8,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_corpus-block001",
+      "coherent_support_numerator": 8,
+      "denominator": 2040,
+      "dispersed_support_numerator": -5,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_corpus-block002",
+      "coherent_support_numerator": 8,
+      "denominator": 2040,
+      "dispersed_support_numerator": -4,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_corpus-block002",
+      "coherent_support_numerator": 9,
+      "denominator": 2040,
+      "dispersed_support_numerator": -4,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_corpus-block003",
+      "coherent_support_numerator": 7,
+      "denominator": 2040,
+      "dispersed_support_numerator": -17,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_corpus-block003",
+      "coherent_support_numerator": 7,
+      "denominator": 2040,
+      "dispersed_support_numerator": -16,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_corpus-block004",
+      "coherent_support_numerator": 19,
+      "denominator": 2040,
+      "dispersed_support_numerator": -4,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_corpus-block004",
+      "coherent_support_numerator": 23,
+      "denominator": 2040,
+      "dispersed_support_numerator": -4,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_corpus-block005",
+      "coherent_support_numerator": 11,
+      "denominator": 2040,
+      "dispersed_support_numerator": -11,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_corpus-block005",
+      "coherent_support_numerator": 7,
+      "denominator": 2040,
+      "dispersed_support_numerator": -13,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_corpus-block006",
+      "coherent_support_numerator": 18,
+      "denominator": 2040,
+      "dispersed_support_numerator": -20,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_corpus-block006",
+      "coherent_support_numerator": 16,
+      "denominator": 2040,
+      "dispersed_support_numerator": -19,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_corpus-block007",
+      "coherent_support_numerator": 13,
+      "denominator": 2040,
+      "dispersed_support_numerator": -5,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_corpus-block007",
+      "coherent_support_numerator": 16,
+      "denominator": 2040,
+      "dispersed_support_numerator": -4,
+      "setting": "p5_corpus"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block000",
+      "coherent_support_numerator": 61,
+      "denominator": 2040,
+      "dispersed_support_numerator": -54,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block000",
+      "coherent_support_numerator": 70,
+      "denominator": 2040,
+      "dispersed_support_numerator": -53,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block001",
+      "coherent_support_numerator": 34,
+      "denominator": 2040,
+      "dispersed_support_numerator": -81,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block001",
+      "coherent_support_numerator": 35,
+      "denominator": 2040,
+      "dispersed_support_numerator": -92,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block002",
+      "coherent_support_numerator": 58,
+      "denominator": 2040,
+      "dispersed_support_numerator": -42,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block002",
+      "coherent_support_numerator": 59,
+      "denominator": 2040,
+      "dispersed_support_numerator": -46,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block003",
+      "coherent_support_numerator": 82,
+      "denominator": 2040,
+      "dispersed_support_numerator": -94,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block003",
+      "coherent_support_numerator": 88,
+      "denominator": 2040,
+      "dispersed_support_numerator": -106,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block004",
+      "coherent_support_numerator": 63,
+      "denominator": 2040,
+      "dispersed_support_numerator": -64,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block004",
+      "coherent_support_numerator": 68,
+      "denominator": 2040,
+      "dispersed_support_numerator": -70,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block005",
+      "coherent_support_numerator": 79,
+      "denominator": 2040,
+      "dispersed_support_numerator": -81,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block005",
+      "coherent_support_numerator": 88,
+      "denominator": 2040,
+      "dispersed_support_numerator": -69,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block006",
+      "coherent_support_numerator": 74,
+      "denominator": 2040,
+      "dispersed_support_numerator": -67,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block006",
+      "coherent_support_numerator": 61,
+      "denominator": 2040,
+      "dispersed_support_numerator": -46,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block007",
+      "coherent_support_numerator": 36,
+      "denominator": 2040,
+      "dispersed_support_numerator": -95,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block007",
+      "coherent_support_numerator": 38,
+      "denominator": 2040,
+      "dispersed_support_numerator": -85,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block008",
+      "coherent_support_numerator": 71,
+      "denominator": 2040,
+      "dispersed_support_numerator": -49,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block008",
+      "coherent_support_numerator": 71,
+      "denominator": 2040,
+      "dispersed_support_numerator": -53,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block009",
+      "coherent_support_numerator": 57,
+      "denominator": 2040,
+      "dispersed_support_numerator": -56,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block009",
+      "coherent_support_numerator": 62,
+      "denominator": 2040,
+      "dispersed_support_numerator": -42,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block010",
+      "coherent_support_numerator": 72,
+      "denominator": 2040,
+      "dispersed_support_numerator": -81,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block010",
+      "coherent_support_numerator": 60,
+      "denominator": 2040,
+      "dispersed_support_numerator": -87,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block011",
+      "coherent_support_numerator": 55,
+      "denominator": 2040,
+      "dispersed_support_numerator": -85,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block011",
+      "coherent_support_numerator": 58,
+      "denominator": 2040,
+      "dispersed_support_numerator": -87,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block012",
+      "coherent_support_numerator": 31,
+      "denominator": 2040,
+      "dispersed_support_numerator": -58,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block012",
+      "coherent_support_numerator": 28,
+      "denominator": 2040,
+      "dispersed_support_numerator": -66,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block013",
+      "coherent_support_numerator": 41,
+      "denominator": 2040,
+      "dispersed_support_numerator": -71,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block013",
+      "coherent_support_numerator": 49,
+      "denominator": 2040,
+      "dispersed_support_numerator": -75,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block014",
+      "coherent_support_numerator": 50,
+      "denominator": 2040,
+      "dispersed_support_numerator": -81,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block014",
+      "coherent_support_numerator": 42,
+      "denominator": 2040,
+      "dispersed_support_numerator": -79,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block015",
+      "coherent_support_numerator": 62,
+      "denominator": 2040,
+      "dispersed_support_numerator": -108,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block015",
+      "coherent_support_numerator": 54,
+      "denominator": 2040,
+      "dispersed_support_numerator": -103,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block016",
+      "coherent_support_numerator": 56,
+      "denominator": 2040,
+      "dispersed_support_numerator": -66,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block016",
+      "coherent_support_numerator": 57,
+      "denominator": 2040,
+      "dispersed_support_numerator": -51,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block017",
+      "coherent_support_numerator": 67,
+      "denominator": 2040,
+      "dispersed_support_numerator": -64,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block017",
+      "coherent_support_numerator": 54,
+      "denominator": 2040,
+      "dispersed_support_numerator": -69,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block018",
+      "coherent_support_numerator": 32,
+      "denominator": 2040,
+      "dispersed_support_numerator": -72,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block018",
+      "coherent_support_numerator": 27,
+      "denominator": 2040,
+      "dispersed_support_numerator": -67,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block019",
+      "coherent_support_numerator": 47,
+      "denominator": 2040,
+      "dispersed_support_numerator": -88,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block019",
+      "coherent_support_numerator": 63,
+      "denominator": 2040,
+      "dispersed_support_numerator": -77,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block020",
+      "coherent_support_numerator": 55,
+      "denominator": 2040,
+      "dispersed_support_numerator": -108,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block020",
+      "coherent_support_numerator": 47,
+      "denominator": 2040,
+      "dispersed_support_numerator": -114,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block021",
+      "coherent_support_numerator": 27,
+      "denominator": 2040,
+      "dispersed_support_numerator": -77,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block021",
+      "coherent_support_numerator": 32,
+      "denominator": 2040,
+      "dispersed_support_numerator": -56,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block022",
+      "coherent_support_numerator": 60,
+      "denominator": 2040,
+      "dispersed_support_numerator": -128,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block022",
+      "coherent_support_numerator": 53,
+      "denominator": 2040,
+      "dispersed_support_numerator": -132,
+      "setting": "p5_main"
+    },
+    {
+      "background": 0,
+      "block_id": "p5_main-block023",
+      "coherent_support_numerator": 59,
+      "denominator": 2040,
+      "dispersed_support_numerator": -99,
+      "setting": "p5_main"
+    },
+    {
+      "background": 1,
+      "block_id": "p5_main-block023",
+      "coherent_support_numerator": 49,
+      "denominator": 2040,
+      "dispersed_support_numerator": -88,
+      "setting": "p5_main"
+    }
+  ],
+  "gate_source": {
+    "lines": [
+      450,
+      478
+    ],
+    "logical_source_location": "reference_inputs/core.py",
+    "sha256": "3bcba6a08297556747aa2ab90ad7969fbb00544c944781cf45b3d62a2f2ee7d1"
+  },
+  "original_gate": {
+    "IMDb_was_gated": false,
+    "gate_recomputed_for_amendment": false,
+    "outcomes_used": false,
+    "passing_main_blocks": 24,
+    "required_main_blocks": 12,
+    "scope": "per-block mean over original backgrounds 0 and 1",
+    "setting": "p5_main",
+    "threshold": 0.02,
+    "total_main_blocks": 24
+  },
+  "schema": "anonymous-input-only-feasibility-v1",
+  "scope_rule": "Report original both-background block means separately from executed background0 assignments. Neither is a new inferential test or a new feasibility gate.",
+  "source_assignments_sha256": "53078b53554796fd8b976a0660b330df2c31dc07191a2fafd5a15ec4ad050152",
+  "source_feasibility_sha256": "c8fc46cf33d23cc92e397c0c3a009d08ce268ffdab989e5598f781fd3639c1a8"
+}

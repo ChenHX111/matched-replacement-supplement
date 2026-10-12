@@ -1,0 +1,24 @@
+\begin{table*}[tp]
+\centering
+\small
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{%
+\begin{tabular}{@{}lllllll@{}}
+\toprule
+Primary contrast & Published & Single held-out seed [95\%] & Leave one block out & Sign-flip $p$ & Cluster-$t$ [99.545\%] & Blocks \\
+\midrule
+$G_{20}$ $-$ loss drop, rank & 0.7517 & 0.6857 [0.5741, 0.7923] & 0.7322--0.7805 & $<10^{-5}$ & 0.7517 [0.5608, 0.9426] & 24/24 \\
+$U_4$ $-$ difficulty, rank & 0.2505 & 0.2315 [0.1290, 0.3279] & 0.2307--0.2867 & $4.5\times10^{-4}$ & 0.2505 [0.0679, 0.4331] & 21/24 \\
+Loss drop $-$ $G_{20}$, regret & 0.3044 & unchanged (linear) & 0.2917--0.3172 & $<10^{-5}$ & 0.3044 [0.1958, 0.4130] & 24/24 \\
+Difficulty $-$ $U_4$, regret & 0.0989 & unchanged (linear) & 0.0856--0.1089 & $2.4\times10^{-3}$ & 0.0989 [0.0068, 0.1910] & 16/24 \\
+\bottomrule
+\end{tabular}}
+\caption{Post-hoc robustness of the four primary main-setting contrasts (both backgrounds, 24 blocks).
+Published is the frozen-family estimate. Single held-out seed evaluates each score against each of the other
+two seeds' individual effects separately, instead of their mean (nominal 95\%, 20,000 whole-block draws). For
+fixed selections a paired regret contrast is linear in the target, because the oracle top-two term cancels, so the
+regret contrasts are unchanged by construction.
+Leave one block out gives the range of the 24 estimates that each drop one block. Sign-flip is a two-sided
+permutation test of the block mean (200,000 sign assignments). Cluster-$t$ uses the 24 block values with 23
+degrees of freedom at the original family's per-test level. Blocks counts blocks with a positive contrast.}
+\label{tab:panel_robustness}
+\end{table*}

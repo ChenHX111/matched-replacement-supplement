@@ -1,0 +1,28 @@
+% Generated from fixed saved results; do not hand-edit numerical cells.
+\begin{table*}[tp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrrrr}
+\toprule
+Setting & Input half ($n$) & Mean $\theta$ & Mean $N$ & $G_{20}$ MedAE & $U_4$ rank gain & $U_4$ regret reduction \\
+\midrule
+\multicolumn{7}{l}{\emph{Block-mean control four-gram coverage}}\\
+Main & lower (12) & 0.5608 & 1.0961 & 0.2629 & 0.2798 [0.1905, 0.3700] & 0.0836 [0.0159, 0.1547] \\
+Main & upper (12) & 0.4482 & 1.2417 & 0.2391 & 0.2212 [0.0076, 0.4144] & 0.1142 [0.0281, 0.2014] \\
+IMDb & lower (4) & 2.5752 & -0.5589 & 0.6313 & -0.0427 [-0.0774, -0.0079] & 0.0000 [0.0000, 0.0000] \\
+IMDb & upper (4) & 2.6620 & -0.6079 & 0.5447 & 0.0238 [0.0020, 0.0456] & 0.0000 [0.0000, 0.0000] \\
+GPT-2 & lower (4) & 0.3288 & 1.6867 & 0.0190 & 0.2659 [0.0982, 0.4127] & 0.0220 [-0.0347, 0.0786] \\
+GPT-2 & upper (4) & 0.2608 & 1.6859 & 0.0184 & 0.3323 [0.1726, 0.5923] & 0.0773 [0.0224, 0.1380] \\
+\multicolumn{7}{l}{\emph{Block-mean original corpus uncovered fraction}}\\
+Main & lower (12) & 0.4673 & 1.2262 & 0.2504 & 0.1564 [-0.0334, 0.3313] & 0.1052 [0.0270, 0.1781] \\
+Main & upper (12) & 0.5418 & 1.1116 & 0.2448 & 0.3446 [0.2394, 0.4511] & 0.0926 [0.0176, 0.1783] \\
+IMDb & lower (4) & 2.6416 & -0.5952 & 0.6895 & -0.0079 [-0.0556, 0.0298] & 0.0000 [0.0000, 0.0000] \\
+IMDb & upper (4) & 2.5955 & -0.5716 & 0.4608 & -0.0109 [-0.0565, 0.0317] & 0.0000 [0.0000, 0.0000] \\
+GPT-2 & lower (4) & 0.2811 & 1.7809 & 0.0156 & 0.2560 [0.1726, 0.3810] & 0.0505 [0.0188, 0.0861] \\
+GPT-2 & upper (4) & 0.3085 & 1.5916 & 0.0223 & 0.3423 [0.0982, 0.6091] & 0.0487 [-0.0347, 0.1322] \\
+\bottomrule
+\end{tabular}
+\caption{All fixed input-defined block halves. Blocks are ordered by each descriptor, with ties in original block order, then split equally; no outcome determines membership. Every original eight-focal context, seed and background is retained in its block. Effect, nonfocal learning and median absolute error are point summaries in nats/token. The paired $U_4$--difficulty columns show nominal 95\% intervals from 20,000 within-half block draws; four-block transport intervals are fragile. Exact cut ranges, all point/interval records and whole-population results are retained in the numerical artifact. These are not alternative-control experiments.}
+\label{tab:review_strata}
+\end{table*}

@@ -1,0 +1,53 @@
+{
+  "schema": "anonymous-scalar-provenance-v1",
+  "original_package_semantic_sha256": "57095ffab71174d9f7de7a252a71c3f385154a3801f0e482423dfb9a47b62cf9",
+  "original_science_semantic_sha256": "7eb497fecc63e862e69a7857c34966b29e108e24d58e5b74ea557f03c91467cc",
+  "original_analysis_file_sha256": "c0663ccb35bcdd92f7c698543643c0aa40a79c98b353c25ad3958b191bd9d586",
+  "private_precomputation_protocol_sha256": "65db212ee2df6ecb3274c4998bc06f626c7651a5262d69b1591feebb599565af",
+  "original_5000_reproduction": {
+    "comparisons": 11,
+    "max_absolute_difference": 0
+  },
+  "scalar_join": {
+    "focal_context_cells": 1920,
+    "duplicates": 0,
+    "unmatched": 0,
+    "denominator": 255,
+    "eligible_k4_endpoints": 251
+  },
+  "scalar_scope": {
+    "unique_main_and_two_transport_focal_context_cells": 1920,
+    "per_setting_cells": {
+      "p5_main": 1152,
+      "p5_corpus": 384,
+      "p5_model": 384
+    },
+    "per_setting_blocks": {
+      "p5_main": 24,
+      "p5_corpus": 8,
+      "p5_model": 8
+    },
+    "G8_stress_reuses_main": true,
+    "G8_additional_independent_blocks": 0,
+    "fixed_score_selection_ties": "Frozen focal vector order, ascending position"
+  },
+  "control_design": {
+    "main_P5": "Nearest lexical same-label, high-relatedness alternatives",
+    "not_the_legacy_low_similarity_controls": true,
+    "interpretation": "Individual benefit is relative to this replacement policy, not deletion into an empty slot"
+  },
+  "previous_mask_validation": {
+    "targeted_masks": 96,
+    "all_exact": true,
+    "first_k_minus_one_and_EOS_numerator": 0,
+    "source_or_duplicate_group_exclusion": true,
+    "not_reconstructed_from_raw_text_in_this_artifact": true
+  },
+  "existing_summary_replay": {
+    "checks": 194,
+    "max_absolute_difference": 3.3306690738754696e-16,
+    "tolerance": 1e-10
+  },
+  "privacy": "No reverse ID map, raw text, tokens, model weights, private paths, people or reviewer opinions included",
+  "release_boundary": "Anonymous staging only; no upload or redistribution license for source datasets/checkpoints is asserted"
+}

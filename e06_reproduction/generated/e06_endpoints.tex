@@ -1,0 +1,21 @@
+\begin{table*}[tp]
+\centering
+\footnotesize
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{%
+\begin{tabular}{@{}llllllll@{}}
+\toprule
+& Advantage & First & Second & Estimate [99.375\%] & Blocks $>0$ & Leave one block out & Result \\
+\midrule
+X1 & $G_{20}$ over loss drop, rank & $G_{20}^{(1)}$ 0.3929 & $A^{(1)}$ -0.2748 & 0.6677 [0.4511, 0.8765] & 22/24 & [0.6408, 0.7029] & holds \\
+X2 & $U_4$ over difficulty, rank & $U_4$ 0.5526 & $D$ 0.3065 & 0.2460 [0.1233, 0.3889] & 22/24 & [0.2184, 0.2647] & holds \\
+X3 & $G_{20}$ over loss drop, regret & $A^{(1)}$ 0.1982 & $G_{20}^{(1)}$ 0.0880 & 0.1102 [0.0515, 0.1718] & 22/24 & [0.1016, 0.1202] & holds \\
+X4 & $U_4$ over difficulty, regret & $D$ 0.0975 & $U_4$ 0.0702 & 0.0273 [-0.0335, 0.0773] & 14/24 & [0.0187, 0.0420] & unresolved \\
+Y1 & $G_{20}$ over Adam, rank & $G_{20}$ 0.6604 & Adam 0.2854 & 0.3750 [0.2645, 0.4779] & 24/24 & [0.3606, 0.3910] & access-aware \\
+Y2 & $U_4$ over Adam, rank & $U_4$ 0.6000 & Adam 0.2854 & 0.3146 [0.1914, 0.4363] & 22/24 & [0.2995, 0.3387] & access-aware \\
+Y3 & $G_{20}$ over Adam, regret & Adam 0.2584 & $G_{20}$ 0.0870 & 0.1714 [0.1122, 0.2337] & 23/24 & [0.1634, 0.1795] & access-aware \\
+Y4 & $U_4$ over Adam, regret & Adam 0.2584 & $U_4$ 0.1251 & 0.1333 [0.0589, 0.2068] & 17/24 & [0.1236, 0.1416] & access-aware \\
+\bottomrule
+\end{tabular}}
+\caption{Replay family in full. First and Second are the block-weighted levels of the endpoint's two scores (rank correlation, or top-two regret in nats/token, against the endpoint's target), and the estimate is First minus Second. Regret rows list the comparator first, so a positive estimate always favours the advantaged score. Blocks $>0$ counts block values favouring it. Leave-one-block-out gives the range of the 24 estimates that each drop one block (post hoc). X-tests use background 0 and one-epoch states; Y-tests use both backgrounds and the published target.}
+\label{tab:e06_endpoints}
+\end{table*}

@@ -1,0 +1,689 @@
+{
+  "schema": "r03c-bootstrap-sensitivity-v1",
+  "protocol_sha256": "65db212ee2df6ecb3274c4998bc06f626c7651a5262d69b1591feebb599565af",
+  "label": "post_hoc_Monte_Carlo_sensitivity_not_additional_evidence",
+  "replicates": 100000,
+  "primary_family_size": 11,
+  "rows": [
+    {
+      "id": "p4_main_later_D",
+      "specification": {
+        "direction": "greater",
+        "endpoint": "later:high:D",
+        "family": "LM_primary",
+        "id": "p4_main_later_D",
+        "null": 0.0,
+        "pilot": "P4",
+        "primary": true,
+        "setting": "p4_main",
+        "bootstrap_seed": 1743124832,
+        "original_estimate": 0.16710814746790023,
+        "original_interval": [
+          0.09333869154940097,
+          0.24927007302599202
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      "label": "post_hoc_Monte_Carlo_precision_only",
+      "protocol_sha256": "65db212ee2df6ecb3274c4998bc06f626c7651a5262d69b1591feebb599565af",
+      "source_input_sha256": "58d3d9f6c18be94c84f11601ac71b38c300117716b28350629f08644dc6c6c5b",
+      "original": {
+        "estimate": 0.16710814746790023,
+        "interval": [
+          0.09333869154940097,
+          0.24927007302599202
+        ],
+        "confidence": 0.9954545454545455,
+        "replicates": 5000,
+        "direction_supported": true,
+        "confirmation_claim_allowed": true
+      },
+      "sensitivity": {
+        "estimate": 0.16710814746790023,
+        "interval": [
+          0.09292601773027419,
+          0.2524834397208729
+        ],
+        "clusters": 48,
+        "total_cells": 192,
+        "full_metric_defined": true,
+        "undefined_cells_count": 0,
+        "statistic": "mean",
+        "confidence": 0.9954545454545455,
+        "replicates": 100000,
+        "cluster_seed": 1743124832,
+        "expected_draws_per_tail": 227.27272727272597,
+        "status": "fixed_law_cluster_percentile"
+      },
+      "sensitivity_direction_supported": true,
+      "sign_decision_changed": false,
+      "original_decision_retained": true
+    },
+    {
+      "id": "p4_main_later_eta",
+      "specification": {
+        "direction": "less",
+        "endpoint": "later:high:eta",
+        "family": "LM_primary",
+        "id": "p4_main_later_eta",
+        "null": 0.0,
+        "pilot": "P4",
+        "primary": true,
+        "setting": "p4_main",
+        "bootstrap_seed": 79414277,
+        "original_estimate": -0.026108308603592454,
+        "original_interval": [
+          -0.08858566465532033,
+          0.037883284247143385
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": false,
+        "original_confirmation_claim_allowed": false
+      },
+      "label": "post_hoc_Monte_Carlo_precision_only",
+      "protocol_sha256": "65db212ee2df6ecb3274c4998bc06f626c7651a5262d69b1591feebb599565af",
+      "source_input_sha256": "58d3d9f6c18be94c84f11601ac71b38c300117716b28350629f08644dc6c6c5b",
+      "original": {
+        "estimate": -0.026108308603592454,
+        "interval": [
+          -0.08858566465532033,
+          0.037883284247143385
+        ],
+        "confidence": 0.9954545454545455,
+        "replicates": 5000,
+        "direction_supported": false,
+        "confirmation_claim_allowed": false
+      },
+      "sensitivity": {
+        "estimate": -0.026108308603592454,
+        "interval": [
+          -0.08879192852348768,
+          0.04198757647548226
+        ],
+        "clusters": 48,
+        "total_cells": 192,
+        "full_metric_defined": true,
+        "undefined_cells_count": 0,
+        "statistic": "mean",
+        "confidence": 0.9954545454545455,
+        "replicates": 100000,
+        "cluster_seed": 79414277,
+        "expected_draws_per_tail": 227.27272727272597,
+        "status": "fixed_law_cluster_percentile"
+      },
+      "sensitivity_direction_supported": false,
+      "sign_decision_changed": false,
+      "original_decision_retained": true
+    },
+    {
+      "id": "p4_main_prefix_D",
+      "specification": {
+        "direction": "greater",
+        "endpoint": "prefix:high:D",
+        "family": "LM_primary",
+        "id": "p4_main_prefix_D",
+        "null": 0.0,
+        "pilot": "P4",
+        "primary": true,
+        "setting": "p4_main",
+        "bootstrap_seed": 1476586690,
+        "original_estimate": 0.45877210769653454,
+        "original_interval": [
+          0.32196609561722916,
+          0.6235192829624233
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      "label": "post_hoc_Monte_Carlo_precision_only",
+      "protocol_sha256": "65db212ee2df6ecb3274c4998bc06f626c7651a5262d69b1591feebb599565af",
+      "source_input_sha256": "58d3d9f6c18be94c84f11601ac71b38c300117716b28350629f08644dc6c6c5b",
+      "original": {
+        "estimate": 0.45877210769653454,
+        "interval": [
+          0.32196609561722916,
+          0.6235192829624233
+        ],
+        "confidence": 0.9954545454545455,
+        "replicates": 5000,
+        "direction_supported": true,
+        "confirmation_claim_allowed": true
+      },
+      "sensitivity": {
+        "estimate": 0.45877210769653454,
+        "interval": [
+          0.32350338729804823,
+          0.6227538933677579
+        ],
+        "clusters": 48,
+        "total_cells": 192,
+        "full_metric_defined": true,
+        "undefined_cells_count": 0,
+        "statistic": "mean",
+        "confidence": 0.9954545454545455,
+        "replicates": 100000,
+        "cluster_seed": 1476586690,
+        "expected_draws_per_tail": 227.27272727272597,
+        "status": "fixed_law_cluster_percentile"
+      },
+      "sensitivity_direction_supported": true,
+      "sign_decision_changed": false,
+      "original_decision_retained": true
+    },
+    {
+      "id": "p4_main_prefix_eta",
+      "specification": {
+        "direction": "less",
+        "endpoint": "prefix:high:eta",
+        "family": "LM_primary",
+        "id": "p4_main_prefix_eta",
+        "null": 0.0,
+        "pilot": "P4",
+        "primary": true,
+        "setting": "p4_main",
+        "bootstrap_seed": 521601288,
+        "original_estimate": -0.2223724829533589,
+        "original_interval": [
+          -0.3214126449983275,
+          -0.1341592089644599
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      "label": "post_hoc_Monte_Carlo_precision_only",
+      "protocol_sha256": "65db212ee2df6ecb3274c4998bc06f626c7651a5262d69b1591feebb599565af",
+      "source_input_sha256": "58d3d9f6c18be94c84f11601ac71b38c300117716b28350629f08644dc6c6c5b",
+      "original": {
+        "estimate": -0.2223724829533589,
+        "interval": [
+          -0.3214126449983275,
+          -0.1341592089644599
+        ],
+        "confidence": 0.9954545454545455,
+        "replicates": 5000,
+        "direction_supported": true,
+        "confirmation_claim_allowed": true
+      },
+      "sensitivity": {
+        "estimate": -0.2223724829533589,
+        "interval": [
+          -0.316853555604599,
+          -0.13307716504440284
+        ],
+        "clusters": 48,
+        "total_cells": 192,
+        "full_metric_defined": true,
+        "undefined_cells_count": 0,
+        "statistic": "mean",
+        "confidence": 0.9954545454545455,
+        "replicates": 100000,
+        "cluster_seed": 521601288,
+        "expected_draws_per_tail": 227.27272727272597,
+        "status": "fixed_law_cluster_percentile"
+      },
+      "sensitivity_direction_supported": true,
+      "sign_decision_changed": false,
+      "original_decision_retained": true
+    },
+    {
+      "id": "p5_main_G_positive_rank",
+      "specification": {
+        "direction": "greater",
+        "endpoint": "spearman",
+        "estimand": "original_cross_seed",
+        "family": "LM_primary",
+        "id": "p5_main_G_positive_rank",
+        "left": "G20",
+        "null": 0.0,
+        "pilot": "P5",
+        "primary": true,
+        "right": null,
+        "setting": "p5_main",
+        "bootstrap_seed": 899712784,
+        "original_estimate": 0.6603835978835979,
+        "original_interval": [
+          0.5766876352813852,
+          0.7437808140933144
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      "label": "post_hoc_Monte_Carlo_precision_only",
+      "protocol_sha256": "65db212ee2df6ecb3274c4998bc06f626c7651a5262d69b1591feebb599565af",
+      "source_input_sha256": "58d3d9f6c18be94c84f11601ac71b38c300117716b28350629f08644dc6c6c5b",
+      "original": {
+        "estimate": 0.6603835978835979,
+        "interval": [
+          0.5766876352813852,
+          0.7437808140933144
+        ],
+        "confidence": 0.9954545454545455,
+        "replicates": 5000,
+        "direction_supported": true,
+        "confirmation_claim_allowed": true
+      },
+      "sensitivity": {
+        "estimate": 0.6603835978835979,
+        "interval": [
+          0.5740740740740741,
+          0.7420634920634921
+        ],
+        "clusters": 24,
+        "total_cells": 144,
+        "full_metric_defined": true,
+        "undefined_cells_count": 0,
+        "statistic": "mean",
+        "confidence": 0.9954545454545455,
+        "replicates": 100000,
+        "cluster_seed": 899712784,
+        "expected_draws_per_tail": 227.27272727272597,
+        "status": "fixed_law_cluster_percentile"
+      },
+      "sensitivity_direction_supported": true,
+      "sign_decision_changed": false,
+      "original_decision_retained": true
+    },
+    {
+      "id": "p5_main_G_vs_A_median_absolute_error",
+      "specification": {
+        "direction": "greater",
+        "endpoint": "median_absolute_error",
+        "estimand": "original_cross_seed",
+        "family": "LM_primary",
+        "id": "p5_main_G_vs_A_median_absolute_error",
+        "left": "G20",
+        "pilot": "P5",
+        "primary": true,
+        "right": "audit_loss_drop",
+        "setting": "p5_main",
+        "bootstrap_seed": 260177988,
+        "original_estimate": 0.9726029654803973,
+        "original_interval": [
+          0.8568926420776055,
+          1.0485451426944727
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      "label": "post_hoc_Monte_Carlo_precision_only",
+      "protocol_sha256": "65db212ee2df6ecb3274c4998bc06f626c7651a5262d69b1591feebb599565af",
+      "source_input_sha256": "58d3d9f6c18be94c84f11601ac71b38c300117716b28350629f08644dc6c6c5b",
+      "original": {
+        "estimate": 0.9726029654803973,
+        "interval": [
+          0.8568926420776055,
+          1.0485451426944727
+        ],
+        "confidence": 0.9954545454545455,
+        "replicates": 5000,
+        "direction_supported": true,
+        "confirmation_claim_allowed": true
+      },
+      "sensitivity": {
+        "estimate": 0.9726029654803973,
+        "interval": [
+          0.8538308669494611,
+          1.0524099181277855
+        ],
+        "clusters": 24,
+        "total_cells": 1152,
+        "full_metric_defined": true,
+        "undefined_cells_count": 0,
+        "statistic": "median_abs_error_right_minus_median_abs_error_left",
+        "confidence": 0.9954545454545455,
+        "replicates": 100000,
+        "cluster_seed": 260177988,
+        "expected_draws_per_tail": 227.27272727272597,
+        "status": "fixed_law_cluster_percentile"
+      },
+      "sensitivity_direction_supported": true,
+      "sign_decision_changed": false,
+      "original_decision_retained": true
+    },
+    {
+      "id": "p5_main_G_vs_A_spearman",
+      "specification": {
+        "direction": "greater",
+        "endpoint": "spearman",
+        "estimand": "original_cross_seed",
+        "family": "LM_primary",
+        "id": "p5_main_G_vs_A_spearman",
+        "left": "G20",
+        "pilot": "P5",
+        "primary": true,
+        "right": "audit_loss_drop",
+        "setting": "p5_main",
+        "bootstrap_seed": 1170648390,
+        "original_estimate": 0.7516534391534391,
+        "original_interval": [
+          0.5707311207311205,
+          0.9075810185185192
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      "label": "post_hoc_Monte_Carlo_precision_only",
+      "protocol_sha256": "65db212ee2df6ecb3274c4998bc06f626c7651a5262d69b1591feebb599565af",
+      "source_input_sha256": "58d3d9f6c18be94c84f11601ac71b38c300117716b28350629f08644dc6c6c5b",
+      "original": {
+        "estimate": 0.7516534391534391,
+        "interval": [
+          0.5707311207311205,
+          0.9075810185185192
+        ],
+        "confidence": 0.9954545454545455,
+        "replicates": 5000,
+        "direction_supported": true,
+        "confirmation_claim_allowed": true
+      },
+      "sensitivity": {
+        "estimate": 0.7516534391534391,
+        "interval": [
+          0.576058201058201,
+          0.9098428481240993
+        ],
+        "clusters": 24,
+        "total_cells": 144,
+        "full_metric_defined": true,
+        "undefined_cells_count": 0,
+        "statistic": "mean",
+        "confidence": 0.9954545454545455,
+        "replicates": 100000,
+        "cluster_seed": 1170648390,
+        "expected_draws_per_tail": 227.27272727272597,
+        "status": "fixed_law_cluster_percentile"
+      },
+      "sensitivity_direction_supported": true,
+      "sign_decision_changed": false,
+      "original_decision_retained": true
+    },
+    {
+      "id": "p5_main_G_vs_A_top_two_regret",
+      "specification": {
+        "direction": "greater",
+        "endpoint": "top_two_regret",
+        "estimand": "original_cross_seed",
+        "family": "LM_primary",
+        "id": "p5_main_G_vs_A_top_two_regret",
+        "left": "G20",
+        "pilot": "P5",
+        "primary": true,
+        "right": "audit_loss_drop",
+        "setting": "p5_main",
+        "bootstrap_seed": 1309071750,
+        "original_estimate": 0.30441950052992384,
+        "original_interval": [
+          0.20674090235846165,
+          0.40849280617746303
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      "label": "post_hoc_Monte_Carlo_precision_only",
+      "protocol_sha256": "65db212ee2df6ecb3274c4998bc06f626c7651a5262d69b1591feebb599565af",
+      "source_input_sha256": "58d3d9f6c18be94c84f11601ac71b38c300117716b28350629f08644dc6c6c5b",
+      "original": {
+        "estimate": 0.30441950052992384,
+        "interval": [
+          0.20674090235846165,
+          0.40849280617746303
+        ],
+        "confidence": 0.9954545454545455,
+        "replicates": 5000,
+        "direction_supported": true,
+        "confirmation_claim_allowed": true
+      },
+      "sensitivity": {
+        "estimate": 0.30441950052992384,
+        "interval": [
+          0.20989394913558163,
+          0.39977735500158124
+        ],
+        "clusters": 24,
+        "total_cells": 144,
+        "full_metric_defined": true,
+        "undefined_cells_count": 0,
+        "statistic": "mean",
+        "confidence": 0.9954545454545455,
+        "replicates": 100000,
+        "cluster_seed": 1309071750,
+        "expected_draws_per_tail": 227.27272727272597,
+        "status": "fixed_law_cluster_percentile"
+      },
+      "sensitivity_direction_supported": true,
+      "sign_decision_changed": false,
+      "original_decision_retained": true
+    },
+    {
+      "id": "p5_main_corpus_vs_A_rank",
+      "specification": {
+        "direction": "greater",
+        "endpoint": "spearman",
+        "estimand": "original_cross_seed",
+        "family": "LM_primary",
+        "id": "p5_main_corpus_vs_A_rank",
+        "left": "uncovered_base_nll_k4",
+        "pilot": "P5",
+        "primary": true,
+        "right": "audit_loss_drop",
+        "setting": "p5_main",
+        "bootstrap_seed": 1718477250,
+        "original_estimate": 0.6913029100529101,
+        "original_interval": [
+          0.5011574074074073,
+          0.8721294041606542
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      "label": "post_hoc_Monte_Carlo_precision_only",
+      "protocol_sha256": "65db212ee2df6ecb3274c4998bc06f626c7651a5262d69b1591feebb599565af",
+      "source_input_sha256": "58d3d9f6c18be94c84f11601ac71b38c300117716b28350629f08644dc6c6c5b",
+      "original": {
+        "estimate": 0.6913029100529101,
+        "interval": [
+          0.5011574074074073,
+          0.8721294041606542
+        ],
+        "confidence": 0.9954545454545455,
+        "replicates": 5000,
+        "direction_supported": true,
+        "confirmation_claim_allowed": true
+      },
+      "sensitivity": {
+        "estimate": 0.6913029100529101,
+        "interval": [
+          0.4975198412698412,
+          0.8797502555315068
+        ],
+        "clusters": 24,
+        "total_cells": 144,
+        "full_metric_defined": true,
+        "undefined_cells_count": 0,
+        "statistic": "mean",
+        "confidence": 0.9954545454545455,
+        "replicates": 100000,
+        "cluster_seed": 1718477250,
+        "expected_draws_per_tail": 227.27272727272597,
+        "status": "fixed_law_cluster_percentile"
+      },
+      "sensitivity_direction_supported": true,
+      "sign_decision_changed": false,
+      "original_decision_retained": true
+    },
+    {
+      "id": "p5_main_corpus_vs_difficulty_rank",
+      "specification": {
+        "direction": "greater",
+        "endpoint": "spearman",
+        "estimand": "original_cross_seed",
+        "family": "LM_primary",
+        "id": "p5_main_corpus_vs_difficulty_rank",
+        "left": "uncovered_base_nll_k4",
+        "pilot": "P5",
+        "primary": true,
+        "right": "base_difficulty_nll",
+        "setting": "p5_main",
+        "bootstrap_seed": 459976047,
+        "original_estimate": 0.25049603174603174,
+        "original_interval": [
+          0.080215473184223,
+          0.3944730038480046
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      "label": "post_hoc_Monte_Carlo_precision_only",
+      "protocol_sha256": "65db212ee2df6ecb3274c4998bc06f626c7651a5262d69b1591feebb599565af",
+      "source_input_sha256": "58d3d9f6c18be94c84f11601ac71b38c300117716b28350629f08644dc6c6c5b",
+      "original": {
+        "estimate": 0.25049603174603174,
+        "interval": [
+          0.080215473184223,
+          0.3944730038480046
+        ],
+        "confidence": 0.9954545454545455,
+        "replicates": 5000,
+        "direction_supported": true,
+        "confirmation_claim_allowed": true
+      },
+      "sensitivity": {
+        "estimate": 0.25049603174603174,
+        "interval": [
+          0.07638888888888888,
+          0.4001322751322751
+        ],
+        "clusters": 24,
+        "total_cells": 144,
+        "full_metric_defined": true,
+        "undefined_cells_count": 0,
+        "statistic": "mean",
+        "confidence": 0.9954545454545455,
+        "replicates": 100000,
+        "cluster_seed": 459976047,
+        "expected_draws_per_tail": 227.27272727272597,
+        "status": "fixed_law_cluster_percentile"
+      },
+      "sensitivity_direction_supported": true,
+      "sign_decision_changed": false,
+      "original_decision_retained": true
+    },
+    {
+      "id": "p5_main_corpus_vs_difficulty_regret",
+      "specification": {
+        "direction": "greater",
+        "endpoint": "top_two_regret",
+        "estimand": "original_cross_seed",
+        "family": "LM_primary",
+        "id": "p5_main_corpus_vs_difficulty_regret",
+        "left": "uncovered_base_nll_k4",
+        "pilot": "P5",
+        "primary": true,
+        "right": "base_difficulty_nll",
+        "setting": "p5_main",
+        "bootstrap_seed": 1544733227,
+        "original_estimate": 0.09887575286786236,
+        "original_interval": [
+          0.02492855556811518,
+          0.18049596685875827
+        ],
+        "original_confidence": 0.9954545454545455,
+        "original_direction_supported": true,
+        "original_confirmation_claim_allowed": true
+      },
+      "label": "post_hoc_Monte_Carlo_precision_only",
+      "protocol_sha256": "65db212ee2df6ecb3274c4998bc06f626c7651a5262d69b1591feebb599565af",
+      "source_input_sha256": "58d3d9f6c18be94c84f11601ac71b38c300117716b28350629f08644dc6c6c5b",
+      "original": {
+        "estimate": 0.09887575286786236,
+        "interval": [
+          0.02492855556811518,
+          0.18049596685875827
+        ],
+        "confidence": 0.9954545454545455,
+        "replicates": 5000,
+        "direction_supported": true,
+        "confirmation_claim_allowed": true
+      },
+      "sensitivity": {
+        "estimate": 0.09887575286786236,
+        "interval": [
+          0.020840899138214214,
+          0.18211759950048909
+        ],
+        "clusters": 24,
+        "total_cells": 144,
+        "full_metric_defined": true,
+        "undefined_cells_count": 0,
+        "statistic": "mean",
+        "confidence": 0.9954545454545455,
+        "replicates": 100000,
+        "cluster_seed": 1544733227,
+        "expected_draws_per_tail": 227.27272727272597,
+        "status": "fixed_law_cluster_percentile"
+      },
+      "sensitivity_direction_supported": true,
+      "sign_decision_changed": false,
+      "original_decision_retained": true
+    }
+  ],
+  "joint_decisions": [
+    {
+      "claim": "p4_main_later_substitution",
+      "original_claim_allowed": false,
+      "sensitivity_all_directions_supported": false,
+      "original_decision_retained": true,
+      "comparison_ids": [
+        "p4_main_later_D",
+        "p4_main_later_eta"
+      ]
+    },
+    {
+      "claim": "p4_main_prefix_substitution",
+      "original_claim_allowed": true,
+      "sensitivity_all_directions_supported": true,
+      "original_decision_retained": true,
+      "comparison_ids": [
+        "p4_main_prefix_D",
+        "p4_main_prefix_eta"
+      ]
+    },
+    {
+      "claim": "p5_main_G_relative_fidelity",
+      "original_claim_allowed": true,
+      "sensitivity_all_directions_supported": true,
+      "original_decision_retained": true,
+      "comparison_ids": [
+        "p5_main_G_positive_rank",
+        "p5_main_G_vs_A_spearman",
+        "p5_main_G_vs_A_median_absolute_error",
+        "p5_main_G_vs_A_top_two_regret"
+      ]
+    },
+    {
+      "claim": "p5_main_corpus_beyond_difficulty",
+      "original_claim_allowed": true,
+      "sensitivity_all_directions_supported": true,
+      "original_decision_retained": true,
+      "comparison_ids": [
+        "p5_main_corpus_vs_difficulty_rank",
+        "p5_main_corpus_vs_A_rank",
+        "p5_main_corpus_vs_difficulty_regret"
+      ]
+    }
+  ],
+  "changed_sign_decisions": [],
+  "original_decisions_retained": true,
+  "additional_independent_units": 0,
+  "source_input_sha256": "58d3d9f6c18be94c84f11601ac71b38c300117716b28350629f08644dc6c6c5b"
+}

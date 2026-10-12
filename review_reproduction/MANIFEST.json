@@ -1,0 +1,160 @@
+{
+  "files": [
+    {
+      "bytes": 4680,
+      "path_parts": [
+        "generated",
+        "DISPLAY_PROVENANCE.json"
+      ],
+      "sha256": "d7da8ad351fdb7feea6db674fdaf40ddb381b62513a74ff152df3b7535361549"
+    },
+    {
+      "bytes": 2446,
+      "path_parts": [
+        "generated",
+        "review_absolute.tex"
+      ],
+      "sha256": "07b454d14c934a3304a46b7a5c903d0df3f468e6bd9b746d84b28cabf0a0dec7"
+    },
+    {
+      "bytes": 876,
+      "path_parts": [
+        "generated",
+        "review_component_means.tex"
+      ],
+      "sha256": "52e7947dc09770f7801a2bcf48d4bf77493a143fd6fd33f0a6676c2debe27784"
+    },
+    {
+      "bytes": 1064,
+      "path_parts": [
+        "generated",
+        "review_component_ranks.tex"
+      ],
+      "sha256": "e63e8ad1337ba00eca834dc2eb98563838f917fc2b23224575a39978280b5ca9"
+    },
+    {
+      "bytes": 1675,
+      "path_parts": [
+        "generated",
+        "review_fidelity.tex"
+      ],
+      "sha256": "b050b13e7843b05910618357de9f00fc6eac5fbddc5fe68c78cf917a35407f22"
+    },
+    {
+      "bytes": 2151,
+      "path_parts": [
+        "generated",
+        "review_final_comparisons.tex"
+      ],
+      "sha256": "11c2eb15e410342e0df10f91428c2c46ed001abf0ef01c0361691a52d5f8f578"
+    },
+    {
+      "bytes": 1064,
+      "path_parts": [
+        "generated",
+        "review_input_associations.tex"
+      ],
+      "sha256": "aafa90cf873a3e42ddf75ca3c68c948cd5bfcc9a897309adc3187d54116566da"
+    },
+    {
+      "bytes": 2960,
+      "path_parts": [
+        "generated",
+        "review_stability.tex"
+      ],
+      "sha256": "01a7f8e1d4c0d1ef45427c7e4718b1df8039dbaa4eda816d622580e87dfcc8b6"
+    },
+    {
+      "bytes": 2401,
+      "path_parts": [
+        "generated",
+        "review_strata.tex"
+      ],
+      "sha256": "5d3902dcdbd3cc00ffd7067870f86bbf0bb3ad108349c4f6c56fa6aa5bcc35ee"
+    },
+    {
+      "bytes": 1194,
+      "path_parts": [
+        "PROTOCOL.json"
+      ],
+      "sha256": "3d7af336348ca678c766cab4073df77294f901f6780351d163b492ac8fa617e9"
+    },
+    {
+      "bytes": 3375,
+      "path_parts": [
+        "README.md"
+      ],
+      "sha256": "cb67e81419d87600b759b3bfaf89215740b6539ac5f0968fe6289cf60bd5825d"
+    },
+    {
+      "bytes": 1593320,
+      "path_parts": [
+        "results",
+        "CELLS.json"
+      ],
+      "sha256": "7d67e63a384d005b8b82ed270cdfbc3121b2be6f74b0f21f5870621666dc8a1e"
+    },
+    {
+      "bytes": 8821,
+      "path_parts": [
+        "results",
+        "INPUT_STRATA.json"
+      ],
+      "sha256": "8734d389959ee0fa9465cce5db0e53857180c0f9667a5f18be23bc8996f7e3bc"
+    },
+    {
+      "bytes": 69238,
+      "path_parts": [
+        "results",
+        "STABILITY.json"
+      ],
+      "sha256": "3ee134d64620bf1530c4c2e8930bbf1710ca2178da847eec791c6a813dfa4331"
+    },
+    {
+      "bytes": 30892,
+      "path_parts": [
+        "results",
+        "SUMMARY.csv"
+      ],
+      "sha256": "1d42f63e7b433930cdf3e14d7dea5957e54175401aafb62536ca58f4ea69fd9f"
+    },
+    {
+      "bytes": 194083,
+      "path_parts": [
+        "results",
+        "SUMMARY.json"
+      ],
+      "sha256": "47646adc01a931dcba4a56ac03cfb6072f28427bf8e4f1e5598a03399038d483"
+    },
+    {
+      "bytes": 30635,
+      "path_parts": [
+        "review_inputs.json"
+      ],
+      "sha256": "7ec2d7b75404bb42ddca0f98c98897d20b3d8ce1be0098abc09c5c2e79747f08"
+    },
+    {
+      "bytes": 18394,
+      "path_parts": [
+        "saved_diagnostics.py"
+      ],
+      "sha256": "4632054bdb61438177ec3fc0f3c9dad86a8b492aa4d5c1bde68ed5b0d7938ecb"
+    },
+    {
+      "bytes": 5514,
+      "path_parts": [
+        "test_saved_diagnostics.py"
+      ],
+      "sha256": "7cc450bc795ee1fb15a9375d88e84e246121e8c8687ebe3df903c16d46c54c65"
+    },
+    {
+      "bytes": 1525,
+      "path_parts": [
+        "verify_review.py"
+      ],
+      "sha256": "a241aeefdd0c80b3da5aeb07c8921a02c7babb2aa40f1569bc2157c5cf73d3fe"
+    }
+  ],
+  "schema": "review-artifact-manifest-v1",
+  "sibling_reproduction_required": true
+}

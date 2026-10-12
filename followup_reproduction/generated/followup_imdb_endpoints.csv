@@ -1,0 +1,12 @@
+setting,setting_name,endpoint_id,contrast,status,blocks,family_denominator,confidence,estimate,ci_low,ci_high,unit,direction_resolved
+p5_corpus,IMDb / Pythia (exploratory),E01_companion_error,Companion MAE: coherent minus dispersed,available,8,,0.95,0.0027161760238927986,-0.023501131199623288,0.0287361435900546,nats/token,unresolved
+p5_corpus,IMDb / Pythia (exploratory),E01_selection,Selection regret: group of twenty minus dispersed five,available,8,,0.95,-0.013430118532302067,-0.07199929361982844,0.04177273103706521,nats/token,unresolved
+p5_corpus,IMDb / Pythia (exploratory),E02_rank,Rank: shared reference minus LoGra,blocked_incomplete,8,,0.95,,,,Spearman correlation,
+p5_corpus,IMDb / Pythia (exploratory),E02_regret,Regret: LoGra minus shared reference,blocked_incomplete,8,,0.95,,,,nats/token,
+p5_corpus,IMDb / Pythia (exploratory),E03_Q1,Rank: matched reference minus role-disjoint reference,available,8,,0.95,-0.008928571428571426,-0.04761904761904764,0.030753968253968252,Spearman correlation,unresolved
+p5_corpus,IMDb / Pythia (exploratory),E03_Q2,Rank: disjoint minus difficulty,available,8,,0.95,-0.05853174603174603,-0.1875,0.09027777777777778,Spearman correlation,unresolved
+p5_corpus,IMDb / Pythia (exploratory),E03_Q3,Within-context score-difference/support association,available,8,,0.95,0.13206957069459313,-0.005702128452083555,0.2718253968253968,Spearman correlation,unresolved
+p5_corpus,IMDb / Pythia (exploratory),E04_M1_difficulty,Rank: MLP EK-FAC minus difficulty,blocked_incomplete,8,,0.95,,,,Spearman correlation,
+p5_corpus,IMDb / Pythia (exploratory),E04_G20_M1,Rank: group of twenty minus MLP EK-FAC,blocked_incomplete,8,,0.95,,,,Spearman correlation,
+p5_corpus,IMDb / Pythia (exploratory),E04_M2_difficulty,Rank: Adam-checkpoint approximation minus difficulty,blocked_incomplete,8,,0.95,,,,Spearman correlation,
+p5_corpus,IMDb / Pythia (exploratory),E04_G20_M2,Rank: shared reference minus Adam-checkpoint approximation,blocked_incomplete,8,,0.95,,,,Spearman correlation,

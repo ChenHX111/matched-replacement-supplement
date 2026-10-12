@@ -1,0 +1,17 @@
+% Generated from fixed saved results; do not hand-edit numerical cells.
+\begin{table*}[tp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrr}
+\toprule
+Setting & $U_4$, difficulty & Control coverage, benefit & Control coverage, $N$ \\
+\midrule
+Main & 0.5491 [0.4643, 0.6300] & -0.4036 [-0.4900, -0.3147] & 0.3648 [0.2497, 0.4715] \\
+IMDb & 0.9688 [0.9494, 0.9851] & -0.1982 [-0.3331, -0.0614] & 0.3907 [0.2417, 0.5326] \\
+GPT-2 & 0.4539 [0.2128, 0.6473] & -0.4931 [-0.7232, -0.2441] & 0.4048 [0.2398, 0.5658] \\
+\bottomrule
+\end{tabular}
+\caption{All-context post-hoc Spearman associations, with nominal 95\% intervals from 20,000 block draws. Benefit is the original other-two-seed target. Control coverage counts a focal's complete trailing-four-gram endpoints present in its fixed control's prefix, divided by 255. It is not the original TF--IDF matching similarity; its association does not identify a causal matching explanation. All 240 contexts have defined ranks.}
+\label{tab:review_input_associations}
+\end{table*}

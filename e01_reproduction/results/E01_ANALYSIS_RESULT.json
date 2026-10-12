@@ -1,0 +1,2397 @@
+{
+ "accounting": {
+  "constant_rank_context_count": 0,
+  "constant_rank_contexts": {},
+  "contexts_absent": [],
+  "contexts_returned": 144,
+  "fit_problems": [],
+  "in_identity_failures": [],
+  "planned_science_fits": 1440,
+  "undefined_context_limit": 8
+ },
+ "availability_rule": "A_complete_grid",
+ "descriptive_outside_family": {
+  "G20_far_median_absolute_error_vs_T_far": {
+   "cells": 1152,
+   "label": "pooled focal/context median of |G20_far - T_far|, nats/token",
+   "value": 0.24694859591966184
+  },
+  "items": {
+   "far.G20_far.spearman": {
+    "confidence": 0.95,
+    "estimate": 0.6588955026455027,
+    "index_stream_sha256": "a979da597e32b37887bb6f922321b0f7047a4bd8de130fae40ba96d113cca83c",
+    "interval": [
+     0.6061507936507936,
+     0.7108176256613753
+    ],
+    "seed": 836183521,
+    "status": "available_descriptive"
+   },
+   "far.G20_far.top_two_regret": {
+    "confidence": 0.95,
+    "estimate": 0.08425645647739284,
+    "index_stream_sha256": "0f888fc8828380acfe17baf21236a6537ef57b5f22525c06bf70a4debd40c3e0",
+    "interval": [
+     0.06730880987323755,
+     0.10305985478859984
+    ],
+    "seed": 962982929,
+    "status": "available_descriptive"
+   },
+   "far.audit_loss_drop.spearman": {
+    "confidence": 0.95,
+    "estimate": -0.11127645502645502,
+    "index_stream_sha256": "324c5d54bd7bf8e1b2b695ba08cbe99f8a3e8b06b189fe66cba3bf041839ec6c",
+    "interval": [
+     -0.22569857804232799,
+     0.012404927248676888
+    ],
+    "seed": 1330157031,
+    "status": "available_descriptive"
+   },
+   "far.audit_loss_drop.top_two_regret": {
+    "confidence": 0.95,
+    "estimate": 0.3826539702524427,
+    "index_stream_sha256": "56af5a52a0b003b21590b631dcd302ccacc5489d5b23a566ed5388bf8f670c0b",
+    "interval": [
+     0.3191229638941256,
+     0.4478642636764853
+    ],
+    "seed": 2086192983,
+    "status": "available_descriptive"
+   },
+   "far.base_difficulty_nll.spearman": {
+    "confidence": 0.95,
+    "estimate": 0.3745039682539683,
+    "index_stream_sha256": "285b5a983f228e7053e4e5d6b006f58142bf9c8f24f6a69b5f6a78a3deadd8a4",
+    "interval": [
+     0.24966931216931218,
+     0.486441798941799
+    ],
+    "seed": 2052667850,
+    "status": "available_descriptive"
+   },
+   "far.base_difficulty_nll.top_two_regret": {
+    "confidence": 0.95,
+    "estimate": 0.21541313933011708,
+    "index_stream_sha256": "bf86f034dc46cc56db3d43f29009939eb55f86bd7d489dbc8a815491a83531e9",
+    "interval": [
+     0.15778391546920864,
+     0.27869019266728057
+    ],
+    "seed": 1549033012,
+    "status": "available_descriptive"
+   },
+   "far.mismatched_near_G20.spearman": {
+    "confidence": 0.95,
+    "estimate": 0.6015211640211641,
+    "index_stream_sha256": "44a01f603e21799ec8c0eafa69d40ce63fbab4b1f8f4a0e4996dd146e6a755e6",
+    "interval": [
+     0.5300925925925926,
+     0.6724537037037037
+    ],
+    "label": "mismatched-reference description; secondary",
+    "seed": 971822471,
+    "status": "available_descriptive"
+   },
+   "far.uncovered_base_nll_k4.spearman": {
+    "confidence": 0.95,
+    "estimate": 0.6650132275132276,
+    "index_stream_sha256": "07403dcc88509fcb68ec9903ec0b37ea35ba69f0ad92e216152d641bb0d030c9",
+    "interval": [
+     0.6003637566137566,
+     0.7296626984126985
+    ],
+    "seed": 726491513,
+    "status": "available_descriptive"
+   },
+   "far.uncovered_base_nll_k4.top_two_regret": {
+    "confidence": 0.95,
+    "estimate": 0.08786295004214767,
+    "index_stream_sha256": "3fbfc0c4bcb36a91ba0a2c4827881e13ff60b5d884a87525c54237ad3a639b91",
+    "interval": [
+     0.0596696327910401,
+     0.11842149718463305
+    ],
+    "seed": 892299502,
+    "status": "available_descriptive"
+   }
+  },
+  "label": "descriptive_outside_family_nominal_95_not_multiplicity_adjusted",
+  "theta_far_within_context_sd": {
+   "contexts_defined": 144,
+   "median": 0.2713909492816111,
+   "minimum": 0.09814356977718618,
+   "statistic": "population SD of the eight same-seed theta_far values per context",
+   "zero_sd_contexts": 0
+  }
+ },
+ "endpoints": [
+  {
+   "anticipated_direction": "either",
+   "availability_rule": "A_complete_grid",
+   "block_values": [
+    {
+     "block_id": "p5_main-block000",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.4285714285714286,
+      1.0952380952380953,
+      1.119047619047619,
+      -0.16666666666666669,
+      1.2857142857142858,
+      0.38095238095238093
+     ],
+     "near_context_values": null,
+     "value": 0.8571428571428572
+    },
+    {
+     "block_id": "p5_main-block001",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.6666666666666667,
+      0.7619047619047619,
+      0.6904761904761905,
+      1.2619047619047619,
+      0.7380952380952381,
+      0.7380952380952381
+     ],
+     "near_context_values": null,
+     "value": 0.8095238095238096
+    },
+    {
+     "block_id": "p5_main-block002",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.9761904761904762,
+      0.09523809523809523,
+      0.04761904761904767,
+      0.9761904761904762,
+      0.380952380952381,
+      0.38095238095238093
+     ],
+     "near_context_values": null,
+     "value": 0.4761904761904762
+    },
+    {
+     "block_id": "p5_main-block003",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.14285714285714285,
+      0.8571428571428571,
+      0.07142857142857142,
+      1.119047619047619,
+      0.9047619047619047,
+      0.8571428571428572
+     ],
+     "near_context_values": null,
+     "value": 0.6587301587301587
+    },
+    {
+     "block_id": "p5_main-block004",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.8809523809523809,
+      1.0238095238095237,
+      0.9285714285714285,
+      1.3095238095238095,
+      1.1904761904761905,
+      1.4285714285714286
+     ],
+     "near_context_values": null,
+     "value": 1.126984126984127
+    },
+    {
+     "block_id": "p5_main-block005",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.0714285714285714,
+      0.3333333333333333,
+      -0.09523809523809523,
+      0.14285714285714285,
+      0.16666666666666669,
+      -0.19047619047619047
+     ],
+     "near_context_values": null,
+     "value": 0.04761904761904762
+    },
+    {
+     "block_id": "p5_main-block006",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.2142857142857144,
+      1.0,
+      1.0476190476190477,
+      1.3095238095238095,
+      0.7380952380952381,
+      1.1428571428571428
+     ],
+     "near_context_values": null,
+     "value": 1.0753968253968254
+    },
+    {
+     "block_id": "p5_main-block007",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.26190476190476186,
+      0.4761904761904762,
+      0.33333333333333337,
+      0.2142857142857143,
+      0.6904761904761905,
+      0.04761904761904767
+     ],
+     "near_context_values": null,
+     "value": 0.33730158730158727
+    },
+    {
+     "block_id": "p5_main-block008",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.6666666666666666,
+      0.5,
+      0.4523809523809524,
+      0.4047619047619048,
+      0.26190476190476186,
+      -0.023809523809523836
+     ],
+     "near_context_values": null,
+     "value": 0.376984126984127
+    },
+    {
+     "block_id": "p5_main-block009",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.5,
+      0.6428571428571428,
+      1.5952380952380953,
+      0.42857142857142855,
+      0.40476190476190477,
+      0.7857142857142857
+     ],
+     "near_context_values": null,
+     "value": 0.8928571428571428
+    },
+    {
+     "block_id": "p5_main-block010",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.0952380952380953,
+      0.2857142857142857,
+      1.3095238095238095,
+      0.7857142857142857,
+      0.5952380952380952,
+      0.6190476190476191
+     ],
+     "near_context_values": null,
+     "value": 0.7817460317460317
+    },
+    {
+     "block_id": "p5_main-block011",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.6428571428571428,
+      0.8809523809523809,
+      0.6904761904761905,
+      1.2380952380952381,
+      1.0238095238095237,
+      0.8571428571428572
+     ],
+     "near_context_values": null,
+     "value": 0.8888888888888888
+    },
+    {
+     "block_id": "p5_main-block012",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.023809523809523836,
+      1.3333333333333335,
+      1.5952380952380953,
+      1.0476190476190477,
+      0.7857142857142857,
+      0.6666666666666666
+     ],
+     "near_context_values": null,
+     "value": 0.9087301587301587
+    },
+    {
+     "block_id": "p5_main-block013",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.1904761904761905,
+      1.1904761904761905,
+      0.6428571428571428,
+      1.3095238095238095,
+      1.5476190476190477,
+      0.8333333333333333
+     ],
+     "near_context_values": null,
+     "value": 1.119047619047619
+    },
+    {
+     "block_id": "p5_main-block014",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.5,
+      0.9523809523809523,
+      1.4761904761904763,
+      0.7380952380952381,
+      1.2380952380952381,
+      0.23809523809523803
+     ],
+     "near_context_values": null,
+     "value": 1.023809523809524
+    },
+    {
+     "block_id": "p5_main-block015",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.11904761904761907,
+      0.14285714285714285,
+      0.047619047619047616,
+      0.5476190476190477,
+      0.7857142857142858,
+      0.9047619047619048
+     ],
+     "near_context_values": null,
+     "value": 0.38492063492063494
+    },
+    {
+     "block_id": "p5_main-block016",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.5,
+      0.5476190476190477,
+      1.2142857142857142,
+      0.8809523809523809,
+      0.8571428571428571,
+      0.8095238095238095
+     ],
+     "near_context_values": null,
+     "value": 0.8015873015873015
+    },
+    {
+     "block_id": "p5_main-block017",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.4047619047619047,
+      1.2857142857142856,
+      0.6190476190476191,
+      1.119047619047619,
+      1.2857142857142856,
+      1.0714285714285714
+     ],
+     "near_context_values": null,
+     "value": 1.130952380952381
+    },
+    {
+     "block_id": "p5_main-block018",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.0238095238095237,
+      0.2857142857142857,
+      0.7619047619047619,
+      0.11904761904761907,
+      0.6904761904761905,
+      0.0
+     ],
+     "near_context_values": null,
+     "value": 0.4801587301587302
+    },
+    {
+     "block_id": "p5_main-block019",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.1904761904761905,
+      1.0,
+      1.2619047619047619,
+      0.7857142857142858,
+      1.1666666666666667,
+      0.7857142857142857
+     ],
+     "near_context_values": null,
+     "value": 1.0317460317460319
+    },
+    {
+     "block_id": "p5_main-block020",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.380952380952381,
+      1.2142857142857142,
+      1.4285714285714284,
+      1.2857142857142856,
+      1.2857142857142856,
+      1.1428571428571428
+     ],
+     "near_context_values": null,
+     "value": 1.2896825396825395
+    },
+    {
+     "block_id": "p5_main-block021",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.3571428571428571,
+      -0.2857142857142857,
+      0.26190476190476186,
+      -0.26190476190476186,
+      -0.2857142857142857,
+      0.38095238095238093
+     ],
+     "near_context_values": null,
+     "value": -0.09126984126984126
+    },
+    {
+     "block_id": "p5_main-block022",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.0,
+      1.4761904761904763,
+      1.0238095238095237,
+      1.2142857142857144,
+      1.4761904761904763,
+      1.0476190476190477
+     ],
+     "near_context_values": null,
+     "value": 1.2063492063492063
+    },
+    {
+     "block_id": "p5_main-block023",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.9285714285714286,
+      0.9047619047619048,
+      0.9285714285714285,
+      0.7142857142857143,
+      0.5476190476190477,
+      1.1904761904761905
+     ],
+     "near_context_values": null,
+     "value": 0.8690476190476191
+    }
+   ],
+   "blocking_reasons": [],
+   "branch": "RESOLVED_POSITIVE",
+   "confidence": 0.99,
+   "context_value": "Spearman(G20_far, T_far) - Spearman(audit_loss_drop, T_far)",
+   "direction_resolved": "greater",
+   "endpoint_seed": 1783588651,
+   "estimate": 0.7701719576719577,
+   "family": "E01_far_control_primary_family",
+   "family_denominator": 5,
+   "id": "E01FAR_far_G20far_vs_A_rank",
+   "index_stream_sha256": "e15b44dce32204554046f534e18c7ded8d8ed160df32c4fc0e557354e2d0b266",
+   "input_cells_sha256": "634154b62ef94a834aa6b67673b79cd5d57aefa4957065a5117177fedd6abb30",
+   "interval": [
+    0.5684523809523809,
+    0.9482481812169313
+   ],
+   "kind": "far_rank_difference",
+   "left": "G20_far",
+   "near_analog": "p5_main_G_vs_A_spearman",
+   "negative_means": "total loss drop ranks far cross-seed benefit better than G20_far",
+   "number": 1,
+   "positive_means": "G20_far ranks far cross-seed benefit better than total loss drop",
+   "replicates": 20000,
+   "right": "audit_loss_drop",
+   "status": "available",
+   "undefined_or_missing_cells": [],
+   "unit": "Spearman difference"
+  },
+  {
+   "anticipated_direction": "either",
+   "availability_rule": "A_complete_grid",
+   "block_values": [
+    {
+     "block_id": "p5_main-block000",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.6190476190476191,
+      0.6904761904761905,
+      0.380952380952381,
+      -0.19047619047619052,
+      0.6190476190476191,
+      -0.09523809523809529
+     ],
+     "near_context_values": null,
+     "value": 0.33730158730158727
+    },
+    {
+     "block_id": "p5_main-block001",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.26190476190476186,
+      -0.3571428571428571,
+      -0.30952380952380953,
+      -0.42857142857142855,
+      -0.2142857142857143,
+      -0.1428571428571429
+     ],
+     "near_context_values": null,
+     "value": -0.2857142857142857
+    },
+    {
+     "block_id": "p5_main-block002",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.023809523809523725,
+      0.11904761904761896,
+      0.0714285714285714,
+      0.2619047619047619,
+      0.3095238095238096,
+      0.023809523809523836
+     ],
+     "near_context_values": null,
+     "value": 0.1349206349206349
+    },
+    {
+     "block_id": "p5_main-block003",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.07142857142857142,
+      0.8809523809523809,
+      -0.07142857142857142,
+      0.38095238095238093,
+      0.4523809523809524,
+      0.5476190476190476
+     ],
+     "near_context_values": null,
+     "value": 0.3531746031746032
+    },
+    {
+     "block_id": "p5_main-block004",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.23809523809523803,
+      0.3571428571428571,
+      0.3571428571428571,
+      0.4285714285714286,
+      0.4761904761904762,
+      0.4761904761904762
+     ],
+     "near_context_values": null,
+     "value": 0.38888888888888884
+    },
+    {
+     "block_id": "p5_main-block005",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.2857142857142857,
+      0.0714285714285714,
+      -0.2857142857142857,
+      0.19047619047619047,
+      0.11904761904761907,
+      0.09523809523809523
+     ],
+     "near_context_values": null,
+     "value": -0.015873015873015872
+    },
+    {
+     "block_id": "p5_main-block006",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.7619047619047619,
+      0.7380952380952381,
+      0.1904761904761905,
+      0.6904761904761905,
+      0.7857142857142857,
+      0.5238095238095238
+     ],
+     "near_context_values": null,
+     "value": 0.6150793650793651
+    },
+    {
+     "block_id": "p5_main-block007",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.19047619047619047,
+      -0.2142857142857142,
+      0.16666666666666663,
+      0.023809523809523836,
+      0.1428571428571429,
+      -0.023809523809523836
+     ],
+     "near_context_values": null,
+     "value": -0.015873015873015855
+    },
+    {
+     "block_id": "p5_main-block008",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.3571428571428571,
+      0.0,
+      0.28571428571428575,
+      0.0,
+      0.09523809523809523,
+      0.023809523809523836
+     ],
+     "near_context_values": null,
+     "value": 0.12698412698412698
+    },
+    {
+     "block_id": "p5_main-block009",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.5476190476190477,
+      0.5476190476190477,
+      0.5476190476190477,
+      0.023809523809523725,
+      0.09523809523809523,
+      0.16666666666666669
+     ],
+     "near_context_values": null,
+     "value": 0.32142857142857145
+    },
+    {
+     "block_id": "p5_main-block010",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.23809523809523814,
+      0.2142857142857143,
+      0.26190476190476186,
+      0.16666666666666674,
+      0.19047619047619047,
+      0.26190476190476186
+     ],
+     "near_context_values": null,
+     "value": 0.22222222222222224
+    },
+    {
+     "block_id": "p5_main-block011",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.16666666666666663,
+      0.16666666666666674,
+      0.3095238095238095,
+      0.6666666666666666,
+      0.9285714285714286,
+      0.7619047619047619
+     ],
+     "near_context_values": null,
+     "value": 0.5
+    },
+    {
+     "block_id": "p5_main-block012",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.14285714285714285,
+      0.3571428571428571,
+      0.6428571428571428,
+      0.11904761904761896,
+      0.3095238095238095,
+      0.11904761904761907
+     ],
+     "near_context_values": null,
+     "value": 0.2341269841269841
+    },
+    {
+     "block_id": "p5_main-block013",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.9285714285714286,
+      0.8809523809523809,
+      0.8571428571428572,
+      0.8809523809523809,
+      0.9285714285714286,
+      0.8809523809523809
+     ],
+     "near_context_values": null,
+     "value": 0.8928571428571429
+    },
+    {
+     "block_id": "p5_main-block014",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.04761904761904756,
+      0.04761904761904756,
+      0.0,
+      0.16666666666666663,
+      0.16666666666666674,
+      0.0714285714285714
+     ],
+     "near_context_values": null,
+     "value": 0.08333333333333331
+    },
+    {
+     "block_id": "p5_main-block015",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.09523809523809529,
+      -0.023809523809523836,
+      0.0714285714285714,
+      0.14285714285714285,
+      0.30952380952380953,
+      0.4523809523809524
+     ],
+     "near_context_values": null,
+     "value": 0.17460317460317462
+    },
+    {
+     "block_id": "p5_main-block016",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.4285714285714286,
+      0.23809523809523814,
+      0.5476190476190477,
+      0.4285714285714285,
+      0.2142857142857142,
+      0.40476190476190477
+     ],
+     "near_context_values": null,
+     "value": 0.376984126984127
+    },
+    {
+     "block_id": "p5_main-block017",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.6190476190476191,
+      0.6904761904761905,
+      0.761904761904762,
+      0.38095238095238093,
+      0.4761904761904763,
+      0.5238095238095237
+     ],
+     "near_context_values": null,
+     "value": 0.5753968253968255
+    },
+    {
+     "block_id": "p5_main-block018",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.2857142857142857,
+      0.23809523809523814,
+      0.42857142857142855,
+      -0.2857142857142857,
+      0.2857142857142857,
+      -0.23809523809523808
+     ],
+     "near_context_values": null,
+     "value": 0.11904761904761905
+    },
+    {
+     "block_id": "p5_main-block019",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.7380952380952381,
+      0.7619047619047619,
+      0.47619047619047616,
+      0.38095238095238093,
+      0.7142857142857142,
+      0.5
+     ],
+     "near_context_values": null,
+     "value": 0.5952380952380952
+    },
+    {
+     "block_id": "p5_main-block020",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.8333333333333333,
+      0.8333333333333334,
+      1.0238095238095237,
+      0.8571428571428571,
+      0.6904761904761905,
+      0.6428571428571428
+     ],
+     "near_context_values": null,
+     "value": 0.8134920634920634
+    },
+    {
+     "block_id": "p5_main-block021",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.023809523809523836,
+      0.0,
+      0.21428571428571427,
+      -0.11904761904761907,
+      -0.2142857142857143,
+      0.0
+     ],
+     "near_context_values": null,
+     "value": -0.015873015873015876
+    },
+    {
+     "block_id": "p5_main-block022",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.4047619047619048,
+      0.45238095238095244,
+      0.11904761904761907,
+      0.40476190476190477,
+      0.45238095238095233,
+      0.0714285714285714
+     ],
+     "near_context_values": null,
+     "value": 0.3174603174603175
+    },
+    {
+     "block_id": "p5_main-block023",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.19047619047619047,
+      0.0,
+      0.1428571428571429,
+      0.0714285714285714,
+      0.0,
+      0.33333333333333337
+     ],
+     "near_context_values": null,
+     "value": 0.12301587301587302
+    }
+   ],
+   "blocking_reasons": [],
+   "branch": "RESOLVED_POSITIVE",
+   "confidence": 0.99,
+   "context_value": "Spearman(U4, T_far) - Spearman(base_difficulty, T_far)",
+   "direction_resolved": "greater",
+   "endpoint_seed": 507955938,
+   "estimate": 0.29050925925925924,
+   "family": "E01_far_control_primary_family",
+   "family_denominator": 5,
+   "id": "E01FAR_far_U4_vs_difficulty_rank",
+   "index_stream_sha256": "a80ae83ab43d00901993684b40272f1a75f904c397d0051c1d386e179aea3224",
+   "input_cells_sha256": "af3996102b4cb755dee60b3527b8f8b62cf3ccf9459f9fcb90cab4d184dd82b7",
+   "interval": [
+    0.15112351190476192,
+    0.43551669973544993
+   ],
+   "kind": "far_rank_difference",
+   "left": "uncovered_base_nll_k4",
+   "near_analog": "p5_main_corpus_vs_difficulty_rank",
+   "negative_means": "base difficulty ranks far cross-seed benefit better than U4",
+   "number": 2,
+   "positive_means": "U4 ranks far cross-seed benefit better than base difficulty",
+   "replicates": 20000,
+   "right": "base_difficulty_nll",
+   "status": "available",
+   "undefined_or_missing_cells": [],
+   "unit": "Spearman difference"
+  },
+  {
+   "anticipated_direction": "either",
+   "availability_rule": "A_complete_grid",
+   "block_values": [
+    {
+     "block_id": "p5_main-block000",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.5202699332613232,
+      0.20917320566122904,
+      0.6194584304528072,
+      0.0611621049755553,
+      0.7055404077902088,
+      0.40184913846068027
+     ],
+     "near_context_values": null,
+     "value": 0.4195755367669673
+    },
+    {
+     "block_id": "p5_main-block001",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.14974908039493068,
+      0.03731017774351353,
+      -0.0,
+      0.1608079691244197,
+      -0.04669786439285639,
+      0.06360738820778894
+     ],
+     "near_context_values": null,
+     "value": 0.010879765047989182
+    },
+    {
+     "block_id": "p5_main-block002",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.800321647411498,
+      -0.0,
+      -0.1382458706455465,
+      0.6895192422990397,
+      0.18818276260808176,
+      0.15965680415768346
+     ],
+     "near_context_values": null,
+     "value": 0.2832390976384594
+    },
+    {
+     "block_id": "p5_main-block003",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.22427381328865115,
+      0.16227547980535267,
+      0.05364146768653011,
+      0.24090300075275994,
+      0.1308407926728251,
+      0.0759565687247904
+     ],
+     "near_context_values": null,
+     "value": 0.07322391605893451
+    },
+    {
+     "block_id": "p5_main-block004",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.29505607153760943,
+      0.3764957931969087,
+      0.32687885849105924,
+      0.2564463088492739,
+      0.5516103050706865,
+      0.683346024553327
+     ],
+     "near_context_values": null,
+     "value": 0.4149722269498108
+    },
+    {
+     "block_id": "p5_main-block005",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.10124997246746026,
+      0.034839484601985826,
+      0.22185215584121076,
+      -0.06605006025604765,
+      0.5169868672702087,
+      0.16629919672302118
+     ],
+     "near_context_values": null,
+     "value": 0.1287796119521531
+    },
+    {
+     "block_id": "p5_main-block006",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.4655248199655088,
+      0.32244128026818064,
+      0.08311347667116287,
+      0.3825143484059714,
+      0.19150708018754659,
+      0.4262999882877829
+     ],
+     "near_context_values": null,
+     "value": 0.31190016563102557
+    },
+    {
+     "block_id": "p5_main-block007",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.020710573697762746,
+      0.17206720925884977,
+      0.02275469763031379,
+      0.08633000049845496,
+      0.3776823410029314,
+      -0.04593525836985235
+     ],
+     "near_context_values": null,
+     "value": 0.10560159395307672
+    },
+    {
+     "block_id": "p5_main-block008",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.6040737429199796,
+      0.5354222879938713,
+      0.3803653092190381,
+      0.39988955729178965,
+      0.45913241736246535,
+      -0.0
+     ],
+     "near_context_values": null,
+     "value": 0.396480552464524
+    },
+    {
+     "block_id": "p5_main-block009",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.44850131473425225,
+      0.3576826266165096,
+      0.4851936559289881,
+      -0.07370176045270249,
+      0.2181716476089356,
+      0.023227173119728994
+     ],
+     "near_context_values": null,
+     "value": 0.24317910959261868
+    },
+    {
+     "block_id": "p5_main-block010",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.8245373076456373,
+      0.20260151478674948,
+      0.5761551640178664,
+      0.9821126100855871,
+      -0.0,
+      0.4416806465393792
+     ],
+     "near_context_values": null,
+     "value": 0.5045145405125365
+    },
+    {
+     "block_id": "p5_main-block011",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.23892719309910887,
+      0.3115858308464821,
+      0.15507565733655465,
+      0.3791479310037291,
+      0.17973636270422616,
+      0.07031273939302712
+     ],
+     "near_context_values": null,
+     "value": 0.22246428573052135
+    },
+    {
+     "block_id": "p5_main-block012",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.37385294213847053,
+      0.6845687760453079,
+      1.0221598399197243,
+      0.4170798303055039,
+      0.022226609174904155,
+      0.2824760105226978
+     ],
+     "near_context_values": null,
+     "value": 0.4670606680177681
+    },
+    {
+     "block_id": "p5_main-block013",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.20440597681273398,
+      0.2886685261743204,
+      0.12934442775884447,
+      0.34292874360514564,
+      0.1520997501820115,
+      0.20770539251551354
+     ],
+     "near_context_values": null,
+     "value": 0.22085880284142825
+    },
+    {
+     "block_id": "p5_main-block014",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.0504160869103678,
+      0.5308938866098468,
+      0.8916468029630922,
+      0.16755387045191017,
+      0.3915112149755239,
+      0.15769836822855754
+     ],
+     "near_context_values": null,
+     "value": 0.5316200383565497
+    },
+    {
+     "block_id": "p5_main-block015",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.037170584465839984,
+      -0.0,
+      -0.16016262021367744,
+      0.154779240614156,
+      0.0310380901484264,
+      0.2518903483801361
+     ],
+     "near_context_values": null,
+     "value": 0.04006241241053351
+    },
+    {
+     "block_id": "p5_main-block016",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.0,
+      0.24951194547818206,
+      0.6771920470818795,
+      0.1531546389032098,
+      0.49393612268228626,
+      0.36437207821868023
+     ],
+     "near_context_values": null,
+     "value": 0.32302780539403964
+    },
+    {
+     "block_id": "p5_main-block017",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.32426852896722475,
+      0.3928901761341711,
+      0.1960217618867251,
+      0.9456542182920717,
+      0.7727001319781642,
+      0.8115582110504391
+     ],
+     "near_context_values": null,
+     "value": 0.573848838051466
+    },
+    {
+     "block_id": "p5_main-block018",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.3333536253737961,
+      0.16313381793071946,
+      0.2695581276221256,
+      0.014188682082480086,
+      0.05535661272563258,
+      -0.16701056992448682
+     ],
+     "near_context_values": null,
+     "value": 0.11143004930171117
+    },
+    {
+     "block_id": "p5_main-block019",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.42275069645877594,
+      0.17021947410782468,
+      0.6031854823990663,
+      0.715272611685289,
+      0.5083826213020717,
+      0.2178397144790447
+     ],
+     "near_context_values": null,
+     "value": 0.4396084334053454
+    },
+    {
+     "block_id": "p5_main-block020",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.6202799692888313,
+      0.49878898307033526,
+      0.7613708507910729,
+      0.38094064910305314,
+      0.17961648882727266,
+      0.3930923172451265
+     ],
+     "near_context_values": null,
+     "value": 0.47234820972094865
+    },
+    {
+     "block_id": "p5_main-block021",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.0,
+      -0.16263599085340075,
+      0.04509866581016986,
+      0.10312457936592034,
+      0.08988423499100551,
+      0.016373156164908753
+     ],
+     "near_context_values": null,
+     "value": 0.01530744091310062
+    },
+    {
+     "block_id": "p5_main-block022",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.3448616611166856,
+      0.5006207733816049,
+      0.42799076726125157,
+      0.5295945198226629,
+      0.7307631230480094,
+      0.4644490960197899
+     ],
+     "near_context_values": null,
+     "value": 0.49971332344166736
+    },
+    {
+     "block_id": "p5_main-block023",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.6303690427861663,
+      0.29787486186163814,
+      0.299844268796924,
+      0.33242068756658216,
+      0.06144281897771009,
+      0.4891117586990992
+     ],
+     "near_context_values": null,
+     "value": 0.35184390644801994
+    }
+   ],
+   "blocking_reasons": [],
+   "branch": "RESOLVED_POSITIVE",
+   "confidence": 0.99,
+   "context_value": "regret(audit_loss_drop, T_far) - regret(G20_far, T_far)",
+   "direction_resolved": "greater",
+   "endpoint_seed": 14812571,
+   "estimate": 0.2983975137750498,
+   "family": "E01_far_control_primary_family",
+   "family_denominator": 5,
+   "id": "E01FAR_far_G20far_vs_A_regret",
+   "index_stream_sha256": "576a4f20e9dd42c28daeed94c1a0335afe4a85509d88344ee18441870b801e11",
+   "input_cells_sha256": "e6fb062aaf621b52e77a7567a015aa0476a8be4afc76f84888aff1abec75d624",
+   "interval": [
+    0.20557158966126024,
+    0.3864481771994807
+   ],
+   "kind": "far_regret_improvement",
+   "left": "G20_far",
+   "near_analog": "p5_main_G_vs_A_top_two_regret",
+   "negative_means": "total loss drop has lower far top-two regret than G20_far",
+   "number": 3,
+   "positive_means": "G20_far has lower far top-two regret than total loss drop",
+   "replicates": 20000,
+   "right": "audit_loss_drop",
+   "status": "available",
+   "undefined_or_missing_cells": [],
+   "unit": "nats/token"
+  },
+  {
+   "anticipated_direction": "less",
+   "availability_rule": "A_complete_grid",
+   "block_value": "mean of the block's 6 far context values minus mean of its 6 near context values",
+   "block_values": [
+    {
+     "block_id": "p5_main-block000",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.6190476190476191,
+      0.6904761904761905,
+      0.380952380952381,
+      -0.19047619047619052,
+      0.6190476190476191,
+      -0.09523809523809529
+     ],
+     "near_context_values": [
+      0.19047619047619052,
+      0.4047619047619047,
+      -0.4761904761904762,
+      0.6428571428571429,
+      0.7380952380952381,
+      0.1428571428571428
+     ],
+     "value": 0.06349206349206349
+    },
+    {
+     "block_id": "p5_main-block001",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.26190476190476186,
+      -0.3571428571428571,
+      -0.30952380952380953,
+      -0.42857142857142855,
+      -0.2142857142857143,
+      -0.1428571428571429
+     ],
+     "near_context_values": [
+      -0.5,
+      -0.4285714285714285,
+      -0.42857142857142855,
+      -0.8809523809523809,
+      -0.5,
+      -0.7619047619047619
+     ],
+     "value": 0.29761904761904767
+    },
+    {
+     "block_id": "p5_main-block002",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.023809523809523725,
+      0.11904761904761896,
+      0.0714285714285714,
+      0.2619047619047619,
+      0.3095238095238096,
+      0.023809523809523836
+     ],
+     "near_context_values": [
+      0.023809523809523725,
+      0.09523809523809523,
+      0.11904761904761907,
+      -0.0714285714285714,
+      -0.0714285714285714,
+      0.0714285714285714
+     ],
+     "value": 0.10714285714285714
+    },
+    {
+     "block_id": "p5_main-block003",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.07142857142857142,
+      0.8809523809523809,
+      -0.07142857142857142,
+      0.38095238095238093,
+      0.4523809523809524,
+      0.5476190476190476
+     ],
+     "near_context_values": [
+      0.6666666666666667,
+      0.7380952380952381,
+      0.738095238095238,
+      0.19047619047619047,
+      0.4285714285714286,
+      0.5952380952380952
+     ],
+     "value": -0.20634920634920634
+    },
+    {
+     "block_id": "p5_main-block004",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.23809523809523803,
+      0.3571428571428571,
+      0.3571428571428571,
+      0.4285714285714286,
+      0.4761904761904762,
+      0.4761904761904762
+     ],
+     "near_context_values": [
+      0.11904761904761907,
+      0.26190476190476186,
+      0.11904761904761907,
+      0.4285714285714286,
+      0.38095238095238093,
+      0.40476190476190477
+     ],
+     "value": 0.10317460317460309
+    },
+    {
+     "block_id": "p5_main-block005",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.2857142857142857,
+      0.0714285714285714,
+      -0.2857142857142857,
+      0.19047619047619047,
+      0.11904761904761907,
+      0.09523809523809523
+     ],
+     "near_context_values": [
+      0.09523809523809523,
+      -0.04761904761904756,
+      -0.09523809523809523,
+      0.19047619047619047,
+      0.16666666666666663,
+      0.38095238095238093
+     ],
+     "value": -0.13095238095238093
+    },
+    {
+     "block_id": "p5_main-block006",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.7619047619047619,
+      0.7380952380952381,
+      0.1904761904761905,
+      0.6904761904761905,
+      0.7857142857142857,
+      0.5238095238095238
+     ],
+     "near_context_values": [
+      0.047619047619047616,
+      0.023809523809523808,
+      0.30952380952380953,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.5476190476190477
+     ],
+     "value": 0.2698412698412698
+    },
+    {
+     "block_id": "p5_main-block007",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.19047619047619047,
+      -0.2142857142857142,
+      0.16666666666666663,
+      0.023809523809523836,
+      0.1428571428571429,
+      -0.023809523809523836
+     ],
+     "near_context_values": [
+      0.45238095238095233,
+      0.26190476190476186,
+      0.4285714285714286,
+      0.30952380952380953,
+      0.4285714285714286,
+      0.047619047619047616
+     ],
+     "value": -0.3373015873015873
+    },
+    {
+     "block_id": "p5_main-block008",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.3571428571428571,
+      0.0,
+      0.28571428571428575,
+      0.0,
+      0.09523809523809523,
+      0.023809523809523836
+     ],
+     "near_context_values": [
+      -0.04761904761904767,
+      -0.07142857142857151,
+      -0.04761904761904767,
+      -0.0714285714285714,
+      -0.0714285714285714,
+      -0.09523809523809523
+     ],
+     "value": 0.19444444444444448
+    },
+    {
+     "block_id": "p5_main-block009",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.5476190476190477,
+      0.5476190476190477,
+      0.5476190476190477,
+      0.023809523809523725,
+      0.09523809523809523,
+      0.16666666666666669
+     ],
+     "near_context_values": [
+      0.4285714285714286,
+      0.47619047619047616,
+      0.380952380952381,
+      0.23809523809523814,
+      0.16666666666666674,
+      0.09523809523809523
+     ],
+     "value": 0.023809523809523836
+    },
+    {
+     "block_id": "p5_main-block010",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.23809523809523814,
+      0.2142857142857143,
+      0.26190476190476186,
+      0.16666666666666674,
+      0.19047619047619047,
+      0.26190476190476186
+     ],
+     "near_context_values": [
+      0.45238095238095244,
+      0.33333333333333337,
+      0.33333333333333337,
+      0.16666666666666674,
+      0.16666666666666674,
+      0.11904761904761907
+     ],
+     "value": -0.03968253968253968
+    },
+    {
+     "block_id": "p5_main-block011",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.16666666666666663,
+      0.16666666666666674,
+      0.3095238095238095,
+      0.6666666666666666,
+      0.9285714285714286,
+      0.7619047619047619
+     ],
+     "near_context_values": [
+      -0.023809523809523808,
+      0.30952380952380953,
+      0.26190476190476186,
+      0.8095238095238095,
+      0.4523809523809524,
+      0.5
+     ],
+     "value": 0.11507936507936511
+    },
+    {
+     "block_id": "p5_main-block012",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.14285714285714285,
+      0.3571428571428571,
+      0.6428571428571428,
+      0.11904761904761896,
+      0.3095238095238095,
+      0.11904761904761907
+     ],
+     "near_context_values": [
+      0.8095238095238095,
+      0.7857142857142858,
+      0.6666666666666666,
+      0.3095238095238094,
+      0.16666666666666663,
+      0.16666666666666663
+     ],
+     "value": -0.25
+    },
+    {
+     "block_id": "p5_main-block013",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.9285714285714286,
+      0.8809523809523809,
+      0.8571428571428572,
+      0.8809523809523809,
+      0.9285714285714286,
+      0.8809523809523809
+     ],
+     "near_context_values": [
+      0.7857142857142857,
+      0.9761904761904762,
+      0.9285714285714286,
+      0.11904761904761904,
+      0.023809523809523836,
+      0.30952380952380953
+     ],
+     "value": 0.36904761904761907
+    },
+    {
+     "block_id": "p5_main-block014",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.04761904761904756,
+      0.04761904761904756,
+      0.0,
+      0.16666666666666663,
+      0.16666666666666674,
+      0.0714285714285714
+     ],
+     "near_context_values": [
+      0.0714285714285714,
+      0.0714285714285714,
+      0.0,
+      0.11904761904761907,
+      0.16666666666666663,
+      0.0714285714285714
+     ],
+     "value": 0.0
+    },
+    {
+     "block_id": "p5_main-block015",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.09523809523809529,
+      -0.023809523809523836,
+      0.0714285714285714,
+      0.14285714285714285,
+      0.30952380952380953,
+      0.4523809523809524
+     ],
+     "near_context_values": [
+      0.2619047619047619,
+      0.16666666666666669,
+      0.14285714285714285,
+      0.47619047619047616,
+      0.1904761904761905,
+      0.38095238095238093
+     ],
+     "value": -0.0952380952380952
+    },
+    {
+     "block_id": "p5_main-block016",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.4285714285714286,
+      0.23809523809523814,
+      0.5476190476190477,
+      0.4285714285714285,
+      0.2142857142857142,
+      0.40476190476190477
+     ],
+     "near_context_values": [
+      0.23809523809523814,
+      -0.11904761904761907,
+      0.33333333333333326,
+      0.40476190476190466,
+      0.2857142857142857,
+      0.16666666666666663
+     ],
+     "value": 0.15873015873015875
+    },
+    {
+     "block_id": "p5_main-block017",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.6190476190476191,
+      0.6904761904761905,
+      0.761904761904762,
+      0.38095238095238093,
+      0.4761904761904763,
+      0.5238095238095237
+     ],
+     "near_context_values": [
+      0.5238095238095238,
+      0.5714285714285714,
+      0.5714285714285714,
+      0.28571428571428575,
+      0.38095238095238093,
+      0.2857142857142857
+     ],
+     "value": 0.13888888888888895
+    },
+    {
+     "block_id": "p5_main-block018",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.2857142857142857,
+      0.23809523809523814,
+      0.42857142857142855,
+      -0.2857142857142857,
+      0.2857142857142857,
+      -0.23809523809523808
+     ],
+     "near_context_values": [
+      -0.26190476190476186,
+      -0.1904761904761905,
+      -0.11904761904761907,
+      0.04761904761904756,
+      -0.4761904761904763,
+      -0.47619047619047616
+     ],
+     "value": 0.3650793650793651
+    },
+    {
+     "block_id": "p5_main-block019",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.7380952380952381,
+      0.7619047619047619,
+      0.47619047619047616,
+      0.38095238095238093,
+      0.7142857142857142,
+      0.5
+     ],
+     "near_context_values": [
+      0.6666666666666666,
+      0.5476190476190477,
+      0.7380952380952381,
+      0.738095238095238,
+      0.738095238095238,
+      0.5714285714285714
+     ],
+     "value": -0.0714285714285714
+    },
+    {
+     "block_id": "p5_main-block020",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.8333333333333333,
+      0.8333333333333334,
+      1.0238095238095237,
+      0.8571428571428571,
+      0.6904761904761905,
+      0.6428571428571428
+     ],
+     "near_context_values": [
+      0.8333333333333333,
+      1.0238095238095237,
+      1.0238095238095237,
+      0.5,
+      -0.2142857142857143,
+      1.0714285714285714
+     ],
+     "value": 0.10714285714285698
+    },
+    {
+     "block_id": "p5_main-block021",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.023809523809523836,
+      0.0,
+      0.21428571428571427,
+      -0.11904761904761907,
+      -0.2142857142857143,
+      0.0
+     ],
+     "near_context_values": [
+      0.26190476190476186,
+      0.2619047619047619,
+      0.16666666666666669,
+      0.2857142857142857,
+      -0.16666666666666674,
+      0.30952380952380953
+     ],
+     "value": -0.20238095238095238
+    },
+    {
+     "block_id": "p5_main-block022",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.4047619047619048,
+      0.45238095238095244,
+      0.11904761904761907,
+      0.40476190476190477,
+      0.45238095238095233,
+      0.0714285714285714
+     ],
+     "near_context_values": [
+      0.09523809523809523,
+      0.40476190476190477,
+      0.3333333333333333,
+      0.49999999999999994,
+      0.5476190476190477,
+      0.35714285714285715
+     ],
+     "value": -0.055555555555555525
+    },
+    {
+     "block_id": "p5_main-block023",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.19047619047619047,
+      0.0,
+      0.1428571428571429,
+      0.0714285714285714,
+      0.0,
+      0.33333333333333337
+     ],
+     "near_context_values": [
+      -0.04761904761904756,
+      0.19047619047619047,
+      -0.35714285714285715,
+      0.2619047619047619,
+      0.3095238095238096,
+      0.16666666666666663
+     ],
+     "value": 0.0357142857142857
+    }
+   ],
+   "blocking_reasons": [],
+   "branch": "UNRESOLVED",
+   "confidence": 0.99,
+   "context_value": "far: Spearman(U4,T_far)-Spearman(D,T_far); near: Spearman(U4,T_near)-Spearman(D,T_near)",
+   "direction_resolved": "unresolved",
+   "endpoint_seed": 724251867,
+   "estimate": 0.04001322751322752,
+   "family": "E01_far_control_primary_family",
+   "family_denominator": 5,
+   "id": "E01FAR_far_minus_near_U4_vs_difficulty_rank",
+   "index_stream_sha256": "48da9405f6e4909151602b895fce45514ba945adb89a9849a7df89f6015f43a8",
+   "input_cells_sha256": "6a73ac2852e39a32fe0dc9f6ab45eb2582148a0cd73e9a46c12e057d8c51fdbb",
+   "interval": [
+    -0.05638310185185183,
+    0.13558283730158746
+   ],
+   "kind": "policy_change",
+   "left": "uncovered_base_nll_k4",
+   "near_analog": "p5_main_corpus_vs_difficulty_rank (its per-block cluster_means are the near component)",
+   "negative_means": "U4's rank advantage over difficulty is smaller under far controls (supports policy sensitivity)",
+   "number": 4,
+   "positive_means": "U4's rank advantage over difficulty is larger under far controls (contrary)",
+   "replicates": 20000,
+   "right": "base_difficulty_nll",
+   "status": "available",
+   "undefined_or_missing_cells": [],
+   "unit": "Spearman difference"
+  },
+  {
+   "anticipated_direction": "either",
+   "availability_rule": "A_complete_grid",
+   "block_value": "mean of the block's 6 far context values minus mean of its 6 near context values",
+   "block_values": [
+    {
+     "block_id": "p5_main-block000",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.4285714285714286,
+      1.0952380952380953,
+      1.119047619047619,
+      -0.16666666666666669,
+      1.2857142857142858,
+      0.38095238095238093
+     ],
+     "near_context_values": [
+      0.14285714285714285,
+      0.5238095238095238,
+      0.14285714285714288,
+      0.9285714285714286,
+      0.7619047619047619,
+      1.1428571428571428
+     ],
+     "value": 0.2500000000000001
+    },
+    {
+     "block_id": "p5_main-block001",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.6666666666666667,
+      0.7619047619047619,
+      0.6904761904761905,
+      1.2619047619047619,
+      0.7380952380952381,
+      0.7380952380952381
+     ],
+     "near_context_values": [
+      0.6428571428571428,
+      0.8095238095238095,
+      0.5714285714285715,
+      0.8333333333333334,
+      1.2380952380952381,
+      -0.047619047619047616
+     ],
+     "value": 0.1349206349206351
+    },
+    {
+     "block_id": "p5_main-block002",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.9761904761904762,
+      0.09523809523809523,
+      0.04761904761904767,
+      0.9761904761904762,
+      0.380952380952381,
+      0.38095238095238093
+     ],
+     "near_context_values": [
+      0.9761904761904762,
+      0.09523809523809523,
+      0.16666666666666663,
+      0.7857142857142857,
+      0.11904761904761907,
+      0.5476190476190477
+     ],
+     "value": 0.02777777777777779
+    },
+    {
+     "block_id": "p5_main-block003",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.14285714285714285,
+      0.8571428571428571,
+      0.07142857142857142,
+      1.119047619047619,
+      0.9047619047619047,
+      0.8571428571428572
+     ],
+     "near_context_values": [
+      0.8095238095238095,
+      0.6666666666666666,
+      1.2619047619047619,
+      0.6428571428571428,
+      0.9047619047619047,
+      0.738095238095238
+     ],
+     "value": -0.1785714285714286
+    },
+    {
+     "block_id": "p5_main-block004",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.8809523809523809,
+      1.0238095238095237,
+      0.9285714285714285,
+      1.3095238095238095,
+      1.1904761904761905,
+      1.4285714285714286
+     ],
+     "near_context_values": [
+      0.3571428571428572,
+      0.7619047619047619,
+      0.6904761904761905,
+      1.119047619047619,
+      1.1904761904761905,
+      1.3333333333333335
+     ],
+     "value": 0.21825396825396826
+    },
+    {
+     "block_id": "p5_main-block005",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.0714285714285714,
+      0.3333333333333333,
+      -0.09523809523809523,
+      0.14285714285714285,
+      0.16666666666666669,
+      -0.19047619047619047
+     ],
+     "near_context_values": [
+      0.4761904761904762,
+      0.38095238095238093,
+      0.16666666666666666,
+      0.4047619047619048,
+      0.5476190476190477,
+      0.33333333333333337
+     ],
+     "value": -0.3373015873015873
+    },
+    {
+     "block_id": "p5_main-block006",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.2142857142857144,
+      1.0,
+      1.0476190476190477,
+      1.3095238095238095,
+      0.7380952380952381,
+      1.1428571428571428
+     ],
+     "near_context_values": [
+      1.1666666666666665,
+      1.0,
+      0.8809523809523809,
+      0.5476190476190476,
+      1.0,
+      1.2857142857142858
+     ],
+     "value": 0.09523809523809523
+    },
+    {
+     "block_id": "p5_main-block007",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.26190476190476186,
+      0.4761904761904762,
+      0.33333333333333337,
+      0.2142857142857143,
+      0.6904761904761905,
+      0.04761904761904767
+     ],
+     "near_context_values": [
+      0.45238095238095244,
+      0.6428571428571428,
+      0.7142857142857143,
+      0.8809523809523809,
+      1.0,
+      0.6190476190476191
+     ],
+     "value": -0.380952380952381
+    },
+    {
+     "block_id": "p5_main-block008",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.6666666666666666,
+      0.5,
+      0.4523809523809524,
+      0.4047619047619048,
+      0.26190476190476186,
+      -0.023809523809523836
+     ],
+     "near_context_values": [
+      0.09523809523809523,
+      0.6428571428571429,
+      0.5238095238095237,
+      0.023809523809523836,
+      0.6666666666666666,
+      -0.2142857142857143
+     ],
+     "value": 0.08730158730158727
+    },
+    {
+     "block_id": "p5_main-block009",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.5,
+      0.6428571428571428,
+      1.5952380952380953,
+      0.42857142857142855,
+      0.40476190476190477,
+      0.7857142857142857
+     ],
+     "near_context_values": [
+      1.119047619047619,
+      0.6904761904761905,
+      1.4523809523809523,
+      0.8333333333333334,
+      0.5476190476190477,
+      0.3333333333333333
+     ],
+     "value": 0.06349206349206338
+    },
+    {
+     "block_id": "p5_main-block010",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.0952380952380953,
+      0.2857142857142857,
+      1.3095238095238095,
+      0.7857142857142857,
+      0.5952380952380952,
+      0.6190476190476191
+     ],
+     "near_context_values": [
+      1.2142857142857142,
+      0.5238095238095237,
+      1.3333333333333335,
+      0.8571428571428571,
+      0.7857142857142858,
+      0.6428571428571428
+     ],
+     "value": -0.11111111111111105
+    },
+    {
+     "block_id": "p5_main-block011",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.6428571428571428,
+      0.8809523809523809,
+      0.6904761904761905,
+      1.2380952380952381,
+      1.0238095238095237,
+      0.8571428571428572
+     ],
+     "near_context_values": [
+      -0.047619047619047616,
+      1.2142857142857142,
+      0.7857142857142857,
+      1.5476190476190474,
+      1.2142857142857142,
+      1.2857142857142858
+     ],
+     "value": -0.11111111111111116
+    },
+    {
+     "block_id": "p5_main-block012",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.023809523809523836,
+      1.3333333333333335,
+      1.5952380952380953,
+      1.0476190476190477,
+      0.7857142857142857,
+      0.6666666666666666
+     ],
+     "near_context_values": [
+      0.8809523809523809,
+      1.5,
+      0.9047619047619048,
+      1.2619047619047619,
+      0.3333333333333333,
+      0.6190476190476191
+     ],
+     "value": -0.007936507936507908
+    },
+    {
+     "block_id": "p5_main-block013",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.1904761904761905,
+      1.1904761904761905,
+      0.6428571428571428,
+      1.3095238095238095,
+      1.5476190476190477,
+      0.8333333333333333
+     ],
+     "near_context_values": [
+      1.0238095238095237,
+      0.8333333333333333,
+      0.7619047619047619,
+      0.16666666666666666,
+      0.23809523809523808,
+      0.5476190476190476
+     ],
+     "value": 0.5238095238095238
+    },
+    {
+     "block_id": "p5_main-block014",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.5,
+      0.9523809523809523,
+      1.4761904761904763,
+      0.7380952380952381,
+      1.2380952380952381,
+      0.23809523809523803
+     ],
+     "near_context_values": [
+      1.6666666666666665,
+      0.9523809523809523,
+      1.6428571428571428,
+      0.6904761904761905,
+      1.0,
+      0.23809523809523803
+     ],
+     "value": -0.007936507936507686
+    },
+    {
+     "block_id": "p5_main-block015",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.11904761904761907,
+      0.14285714285714285,
+      0.047619047619047616,
+      0.5476190476190477,
+      0.7857142857142858,
+      0.9047619047619048
+     ],
+     "near_context_values": [
+      0.4285714285714286,
+      0.5476190476190477,
+      0.5476190476190477,
+      0.9761904761904762,
+      0.5952380952380952,
+      0.2857142857142857
+     ],
+     "value": -0.17857142857142855
+    },
+    {
+     "block_id": "p5_main-block016",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.5,
+      0.5476190476190477,
+      1.2142857142857142,
+      0.8809523809523809,
+      0.8571428571428571,
+      0.8095238095238095
+     ],
+     "near_context_values": [
+      0.3571428571428571,
+      0.4047619047619048,
+      1.0476190476190474,
+      0.9047619047619048,
+      0.8571428571428572,
+      0.6666666666666666
+     ],
+     "value": 0.09523809523809512
+    },
+    {
+     "block_id": "p5_main-block017",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.4047619047619047,
+      1.2857142857142856,
+      0.6190476190476191,
+      1.119047619047619,
+      1.2857142857142856,
+      1.0714285714285714
+     ],
+     "near_context_values": [
+      1.0952380952380953,
+      0.7857142857142858,
+      0.7142857142857143,
+      1.0238095238095237,
+      1.1666666666666667,
+      0.7380952380952381
+     ],
+     "value": 0.21031746031746035
+    },
+    {
+     "block_id": "p5_main-block018",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.0238095238095237,
+      0.2857142857142857,
+      0.7619047619047619,
+      0.11904761904761907,
+      0.6904761904761905,
+      0.0
+     ],
+     "near_context_values": [
+      0.5238095238095238,
+      0.3571428571428572,
+      0.47619047619047616,
+      0.6666666666666666,
+      -0.47619047619047616,
+      0.0
+     ],
+     "value": 0.2222222222222222
+    },
+    {
+     "block_id": "p5_main-block019",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.1904761904761905,
+      1.0,
+      1.2619047619047619,
+      0.7857142857142858,
+      1.1666666666666667,
+      0.7857142857142857
+     ],
+     "near_context_values": [
+      1.2619047619047619,
+      0.8809523809523809,
+      1.2142857142857144,
+      1.0952380952380951,
+      1.2857142857142856,
+      0.761904761904762
+     ],
+     "value": -0.051587301587301404
+    },
+    {
+     "block_id": "p5_main-block020",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.380952380952381,
+      1.2142857142857142,
+      1.4285714285714284,
+      1.2857142857142856,
+      1.2857142857142856,
+      1.1428571428571428
+     ],
+     "near_context_values": [
+      1.2142857142857144,
+      1.2857142857142856,
+      1.2142857142857144,
+      1.1666666666666667,
+      0.5,
+      1.5714285714285714
+     ],
+     "value": 0.1309523809523807
+    },
+    {
+     "block_id": "p5_main-block021",
+     "contexts_used": 6,
+     "far_context_values": [
+      -0.3571428571428571,
+      -0.2857142857142857,
+      0.26190476190476186,
+      -0.26190476190476186,
+      -0.2857142857142857,
+      0.38095238095238093
+     ],
+     "near_context_values": [
+      -0.09523809523809523,
+      0.5476190476190476,
+      0.16666666666666674,
+      0.04761904761904756,
+      -0.1428571428571429,
+      0.0
+     ],
+     "value": -0.17857142857142855
+    },
+    {
+     "block_id": "p5_main-block022",
+     "contexts_used": 6,
+     "far_context_values": [
+      1.0,
+      1.4761904761904763,
+      1.0238095238095237,
+      1.2142857142857144,
+      1.4761904761904763,
+      1.0476190476190477
+     ],
+     "near_context_values": [
+      0.7857142857142857,
+      1.2857142857142856,
+      1.619047619047619,
+      1.3571428571428572,
+      1.3095238095238095,
+      0.8333333333333334
+     ],
+     "value": 0.007936507936507908
+    },
+    {
+     "block_id": "p5_main-block023",
+     "contexts_used": 6,
+     "far_context_values": [
+      0.9285714285714286,
+      0.9047619047619048,
+      0.9285714285714285,
+      0.7142857142857143,
+      0.5476190476190477,
+      1.1904761904761905
+     ],
+     "near_context_values": [
+      1.0714285714285714,
+      1.1428571428571428,
+      0.09523809523809523,
+      0.8809523809523809,
+      1.2142857142857142,
+      1.2857142857142858
+     ],
+     "value": -0.07936507936507942
+    }
+   ],
+   "blocking_reasons": [],
+   "branch": "UNRESOLVED",
+   "confidence": 0.99,
+   "context_value": "far: Spearman(G20_far,T_far)-Spearman(A,T_far); near: Spearman(G20,T_near)-Spearman(A,T_near)",
+   "direction_resolved": "unresolved",
+   "endpoint_seed": 1793251814,
+   "estimate": 0.018518518518518528,
+   "family": "E01_far_control_primary_family",
+   "family_denominator": 5,
+   "id": "E01FAR_far_minus_near_G20_vs_A_rank",
+   "index_stream_sha256": "f2d428a467c725ceca412ea0061ded551a8902cb35551f9d0f78065b38fca280",
+   "input_cells_sha256": "dbb1ef586e3c177f3b7dfd28cacc6ca89d4dba61d9c55f6009790bfb98d53404",
+   "interval": [
+    -0.08482225529100529,
+    0.12086640211640208
+   ],
+   "kind": "policy_change",
+   "left": "G20_far (far arm) / G20 (near arm)",
+   "near_analog": "p5_main_G_vs_A_spearman (its per-block cluster_means are the near component)",
+   "negative_means": "the G20-over-loss-drop rank advantage is smaller under far controls",
+   "number": 5,
+   "positive_means": "the G20-over-loss-drop rank advantage is larger under far controls",
+   "replicates": 20000,
+   "right": "audit_loss_drop",
+   "status": "available",
+   "undefined_or_missing_cells": [],
+   "unit": "Spearman difference"
+  }
+ ],
+ "experiment_branch": {
+  "G20_policy_contrast_endpoint_5": "UNRESOLVED",
+  "U4_policy_contrast_endpoint_4": "UNRESOLVED",
+  "abort_reasons": [],
+  "interpretation_limits": [
+   "An unresolved interval does not establish invariance or equivalence.",
+   "Unavailability and method failure are not scientific nulls.",
+   "No outcome demonstrates practical data-selection utility or supplies missing attribution comparisons.",
+   "Far-minus-near contrasts test replacement-policy dependence, not lexical distance as a sole cause."
+  ]
+ },
+ "family": {
+  "adjustment": "Bonferroni: each two-sided percentile interval at 1 - alpha/5 (0.99)",
+  "alpha": 0.05,
+  "bootstrap_replicates": 20000,
+  "endpoint_seed_rule": "stable_seed(root_seed, endpoint_id): SHA-256 of the pipe-joined decimal/string parts, first 8 bytes big-endian, modulo 2**31-1 (original helper).",
+  "law": "Python random.Random(endpoint_seed); per replicate draw 24 block indices with replacement by 24 successive randrange(24) calls over the sorted block order; statistic = equal-weight mean of the drawn block values; fixed backgrounds, seeds and focals are retained inside blocks.",
+  "name": "E01_far_control_primary_family",
+  "percentile": "Linear interpolation at index (n-1)*p with p = (1-confidence)/2 and 1-(1-confidence)/2.",
+  "root_seed": 202610101747,
+  "separate_from": [
+   "LM_primary: original 11-test family (5,000 draws, root 2026100205, 1-0.05/11)",
+   "new_joint_E01_E02_E03_E04_main_family: later 11-endpoint follow-up family (20,000 draws, root 202610051754, 1-0.05/11); its 'E01' is a different (G5 reference) study"
+  ],
+  "test_count": 5,
+  "unavailable_endpoints_stay_in_denominator": true
+ },
+ "population": {
+  "backgrounds": [
+   0,
+   1
+  ],
+  "blocks": [
+   "p5_main-block000",
+   "p5_main-block001",
+   "p5_main-block002",
+   "p5_main-block003",
+   "p5_main-block004",
+   "p5_main-block005",
+   "p5_main-block006",
+   "p5_main-block007",
+   "p5_main-block008",
+   "p5_main-block009",
+   "p5_main-block010",
+   "p5_main-block011",
+   "p5_main-block012",
+   "p5_main-block013",
+   "p5_main-block014",
+   "p5_main-block015",
+   "p5_main-block016",
+   "p5_main-block017",
+   "p5_main-block018",
+   "p5_main-block019",
+   "p5_main-block020",
+   "p5_main-block021",
+   "p5_main-block022",
+   "p5_main-block023"
+  ],
+  "contexts_expected": 144,
+  "focals_per_context": 8,
+  "inference_unit": "original block",
+  "seed_labels": [
+   0,
+   1,
+   2
+  ],
+  "weighting": "equal contexts within block, equal blocks"
+ },
+ "release": {
+  "analysis_spec_sha256": "486902ca82cc5b871575afeaf4171050be5e7e960a74ad7f4949f95cbd5e3b2b",
+  "package_sealed": true,
+  "package_sha256": "d9e4cae404bc7184b350b91820e8e6345561c54d0e57d2ebfc1b87b4764de361",
+  "release_id": "acl-e01-farcontrol-py311-20261010-v1",
+  "science_sha256": "c50396599a2c1c21ce6c78be493e3076824c6e836e43a492c92428c3cf9c1de0"
+ },
+ "schema": "e01-far-control-analysis-draft-v1",
+ "source_hashes": {
+  "analysis_e01.py": "536fac37fb5617d8a00a06ce3c957260c16117eea41919346d41063812926dd5",
+  "far": "83434b3cb7cfd731fd1b5c475392c509fb7ebd2caa0a1993cdcbad804aa76370",
+  "near": "e3e5a9cf750eaca3e894a91d6dbab2ece054cc1cdc878a6b8a3ff009eab1a12c"
+ },
+ "status": "draft_analysis_output"
+}

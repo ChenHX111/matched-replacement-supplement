@@ -1,0 +1,21 @@
+\begin{table}[tp]
+\centering
+\small
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Setting & Uncovered & Retained & SD within & Rank($U_4$, D) & Same top two \\
+\midrule
+Main & 43.99\% & 48.81\% & 0.1249 & 0.5491 & 30/144 \\
+IMDb & 91.16\% & 93.58\% & 0.0335 & 0.9688 & 48/48 \\
+GPT-2 & 42.93\% & 48.13\% & 0.1117 & 0.4539 & 6/48 \\
+\bottomrule
+\end{tabular}}
+\caption{Post-hoc input-only support structure (settings as in Table~\ref{tab:panel_reliability}). Uncovered is
+the mean share of scored four-gram endpoints
+absent from the remaining training corpus; Retained is $U_4$ divided by base loss, averaged over focals; SD
+within is the within-context standard deviation of the uncovered share; Rank($U_4$, D) is the mean
+within-context Spearman correlation of $U_4$ with difficulty; Same top two counts contexts where $U_4$ and
+difficulty select the same two focals. All are computable before training.}
+\label{tab:panel_support}
+\end{table}

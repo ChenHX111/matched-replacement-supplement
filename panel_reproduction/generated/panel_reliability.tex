@@ -1,0 +1,26 @@
+\begin{table*}[tp]
+\centering
+\small
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{%
+\begin{tabular}{@{}lrrrrrrrrrr@{}}
+\toprule
+& \multicolumn{3}{c}{Target reliability} & \multicolumn{3}{c}{Observed / ceiling} & \multicolumn{3}{c}{Variance share of $\theta$} & \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+Setting & Seed rank & Two-seed & Ceiling & $G_{20}$ & $U_4$ & Diff. & Focal & Focal$\times$bg & Seed & $G_{20}$ repeat. \\
+\midrule
+Main & 0.5337 & 0.6960 & 0.8343 & 0.79 & 0.72 & 0.42 & 0.57 & 0.00 & 0.43 & 0.6601 \\
+IMDb & 0.4995 & 0.6662 & 0.8162 & 0.72 & 0.77 & 0.78 & 0.60 & 0.00 & 0.40 & 0.5084 \\
+GPT-2 & 0.9251 & 0.9611 & 0.9804 & 0.97 & 0.78 & 0.48 & 0.95 & 0.02 & 0.03 & 0.9420 \\
+\bottomrule
+\end{tabular}}
+\caption{Post-hoc target reliability (Main is MultiEURLEX/Pythia; IMDb is IMDb/Pythia; GPT-2 is MultiEURLEX/GPT-2).
+Seed rank is the mean within-context Spearman correlation between two
+seeds' individual effects. Two-seed applies the Spearman--Brown formula to the two-seed mean target, and
+Ceiling is its square root: the approximate rank a perfect predictor of expected benefit would reach against
+this noisy target (a classical-test-theory approximation applied to ranks, assuming additive independent
+seed noise; indicative only). Observed / ceiling divides each
+score's published rank by that ceiling. Variance shares decompose within-context variation of the individual
+effect into a stable focal component, a focal-by-background interaction and seed residual (method of moments,
+truncated at zero). $G_{20}$ repeat. is the same seed-rank statistic for $G_{20}$ itself.}
+\label{tab:panel_reliability}
+\end{table*}

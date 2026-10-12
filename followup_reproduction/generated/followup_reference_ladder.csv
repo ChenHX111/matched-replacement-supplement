@@ -1,0 +1,4 @@
+setting,blocks,contexts,monotone_block_count,monotone_context_count,undefined_context_frontiers,no_new_significance_tests,G20_minus_half,half_minus_disjoint,disjoint_minus_fixed_reuse
+p5_main,24,72,12,33,0,True,0.04993386243386242,0.15277777777777782,-0.029100529100529116
+p5_corpus,8,24,0,5,0,True,0.03472222222222221,-0.043650793650793634,0.0257936507936508
+p5_model,8,24,6,18,0,True,0.1180555555555555,0.2023809523809524,0.10019841269841269

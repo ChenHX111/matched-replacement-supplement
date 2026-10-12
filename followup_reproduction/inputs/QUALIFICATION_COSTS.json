@@ -1,0 +1,144 @@
+{
+  "E01_cost_gate": {
+    "limit_job_hours": 215,
+    "status": "pass_on_all_six_workers"
+  },
+  "E02_blocked_scientific_actions": 96,
+  "E02_cost_gate": {
+    "limit_job_hours": 210,
+    "status": "not_reached_after_numerical_qualification_failure"
+  },
+  "E02_failed_qualifications": 6,
+  "E04_blocked_scientific_actions": 120,
+  "E04_failed_qualifications": 10,
+  "accepted_categories": [
+    {
+      "accepted_actions": 60,
+      "accepted_full_fits": 60,
+      "class": "qualification/base_qualification",
+      "exclusive_accepted_action_seconds": 137193.40961045958,
+      "exclusive_accepted_gpu_job_hours": 38.10928044734988,
+      "reported_accepted_action_seconds": 137193.40961045958,
+      "timing_status": "exclusive_observed"
+    },
+    {
+      "accepted_actions": 10,
+      "accepted_full_fits": 0,
+      "class": "qualification/objective_qualification",
+      "exclusive_accepted_action_seconds": 0.0,
+      "exclusive_accepted_gpu_job_hours": 0.0,
+      "reported_accepted_action_seconds": 0.0,
+      "timing_status": "exclusive_observed"
+    },
+    {
+      "accepted_actions": 6,
+      "accepted_full_fits": 0,
+      "class": "qualification/plain_qualification/E02",
+      "exclusive_accepted_action_seconds": 0.0,
+      "exclusive_accepted_gpu_job_hours": 0.0,
+      "reported_accepted_action_seconds": 0.0,
+      "timing_status": "exclusive_observed"
+    },
+    {
+      "accepted_actions": 96,
+      "accepted_full_fits": 0,
+      "class": "science/plain_epoch_diagnostic/E02",
+      "exclusive_accepted_action_seconds": null,
+      "exclusive_accepted_gpu_job_hours": null,
+      "reported_accepted_action_seconds": 1059.165726782754,
+      "timing_status": "unresolved_shared_replay_overlap"
+    },
+    {
+      "accepted_actions": 768,
+      "accepted_full_fits": 768,
+      "class": "science/reference_fit/E01",
+      "exclusive_accepted_action_seconds": 235400.42136063427,
+      "exclusive_accepted_gpu_job_hours": 65.38900593350952,
+      "reported_accepted_action_seconds": 235400.42136063427,
+      "timing_status": "exclusive_observed"
+    },
+    {
+      "accepted_actions": 240,
+      "accepted_full_fits": 240,
+      "class": "science/reference_fit/E03",
+      "exclusive_accepted_action_seconds": 65909.39192092605,
+      "exclusive_accepted_gpu_job_hours": 18.308164422479457,
+      "reported_accepted_action_seconds": 65909.39192092605,
+      "timing_status": "exclusive_observed"
+    },
+    {
+      "accepted_actions": 120,
+      "accepted_full_fits": 120,
+      "class": "science/shared_replay",
+      "exclusive_accepted_action_seconds": 103363.16836868599,
+      "exclusive_accepted_gpu_job_hours": 28.711991213523888,
+      "reported_accepted_action_seconds": 103363.16836868599,
+      "timing_status": "exclusive_observed"
+    }
+  ],
+  "accepted_qualification_job_hours": 38.10928044734988,
+  "accepted_scientific_job_hours": null,
+  "actions": {
+    "accepted": 1300,
+    "active": 0,
+    "blocked": 216,
+    "failed": 16,
+    "interrupted": 0,
+    "planned": 1532,
+    "unstarted": 0
+  },
+  "boundary": "Accepted aggregate cost/qualification evidence, not a native-journal or timer reconstruction. Do not fill the overlapping science total or synchronized elapsed time.",
+  "campaign_elapsed_hours": null,
+  "failed_observed_seconds": 2658.753073288128,
+  "known_exclusive_scientific_job_hours_subtotal": 112.40916156951286,
+  "observed_six_worker_journal_window_seconds": 95385.27161359787,
+  "observed_window_is_not_verified_synchronized_elapsed": true,
+  "qualification_fits": {
+    "accepted": 60,
+    "active": 0,
+    "blocked": 0,
+    "failed": 0,
+    "interrupted": 0,
+    "planned": 60,
+    "unstarted": 0
+  },
+  "reference_policy_costs": [
+    {
+      "accepted_full_fits": "384",
+      "definition": "Accepted reference action durations only; excludes shared replay/qualification and does not impute historical G20 or separate reuse costs.",
+      "exclusive_reference_action_seconds": "117708.97179390676",
+      "policy": "G5_coherent"
+    },
+    {
+      "accepted_full_fits": "384",
+      "definition": "Accepted reference action durations only; excludes shared replay/qualification and does not impute historical G20 or separate reuse costs.",
+      "exclusive_reference_action_seconds": "117691.4495667275",
+      "policy": "G5_dispersed"
+    },
+    {
+      "accepted_full_fits": "120",
+      "definition": "Accepted reference action durations only; excludes shared replay/qualification and does not impute historical G20 or separate reuse costs.",
+      "exclusive_reference_action_seconds": "32981.65951901302",
+      "policy": "R_disj"
+    },
+    {
+      "accepted_full_fits": "120",
+      "definition": "Accepted reference action durations only; excludes shared replay/qualification and does not impute historical G20 or separate reuse costs.",
+      "exclusive_reference_action_seconds": "32927.73240191303",
+      "policy": "R_half"
+    }
+  ],
+  "reported_scientific_seconds": 405732.14737702906,
+  "schema": "anonymous-followup-accepted-cost-availability-v1",
+  "science_fits": {
+    "accepted": 1128,
+    "active": 0,
+    "blocked": 0,
+    "failed": 0,
+    "interrupted": 0,
+    "planned": 1128,
+    "unstarted": 0
+  },
+  "timing_issue": "UNRESOLVED_SHARED_PLAIN_FINALIZER_OVERLAP",
+  "unknown_failed_duration_count": 0
+}

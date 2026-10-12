@@ -1,0 +1,23 @@
+\begin{table}[tp]
+\centering
+\small
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{%
+\begin{tabular}{@{}lll@{}}
+\toprule
+& Advantage & Estimate [99.375\%] \\
+\midrule
+\multicolumn{3}{@{}l}{\emph{After one pass (background 0; 72 contexts)}} \\
+X1 & $G_{20}$ over loss drop, rank & 0.6677 [0.4511, 0.8765] \\
+X2 & $U_4$ over difficulty, rank & 0.2460 [0.1233, 0.3889] \\
+X3 & $G_{20}$ over loss drop, regret & 0.1102 [0.0515, 0.1718] \\
+X4 & $U_4$ over difficulty, regret & 0.0273 [-0.0335, 0.0773] \\
+\multicolumn{3}{@{}l}{\emph{Against the Adam gradient score (both backgrounds; 144)}} \\
+Y1 & $G_{20}$ over Adam, rank & 0.3750 [0.2645, 0.4779] \\
+Y2 & $U_4$ over Adam, rank & 0.3146 [0.1914, 0.4363] \\
+Y3 & $G_{20}$ over Adam, regret & 0.1714 [0.1122, 0.2337] \\
+Y4 & $U_4$ over Adam, regret & 0.1333 [0.0589, 0.2068] \\
+\bottomrule
+\end{tabular}}
+\caption{Pre-registered replay family: Bonferroni 99.375\% intervals, 20,000 whole-block draws over 24 blocks. Positive values favour the first score (higher rank or lower top-two regret against cross-seed benefit). Only X4 is unresolved.}
+\label{tab:e06_main}
+\end{table}

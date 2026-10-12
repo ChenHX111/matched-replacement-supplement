@@ -1,0 +1,5 @@
+scope,setting,blocks,minimum_net_support_fraction_contrast,maximum_net_support_fraction_contrast,original_gate_applies,unit
+original_both_background_feasibility,p5_main,24,0.04485294117647059,0.09142156862745097,True,net companion k4 support fraction; not outcome loss
+original_both_background_feasibility,p5_corpus,8,0.006127450980392157,0.017892156862745097,False,net companion k4 support fraction; not outcome loss
+executed_background0_assignment,p5_main,24,0.043627450980392155,0.09215686274509804,False,net companion k4 support fraction; not outcome loss
+executed_background0_assignment,p5_corpus,8,0.0058823529411764705,0.018627450980392157,False,net companion k4 support fraction; not outcome loss

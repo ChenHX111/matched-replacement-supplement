@@ -1,0 +1,5547 @@
+{
+  "E02_configuration_summaries": [
+    {
+      "block_ids": [
+        "p5_main-block000",
+        "p5_main-block002",
+        "p5_main-block003",
+        "p5_main-block004",
+        "p5_main-block006",
+        "p5_main-block007",
+        "p5_main-block008",
+        "p5_main-block009",
+        "p5_main-block010",
+        "p5_main-block011",
+        "p5_main-block012",
+        "p5_main-block013",
+        "p5_main-block014",
+        "p5_main-block015",
+        "p5_main-block016",
+        "p5_main-block017",
+        "p5_main-block018",
+        "p5_main-block020",
+        "p5_main-block022",
+        "p5_main-block023"
+      ],
+      "block_values": null,
+      "mean_spearman": null,
+      "mean_top_two_regret": null,
+      "protocol_key": "raw_0.001",
+      "scope": "all six retained; descriptive evaluation points, no extra tests",
+      "selected_by_development": null,
+      "setting": "p5_main",
+      "status": "blocked_selection",
+      "target": "original_cross_seed",
+      "worker_score_key": "raw-1e-3"
+    },
+    {
+      "block_ids": [
+        "p5_main-block000",
+        "p5_main-block002",
+        "p5_main-block003",
+        "p5_main-block004",
+        "p5_main-block006",
+        "p5_main-block007",
+        "p5_main-block008",
+        "p5_main-block009",
+        "p5_main-block010",
+        "p5_main-block011",
+        "p5_main-block012",
+        "p5_main-block013",
+        "p5_main-block014",
+        "p5_main-block015",
+        "p5_main-block016",
+        "p5_main-block017",
+        "p5_main-block018",
+        "p5_main-block020",
+        "p5_main-block022",
+        "p5_main-block023"
+      ],
+      "block_values": null,
+      "mean_spearman": null,
+      "mean_top_two_regret": null,
+      "protocol_key": "raw_0.01",
+      "scope": "all six retained; descriptive evaluation points, no extra tests",
+      "selected_by_development": null,
+      "setting": "p5_main",
+      "status": "blocked_selection",
+      "target": "original_cross_seed",
+      "worker_score_key": "raw-1e-2"
+    },
+    {
+      "block_ids": [
+        "p5_main-block000",
+        "p5_main-block002",
+        "p5_main-block003",
+        "p5_main-block004",
+        "p5_main-block006",
+        "p5_main-block007",
+        "p5_main-block008",
+        "p5_main-block009",
+        "p5_main-block010",
+        "p5_main-block011",
+        "p5_main-block012",
+        "p5_main-block013",
+        "p5_main-block014",
+        "p5_main-block015",
+        "p5_main-block016",
+        "p5_main-block017",
+        "p5_main-block018",
+        "p5_main-block020",
+        "p5_main-block022",
+        "p5_main-block023"
+      ],
+      "block_values": null,
+      "mean_spearman": null,
+      "mean_top_two_regret": null,
+      "protocol_key": "raw_0.0001",
+      "scope": "all six retained; descriptive evaluation points, no extra tests",
+      "selected_by_development": null,
+      "setting": "p5_main",
+      "status": "blocked_selection",
+      "target": "original_cross_seed",
+      "worker_score_key": "raw-1e-4"
+    },
+    {
+      "block_ids": [
+        "p5_main-block000",
+        "p5_main-block002",
+        "p5_main-block003",
+        "p5_main-block004",
+        "p5_main-block006",
+        "p5_main-block007",
+        "p5_main-block008",
+        "p5_main-block009",
+        "p5_main-block010",
+        "p5_main-block011",
+        "p5_main-block012",
+        "p5_main-block013",
+        "p5_main-block014",
+        "p5_main-block015",
+        "p5_main-block016",
+        "p5_main-block017",
+        "p5_main-block018",
+        "p5_main-block020",
+        "p5_main-block022",
+        "p5_main-block023"
+      ],
+      "block_values": null,
+      "mean_spearman": null,
+      "mean_top_two_regret": null,
+      "protocol_key": "normalized_0.001",
+      "scope": "all six retained; descriptive evaluation points, no extra tests",
+      "selected_by_development": null,
+      "setting": "p5_main",
+      "status": "blocked_selection",
+      "target": "original_cross_seed",
+      "worker_score_key": "normalized-1e-3"
+    },
+    {
+      "block_ids": [
+        "p5_main-block000",
+        "p5_main-block002",
+        "p5_main-block003",
+        "p5_main-block004",
+        "p5_main-block006",
+        "p5_main-block007",
+        "p5_main-block008",
+        "p5_main-block009",
+        "p5_main-block010",
+        "p5_main-block011",
+        "p5_main-block012",
+        "p5_main-block013",
+        "p5_main-block014",
+        "p5_main-block015",
+        "p5_main-block016",
+        "p5_main-block017",
+        "p5_main-block018",
+        "p5_main-block020",
+        "p5_main-block022",
+        "p5_main-block023"
+      ],
+      "block_values": null,
+      "mean_spearman": null,
+      "mean_top_two_regret": null,
+      "protocol_key": "normalized_0.01",
+      "scope": "all six retained; descriptive evaluation points, no extra tests",
+      "selected_by_development": null,
+      "setting": "p5_main",
+      "status": "blocked_selection",
+      "target": "original_cross_seed",
+      "worker_score_key": "normalized-1e-2"
+    },
+    {
+      "block_ids": [
+        "p5_main-block000",
+        "p5_main-block002",
+        "p5_main-block003",
+        "p5_main-block004",
+        "p5_main-block006",
+        "p5_main-block007",
+        "p5_main-block008",
+        "p5_main-block009",
+        "p5_main-block010",
+        "p5_main-block011",
+        "p5_main-block012",
+        "p5_main-block013",
+        "p5_main-block014",
+        "p5_main-block015",
+        "p5_main-block016",
+        "p5_main-block017",
+        "p5_main-block018",
+        "p5_main-block020",
+        "p5_main-block022",
+        "p5_main-block023"
+      ],
+      "block_values": null,
+      "mean_spearman": null,
+      "mean_top_two_regret": null,
+      "protocol_key": "normalized_0.0001",
+      "scope": "all six retained; descriptive evaluation points, no extra tests",
+      "selected_by_development": null,
+      "setting": "p5_main",
+      "status": "blocked_selection",
+      "target": "original_cross_seed",
+      "worker_score_key": "normalized-1e-4"
+    },
+    {
+      "block_ids": [
+        "p5_corpus-block000",
+        "p5_corpus-block001",
+        "p5_corpus-block002",
+        "p5_corpus-block003",
+        "p5_corpus-block004",
+        "p5_corpus-block005",
+        "p5_corpus-block006",
+        "p5_corpus-block007"
+      ],
+      "block_values": null,
+      "mean_spearman": null,
+      "mean_top_two_regret": null,
+      "protocol_key": "raw_0.001",
+      "scope": "all six retained; descriptive evaluation points, no extra tests",
+      "selected_by_development": null,
+      "setting": "p5_corpus",
+      "status": "blocked_selection",
+      "target": "original_cross_seed",
+      "worker_score_key": "raw-1e-3"
+    },
+    {
+      "block_ids": [
+        "p5_corpus-block000",
+        "p5_corpus-block001",
+        "p5_corpus-block002",
+        "p5_corpus-block003",
+        "p5_corpus-block004",
+        "p5_corpus-block005",
+        "p5_corpus-block006",
+        "p5_corpus-block007"
+      ],
+      "block_values": null,
+      "mean_spearman": null,
+      "mean_top_two_regret": null,
+      "protocol_key": "raw_0.01",
+      "scope": "all six retained; descriptive evaluation points, no extra tests",
+      "selected_by_development": null,
+      "setting": "p5_corpus",
+      "status": "blocked_selection",
+      "target": "original_cross_seed",
+      "worker_score_key": "raw-1e-2"
+    },
+    {
+      "block_ids": [
+        "p5_corpus-block000",
+        "p5_corpus-block001",
+        "p5_corpus-block002",
+        "p5_corpus-block003",
+        "p5_corpus-block004",
+        "p5_corpus-block005",
+        "p5_corpus-block006",
+        "p5_corpus-block007"
+      ],
+      "block_values": null,
+      "mean_spearman": null,
+      "mean_top_two_regret": null,
+      "protocol_key": "raw_0.0001",
+      "scope": "all six retained; descriptive evaluation points, no extra tests",
+      "selected_by_development": null,
+      "setting": "p5_corpus",
+      "status": "blocked_selection",
+      "target": "original_cross_seed",
+      "worker_score_key": "raw-1e-4"
+    },
+    {
+      "block_ids": [
+        "p5_corpus-block000",
+        "p5_corpus-block001",
+        "p5_corpus-block002",
+        "p5_corpus-block003",
+        "p5_corpus-block004",
+        "p5_corpus-block005",
+        "p5_corpus-block006",
+        "p5_corpus-block007"
+      ],
+      "block_values": null,
+      "mean_spearman": null,
+      "mean_top_two_regret": null,
+      "protocol_key": "normalized_0.001",
+      "scope": "all six retained; descriptive evaluation points, no extra tests",
+      "selected_by_development": null,
+      "setting": "p5_corpus",
+      "status": "blocked_selection",
+      "target": "original_cross_seed",
+      "worker_score_key": "normalized-1e-3"
+    },
+    {
+      "block_ids": [
+        "p5_corpus-block000",
+        "p5_corpus-block001",
+        "p5_corpus-block002",
+        "p5_corpus-block003",
+        "p5_corpus-block004",
+        "p5_corpus-block005",
+        "p5_corpus-block006",
+        "p5_corpus-block007"
+      ],
+      "block_values": null,
+      "mean_spearman": null,
+      "mean_top_two_regret": null,
+      "protocol_key": "normalized_0.01",
+      "scope": "all six retained; descriptive evaluation points, no extra tests",
+      "selected_by_development": null,
+      "setting": "p5_corpus",
+      "status": "blocked_selection",
+      "target": "original_cross_seed",
+      "worker_score_key": "normalized-1e-2"
+    },
+    {
+      "block_ids": [
+        "p5_corpus-block000",
+        "p5_corpus-block001",
+        "p5_corpus-block002",
+        "p5_corpus-block003",
+        "p5_corpus-block004",
+        "p5_corpus-block005",
+        "p5_corpus-block006",
+        "p5_corpus-block007"
+      ],
+      "block_values": null,
+      "mean_spearman": null,
+      "mean_top_two_regret": null,
+      "protocol_key": "normalized_0.0001",
+      "scope": "all six retained; descriptive evaluation points, no extra tests",
+      "selected_by_development": null,
+      "setting": "p5_corpus",
+      "status": "blocked_selection",
+      "target": "original_cross_seed",
+      "worker_score_key": "normalized-1e-4"
+    }
+  ],
+  "boundary": "Full-precision accepted values for verification only, not computation inputs.",
+  "endpoint_stability": [
+    {
+      "block_count": 24,
+      "block_maximum": 0.05402639382285237,
+      "block_minimum": -0.19993387056623146,
+      "block_sign_counts": {
+        "negative": 11,
+        "positive": 13,
+        "zero": 0
+      },
+      "context_sign_counts": {
+        "negative": 37,
+        "positive": 35,
+        "zero": 0
+      },
+      "endpoint_id": "E01_companion_error",
+      "estimate": -0.008608779429876572,
+      "interpretation": "Descriptive all-block/all-seed stability only; no p-values, new intervals, endpoint deletion, seed selection or independence claim.",
+      "leave_one_block_out_mean_maximum": -0.00029029720655679474,
+      "leave_one_block_out_mean_minimum": -0.011332047832169135,
+      "seed_means": {
+        "0": -0.022543529286559182,
+        "1": -0.009258900473538766,
+        "2": 0.005976091470468227
+      },
+      "setting": "p5_main"
+    },
+    {
+      "block_count": 24,
+      "block_maximum": 0.06689420973139336,
+      "block_minimum": -0.11178541837998283,
+      "block_sign_counts": {
+        "negative": 17,
+        "positive": 6,
+        "zero": 1
+      },
+      "context_sign_counts": {
+        "negative": 24,
+        "positive": 13,
+        "zero": 35
+      },
+      "endpoint_id": "E01_selection",
+      "estimate": -0.0279879428090673,
+      "interpretation": "Descriptive all-block/all-seed stability only; no p-values, new intervals, endpoint deletion, seed selection or independence claim.",
+      "leave_one_block_out_mean_maximum": -0.02434457430598402,
+      "leave_one_block_out_mean_minimum": -0.03211325378908733,
+      "seed_means": {
+        "0": 0.0037440015281149652,
+        "1": -0.04022950915775216,
+        "2": -0.047478320797564706
+      },
+      "setting": "p5_main"
+    },
+    {
+      "block_count": 24,
+      "block_maximum": 0.7063492063492064,
+      "block_minimum": -0.11111111111111109,
+      "block_sign_counts": {
+        "negative": 4,
+        "positive": 19,
+        "zero": 1
+      },
+      "context_sign_counts": {
+        "negative": 15,
+        "positive": 54,
+        "zero": 3
+      },
+      "endpoint_id": "E03_Q1",
+      "estimate": 0.20271164021164023,
+      "interpretation": "Descriptive all-block/all-seed stability only; no p-values, new intervals, endpoint deletion, seed selection or independence claim.",
+      "leave_one_block_out_mean_maximum": 0.2163561076604555,
+      "leave_one_block_out_mean_minimum": 0.1808143547273982,
+      "seed_means": {
+        "0": 0.16071428571428573,
+        "1": 0.2142857142857143,
+        "2": 0.2331349206349206
+      },
+      "setting": "p5_main"
+    },
+    {
+      "block_count": 24,
+      "block_maximum": 0.7142857142857143,
+      "block_minimum": -0.5476190476190476,
+      "block_sign_counts": {
+        "negative": 12,
+        "positive": 12,
+        "zero": 0
+      },
+      "context_sign_counts": {
+        "negative": 23,
+        "positive": 46,
+        "zero": 3
+      },
+      "endpoint_id": "E03_Q2",
+      "estimate": 0.10846560846560845,
+      "interpretation": "Descriptive all-block/all-seed stability only; no p-values, new intervals, endpoint deletion, seed selection or independence claim.",
+      "leave_one_block_out_mean_maximum": 0.13699102829537613,
+      "leave_one_block_out_mean_minimum": 0.08212560386473429,
+      "seed_means": {
+        "0": 0.09126984126984126,
+        "1": 0.18353174603174602,
+        "2": 0.0505952380952381
+      },
+      "setting": "p5_main"
+    },
+    {
+      "block_count": 24,
+      "block_maximum": 0.7105915820685337,
+      "block_minimum": -0.34920634920634913,
+      "block_sign_counts": {
+        "negative": 3,
+        "positive": 21,
+        "zero": 0
+      },
+      "context_sign_counts": {
+        "negative": 14,
+        "positive": 57,
+        "zero": 1
+      },
+      "endpoint_id": "E03_Q3",
+      "estimate": 0.3152110509135623,
+      "interpretation": "Descriptive all-block/all-seed stability only; no p-values, new intervals, endpoint deletion, seed selection or independence claim.",
+      "leave_one_block_out_mean_maximum": 0.3440987639622541,
+      "leave_one_block_out_mean_minimum": 0.2980205930372592,
+      "seed_means": {
+        "0": 0.2828766323321033,
+        "1": 0.32304030777851417,
+        "2": 0.3397162126300693
+      },
+      "setting": "p5_main"
+    },
+    {
+      "block_count": 8,
+      "block_maximum": 0.0498749687984025,
+      "block_minimum": -0.04225177166550315,
+      "block_sign_counts": {
+        "negative": 4,
+        "positive": 4,
+        "zero": 0
+      },
+      "context_sign_counts": {
+        "negative": 12,
+        "positive": 12,
+        "zero": 0
+      },
+      "endpoint_id": "E01_companion_error",
+      "estimate": 0.0027161760238927986,
+      "interpretation": "Descriptive all-block/all-seed stability only; no p-values, new intervals, endpoint deletion, seed selection or independence claim.",
+      "leave_one_block_out_mean_maximum": 0.009140168550949363,
+      "leave_one_block_out_mean_minimum": -0.00402079437246573,
+      "seed_means": {
+        "0": 0.014424358142856721,
+        "1": -0.02083417129784299,
+        "2": 0.014558341226664662
+      },
+      "setting": "p5_corpus"
+    },
+    {
+      "block_count": 8,
+      "block_maximum": 0.10273667118229331,
+      "block_minimum": -0.13872117476237364,
+      "block_sign_counts": {
+        "negative": 4,
+        "positive": 4,
+        "zero": 0
+      },
+      "context_sign_counts": {
+        "negative": 6,
+        "positive": 5,
+        "zero": 13
+      },
+      "endpoint_id": "E01_selection",
+      "estimate": -0.013430118532302067,
+      "interpretation": "Descriptive all-block/all-seed stability only; no p-values, new intervals, endpoint deletion, seed selection or independence claim.",
+      "leave_one_block_out_mean_maximum": 0.0044686037862795855,
+      "leave_one_block_out_mean_minimum": -0.03002537420581569,
+      "seed_means": {
+        "0": 0.01179763653763155,
+        "1": -0.027462225906554727,
+        "2": -0.024625766227983015
+      },
+      "setting": "p5_corpus"
+    },
+    {
+      "block_count": 8,
+      "block_maximum": 0.0634920634920635,
+      "block_minimum": -0.08730158730158732,
+      "block_sign_counts": {
+        "negative": 4,
+        "positive": 4,
+        "zero": 0
+      },
+      "context_sign_counts": {
+        "negative": 10,
+        "positive": 13,
+        "zero": 1
+      },
+      "endpoint_id": "E03_Q1",
+      "estimate": -0.008928571428571426,
+      "interpretation": "Descriptive all-block/all-seed stability only; no p-values, new intervals, endpoint deletion, seed selection or independence claim.",
+      "leave_one_block_out_mean_maximum": 0.002267573696145131,
+      "leave_one_block_out_mean_minimum": -0.01927437641723356,
+      "seed_means": {
+        "0": -0.09226190476190473,
+        "1": 0.01190476190476189,
+        "2": 0.05357142857142856
+      },
+      "setting": "p5_corpus"
+    },
+    {
+      "block_count": 8,
+      "block_maximum": 0.29365079365079366,
+      "block_minimum": -0.29365079365079366,
+      "block_sign_counts": {
+        "negative": 6,
+        "positive": 2,
+        "zero": 0
+      },
+      "context_sign_counts": {
+        "negative": 14,
+        "positive": 8,
+        "zero": 2
+      },
+      "endpoint_id": "E03_Q2",
+      "estimate": -0.05853174603174603,
+      "interpretation": "Descriptive all-block/all-seed stability only; no p-values, new intervals, endpoint deletion, seed selection or independence claim.",
+      "leave_one_block_out_mean_maximum": -0.02494331065759637,
+      "leave_one_block_out_mean_minimum": -0.10884353741496598,
+      "seed_means": {
+        "0": 0.0029761904761904795,
+        "1": -0.11904761904761904,
+        "2": -0.05952380952380952
+      },
+      "setting": "p5_corpus"
+    },
+    {
+      "block_count": 8,
+      "block_maximum": 0.48412698412698413,
+      "block_minimum": -0.18253968253968256,
+      "block_sign_counts": {
+        "negative": 2,
+        "positive": 6,
+        "zero": 0
+      },
+      "context_sign_counts": {
+        "negative": 7,
+        "positive": 16,
+        "zero": 1
+      },
+      "endpoint_id": "E03_Q3",
+      "estimate": 0.13206957069459313,
+      "interpretation": "Descriptive all-block/all-seed stability only; no p-values, new intervals, endpoint deletion, seed selection or independence claim.",
+      "leave_one_block_out_mean_maximum": 0.17701374972806108,
+      "leave_one_block_out_mean_minimum": 0.08177565448996585,
+      "seed_means": {
+        "0": 0.3797771013396575,
+        "1": 0.03881560244062489,
+        "2": -0.022383991696502924
+      },
+      "setting": "p5_corpus"
+    },
+    {
+      "block_count": 8,
+      "block_maximum": 0.7301587301587302,
+      "block_minimum": 0.055555555555555546,
+      "block_sign_counts": {
+        "negative": 0,
+        "positive": 8,
+        "zero": 0
+      },
+      "context_sign_counts": {
+        "negative": 0,
+        "positive": 22,
+        "zero": 2
+      },
+      "endpoint_id": "E03_Q1",
+      "estimate": 0.3204365079365079,
+      "interpretation": "Descriptive all-block/all-seed stability only; no p-values, new intervals, endpoint deletion, seed selection or independence claim.",
+      "leave_one_block_out_mean_maximum": 0.3582766439909297,
+      "leave_one_block_out_mean_minimum": 0.2619047619047619,
+      "seed_means": {
+        "0": 0.28869047619047616,
+        "1": 0.34523809523809523,
+        "2": 0.3273809523809524
+      },
+      "setting": "p5_model"
+    },
+    {
+      "block_count": 8,
+      "block_maximum": 0.6190476190476191,
+      "block_minimum": -0.38888888888888884,
+      "block_sign_counts": {
+        "negative": 2,
+        "positive": 6,
+        "zero": 0
+      },
+      "context_sign_counts": {
+        "negative": 6,
+        "positive": 18,
+        "zero": 0
+      },
+      "endpoint_id": "E03_Q2",
+      "estimate": 0.20535714285714285,
+      "interpretation": "Descriptive all-block/all-seed stability only; no p-values, new intervals, endpoint deletion, seed selection or independence claim.",
+      "leave_one_block_out_mean_maximum": 0.29024943310657597,
+      "leave_one_block_out_mean_minimum": 0.14625850340136054,
+      "seed_means": {
+        "0": 0.1875,
+        "1": 0.19047619047619047,
+        "2": 0.23809523809523808
+      },
+      "setting": "p5_model"
+    },
+    {
+      "block_count": 8,
+      "block_maximum": 0.7619047619047619,
+      "block_minimum": -0.1077863635721933,
+      "block_sign_counts": {
+        "negative": 1,
+        "positive": 7,
+        "zero": 0
+      },
+      "context_sign_counts": {
+        "negative": 3,
+        "positive": 21,
+        "zero": 0
+      },
+      "endpoint_id": "E03_Q3",
+      "estimate": 0.427710449722378,
+      "interpretation": "Descriptive all-block/all-seed stability only; no p-values, new intervals, endpoint deletion, seed selection or independence claim.",
+      "leave_one_block_out_mean_maximum": 0.5042099944787454,
+      "leave_one_block_out_mean_minimum": 0.37996840512489455,
+      "seed_means": {
+        "0": 0.37952684883936005,
+        "1": 0.43776812767889006,
+        "2": 0.4658363726488839
+      },
+      "setting": "p5_model"
+    }
+  ],
+  "endpoints": [
+    {
+      "block_values": [
+        {
+          "block_id": "p5_main-block000",
+          "mean": 0.025411449265974006,
+          "seed_values": [
+            0.0672383392874043,
+            -0.024944157075073636,
+            0.03394016558559135
+          ]
+        },
+        {
+          "block_id": "p5_main-block001",
+          "mean": 0.019508542633542857,
+          "seed_values": [
+            0.05904570465469633,
+            0.033963498920662416,
+            -0.03448357567473018
+          ]
+        },
+        {
+          "block_id": "p5_main-block002",
+          "mean": 0.05402639382285237,
+          "seed_values": [
+            -0.004591369415313379,
+            0.01699499700684104,
+            0.14967555387702944
+          ]
+        },
+        {
+          "block_id": "p5_main-block003",
+          "mean": 0.050502836719959615,
+          "seed_values": [
+            0.055057851594078416,
+            0.06048962489079027,
+            0.03596103367501016
+          ]
+        },
+        {
+          "block_id": "p5_main-block004",
+          "mean": 0.011299618478148735,
+          "seed_values": [
+            0.013517342057653842,
+            0.04440299787167129,
+            -0.024021484494878925
+          ]
+        },
+        {
+          "block_id": "p5_main-block005",
+          "mean": 0.03611480292868092,
+          "seed_values": [
+            -0.03764433124547821,
+            0.10139040017622925,
+            0.04459833985529171
+          ]
+        },
+        {
+          "block_id": "p5_main-block006",
+          "mean": 0.00875390382111312,
+          "seed_values": [
+            -0.1128576339748536,
+            0.09620418994765573,
+            0.04291515549053723
+          ]
+        },
+        {
+          "block_id": "p5_main-block007",
+          "mean": -0.012731181357970115,
+          "seed_values": [
+            0.09153772439143068,
+            -0.0480752532682967,
+            -0.08165601519704432
+          ]
+        },
+        {
+          "block_id": "p5_main-block008",
+          "mean": -0.017708082945377273,
+          "seed_values": [
+            -0.0026386207857455046,
+            -0.06291602874753721,
+            0.0124304006971509
+          ]
+        },
+        {
+          "block_id": "p5_main-block009",
+          "mean": -0.07127171749264319,
+          "seed_values": [
+            -0.07015436770056058,
+            -0.047535664720555815,
+            -0.09612512005681317
+          ]
+        },
+        {
+          "block_id": "p5_main-block010",
+          "mean": 0.003206407074307268,
+          "seed_values": [
+            0.011288433827512684,
+            -0.024272894163736347,
+            0.022603681559145467
+          ]
+        },
+        {
+          "block_id": "p5_main-block011",
+          "mean": 0.044329937941239995,
+          "seed_values": [
+            -0.016540358305393937,
+            -0.04691283266980448,
+            0.1964430047989184
+          ]
+        },
+        {
+          "block_id": "p5_main-block012",
+          "mean": 0.010344858119557654,
+          "seed_values": [
+            -0.044754777818175995,
+            0.010700880238228738,
+            0.06508847193862022
+          ]
+        },
+        {
+          "block_id": "p5_main-block013",
+          "mean": -0.009504056056420443,
+          "seed_values": [
+            0.018291316035471128,
+            -0.057691925768506847,
+            0.010888441563774387
+          ]
+        },
+        {
+          "block_id": "p5_main-block014",
+          "mean": -0.021839400723058067,
+          "seed_values": [
+            0.060572506056742303,
+            -0.08522559438150495,
+            -0.04086511384441155
+          ]
+        },
+        {
+          "block_id": "p5_main-block015",
+          "mean": -0.023739388947623563,
+          "seed_values": [
+            -0.05696129896169877,
+            -0.07939080253287994,
+            0.06513393465170803
+          ]
+        },
+        {
+          "block_id": "p5_main-block016",
+          "mean": -0.08481738320023423,
+          "seed_values": [
+            -0.02673661502352996,
+            -0.14484254974069774,
+            -0.08287298483647496
+          ]
+        },
+        {
+          "block_id": "p5_main-block017",
+          "mean": -0.05591192525923616,
+          "seed_values": [
+            -0.08455668185591975,
+            -0.01094108426991136,
+            -0.07223800965187738
+          ]
+        },
+        {
+          "block_id": "p5_main-block018",
+          "mean": 0.020653166082472172,
+          "seed_values": [
+            -0.05236201529448625,
+            0.01237439024554006,
+            0.10194712329636271
+          ]
+        },
+        {
+          "block_id": "p5_main-block019",
+          "mean": -0.0650824810743912,
+          "seed_values": [
+            -0.07959312900255874,
+            -0.06280325345515218,
+            -0.0528510607654627
+          ]
+        },
+        {
+          "block_id": "p5_main-block020",
+          "mean": -0.19993387056623146,
+          "seed_values": [
+            -0.5430935201861522,
+            -0.04252496421063909,
+            -0.014183127301903131
+          ]
+        },
+        {
+          "block_id": "p5_main-block021",
+          "mean": -0.017580673993173267,
+          "seed_values": [
+            0.029716519906466482,
+            0.03522845810269615,
+            -0.11768699998868243
+          ]
+        },
+        {
+          "block_id": "p5_main-block022",
+          "mean": 0.03572291727313895,
+          "seed_values": [
+            0.07056055010931406,
+            0.016877820779637315,
+            0.019730380930465474
+          ]
+        },
+        {
+          "block_id": "p5_main-block023",
+          "mean": 0.05363462113833357,
+          "seed_values": [
+            0.1146137287716763,
+            0.0872361354594137,
+            -0.04094600081608929
+          ]
+        }
+      ],
+      "bootstrap": {
+        "block_order_sha256": "23c859299409db371e02dd57b20c7674b32bf3136c6ceac5e8df473c6a70d506",
+        "endpoint_seed": 734774604,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": "29d0771d8d0937faa397ab5653228181a4270ee8fc1106600f674b3e3eb5d376",
+        "input_cells_sha256": "e9d61e76f7cd5290a1ee55e4c923e8b763041ad87e92fc1c9cccd16d4857504f",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.9954545454545455,
+      "desired_direction_resolved": false,
+      "direction_resolved": "unresolved",
+      "estimate": -0.008608779429876572,
+      "family_denominator": 11,
+      "id": "E01_companion_error",
+      "interval": [
+        -0.045028587934209496,
+        0.019524101191822792
+      ],
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_main-block000",
+          "p5_main-block001",
+          "p5_main-block002",
+          "p5_main-block003",
+          "p5_main-block004",
+          "p5_main-block005",
+          "p5_main-block006",
+          "p5_main-block007",
+          "p5_main-block008",
+          "p5_main-block009",
+          "p5_main-block010",
+          "p5_main-block011",
+          "p5_main-block012",
+          "p5_main-block013",
+          "p5_main-block014",
+          "p5_main-block015",
+          "p5_main-block016",
+          "p5_main-block017",
+          "p5_main-block018",
+          "p5_main-block019",
+          "p5_main-block020",
+          "p5_main-block021",
+          "p5_main-block022",
+          "p5_main-block023"
+        ],
+        "blocks_expected": 24,
+        "contexts_expected": 72,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_main",
+      "status": "available"
+    },
+    {
+      "block_values": [
+        {
+          "block_id": "p5_main-block000",
+          "mean": -0.11178541837998283,
+          "seed_values": [
+            -0.020201550279362657,
+            -0.31515470486058583,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_main-block001",
+          "mean": -0.016393141599295984,
+          "seed_values": [
+            -0.0060030325608435575,
+            -0.04317639223704439,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_main-block002",
+          "mean": -0.008973588979712899,
+          "seed_values": [
+            0.11386147239836741,
+            0.0,
+            -0.1407822393375061
+          ]
+        },
+        {
+          "block_id": "p5_main-block003",
+          "mean": 0.008549091142665407,
+          "seed_values": [
+            0.0,
+            0.05336915285601662,
+            -0.0277218794280204
+          ]
+        },
+        {
+          "block_id": "p5_main-block004",
+          "mean": -0.03833695131521705,
+          "seed_values": [
+            0.0,
+            -0.11501085394565114,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_main-block005",
+          "mean": -0.06564172869447549,
+          "seed_values": [
+            0.0,
+            -0.19692518608342646,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_main-block006",
+          "mean": 0.014793469962250172,
+          "seed_values": [
+            0.023218390666305044,
+            -0.03612567283646245,
+            0.057287692056907924
+          ]
+        },
+        {
+          "block_id": "p5_main-block007",
+          "mean": -0.07881425101198485,
+          "seed_values": [
+            -0.05813859623102058,
+            0.0,
+            -0.17830415680493394
+          ]
+        },
+        {
+          "block_id": "p5_main-block008",
+          "mean": -0.08215276603005806,
+          "seed_values": [
+            0.0,
+            0.0,
+            -0.24645829809017417
+          ]
+        },
+        {
+          "block_id": "p5_main-block009",
+          "mean": -0.026555708733992378,
+          "seed_values": [
+            0.0451575370465116,
+            0.0,
+            -0.12482466324848873
+          ]
+        },
+        {
+          "block_id": "p5_main-block010",
+          "mean": -0.06165452549281514,
+          "seed_values": [
+            0.0,
+            0.0,
+            -0.1849635764784454
+          ]
+        },
+        {
+          "block_id": "p5_main-block011",
+          "mean": 0.04979849271583838,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.14939547814751514
+          ]
+        },
+        {
+          "block_id": "p5_main-block012",
+          "mean": -0.029208611154053266,
+          "seed_values": [
+            0.0,
+            0.0,
+            -0.0876258334621598
+          ]
+        },
+        {
+          "block_id": "p5_main-block013",
+          "mean": 0.05643627550161234,
+          "seed_values": [
+            0.0,
+            0.16930882650483703,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_main-block014",
+          "mean": -0.028544599555350308,
+          "seed_values": [
+            0.0,
+            -0.08563379866605092,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_main-block015",
+          "mean": -0.0769843009611174,
+          "seed_values": [
+            0.0,
+            -0.3042995392082371,
+            0.07334663632488492
+          ]
+        },
+        {
+          "block_id": "p5_main-block016",
+          "mean": 0.0,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_main-block017",
+          "mean": -0.025370693838830765,
+          "seed_values": [
+            0.0,
+            -0.07611208151649229,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_main-block018",
+          "mean": -0.05089943332253888,
+          "seed_values": [
+            0.12069431297588118,
+            -0.2733926129434978,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_main-block019",
+          "mean": -0.054518479564849676,
+          "seed_values": [
+            0.0,
+            0.0,
+            -0.16355543869454903
+          ]
+        },
+        {
+          "block_id": "p5_main-block020",
+          "mean": -0.08073924830278445,
+          "seed_values": [
+            -0.24221774490835335,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_main-block021",
+          "mean": 0.06689420973139336,
+          "seed_values": [
+            0.11348524756727407,
+            -0.03819907241207754,
+            0.12539645403898353
+          ]
+        },
+        {
+          "block_id": "p5_main-block022",
+          "mean": -0.032837675705313485,
+          "seed_values": [
+            0.0,
+            0.1536009087257949,
+            -0.25211393584173536
+          ]
+        },
+        {
+          "block_id": "p5_main-block023",
+          "mean": 0.0012289561709979784,
+          "seed_values": [
+            0.0,
+            0.14224280683682555,
+            -0.13855593832383162
+          ]
+        }
+      ],
+      "bootstrap": {
+        "block_order_sha256": "23c859299409db371e02dd57b20c7674b32bf3136c6ceac5e8df473c6a70d506",
+        "endpoint_seed": 1124564934,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": "15dbc0b072a9822b82d8200582c2395b6eb3adec9939e1c1e694a219d1f2fb40",
+        "input_cells_sha256": "18e81a74ed8ecf41f421f4b6077ea442a10363f66794c4903bf08f87598889ee",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.9954545454545455,
+      "desired_direction_resolved": false,
+      "direction_resolved": "less",
+      "estimate": -0.0279879428090673,
+      "family_denominator": 11,
+      "id": "E01_selection",
+      "interval": [
+        -0.05328148818602704,
+        -0.0013178140126375206
+      ],
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_main-block000",
+          "p5_main-block001",
+          "p5_main-block002",
+          "p5_main-block003",
+          "p5_main-block004",
+          "p5_main-block005",
+          "p5_main-block006",
+          "p5_main-block007",
+          "p5_main-block008",
+          "p5_main-block009",
+          "p5_main-block010",
+          "p5_main-block011",
+          "p5_main-block012",
+          "p5_main-block013",
+          "p5_main-block014",
+          "p5_main-block015",
+          "p5_main-block016",
+          "p5_main-block017",
+          "p5_main-block018",
+          "p5_main-block019",
+          "p5_main-block020",
+          "p5_main-block021",
+          "p5_main-block022",
+          "p5_main-block023"
+        ],
+        "blocks_expected": 24,
+        "contexts_expected": 72,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_main",
+      "status": "available"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "072389cde8fc47240a9b495697af7c26aba308cac701db1591b25a795e210796",
+        "endpoint_seed": 1227658478,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "a08b424ae4e4304e73dedad655aa535edd3b75b4e2fd9aef2077d5250ce27b37",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.9954545454545455,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": 11,
+      "id": "E02_rank",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_main-block000",
+          "p5_main-block002",
+          "p5_main-block003",
+          "p5_main-block004",
+          "p5_main-block006",
+          "p5_main-block007",
+          "p5_main-block008",
+          "p5_main-block009",
+          "p5_main-block010",
+          "p5_main-block011",
+          "p5_main-block012",
+          "p5_main-block013",
+          "p5_main-block014",
+          "p5_main-block015",
+          "p5_main-block016",
+          "p5_main-block017",
+          "p5_main-block018",
+          "p5_main-block020",
+          "p5_main-block022",
+          "p5_main-block023"
+        ],
+        "blocks_expected": 20,
+        "contexts_expected": 60,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_main",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "072389cde8fc47240a9b495697af7c26aba308cac701db1591b25a795e210796",
+        "endpoint_seed": 1819817463,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "a08b424ae4e4304e73dedad655aa535edd3b75b4e2fd9aef2077d5250ce27b37",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.9954545454545455,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": 11,
+      "id": "E02_regret",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_main-block000",
+          "p5_main-block002",
+          "p5_main-block003",
+          "p5_main-block004",
+          "p5_main-block006",
+          "p5_main-block007",
+          "p5_main-block008",
+          "p5_main-block009",
+          "p5_main-block010",
+          "p5_main-block011",
+          "p5_main-block012",
+          "p5_main-block013",
+          "p5_main-block014",
+          "p5_main-block015",
+          "p5_main-block016",
+          "p5_main-block017",
+          "p5_main-block018",
+          "p5_main-block020",
+          "p5_main-block022",
+          "p5_main-block023"
+        ],
+        "blocks_expected": 20,
+        "contexts_expected": 60,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_main",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": [
+        {
+          "block_id": "p5_main-block000",
+          "mean": -0.11111111111111109,
+          "seed_values": [
+            -0.40476190476190477,
+            -0.16666666666666663,
+            0.2380952380952381
+          ]
+        },
+        {
+          "block_id": "p5_main-block001",
+          "mean": -0.06349206349206349,
+          "seed_values": [
+            -0.09523809523809523,
+            0.04761904761904756,
+            -0.1428571428571428
+          ]
+        },
+        {
+          "block_id": "p5_main-block002",
+          "mean": 0.24603174603174605,
+          "seed_values": [
+            0.5238095238095238,
+            0.023809523809523836,
+            0.19047619047619047
+          ]
+        },
+        {
+          "block_id": "p5_main-block003",
+          "mean": 0.19841269841269837,
+          "seed_values": [
+            -0.23809523809523808,
+            0.23809523809523808,
+            0.5952380952380951
+          ]
+        },
+        {
+          "block_id": "p5_main-block004",
+          "mean": 0.0,
+          "seed_values": [
+            -0.16666666666666663,
+            0.0,
+            0.16666666666666663
+          ]
+        },
+        {
+          "block_id": "p5_main-block005",
+          "mean": 0.07936507936507936,
+          "seed_values": [
+            0.23809523809523814,
+            0.42857142857142855,
+            -0.4285714285714286
+          ]
+        },
+        {
+          "block_id": "p5_main-block006",
+          "mean": 0.4365079365079365,
+          "seed_values": [
+            0.5714285714285714,
+            0.38095238095238093,
+            0.35714285714285715
+          ]
+        },
+        {
+          "block_id": "p5_main-block007",
+          "mean": 0.42063492063492064,
+          "seed_values": [
+            0.4761904761904762,
+            0.38095238095238093,
+            0.40476190476190477
+          ]
+        },
+        {
+          "block_id": "p5_main-block008",
+          "mean": 0.1587301587301587,
+          "seed_values": [
+            0.02380952380952378,
+            0.16666666666666663,
+            0.2857142857142857
+          ]
+        },
+        {
+          "block_id": "p5_main-block009",
+          "mean": -0.023809523809523798,
+          "seed_values": [
+            -0.26190476190476186,
+            -0.09523809523809523,
+            0.2857142857142857
+          ]
+        },
+        {
+          "block_id": "p5_main-block010",
+          "mean": 0.3412698412698412,
+          "seed_values": [
+            0.30952380952380953,
+            0.16666666666666663,
+            0.5476190476190477
+          ]
+        },
+        {
+          "block_id": "p5_main-block011",
+          "mean": 0.7063492063492064,
+          "seed_values": [
+            0.30952380952380953,
+            0.9285714285714286,
+            0.8809523809523809
+          ]
+        },
+        {
+          "block_id": "p5_main-block012",
+          "mean": 0.5396825396825397,
+          "seed_values": [
+            0.4523809523809524,
+            1.0476190476190477,
+            0.11904761904761904
+          ]
+        },
+        {
+          "block_id": "p5_main-block013",
+          "mean": 0.18253968253968253,
+          "seed_values": [
+            0.2857142857142857,
+            0.11904761904761907,
+            0.1428571428571428
+          ]
+        },
+        {
+          "block_id": "p5_main-block014",
+          "mean": 0.2619047619047619,
+          "seed_values": [
+            0.38095238095238093,
+            0.023809523809523836,
+            0.38095238095238093
+          ]
+        },
+        {
+          "block_id": "p5_main-block015",
+          "mean": 0.22222222222222224,
+          "seed_values": [
+            0.11904761904761907,
+            0.40476190476190477,
+            0.1428571428571429
+          ]
+        },
+        {
+          "block_id": "p5_main-block016",
+          "mean": 0.30158730158730157,
+          "seed_values": [
+            0.16666666666666663,
+            0.04761904761904767,
+            0.6904761904761905
+          ]
+        },
+        {
+          "block_id": "p5_main-block017",
+          "mean": -0.055555555555555525,
+          "seed_values": [
+            0.11904761904761907,
+            -0.1428571428571428,
+            -0.14285714285714285
+          ]
+        },
+        {
+          "block_id": "p5_main-block018",
+          "mean": 0.13492063492063497,
+          "seed_values": [
+            -0.11904761904761901,
+            0.21428571428571436,
+            0.30952380952380953
+          ]
+        },
+        {
+          "block_id": "p5_main-block019",
+          "mean": 0.07142857142857147,
+          "seed_values": [
+            0.23809523809523814,
+            0.11904761904761907,
+            -0.1428571428571428
+          ]
+        },
+        {
+          "block_id": "p5_main-block020",
+          "mean": 0.15873015873015875,
+          "seed_values": [
+            0.4761904761904762,
+            0.04761904761904756,
+            -0.04761904761904756
+          ]
+        },
+        {
+          "block_id": "p5_main-block021",
+          "mean": 0.4603174603174603,
+          "seed_values": [
+            0.23809523809523808,
+            0.7142857142857142,
+            0.4285714285714286
+          ]
+        },
+        {
+          "block_id": "p5_main-block022",
+          "mean": 0.1349206349206349,
+          "seed_values": [
+            0.0,
+            0.07142857142857145,
+            0.33333333333333326
+          ]
+        },
+        {
+          "block_id": "p5_main-block023",
+          "mean": 0.06349206349206353,
+          "seed_values": [
+            0.2142857142857143,
+            -0.023809523809523725,
+            0.0
+          ]
+        }
+      ],
+      "bootstrap": {
+        "block_order_sha256": "23c859299409db371e02dd57b20c7674b32bf3136c6ceac5e8df473c6a70d506",
+        "endpoint_seed": 2082203225,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": "a2a430bf1b4112f95dd1e9c8f58d11da4a09f14be85a70b2268679f00c9017b9",
+        "input_cells_sha256": "b9bf2d4ca473089f029e170227defb8ee3126c6aa79994ca520ff3a8ddc76a8c",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.9954545454545455,
+      "desired_direction_resolved": true,
+      "direction_resolved": "greater",
+      "estimate": 0.20271164021164023,
+      "family_denominator": 11,
+      "id": "E03_Q1",
+      "interval": [
+        0.09226190476190477,
+        0.3255779521404528
+      ],
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_main-block000",
+          "p5_main-block001",
+          "p5_main-block002",
+          "p5_main-block003",
+          "p5_main-block004",
+          "p5_main-block005",
+          "p5_main-block006",
+          "p5_main-block007",
+          "p5_main-block008",
+          "p5_main-block009",
+          "p5_main-block010",
+          "p5_main-block011",
+          "p5_main-block012",
+          "p5_main-block013",
+          "p5_main-block014",
+          "p5_main-block015",
+          "p5_main-block016",
+          "p5_main-block017",
+          "p5_main-block018",
+          "p5_main-block019",
+          "p5_main-block020",
+          "p5_main-block021",
+          "p5_main-block022",
+          "p5_main-block023"
+        ],
+        "blocks_expected": 24,
+        "contexts_expected": 72,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_main",
+      "status": "available"
+    },
+    {
+      "block_values": [
+        {
+          "block_id": "p5_main-block000",
+          "mean": -0.15873015873015875,
+          "seed_values": [
+            0.19047619047619052,
+            0.16666666666666663,
+            -0.8333333333333334
+          ]
+        },
+        {
+          "block_id": "p5_main-block001",
+          "mean": -0.0714285714285714,
+          "seed_values": [
+            -0.2857142857142857,
+            -0.04761904761904756,
+            0.11904761904761907
+          ]
+        },
+        {
+          "block_id": "p5_main-block002",
+          "mean": -0.2380952380952381,
+          "seed_values": [
+            -0.5476190476190477,
+            0.0,
+            -0.16666666666666663
+          ]
+        },
+        {
+          "block_id": "p5_main-block003",
+          "mean": 0.5476190476190476,
+          "seed_values": [
+            0.5952380952380952,
+            0.8095238095238095,
+            0.2380952380952381
+          ]
+        },
+        {
+          "block_id": "p5_main-block004",
+          "mean": 0.15873015873015872,
+          "seed_values": [
+            0.2857142857142857,
+            0.16666666666666663,
+            0.023809523809523836
+          ]
+        },
+        {
+          "block_id": "p5_main-block005",
+          "mean": -0.08730158730158728,
+          "seed_values": [
+            0.1428571428571428,
+            -0.5238095238095237,
+            0.11904761904761907
+          ]
+        },
+        {
+          "block_id": "p5_main-block006",
+          "mean": 0.5238095238095237,
+          "seed_values": [
+            0.45238095238095233,
+            0.3571428571428571,
+            0.7619047619047619
+          ]
+        },
+        {
+          "block_id": "p5_main-block007",
+          "mean": 0.17460317460317457,
+          "seed_values": [
+            0.26190476190476186,
+            0.21428571428571427,
+            0.047619047619047644
+          ]
+        },
+        {
+          "block_id": "p5_main-block008",
+          "mean": -0.17460317460317465,
+          "seed_values": [
+            -0.4761904761904762,
+            0.09523809523809523,
+            -0.1428571428571429
+          ]
+        },
+        {
+          "block_id": "p5_main-block009",
+          "mean": 0.5158730158730159,
+          "seed_values": [
+            0.5952380952380952,
+            0.6428571428571429,
+            0.3095238095238095
+          ]
+        },
+        {
+          "block_id": "p5_main-block010",
+          "mean": -0.09523809523809522,
+          "seed_values": [
+            0.09523809523809523,
+            0.023809523809523836,
+            -0.4047619047619047
+          ]
+        },
+        {
+          "block_id": "p5_main-block011",
+          "mean": -0.007936507936507945,
+          "seed_values": [
+            0.0,
+            0.2619047619047619,
+            -0.28571428571428575
+          ]
+        },
+        {
+          "block_id": "p5_main-block012",
+          "mean": -0.031746031746031744,
+          "seed_values": [
+            0.30952380952380953,
+            -0.40476190476190477,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_main-block013",
+          "mean": 0.6428571428571429,
+          "seed_values": [
+            0.6666666666666667,
+            0.47619047619047616,
+            0.7857142857142858
+          ]
+        },
+        {
+          "block_id": "p5_main-block014",
+          "mean": -0.23015873015873015,
+          "seed_values": [
+            -0.3571428571428571,
+            0.2142857142857142,
+            -0.5476190476190476
+          ]
+        },
+        {
+          "block_id": "p5_main-block015",
+          "mean": 0.2698412698412698,
+          "seed_values": [
+            0.2857142857142857,
+            0.09523809523809523,
+            0.4285714285714286
+          ]
+        },
+        {
+          "block_id": "p5_main-block016",
+          "mean": -0.2777777777777778,
+          "seed_values": [
+            -0.0714285714285714,
+            -0.2142857142857143,
+            -0.5476190476190477
+          ]
+        },
+        {
+          "block_id": "p5_main-block017",
+          "mean": 0.17460317460317457,
+          "seed_values": [
+            -0.07142857142857145,
+            0.4523809523809524,
+            0.14285714285714285
+          ]
+        },
+        {
+          "block_id": "p5_main-block018",
+          "mean": -0.07936507936507937,
+          "seed_values": [
+            -0.2857142857142857,
+            0.02380952380952378,
+            0.02380952380952378
+          ]
+        },
+        {
+          "block_id": "p5_main-block019",
+          "mean": 0.5158730158730158,
+          "seed_values": [
+            0.47619047619047616,
+            0.5238095238095237,
+            0.5476190476190477
+          ]
+        },
+        {
+          "block_id": "p5_main-block020",
+          "mean": 0.7142857142857143,
+          "seed_values": [
+            0.33333333333333337,
+            1.0476190476190477,
+            0.7619047619047619
+          ]
+        },
+        {
+          "block_id": "p5_main-block021",
+          "mean": -0.5476190476190476,
+          "seed_values": [
+            -0.6190476190476191,
+            -0.6904761904761905,
+            -0.33333333333333337
+          ]
+        },
+        {
+          "block_id": "p5_main-block022",
+          "mean": 0.27777777777777773,
+          "seed_values": [
+            0.23809523809523803,
+            0.2857142857142857,
+            0.3095238095238096
+          ]
+        },
+        {
+          "block_id": "p5_main-block023",
+          "mean": 0.08730158730158726,
+          "seed_values": [
+            -0.023809523809523836,
+            0.4285714285714285,
+            -0.1428571428571429
+          ]
+        }
+      ],
+      "bootstrap": {
+        "block_order_sha256": "23c859299409db371e02dd57b20c7674b32bf3136c6ceac5e8df473c6a70d506",
+        "endpoint_seed": 582963850,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": "2ce6131c258e07dfe08b36eb7b17874d6a314edb28eebb42a041e3593da33397",
+        "input_cells_sha256": "408356556706894316664d36ead506563a95816704bca7127010d4df8c078693",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.9954545454545455,
+      "desired_direction_resolved": false,
+      "direction_resolved": "unresolved",
+      "estimate": 0.10846560846560845,
+      "family_denominator": 11,
+      "id": "E03_Q2",
+      "interval": [
+        -0.07212151274651292,
+        0.29720193001443346
+      ],
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_main-block000",
+          "p5_main-block001",
+          "p5_main-block002",
+          "p5_main-block003",
+          "p5_main-block004",
+          "p5_main-block005",
+          "p5_main-block006",
+          "p5_main-block007",
+          "p5_main-block008",
+          "p5_main-block009",
+          "p5_main-block010",
+          "p5_main-block011",
+          "p5_main-block012",
+          "p5_main-block013",
+          "p5_main-block014",
+          "p5_main-block015",
+          "p5_main-block016",
+          "p5_main-block017",
+          "p5_main-block018",
+          "p5_main-block019",
+          "p5_main-block020",
+          "p5_main-block021",
+          "p5_main-block022",
+          "p5_main-block023"
+        ],
+        "blocks_expected": 24,
+        "contexts_expected": 72,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_main",
+      "status": "available"
+    },
+    {
+      "block_values": [
+        {
+          "block_id": "p5_main-block000",
+          "mean": -0.34920634920634913,
+          "seed_values": [
+            -0.47619047619047616,
+            -0.23809523809523808,
+            -0.3333333333333333
+          ]
+        },
+        {
+          "block_id": "p5_main-block001",
+          "mean": 0.6587301587301587,
+          "seed_values": [
+            0.9523809523809523,
+            0.38095238095238093,
+            0.6428571428571429
+          ]
+        },
+        {
+          "block_id": "p5_main-block002",
+          "mean": 0.24603174603174605,
+          "seed_values": [
+            0.7142857142857143,
+            0.16666666666666666,
+            -0.14285714285714285
+          ]
+        },
+        {
+          "block_id": "p5_main-block003",
+          "mean": 0.09581010095306074,
+          "seed_values": [
+            0.03592878785739777,
+            0.2754540402400496,
+            -0.02395252523826518
+          ]
+        },
+        {
+          "block_id": "p5_main-block004",
+          "mean": 0.5309476427815448,
+          "seed_values": [
+            0.5389318178609666,
+            0.4910267673844362,
+            0.5628843430992317
+          ]
+        },
+        {
+          "block_id": "p5_main-block005",
+          "mean": 0.49901094246385796,
+          "seed_values": [
+            0.3952166664313755,
+            0.3592878785739777,
+            0.7425282823862206
+          ]
+        },
+        {
+          "block_id": "p5_main-block006",
+          "mean": 0.3592878785739777,
+          "seed_values": [
+            0.2754540402400496,
+            -0.03592878785739777,
+            0.8383383833392813
+          ]
+        },
+        {
+          "block_id": "p5_main-block007",
+          "mean": 0.5555555555555555,
+          "seed_values": [
+            0.2857142857142857,
+            0.7619047619047619,
+            0.6190476190476191
+          ]
+        },
+        {
+          "block_id": "p5_main-block008",
+          "mean": 0.17460317460317462,
+          "seed_values": [
+            0.0,
+            0.21428571428571427,
+            0.30952380952380953
+          ]
+        },
+        {
+          "block_id": "p5_main-block009",
+          "mean": -0.14285714285714288,
+          "seed_values": [
+            -0.5,
+            -0.2619047619047619,
+            0.3333333333333333
+          ]
+        },
+        {
+          "block_id": "p5_main-block010",
+          "mean": 0.41269841269841273,
+          "seed_values": [
+            0.5238095238095238,
+            0.2857142857142857,
+            0.42857142857142855
+          ]
+        },
+        {
+          "block_id": "p5_main-block011",
+          "mean": 0.15079365079365079,
+          "seed_values": [
+            -0.07142857142857142,
+            0.3333333333333333,
+            0.19047619047619047
+          ]
+        },
+        {
+          "block_id": "p5_main-block012",
+          "mean": 0.5952380952380952,
+          "seed_values": [
+            0.9047619047619048,
+            0.8571428571428571,
+            0.023809523809523808
+          ]
+        },
+        {
+          "block_id": "p5_main-block013",
+          "mean": 0.30158730158730157,
+          "seed_values": [
+            0.5714285714285714,
+            0.21428571428571427,
+            0.11904761904761904
+          ]
+        },
+        {
+          "block_id": "p5_main-block014",
+          "mean": 0.41517710412992975,
+          "seed_values": [
+            0.14371515142959107,
+            0.526955555241834,
+            0.5748606057183643
+          ]
+        },
+        {
+          "block_id": "p5_main-block015",
+          "mean": 0.4682539682539683,
+          "seed_values": [
+            0.7142857142857143,
+            0.6190476190476191,
+            0.07142857142857142
+          ]
+        },
+        {
+          "block_id": "p5_main-block016",
+          "mean": 0.6111111111111112,
+          "seed_values": [
+            0.5952380952380952,
+            0.6428571428571429,
+            0.5952380952380952
+          ]
+        },
+        {
+          "block_id": "p5_main-block017",
+          "mean": 0.11904761904761905,
+          "seed_values": [
+            0.5952380952380952,
+            -0.21428571428571427,
+            -0.023809523809523808
+          ]
+        },
+        {
+          "block_id": "p5_main-block018",
+          "mean": 0.1984126984126984,
+          "seed_values": [
+            -0.14285714285714285,
+            0.7142857142857143,
+            0.023809523809523808
+          ]
+        },
+        {
+          "block_id": "p5_main-block019",
+          "mean": 0.4285714285714286,
+          "seed_values": [
+            0.14285714285714285,
+            0.5,
+            0.6428571428571429
+          ]
+        },
+        {
+          "block_id": "p5_main-block020",
+          "mean": 0.31138282809744733,
+          "seed_values": [
+            0.3353353533357125,
+            0.4191691916696407,
+            0.17964393928698885
+          ]
+        },
+        {
+          "block_id": "p5_main-block021",
+          "mean": 0.7105915820685337,
+          "seed_values": [
+            0.8263621207201487,
+            0.45509797952703845,
+            0.8503146459584139
+          ]
+        },
+        {
+          "block_id": "p5_main-block022",
+          "mean": 0.23015873015873015,
+          "seed_values": [
+            -0.19047619047619047,
+            0.047619047619047616,
+            0.8333333333333334
+          ]
+        },
+        {
+          "block_id": "p5_main-block023",
+          "mean": -0.015873015873015872,
+          "seed_values": [
+            -0.38095238095238093,
+            0.23809523809523808,
+            0.09523809523809523
+          ]
+        }
+      ],
+      "bootstrap": {
+        "block_order_sha256": "23c859299409db371e02dd57b20c7674b32bf3136c6ceac5e8df473c6a70d506",
+        "endpoint_seed": 749229769,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": "7df8943587be7a1b6107e04a65a69d73020ccf632345e8428cd5858b4cbe717d",
+        "input_cells_sha256": "9d1f15474f4874833db63c09fd31152c017a2fcf6de89e745ab06d0e740ced80",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.9954545454545455,
+      "desired_direction_resolved": true,
+      "direction_resolved": "greater",
+      "estimate": 0.3152110509135623,
+      "family_denominator": 11,
+      "id": "E03_Q3",
+      "interval": [
+        0.16083728721585955,
+        0.4555297607271645
+      ],
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_main-block000",
+          "p5_main-block001",
+          "p5_main-block002",
+          "p5_main-block003",
+          "p5_main-block004",
+          "p5_main-block005",
+          "p5_main-block006",
+          "p5_main-block007",
+          "p5_main-block008",
+          "p5_main-block009",
+          "p5_main-block010",
+          "p5_main-block011",
+          "p5_main-block012",
+          "p5_main-block013",
+          "p5_main-block014",
+          "p5_main-block015",
+          "p5_main-block016",
+          "p5_main-block017",
+          "p5_main-block018",
+          "p5_main-block019",
+          "p5_main-block020",
+          "p5_main-block021",
+          "p5_main-block022",
+          "p5_main-block023"
+        ],
+        "blocks_expected": 24,
+        "contexts_expected": 72,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_main",
+      "status": "available"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "23c859299409db371e02dd57b20c7674b32bf3136c6ceac5e8df473c6a70d506",
+        "endpoint_seed": 1986181759,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "8b26ab3cba8c7b65be67c80edcb6d7771a8a9557de552b84ee36cb5c3624cce2",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.9954545454545455,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": 11,
+      "id": "E04_M1_difficulty",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_main-block000",
+          "p5_main-block001",
+          "p5_main-block002",
+          "p5_main-block003",
+          "p5_main-block004",
+          "p5_main-block005",
+          "p5_main-block006",
+          "p5_main-block007",
+          "p5_main-block008",
+          "p5_main-block009",
+          "p5_main-block010",
+          "p5_main-block011",
+          "p5_main-block012",
+          "p5_main-block013",
+          "p5_main-block014",
+          "p5_main-block015",
+          "p5_main-block016",
+          "p5_main-block017",
+          "p5_main-block018",
+          "p5_main-block019",
+          "p5_main-block020",
+          "p5_main-block021",
+          "p5_main-block022",
+          "p5_main-block023"
+        ],
+        "blocks_expected": 24,
+        "contexts_expected": 72,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_main",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "23c859299409db371e02dd57b20c7674b32bf3136c6ceac5e8df473c6a70d506",
+        "endpoint_seed": 1937616205,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "8b26ab3cba8c7b65be67c80edcb6d7771a8a9557de552b84ee36cb5c3624cce2",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.9954545454545455,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": 11,
+      "id": "E04_G20_M1",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_main-block000",
+          "p5_main-block001",
+          "p5_main-block002",
+          "p5_main-block003",
+          "p5_main-block004",
+          "p5_main-block005",
+          "p5_main-block006",
+          "p5_main-block007",
+          "p5_main-block008",
+          "p5_main-block009",
+          "p5_main-block010",
+          "p5_main-block011",
+          "p5_main-block012",
+          "p5_main-block013",
+          "p5_main-block014",
+          "p5_main-block015",
+          "p5_main-block016",
+          "p5_main-block017",
+          "p5_main-block018",
+          "p5_main-block019",
+          "p5_main-block020",
+          "p5_main-block021",
+          "p5_main-block022",
+          "p5_main-block023"
+        ],
+        "blocks_expected": 24,
+        "contexts_expected": 72,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_main",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "23c859299409db371e02dd57b20c7674b32bf3136c6ceac5e8df473c6a70d506",
+        "endpoint_seed": 1419391390,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "8b26ab3cba8c7b65be67c80edcb6d7771a8a9557de552b84ee36cb5c3624cce2",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.9954545454545455,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": 11,
+      "id": "E04_M2_difficulty",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_main-block000",
+          "p5_main-block001",
+          "p5_main-block002",
+          "p5_main-block003",
+          "p5_main-block004",
+          "p5_main-block005",
+          "p5_main-block006",
+          "p5_main-block007",
+          "p5_main-block008",
+          "p5_main-block009",
+          "p5_main-block010",
+          "p5_main-block011",
+          "p5_main-block012",
+          "p5_main-block013",
+          "p5_main-block014",
+          "p5_main-block015",
+          "p5_main-block016",
+          "p5_main-block017",
+          "p5_main-block018",
+          "p5_main-block019",
+          "p5_main-block020",
+          "p5_main-block021",
+          "p5_main-block022",
+          "p5_main-block023"
+        ],
+        "blocks_expected": 24,
+        "contexts_expected": 72,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_main",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "23c859299409db371e02dd57b20c7674b32bf3136c6ceac5e8df473c6a70d506",
+        "endpoint_seed": 1939254742,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "8b26ab3cba8c7b65be67c80edcb6d7771a8a9557de552b84ee36cb5c3624cce2",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.9954545454545455,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": 11,
+      "id": "E04_G20_M2",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_main-block000",
+          "p5_main-block001",
+          "p5_main-block002",
+          "p5_main-block003",
+          "p5_main-block004",
+          "p5_main-block005",
+          "p5_main-block006",
+          "p5_main-block007",
+          "p5_main-block008",
+          "p5_main-block009",
+          "p5_main-block010",
+          "p5_main-block011",
+          "p5_main-block012",
+          "p5_main-block013",
+          "p5_main-block014",
+          "p5_main-block015",
+          "p5_main-block016",
+          "p5_main-block017",
+          "p5_main-block018",
+          "p5_main-block019",
+          "p5_main-block020",
+          "p5_main-block021",
+          "p5_main-block022",
+          "p5_main-block023"
+        ],
+        "blocks_expected": 24,
+        "contexts_expected": 72,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_main",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": [
+        {
+          "block_id": "p5_corpus-block000",
+          "mean": 0.042523622511583814,
+          "seed_values": [
+            0.01546621792824776,
+            0.039190266660903916,
+            0.07291438294559976
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block001",
+          "mean": 0.044556149635465135,
+          "seed_values": [
+            0.04934330249615371,
+            0.013999434336832484,
+            0.07032571207340921
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block002",
+          "mean": -0.04225177166550315,
+          "seed_values": [
+            -0.003740621179046222,
+            -0.09075728129637198,
+            -0.03225741252109127
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block003",
+          "mean": 0.019413714916858393,
+          "seed_values": [
+            0.057554951910357366,
+            -0.016658910223061874,
+            0.017345103063279688
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block004",
+          "mean": -0.0364773024942178,
+          "seed_values": [
+            0.013584593730833316,
+            -0.09200080308074376,
+            -0.031015698132742964
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block005",
+          "mean": -0.022937179305666116,
+          "seed_values": [
+            -0.03958585047879165,
+            0.01273004750366269,
+            -0.04195573494186938
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block006",
+          "mean": -0.032972794205780386,
+          "seed_values": [
+            -0.00941126776942508,
+            -0.0069236332968715675,
+            -0.0825834815510445
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block007",
+          "mean": 0.0498749687984025,
+          "seed_values": [
+            0.03218353850452457,
+            -0.026252490987093813,
+            0.14369385887777675
+          ]
+        }
+      ],
+      "bootstrap": {
+        "block_order_sha256": "2f4d9bd58b63ddf5d6c98c7069f4421289fcbd17ee4d7ff574729c7472adc5dd",
+        "endpoint_seed": 734774604,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": "09bc1e6bcac31f6e2b0575341bc1daa2aa7db433c7b4f31b9c17145435bbea45",
+        "input_cells_sha256": "42bdff5a8b3113ce6c5665432f11425d33b920e1ac1c006779d1c38f93fb942d",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": false,
+      "direction_resolved": "unresolved",
+      "estimate": 0.0027161760238927986,
+      "family_denominator": null,
+      "id": "E01_companion_error",
+      "interval": [
+        -0.023501131199623288,
+        0.0287361435900546
+      ],
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_corpus-block000",
+          "p5_corpus-block001",
+          "p5_corpus-block002",
+          "p5_corpus-block003",
+          "p5_corpus-block004",
+          "p5_corpus-block005",
+          "p5_corpus-block006",
+          "p5_corpus-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_corpus",
+      "status": "available"
+    },
+    {
+      "block_values": [
+        {
+          "block_id": "p5_corpus-block000",
+          "mean": -0.005310940208406094,
+          "seed_values": [
+            0.0,
+            -0.01593282062521828,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block001",
+          "mean": 0.04847593683213095,
+          "seed_values": [
+            -0.17242293224777416,
+            0.317850742744167,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block002",
+          "mean": -0.06342534116314491,
+          "seed_values": [
+            -0.10122340440581157,
+            0.0,
+            -0.08905261908362316
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block003",
+          "mean": -0.13127082478067006,
+          "seed_values": [
+            0.1278032550293764,
+            -0.5216157293713866,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block004",
+          "mean": 0.10273667118229331,
+          "seed_values": [
+            0.0,
+            0.0,
+            0.30821001354687994
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block005",
+          "mean": -0.13872117476237364,
+          "seed_values": [
+            0.0,
+            0.0,
+            -0.4161635242871209
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block006",
+          "mean": 0.022636686352570507,
+          "seed_values": [
+            0.06791005905771152,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block007",
+          "mean": 0.0574380382891834,
+          "seed_values": [
+            0.17231411486755022,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "bootstrap": {
+        "block_order_sha256": "2f4d9bd58b63ddf5d6c98c7069f4421289fcbd17ee4d7ff574729c7472adc5dd",
+        "endpoint_seed": 1124564934,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": "a32bde17e73c56f42954f68e266c2e74b0e3418fba74fe0f7f4283064b742ccb",
+        "input_cells_sha256": "6e73d1962f32300c4fa4c0ea88da500e7a4ada02235e4e37e9f60ebe11efe1ae",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": false,
+      "direction_resolved": "unresolved",
+      "estimate": -0.013430118532302067,
+      "family_denominator": null,
+      "id": "E01_selection",
+      "interval": [
+        -0.07199929361982844,
+        0.04177273103706521
+      ],
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_corpus-block000",
+          "p5_corpus-block001",
+          "p5_corpus-block002",
+          "p5_corpus-block003",
+          "p5_corpus-block004",
+          "p5_corpus-block005",
+          "p5_corpus-block006",
+          "p5_corpus-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_corpus",
+      "status": "available"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "2f4d9bd58b63ddf5d6c98c7069f4421289fcbd17ee4d7ff574729c7472adc5dd",
+        "endpoint_seed": 1227658478,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "8c3c8d7c058eb265b23f6fc4e9ad0524274719a3e56e2d784cc487792be4c0e0",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": null,
+      "id": "E02_rank",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_corpus-block000",
+          "p5_corpus-block001",
+          "p5_corpus-block002",
+          "p5_corpus-block003",
+          "p5_corpus-block004",
+          "p5_corpus-block005",
+          "p5_corpus-block006",
+          "p5_corpus-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_corpus",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "2f4d9bd58b63ddf5d6c98c7069f4421289fcbd17ee4d7ff574729c7472adc5dd",
+        "endpoint_seed": 1819817463,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "8c3c8d7c058eb265b23f6fc4e9ad0524274719a3e56e2d784cc487792be4c0e0",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": null,
+      "id": "E02_regret",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_corpus-block000",
+          "p5_corpus-block001",
+          "p5_corpus-block002",
+          "p5_corpus-block003",
+          "p5_corpus-block004",
+          "p5_corpus-block005",
+          "p5_corpus-block006",
+          "p5_corpus-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_corpus",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": [
+        {
+          "block_id": "p5_corpus-block000",
+          "mean": 0.023809523809523798,
+          "seed_values": [
+            0.0,
+            0.023809523809523836,
+            0.04761904761904756
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block001",
+          "mean": 0.06349206349206349,
+          "seed_values": [
+            0.1428571428571429,
+            0.26190476190476186,
+            -0.2142857142857143
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block002",
+          "mean": -0.03968253968253973,
+          "seed_values": [
+            -0.0714285714285714,
+            -0.07142857142857151,
+            0.023809523809523725
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block003",
+          "mean": 0.0634920634920635,
+          "seed_values": [
+            0.11904761904761907,
+            0.047619047619047616,
+            0.023809523809523836
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block004",
+          "mean": -0.08730158730158732,
+          "seed_values": [
+            -0.0714285714285714,
+            -0.07142857142857151,
+            -0.11904761904761907
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block005",
+          "mean": -0.06349206349206345,
+          "seed_values": [
+            -0.5714285714285714,
+            0.023809523809523836,
+            0.3571428571428572
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block006",
+          "mean": -0.06349206349206347,
+          "seed_values": [
+            -0.023809523809523725,
+            -0.23809523809523808,
+            0.0714285714285714
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block007",
+          "mean": 0.03174603174603178,
+          "seed_values": [
+            -0.26190476190476186,
+            0.11904761904761907,
+            0.23809523809523814
+          ]
+        }
+      ],
+      "bootstrap": {
+        "block_order_sha256": "2f4d9bd58b63ddf5d6c98c7069f4421289fcbd17ee4d7ff574729c7472adc5dd",
+        "endpoint_seed": 2082203225,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": "b2e03caf10d611ed8ffac696c703e65c16eedc1bf3e5e2c3e8c2927b7f275e8b",
+        "input_cells_sha256": "164137bf8fdc8770181c5898cf1e134355094dd54d4877af04dc4eee15d063ad",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": false,
+      "direction_resolved": "unresolved",
+      "estimate": -0.008928571428571426,
+      "family_denominator": null,
+      "id": "E03_Q1",
+      "interval": [
+        -0.04761904761904764,
+        0.030753968253968252
+      ],
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_corpus-block000",
+          "p5_corpus-block001",
+          "p5_corpus-block002",
+          "p5_corpus-block003",
+          "p5_corpus-block004",
+          "p5_corpus-block005",
+          "p5_corpus-block006",
+          "p5_corpus-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_corpus",
+      "status": "available"
+    },
+    {
+      "block_values": [
+        {
+          "block_id": "p5_corpus-block000",
+          "mean": -0.09523809523809523,
+          "seed_values": [
+            0.07142857142857151,
+            -0.23809523809523814,
+            -0.11904761904761907
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block001",
+          "mean": -0.0396825396825397,
+          "seed_values": [
+            -0.04761904761904767,
+            -0.1904761904761905,
+            0.11904761904761907
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block002",
+          "mean": -0.16666666666666666,
+          "seed_values": [
+            -0.16666666666666674,
+            -0.23809523809523803,
+            -0.09523809523809523
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block003",
+          "mean": -0.29365079365079366,
+          "seed_values": [
+            -0.5238095238095237,
+            -0.30952380952380953,
+            -0.04761904761904767
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block004",
+          "mean": -0.09523809523809523,
+          "seed_values": [
+            0.0,
+            0.0,
+            -0.2857142857142857
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block005",
+          "mean": 0.21428571428571427,
+          "seed_values": [
+            0.2142857142857143,
+            0.5714285714285714,
+            -0.14285714285714285
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block006",
+          "mean": -0.2857142857142857,
+          "seed_values": [
+            0.0714285714285714,
+            -0.7619047619047619,
+            -0.16666666666666663
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block007",
+          "mean": 0.29365079365079366,
+          "seed_values": [
+            0.40476190476190477,
+            0.2142857142857143,
+            0.2619047619047619
+          ]
+        }
+      ],
+      "bootstrap": {
+        "block_order_sha256": "2f4d9bd58b63ddf5d6c98c7069f4421289fcbd17ee4d7ff574729c7472adc5dd",
+        "endpoint_seed": 582963850,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": "c7b544117ae326bad332f607fe6de5254c9d22048fb6b1ed40ae083539a18f72",
+        "input_cells_sha256": "b9768da0471226af33262ff83da13728ad8e80bd49cdcab3c5df69c7620f2d90",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": false,
+      "direction_resolved": "unresolved",
+      "estimate": -0.05853174603174603,
+      "family_denominator": null,
+      "id": "E03_Q2",
+      "interval": [
+        -0.1875,
+        0.09027777777777778
+      ],
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_corpus-block000",
+          "p5_corpus-block001",
+          "p5_corpus-block002",
+          "p5_corpus-block003",
+          "p5_corpus-block004",
+          "p5_corpus-block005",
+          "p5_corpus-block006",
+          "p5_corpus-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_corpus",
+      "status": "available"
+    },
+    {
+      "block_values": [
+        {
+          "block_id": "p5_corpus-block000",
+          "mean": 0.48412698412698413,
+          "seed_values": [
+            0.7142857142857143,
+            0.16666666666666666,
+            0.5714285714285714
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block001",
+          "mean": -0.18253968253968256,
+          "seed_values": [
+            -0.07142857142857142,
+            0.047619047619047616,
+            -0.5238095238095238
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block002",
+          "mean": 0.2857142857142857,
+          "seed_values": [
+            0.6666666666666666,
+            -0.21428571428571427,
+            0.40476190476190477
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block003",
+          "mean": 0.16766767666785629,
+          "seed_values": [
+            0.4191691916696407,
+            0.16766767666785626,
+            -0.08383383833392813
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block004",
+          "mean": 0.14285714285714285,
+          "seed_values": [
+            0.47619047619047616,
+            0.19047619047619047,
+            -0.23809523809523808
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block005",
+          "mean": 0.10317460317460318,
+          "seed_values": [
+            0.2857142857142857,
+            0.0,
+            0.023809523809523808
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block006",
+          "mean": -0.1349206349206349,
+          "seed_values": [
+            0.30952380952380953,
+            -0.2857142857142857,
+            -0.42857142857142855
+          ]
+        },
+        {
+          "block_id": "p5_corpus-block007",
+          "mean": 0.19047619047619047,
+          "seed_values": [
+            0.23809523809523808,
+            0.23809523809523808,
+            0.09523809523809523
+          ]
+        }
+      ],
+      "bootstrap": {
+        "block_order_sha256": "2f4d9bd58b63ddf5d6c98c7069f4421289fcbd17ee4d7ff574729c7472adc5dd",
+        "endpoint_seed": 749229769,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": "b1ab2beef0ce0269155f4d0d2380da1bc9fc080080249a175e24071a15bf5793",
+        "input_cells_sha256": "5b38a998213ee9a480cc2fc8c1adc4b3149bf3477ed8c8fa80a0c93f9acd2296",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": false,
+      "direction_resolved": "unresolved",
+      "estimate": 0.13206957069459313,
+      "family_denominator": null,
+      "id": "E03_Q3",
+      "interval": [
+        -0.005702128452083555,
+        0.2718253968253968
+      ],
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_corpus-block000",
+          "p5_corpus-block001",
+          "p5_corpus-block002",
+          "p5_corpus-block003",
+          "p5_corpus-block004",
+          "p5_corpus-block005",
+          "p5_corpus-block006",
+          "p5_corpus-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_corpus",
+      "status": "available"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "2f4d9bd58b63ddf5d6c98c7069f4421289fcbd17ee4d7ff574729c7472adc5dd",
+        "endpoint_seed": 1986181759,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "8c3c8d7c058eb265b23f6fc4e9ad0524274719a3e56e2d784cc487792be4c0e0",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": null,
+      "id": "E04_M1_difficulty",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_corpus-block000",
+          "p5_corpus-block001",
+          "p5_corpus-block002",
+          "p5_corpus-block003",
+          "p5_corpus-block004",
+          "p5_corpus-block005",
+          "p5_corpus-block006",
+          "p5_corpus-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_corpus",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "2f4d9bd58b63ddf5d6c98c7069f4421289fcbd17ee4d7ff574729c7472adc5dd",
+        "endpoint_seed": 1937616205,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "8c3c8d7c058eb265b23f6fc4e9ad0524274719a3e56e2d784cc487792be4c0e0",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": null,
+      "id": "E04_G20_M1",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_corpus-block000",
+          "p5_corpus-block001",
+          "p5_corpus-block002",
+          "p5_corpus-block003",
+          "p5_corpus-block004",
+          "p5_corpus-block005",
+          "p5_corpus-block006",
+          "p5_corpus-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_corpus",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "2f4d9bd58b63ddf5d6c98c7069f4421289fcbd17ee4d7ff574729c7472adc5dd",
+        "endpoint_seed": 1419391390,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "8c3c8d7c058eb265b23f6fc4e9ad0524274719a3e56e2d784cc487792be4c0e0",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": null,
+      "id": "E04_M2_difficulty",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_corpus-block000",
+          "p5_corpus-block001",
+          "p5_corpus-block002",
+          "p5_corpus-block003",
+          "p5_corpus-block004",
+          "p5_corpus-block005",
+          "p5_corpus-block006",
+          "p5_corpus-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_corpus",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "2f4d9bd58b63ddf5d6c98c7069f4421289fcbd17ee4d7ff574729c7472adc5dd",
+        "endpoint_seed": 1939254742,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "8c3c8d7c058eb265b23f6fc4e9ad0524274719a3e56e2d784cc487792be4c0e0",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": null,
+      "id": "E04_G20_M2",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_corpus-block000",
+          "p5_corpus-block001",
+          "p5_corpus-block002",
+          "p5_corpus-block003",
+          "p5_corpus-block004",
+          "p5_corpus-block005",
+          "p5_corpus-block006",
+          "p5_corpus-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_corpus",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": [
+        {
+          "block_id": "p5_model-block000",
+          "mean": 0.18253968253968253,
+          "seed_values": [
+            0.09523809523809523,
+            0.09523809523809523,
+            0.3571428571428571
+          ]
+        },
+        {
+          "block_id": "p5_model-block001",
+          "mean": 0.1507936507936508,
+          "seed_values": [
+            0.2142857142857143,
+            0.11904761904761907,
+            0.11904761904761907
+          ]
+        },
+        {
+          "block_id": "p5_model-block002",
+          "mean": 0.7301587301587302,
+          "seed_values": [
+            0.7857142857142857,
+            0.6190476190476191,
+            0.7857142857142857
+          ]
+        },
+        {
+          "block_id": "p5_model-block003",
+          "mean": 0.055555555555555546,
+          "seed_values": [
+            0.0714285714285714,
+            0.0,
+            0.09523809523809523
+          ]
+        },
+        {
+          "block_id": "p5_model-block004",
+          "mean": 0.48412698412698413,
+          "seed_values": [
+            0.2857142857142857,
+            0.5952380952380952,
+            0.5714285714285714
+          ]
+        },
+        {
+          "block_id": "p5_model-block005",
+          "mean": 0.15079365079365079,
+          "seed_values": [
+            0.26190476190476186,
+            0.19047619047619047,
+            0.0
+          ]
+        },
+        {
+          "block_id": "p5_model-block006",
+          "mean": 0.23809523809523805,
+          "seed_values": [
+            0.19047619047619047,
+            0.33333333333333326,
+            0.19047619047619047
+          ]
+        },
+        {
+          "block_id": "p5_model-block007",
+          "mean": 0.5714285714285714,
+          "seed_values": [
+            0.40476190476190466,
+            0.8095238095238095,
+            0.5
+          ]
+        }
+      ],
+      "bootstrap": {
+        "block_order_sha256": "95e2739247355cf15f6ffe7cf01d484d7c4ee01986ff80339327be6c1845ad82",
+        "endpoint_seed": 2082203225,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": "b2e03caf10d611ed8ffac696c703e65c16eedc1bf3e5e2c3e8c2927b7f275e8b",
+        "input_cells_sha256": "7f37c8cde12c18469a46dcd31dc3dbe5797688b188d7d62be93f0eb9c361028b",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": true,
+      "direction_resolved": "greater",
+      "estimate": 0.3204365079365079,
+      "family_denominator": null,
+      "id": "E03_Q1",
+      "interval": [
+        0.1736111111111111,
+        0.48412698412698413
+      ],
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_model-block000",
+          "p5_model-block001",
+          "p5_model-block002",
+          "p5_model-block003",
+          "p5_model-block004",
+          "p5_model-block005",
+          "p5_model-block006",
+          "p5_model-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_model",
+      "status": "available"
+    },
+    {
+      "block_values": [
+        {
+          "block_id": "p5_model-block000",
+          "mean": 0.19047619047619044,
+          "seed_values": [
+            0.16666666666666663,
+            0.33333333333333326,
+            0.0714285714285714
+          ]
+        },
+        {
+          "block_id": "p5_model-block001",
+          "mean": 0.14285714285714282,
+          "seed_values": [
+            0.04761904761904756,
+            0.19047619047619047,
+            0.19047619047619047
+          ]
+        },
+        {
+          "block_id": "p5_model-block002",
+          "mean": -0.03968253968253968,
+          "seed_values": [
+            -0.19047619047619047,
+            0.09523809523809523,
+            -0.023809523809523808
+          ]
+        },
+        {
+          "block_id": "p5_model-block003",
+          "mean": 0.6190476190476191,
+          "seed_values": [
+            0.6666666666666666,
+            0.6666666666666666,
+            0.5238095238095238
+          ]
+        },
+        {
+          "block_id": "p5_model-block004",
+          "mean": -0.38888888888888884,
+          "seed_values": [
+            -0.16666666666666663,
+            -0.47619047619047616,
+            -0.5238095238095238
+          ]
+        },
+        {
+          "block_id": "p5_model-block005",
+          "mean": 0.5952380952380952,
+          "seed_values": [
+            0.4047619047619048,
+            0.4761904761904762,
+            0.9047619047619048
+          ]
+        },
+        {
+          "block_id": "p5_model-block006",
+          "mean": 0.38095238095238093,
+          "seed_values": [
+            0.3571428571428571,
+            0.33333333333333337,
+            0.45238095238095233
+          ]
+        },
+        {
+          "block_id": "p5_model-block007",
+          "mean": 0.14285714285714288,
+          "seed_values": [
+            0.21428571428571436,
+            -0.09523809523809526,
+            0.30952380952380953
+          ]
+        }
+      ],
+      "bootstrap": {
+        "block_order_sha256": "95e2739247355cf15f6ffe7cf01d484d7c4ee01986ff80339327be6c1845ad82",
+        "endpoint_seed": 582963850,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": "c7b544117ae326bad332f607fe6de5254c9d22048fb6b1ed40ae083539a18f72",
+        "input_cells_sha256": "4f08b970f59bc70efba68681956b1f22b4947cda975abba336044dfe4a6a7911",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": false,
+      "direction_resolved": "unresolved",
+      "estimate": 0.20535714285714285,
+      "family_denominator": null,
+      "id": "E03_Q2",
+      "interval": [
+        -0.018874007936507512,
+        0.41369047619047616
+      ],
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_model-block000",
+          "p5_model-block001",
+          "p5_model-block002",
+          "p5_model-block003",
+          "p5_model-block004",
+          "p5_model-block005",
+          "p5_model-block006",
+          "p5_model-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_model",
+      "status": "available"
+    },
+    {
+      "block_values": [
+        {
+          "block_id": "p5_model-block000",
+          "mean": 0.16666666666666666,
+          "seed_values": [
+            0.023809523809523808,
+            -0.047619047619047616,
+            0.5238095238095238
+          ]
+        },
+        {
+          "block_id": "p5_model-block001",
+          "mean": 0.5952380952380952,
+          "seed_values": [
+            0.6190476190476191,
+            0.6190476190476191,
+            0.5476190476190477
+          ]
+        },
+        {
+          "block_id": "p5_model-block002",
+          "mean": 0.6904761904761906,
+          "seed_values": [
+            0.5476190476190477,
+            0.7380952380952381,
+            0.7857142857142857
+          ]
+        },
+        {
+          "block_id": "p5_model-block003",
+          "mean": -0.1077863635721933,
+          "seed_values": [
+            -0.22754898976351923,
+            0.21557272714438663,
+            -0.31138282809744733
+          ]
+        },
+        {
+          "block_id": "p5_model-block004",
+          "mean": 0.7619047619047619,
+          "seed_values": [
+            0.8809523809523809,
+            0.7380952380952381,
+            0.6666666666666666
+          ]
+        },
+        {
+          "block_id": "p5_model-block005",
+          "mean": 0.6031746031746031,
+          "seed_values": [
+            0.5,
+            0.5238095238095238,
+            0.7857142857142857
+          ]
+        },
+        {
+          "block_id": "p5_model-block006",
+          "mean": 0.2834382153194713,
+          "seed_values": [
+            0.31138282809744733,
+            0.14371515142959107,
+            0.3952166664313755
+          ]
+        },
+        {
+          "block_id": "p5_model-block007",
+          "mean": 0.42857142857142855,
+          "seed_values": [
+            0.38095238095238093,
+            0.5714285714285714,
+            0.3333333333333333
+          ]
+        }
+      ],
+      "bootstrap": {
+        "block_order_sha256": "95e2739247355cf15f6ffe7cf01d484d7c4ee01986ff80339327be6c1845ad82",
+        "endpoint_seed": 749229769,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": "b1ab2beef0ce0269155f4d0d2380da1bc9fc080080249a175e24071a15bf5793",
+        "input_cells_sha256": "2be3a0885d38729f1dc3f07c1d0f94c0baa26bde297899b74bdb00a6d32ef4ef",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": true,
+      "direction_resolved": "greater",
+      "estimate": 0.427710449722378,
+      "family_denominator": null,
+      "id": "E03_Q3",
+      "interval": [
+        0.22545312953344337,
+        0.6061611834868518
+      ],
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_model-block000",
+          "p5_model-block001",
+          "p5_model-block002",
+          "p5_model-block003",
+          "p5_model-block004",
+          "p5_model-block005",
+          "p5_model-block006",
+          "p5_model-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_model",
+      "status": "available"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "95e2739247355cf15f6ffe7cf01d484d7c4ee01986ff80339327be6c1845ad82",
+        "endpoint_seed": 1986181759,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "8c3c8d7c058eb265b23f6fc4e9ad0524274719a3e56e2d784cc487792be4c0e0",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": null,
+      "id": "E04_M1_difficulty",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_model-block000",
+          "p5_model-block001",
+          "p5_model-block002",
+          "p5_model-block003",
+          "p5_model-block004",
+          "p5_model-block005",
+          "p5_model-block006",
+          "p5_model-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_model",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "95e2739247355cf15f6ffe7cf01d484d7c4ee01986ff80339327be6c1845ad82",
+        "endpoint_seed": 1937616205,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "8c3c8d7c058eb265b23f6fc4e9ad0524274719a3e56e2d784cc487792be4c0e0",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": null,
+      "id": "E04_G20_M1",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_model-block000",
+          "p5_model-block001",
+          "p5_model-block002",
+          "p5_model-block003",
+          "p5_model-block004",
+          "p5_model-block005",
+          "p5_model-block006",
+          "p5_model-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_model",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "95e2739247355cf15f6ffe7cf01d484d7c4ee01986ff80339327be6c1845ad82",
+        "endpoint_seed": 1419391390,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "8c3c8d7c058eb265b23f6fc4e9ad0524274719a3e56e2d784cc487792be4c0e0",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": null,
+      "id": "E04_M2_difficulty",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_model-block000",
+          "p5_model-block001",
+          "p5_model-block002",
+          "p5_model-block003",
+          "p5_model-block004",
+          "p5_model-block005",
+          "p5_model-block006",
+          "p5_model-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_model",
+      "status": "blocked_incomplete"
+    },
+    {
+      "block_values": null,
+      "bootstrap": {
+        "block_order_sha256": "95e2739247355cf15f6ffe7cf01d484d7c4ee01986ff80339327be6c1845ad82",
+        "endpoint_seed": 1939254742,
+        "helper_sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab",
+        "index_hash_encoding": "canonical n_blocks/seed/draws header then big-endian uint32 indices",
+        "index_stream_sha256": null,
+        "input_cells_sha256": "8c3c8d7c058eb265b23f6fc4e9ad0524274719a3e56e2d784cc487792be4c0e0",
+        "law": "Python random.Random per-endpoint seed; draw n complete block indices with replacement n times per replicate; fixed seeds/backgrounds retained.",
+        "percentile": "Linear interpolation at index(n-1)*p, same as original frozen helper.",
+        "replicates": 20000,
+        "root_seed": 202610051754
+      },
+      "confidence": 0.95,
+      "desired_direction_resolved": null,
+      "direction_resolved": null,
+      "estimate": null,
+      "family_denominator": null,
+      "id": "E04_G20_M2",
+      "interval": null,
+      "population": {
+        "backgrounds": [
+          0
+        ],
+        "block_ids": [
+          "p5_model-block000",
+          "p5_model-block001",
+          "p5_model-block002",
+          "p5_model-block003",
+          "p5_model-block004",
+          "p5_model-block005",
+          "p5_model-block006",
+          "p5_model-block007"
+        ],
+        "blocks_expected": 8,
+        "contexts_expected": 24,
+        "focals_per_context": 8,
+        "inference_unit": "original block",
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "weighting": "equal seeds within block, equal blocks"
+      },
+      "setting": "p5_model",
+      "status": "blocked_incomplete"
+    }
+  ],
+  "method_summaries": [
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "0.32605820105820105",
+      "cross_seed_top_two_regret": "0.22871521687971183",
+      "frozen_display_order": "0",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "difficulty",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "0.3002645502645503",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "0.6372354497354498",
+      "cross_seed_top_two_regret": "0.09000493558404393",
+      "frozen_display_order": "1",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "G20",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.19244982908171038",
+      "same_realization_spearman": "0.7129629629629629",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "0.6018518518518519",
+      "cross_seed_top_two_regret": "0.12847503351816222",
+      "frozen_display_order": "2",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "G5_coherent",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.18222978643899754",
+      "same_realization_spearman": "0.6557539682539683",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "0.6011904761904762",
+      "cross_seed_top_two_regret": "0.11799287839311123",
+      "frozen_display_order": "3",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "G5_dispersed",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.19083856586887407",
+      "same_realization_spearman": "0.6871693121693121",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "0.5873015873015873",
+      "cross_seed_top_two_regret": "0.12251633066992275",
+      "frozen_display_order": "4",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "R_half",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.20265648707356032",
+      "same_realization_spearman": "0.6954365079365079",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "0.43452380952380953",
+      "cross_seed_top_two_regret": "0.19466891063972425",
+      "frozen_display_order": "5",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "R_disj",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.2245246159965081",
+      "same_realization_spearman": "0.49933862433862436",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "0.4636243386243386",
+      "cross_seed_top_two_regret": "0.17523496759350302",
+      "frozen_display_order": "6",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "R_disj_next_block_reuse",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.2299485288973395",
+      "same_realization_spearman": "0.53505291005291",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "0.22288359788359788",
+      "cross_seed_top_two_regret": "0.25897859446300364",
+      "frozen_display_order": "7",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_plain_epoch",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "0.1669973544973545",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "8",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac",
+      "primary_E04_variant": "True",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "9",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_damping_0p1",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "10",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_damping_10p0",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "11",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_block_linear_ekfac",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "12",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_preconditioned",
+      "primary_E04_variant": "True",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "13",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_plain",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "14",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_less_style_cosine",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "15",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_preconditioned",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "16",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_plain",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "17",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_less_style_cosine",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "18",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "19",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_damping_0p1_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "20",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_damping_10p0_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "21",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_block_linear_ekfac_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "22",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_preconditioned_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "23",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_plain_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "24",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_less_style_cosine_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "25",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_preconditioned_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "26",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_plain_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "24",
+      "contexts_expected": "72",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "27",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_less_style_cosine_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_main_all_blocks_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "72"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "0.6607142857142857",
+      "cross_seed_top_two_regret": "0.11313956058955378",
+      "frozen_display_order": "0",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "difficulty",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "0.5406746031746031",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "0.5932539682539683",
+      "cross_seed_top_two_regret": "0.12168549596978233",
+      "frozen_display_order": "1",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "G20",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.17355578230213056",
+      "same_realization_spearman": "0.8432539682539683",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "0.5873015873015873",
+      "cross_seed_top_two_regret": "0.1184123766549173",
+      "frozen_display_order": "2",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "G5_coherent",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.13757421215921367",
+      "same_realization_spearman": "0.8283730158730158",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "0.5823412698412699",
+      "cross_seed_top_two_regret": "0.1351156145020844",
+      "frozen_display_order": "3",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "G5_dispersed",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.13485803613532088",
+      "same_realization_spearman": "0.8511904761904762",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "0.558531746031746",
+      "cross_seed_top_two_regret": "0.16923731581827722",
+      "frozen_display_order": "4",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "R_half",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.1638368972255509",
+      "same_realization_spearman": "0.8283730158730158",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "0.6021825396825397",
+      "cross_seed_top_two_regret": "0.1400826523776893",
+      "frozen_display_order": "5",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "R_disj",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.19026787868365697",
+      "same_realization_spearman": "0.8392857142857142",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "0.5763888888888888",
+      "cross_seed_top_two_regret": "0.14675590117307016",
+      "frozen_display_order": "6",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "R_disj_next_block_reuse",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.20481746577678145",
+      "same_realization_spearman": "0.8055555555555556",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "0.05158730158730159",
+      "cross_seed_top_two_regret": "0.4081622224688056",
+      "frozen_display_order": "7",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_plain_epoch",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "0.012896825396825391",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "8",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_raw_0.001",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "9",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_raw_0.01",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "10",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_raw_0.0001",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "11",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_normalized_0.001",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "12",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_normalized_0.01",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "13",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_normalized_0.0001",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "14",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac",
+      "primary_E04_variant": "True",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "15",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_damping_0p1",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "16",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_damping_10p0",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "17",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_block_linear_ekfac",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "18",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_preconditioned",
+      "primary_E04_variant": "True",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "19",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_plain",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "20",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_less_style_cosine",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "21",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_preconditioned",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "22",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_plain",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "23",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_less_style_cosine",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "24",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "25",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_damping_0p1_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "26",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_damping_10p0_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "27",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_block_linear_ekfac_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "28",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_preconditioned_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "29",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_plain_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "30",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_less_style_cosine_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "31",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_preconditioned_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "32",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_plain_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "33",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_less_style_cosine_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_corpus_all_blocks_descriptive",
+      "setting": "p5_corpus",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "0.42956349206349204",
+      "cross_seed_top_two_regret": "0.07844103022818372",
+      "frozen_display_order": "0",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "difficulty",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "0.4087301587301587",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "0.9553571428571428",
+      "cross_seed_top_two_regret": "0.00543265944527125",
+      "frozen_display_order": "1",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "G20",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.013793600907290964",
+      "same_realization_spearman": "0.9722222222222222",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "0.8373015873015873",
+      "cross_seed_top_two_regret": "0.009696826088988052",
+      "frozen_display_order": "2",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "R_half",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.04519445576398147",
+      "same_realization_spearman": "0.8501984126984128",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "0.6349206349206349",
+      "cross_seed_top_two_regret": "0.029454560958738277",
+      "frozen_display_order": "3",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "R_disj",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.0769874090172055",
+      "same_realization_spearman": "0.6498015873015873",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "0.5347222222222222",
+      "cross_seed_top_two_regret": "0.04414113284721224",
+      "frozen_display_order": "4",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "R_disj_next_block_reuse",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.07838074480358173",
+      "same_realization_spearman": "0.5337301587301587",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "5",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac",
+      "primary_E04_variant": "True",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "6",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_damping_0p1",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "7",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_damping_10p0",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "8",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_block_linear_ekfac",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "9",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_preconditioned",
+      "primary_E04_variant": "True",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "10",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_plain",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "11",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_less_style_cosine",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "12",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_preconditioned",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "13",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_plain",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "14",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_less_style_cosine",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "15",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "16",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_damping_0p1_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "17",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_mlp_ekfac_damping_10p0_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "18",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m1_block_linear_ekfac_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "19",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_preconditioned_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "20",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_plain_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "21",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_epoch_less_style_cosine_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "22",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_preconditioned_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "23",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_plain_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "8",
+      "contexts_expected": "24",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "24",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "m2_actual_step_less_style_cosine_removal_only",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "p5_model_all_blocks_descriptive",
+      "setting": "p5_model",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "24"
+    },
+    {
+      "blocks_expected": "20",
+      "contexts_expected": "60",
+      "cross_seed_spearman": "0.6472222222222223",
+      "cross_seed_top_two_regret": "0.08241605772917396",
+      "frozen_display_order": "0",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "G20",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "0.19890909033023177",
+      "same_realization_spearman": "0.7150793650793651",
+      "scope": "E02_frozen_main_evaluation20_descriptive",
+      "setting": "p5_main",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "20",
+      "contexts_expected": "60",
+      "cross_seed_spearman": "0.19920634920634922",
+      "cross_seed_top_two_regret": "0.2628306435334614",
+      "frozen_display_order": "1",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_plain_epoch",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "0.16984126984126985",
+      "scope": "E02_frozen_main_evaluation20_descriptive",
+      "setting": "p5_main",
+      "status": "available_descriptive",
+      "unavailable_context_count": "0"
+    },
+    {
+      "blocks_expected": "20",
+      "contexts_expected": "60",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "2",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_raw_0.001",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "E02_frozen_main_evaluation20_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "60"
+    },
+    {
+      "blocks_expected": "20",
+      "contexts_expected": "60",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "3",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_raw_0.01",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "E02_frozen_main_evaluation20_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "60"
+    },
+    {
+      "blocks_expected": "20",
+      "contexts_expected": "60",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "4",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_raw_0.0001",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "E02_frozen_main_evaluation20_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "60"
+    },
+    {
+      "blocks_expected": "20",
+      "contexts_expected": "60",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "5",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_normalized_0.001",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "E02_frozen_main_evaluation20_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "60"
+    },
+    {
+      "blocks_expected": "20",
+      "contexts_expected": "60",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "6",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_normalized_0.01",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "E02_frozen_main_evaluation20_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "60"
+    },
+    {
+      "blocks_expected": "20",
+      "contexts_expected": "60",
+      "cross_seed_spearman": "",
+      "cross_seed_top_two_regret": "",
+      "frozen_display_order": "7",
+      "inference": "none; post hoc descriptive, not an added test",
+      "method": "E02_normalized_0.0001",
+      "primary_E04_variant": "False",
+      "same_realization_mean_absolute_error": "",
+      "same_realization_spearman": "",
+      "scope": "E02_frozen_main_evaluation20_descriptive",
+      "setting": "p5_main",
+      "status": "blocked_qualification",
+      "unavailable_context_count": "60"
+    }
+  ],
+  "reference_ladder": [
+    {
+      "blocks": 24,
+      "contexts": 72,
+      "descriptive_mean_rank_differences": {
+        "G20_minus_half": 0.04993386243386242,
+        "disjoint_minus_fixed_reuse": -0.029100529100529116,
+        "half_minus_disjoint": 0.15277777777777782
+      },
+      "monotone_block_count": 12,
+      "monotone_context_count": 33,
+      "no_new_significance_tests": true,
+      "setting": "p5_main",
+      "undefined_context_frontiers": 0
+    },
+    {
+      "blocks": 8,
+      "contexts": 24,
+      "descriptive_mean_rank_differences": {
+        "G20_minus_half": 0.03472222222222221,
+        "disjoint_minus_fixed_reuse": 0.0257936507936508,
+        "half_minus_disjoint": -0.043650793650793634
+      },
+      "monotone_block_count": 0,
+      "monotone_context_count": 5,
+      "no_new_significance_tests": true,
+      "setting": "p5_corpus",
+      "undefined_context_frontiers": 0
+    },
+    {
+      "blocks": 8,
+      "contexts": 24,
+      "descriptive_mean_rank_differences": {
+        "G20_minus_half": 0.1180555555555555,
+        "disjoint_minus_fixed_reuse": 0.10019841269841269,
+        "half_minus_disjoint": 0.2023809523809524
+      },
+      "monotone_block_count": 6,
+      "monotone_context_count": 18,
+      "no_new_significance_tests": true,
+      "setting": "p5_model",
+      "undefined_context_frontiers": 0
+    }
+  ],
+  "schema": "anonymous-followup-accepted-numerical-checks-v1"
+}

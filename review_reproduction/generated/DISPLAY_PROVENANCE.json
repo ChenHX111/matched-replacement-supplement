@@ -1,0 +1,157 @@
+{
+  "main_display_records": [
+    {
+      "endpoint": "rank",
+      "estimate": -0.09126984126984126,
+      "interval": [
+        -0.19148478835978827,
+        0.016203703703703703
+      ],
+      "method": "loss_drop",
+      "provenance": "unchanged_original_nominal_5000"
+    },
+    {
+      "endpoint": "regret",
+      "estimate": 0.39138447807043525,
+      "interval": [
+        0.3331316072835385,
+        0.4498565426745573
+      ],
+      "method": "loss_drop",
+      "provenance": "unchanged_original_nominal_5000"
+    },
+    {
+      "endpoint": "rank",
+      "estimate": 0.34953703703703703,
+      "interval": [
+        0.21395502645502643,
+        0.4770213293650793
+      ],
+      "method": "difficulty",
+      "provenance": "unchanged_original_nominal_5000"
+    },
+    {
+      "endpoint": "regret",
+      "estimate": 0.22396077361974384,
+      "interval": [
+        0.17084344119138414,
+        0.27564759626806357
+      ],
+      "method": "difficulty",
+      "provenance": "unchanged_original_nominal_5000"
+    },
+    {
+      "endpoint": "rank",
+      "estimate": 0.47222222222222215,
+      "interval": [
+        0.3723544973544974,
+        0.5639880952380952
+      ],
+      "method": "final_nll",
+      "provenance": "new_post_hoc"
+    },
+    {
+      "endpoint": "regret",
+      "estimate": 0.17524952871505217,
+      "interval": [
+        0.13647271995469948,
+        0.21713834653995673
+      ],
+      "method": "final_nll",
+      "provenance": "new_post_hoc"
+    },
+    {
+      "endpoint": "rank",
+      "estimate": 0.5661167206823711,
+      "interval": [
+        0.4652003062386972,
+        0.6603015474467775
+      ],
+      "method": "count",
+      "provenance": "unchanged_retained_count_post_hoc_5000"
+    },
+    {
+      "endpoint": "regret",
+      "estimate": 0.13333259008493106,
+      "interval": [
+        0.0966648196373716,
+        0.17056924670286508
+      ],
+      "method": "count",
+      "provenance": "unchanged_retained_count_post_hoc_5000"
+    },
+    {
+      "endpoint": "rank",
+      "estimate": 0.6000330687830687,
+      "interval": [
+        0.4973503637566138,
+        0.6959366732804232
+      ],
+      "method": "U4",
+      "provenance": "unchanged_original_nominal_5000"
+    },
+    {
+      "endpoint": "regret",
+      "estimate": 0.12508502075188146,
+      "interval": [
+        0.0868370759602001,
+        0.16366517021625815
+      ],
+      "method": "U4",
+      "provenance": "unchanged_original_nominal_5000"
+    },
+    {
+      "endpoint": "rank",
+      "estimate": 0.6603835978835979,
+      "interval": [
+        0.6011863425925926,
+        0.7185846560846562
+      ],
+      "method": "G20",
+      "provenance": "unchanged_original_nominal_5000"
+    },
+    {
+      "endpoint": "regret",
+      "estimate": 0.08696497754051148,
+      "interval": [
+        0.06553258350572831,
+        0.10912755572710303
+      ],
+      "method": "G20",
+      "provenance": "unchanged_original_nominal_5000"
+    },
+    {
+      "endpoint": "rank",
+      "estimate": 0.5942460317460317,
+      "interval": [
+        0.5286044973544973,
+        0.6583994708994709
+      ],
+      "method": "one_seed",
+      "provenance": "retained_diagnostic_replay"
+    },
+    {
+      "endpoint": "regret",
+      "estimate": 0.1254258040103886,
+      "interval": [
+        0.10035400716733806,
+        0.15045739912172681
+      ],
+      "method": "one_seed",
+      "provenance": "retained_diagnostic_replay"
+    }
+  ],
+  "original_count_check_sha256": "9df30dfc4cb2c03dad0eae2d2d49614e19c8cdd4d1bb29c0bfd04ea496653e99",
+  "original_paper_values_sha256": "3511b5ef8f300cf760816840aa2e7e3ee9af721c7727c5011b9399ddcd36eaff",
+  "summary_sha256": "47646adc01a931dcba4a56ac03cfb6072f28427bf8e4f1e5598a03399038d483",
+  "tables": {
+    "review_absolute.tex": "07b454d14c934a3304a46b7a5c903d0df3f468e6bd9b746d84b28cabf0a0dec7",
+    "review_component_means.tex": "52e7947dc09770f7801a2bcf48d4bf77493a143fd6fd33f0a6676c2debe27784",
+    "review_component_ranks.tex": "e63e8ad1337ba00eca834dc2eb98563838f917fc2b23224575a39978280b5ca9",
+    "review_fidelity.tex": "b050b13e7843b05910618357de9f00fc6eac5fbddc5fe68c78cf917a35407f22",
+    "review_final_comparisons.tex": "11c2eb15e410342e0df10f91428c2c46ed001abf0ef01c0361691a52d5f8f578",
+    "review_input_associations.tex": "aafa90cf873a3e42ddf75ca3c68c948cd5bfcc9a897309adc3187d54116566da",
+    "review_stability.tex": "01a7f8e1d4c0d1ef45427c7e4718b1df8039dbaa4eda816d622580e87dfcc8b6",
+    "review_strata.tex": "5d3902dcdbd3cc00ffd7067870f86bbf0bb3ad108349c4f6c56fa6aa5bcc35ee"
+  }
+}

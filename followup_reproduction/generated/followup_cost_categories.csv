@@ -1,0 +1,8 @@
+accepted_actions,accepted_full_fits,class,exclusive_accepted_action_seconds,exclusive_accepted_gpu_job_hours,reported_accepted_action_seconds,timing_status
+60,60,qualification/base_qualification,137193.40961045958,38.10928044734988,137193.40961045958,exclusive_observed
+10,0,qualification/objective_qualification,0.0,0.0,0.0,exclusive_observed
+6,0,qualification/plain_qualification/E02,0.0,0.0,0.0,exclusive_observed
+96,0,science/plain_epoch_diagnostic/E02,,,1059.165726782754,unresolved_shared_replay_overlap
+768,768,science/reference_fit/E01,235400.42136063427,65.38900593350952,235400.42136063427,exclusive_observed
+240,240,science/reference_fit/E03,65909.39192092605,18.308164422479457,65909.39192092605,exclusive_observed
+120,120,science/shared_replay,103363.16836868599,28.711991213523888,103363.16836868599,exclusive_observed

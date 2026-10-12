@@ -1,0 +1,209 @@
+{
+  "accepted_endpoint_comparison": {
+    "available_intervals": 13,
+    "command": "generate",
+    "endpoint_records": 29,
+    "exact_stream_and_cell_binding_checks": 174,
+    "generated_files": 31,
+    "maximum_absolute_numeric_difference": 0.0,
+    "numeric_tolerance": 1e-14,
+    "numerical_checks": 309,
+    "status": "pass",
+    "tolerance_scope": "Only floating aggregation; context-cell hashes, streams, populations, availability, directions and descriptive decisions must match exactly."
+  },
+  "clean_relocation": {
+    "boundary": "This receipt and final manifest are added after the clean numerical replay; final metadata verification is recorded in the project-side handoff.",
+    "full_pre_handoff_payload_byte_identical": true,
+    "generate_exit_code": 0,
+    "generated_files_initially_present": false,
+    "verify_exit_code": 0
+  },
+  "dependencies": "Python 3.11 standard library only",
+  "focused_tests": {
+    "errors": 0,
+    "failures": 0,
+    "run": 11,
+    "skipped": 0
+  },
+  "interpreter": {
+    "implementation": "CPython",
+    "version": "3.11.9"
+  },
+  "interval_family_and_unavailable_endpoints_preserved": true,
+  "new_neural_calls": 0,
+  "new_significance_family": false,
+  "payload_before_this_receipt": {
+    "DEFINITIONS.md": {
+      "bytes": 11071,
+      "sha256": "c439de75b041afa604e25399f6c76c0ee9234fafc3dc2e5bb7bc00f7ee385e90"
+    },
+    "README.md": {
+      "bytes": 9825,
+      "sha256": "1655245e365450ec97f29758c47a276eae70a35f3a4bc630f2c2510aff57ba84"
+    },
+    "generated/followup_all_projected_configurations.csv": {
+      "bytes": 1857,
+      "sha256": "47799e6817b0598940a84c79f27f3b9247697c42ba61db3a4486a1af705b8669"
+    },
+    "generated/followup_all_projected_configurations.tex": {
+      "bytes": 1395,
+      "sha256": "107123358db9ab3bf8bff4ccc2b8fcbc93373b7ba3f8d7bb2ebf7dd73eb80fc5"
+    },
+    "generated/followup_cost_categories.csv": {
+      "bytes": 833,
+      "sha256": "7b3664e5abcc3e70f58da71d7e0b3ae6ffc8fd742b0e41a3abaec86edde1164e"
+    },
+    "generated/followup_costs.csv": {
+      "bytes": 395,
+      "sha256": "1aa4574f68110e598240b42138f7c9e2d2f167972c53f590b8e9cb2f6bc91374"
+    },
+    "generated/followup_costs.tex": {
+      "bytes": 571,
+      "sha256": "7285df71d8038370c021ddaf715b7f0ad230aa4e349a729a52c22ab95d3a6c86"
+    },
+    "generated/followup_endpoints.csv": {
+      "bytes": 5272,
+      "sha256": "25ce6ed70a7f2d48157adec1a459365f95daf05fc84c2eae937cae6c26e08cb9"
+    },
+    "generated/followup_gpt2_endpoints.csv": {
+      "bytes": 1366,
+      "sha256": "6251a9ff2744fdde95eeb4f448453d24d3ed185dbb759c7e9169ec07d5a1bfe0"
+    },
+    "generated/followup_gpt2_endpoints.tex": {
+      "bytes": 808,
+      "sha256": "cc1ecbe67eac4089006a1afdf8a984330038b0e7450b759449d8c3a83c6e6df8"
+    },
+    "generated/followup_gpt2_reference_methods.tex": {
+      "bytes": 538,
+      "sha256": "a9cb19b8f2fabffa244cee28daf0037d80b20f9736af2c4da54ddbe05772ce1f"
+    },
+    "generated/followup_imdb_endpoints.csv": {
+      "bytes": 2007,
+      "sha256": "599cd93149800de33ce8f818055996a4f8d95c3028cee2be3d0e93a03beab43b"
+    },
+    "generated/followup_imdb_endpoints.tex": {
+      "bytes": 1168,
+      "sha256": "74ad0433db85a482c64ed6b52e3b3b7b8feb88deae8c746299e9e2606f37258a"
+    },
+    "generated/followup_imdb_reference_methods.tex": {
+      "bytes": 760,
+      "sha256": "6feba55c1103bc760e333f86328a4c665af5c4f87aeab2577980b3699a622206"
+    },
+    "generated/followup_input_feasibility.csv": {
+      "bytes": 705,
+      "sha256": "bdc29d79a30b5427e8f1bee701caab83ec29dca87f28363b3a3c8008ddf031b9"
+    },
+    "generated/followup_input_feasibility.tex": {
+      "bytes": 581,
+      "sha256": "db8ccaa96f458f81c45d4cc10484253cb9d20ac8d5715f7959598380341d459b"
+    },
+    "generated/followup_input_feasibility_blocks.csv": {
+      "bytes": 6349,
+      "sha256": "9a0103fcb43ebe2c43129992544e63e4f7d0cfb773bb72413dfa4b134da30058"
+    },
+    "generated/followup_main_endpoints.csv": {
+      "bytes": 2167,
+      "sha256": "d2f0a65504c5cd9c6debd01825746d27ef73777f10f031f47819b164c2a0296d"
+    },
+    "generated/followup_main_endpoints.tex": {
+      "bytes": 1166,
+      "sha256": "9472c7cce01205b06119bba25507274164db755219aae94687816e375bd366d9"
+    },
+    "generated/followup_main_reference_methods.tex": {
+      "bytes": 760,
+      "sha256": "8bbbe50f2121806aa2e08f7b677ee42b13a46da879b07765bbd0b7792d66b766"
+    },
+    "generated/followup_main_summary.tex": {
+      "bytes": 553,
+      "sha256": "360e9c1e42696dfcc09759177b32f59f35bf58b09042b4acae3884a6028a7270"
+    },
+    "generated/followup_method_blocks.csv": {
+      "bytes": 47645,
+      "sha256": "b8f24ccd04a2df26b23588d08349ae9588a4f504efc3b900b69a87ffa4848ea4"
+    },
+    "generated/followup_method_contexts.csv": {
+      "bytes": 166676,
+      "sha256": "08e9005cd82c8fd4683dd82bb8c6050dcc809f1541c0dad3f538cbd9062a5250"
+    },
+    "generated/followup_methods.csv": {
+      "bytes": 16328,
+      "sha256": "b3bb3ba7369e9483bf207758b13f07a860b1d54dd10145343f1a4b0f43879020"
+    },
+    "generated/followup_qualification.csv": {
+      "bytes": 245,
+      "sha256": "226388bb7dcb2d2317a43910d88ce9eb29c9d5d915338b9b2cf8036543414f32"
+    },
+    "generated/followup_reference_ladder.csv": {
+      "bytes": 444,
+      "sha256": "5404e4f847c961784e6241f19cbe7276ff314431c4a12dc2067afaeb6206c451"
+    },
+    "generated/followup_reference_ladder.tex": {
+      "bytes": 444,
+      "sha256": "768d254f53dfbbe80796925b3f2654be632d2ea58c4021f8bb045d8faf9a075b"
+    },
+    "generated/followup_reference_ladder_blocks.csv": {
+      "bytes": 6810,
+      "sha256": "6521a8d3aad3181bb7f2144699d0855ffe1a40bca4d21be45fb79c501d775773"
+    },
+    "generated/followup_reference_policy_costs.csv": {
+      "bytes": 756,
+      "sha256": "94ec9ea162e1181ac48fdf5be965c4f342e69a854f1ccad132eece1a4a4da3c8"
+    },
+    "generated/followup_replayed.json": {
+      "bytes": 802660,
+      "sha256": "0ea43c9919ed77c7260d0957936f3dc7ac4e342f5da05b357ebdf3910cefad51"
+    },
+    "generated/followup_stability.csv": {
+      "bytes": 2448,
+      "sha256": "9d6c2fb0a54c5c13d7d44a52e484a0fe2316253072c4a588313386ee81018da2"
+    },
+    "generated/followup_stability.tex": {
+      "bytes": 1787,
+      "sha256": "5ff2670f811bc0d9b5c16fdc06770164515d98030ebbb2456f0c3c1e1ac660e7"
+    },
+    "generated/followup_unavailable_methods.tex": {
+      "bytes": 8077,
+      "sha256": "f03aef5c603a3f08b6c3655ae3d02de69e5f87172f506c305c186655be5828fa"
+    },
+    "inputs/CONSTRUCTION_AUDIT.json": {
+      "bytes": 95722,
+      "sha256": "8021248a089ae95c51d866bfe8305fb6b0e8f7d5c1f6a15abb8d19a7d2916c29"
+    },
+    "inputs/CONTEXTS.json": {
+      "bytes": 678366,
+      "sha256": "1be362477773f1a735bf7640e730593f18199541c12dfabe8360e57f1f1c8e0a"
+    },
+    "inputs/EXPECTED.json": {
+      "bytes": 180975,
+      "sha256": "88a41a84e35a7cc48fd00ec2895bc5377ad03737ab2228770b8bc5aa3a926d14"
+    },
+    "inputs/INPUT_FEASIBILITY.json": {
+      "bytes": 37137,
+      "sha256": "5021b80082067e934bfc473608c5dd8058be85cd6e0343809c0b058e94e6ef69"
+    },
+    "inputs/PROTOCOL.json": {
+      "bytes": 4638,
+      "sha256": "e8a1f062bd34908b5e141c5369d91ac4da8fae2df4188da57ae7bde8b19fef84"
+    },
+    "inputs/QUALIFICATION_COSTS.json": {
+      "bytes": 5289,
+      "sha256": "3bfcfe1953d5b687d55b8226b0d3a96848fcc11f3c9fc2c9494d81c14afe4e26"
+    },
+    "inputs/SOURCE_ORIGINS.json": {
+      "bytes": 34525,
+      "sha256": "af7ba3e89365a257abf4018672a9f4373ba058da0633136ca88803d3124382ef"
+    },
+    "replay.py": {
+      "bytes": 49233,
+      "sha256": "cebfe8b7dcebe4a0ab0f0812e0b3c755d2e79ec5061d7360ddae943852b86759"
+    },
+    "tests/test_replay.py": {
+      "bytes": 8863,
+      "sha256": "29905786a00e193871fa5aabed2d91d4f3dd698bdcd3ba3f468693dba8061868"
+    }
+  },
+  "reconstruction": "Scores from projected reference/ALL_IN NLL, supplied original effects/G20/difficulty/plain scalars, and original ALL_OUT coverage counts; not training.",
+  "schema": "anonymous-followup-numerical-verification-v1",
+  "source_origins_sha256": "af7ba3e89365a257abf4018672a9f4373ba058da0633136ca88803d3124382ef",
+  "status": "PASS_NUMERICAL_PAYLOAD_REPLAY"
+}

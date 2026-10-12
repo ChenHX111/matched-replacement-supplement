@@ -1,0 +1,1176 @@
+{
+ "focal_units": [
+  {
+   "far_cosine": 0.014419262856076455,
+   "far_pool_size": 404,
+   "member_id": "p-r38079",
+   "near_cosine": 0.1722526426041812
+  },
+  {
+   "far_cosine": 0.014026366674742372,
+   "far_pool_size": 133,
+   "member_id": "p-r50109",
+   "near_cosine": 0.0755691854456855
+  },
+  {
+   "far_cosine": 0.01911240874898224,
+   "far_pool_size": 165,
+   "member_id": "p-r28163",
+   "near_cosine": 0.45274845069152897
+  },
+  {
+   "far_cosine": 0.02113646096867303,
+   "far_pool_size": 623,
+   "member_id": "p-r20727",
+   "near_cosine": 0.4599889086770742
+  },
+  {
+   "far_cosine": 0.024614599056385432,
+   "far_pool_size": 138,
+   "member_id": "p-r32570",
+   "near_cosine": 0.09722057183994152
+  },
+  {
+   "far_cosine": 0.01798594614032753,
+   "far_pool_size": 82,
+   "member_id": "p-r21177",
+   "near_cosine": 0.3990143152421244
+  },
+  {
+   "far_cosine": 0.0177844766825538,
+   "far_pool_size": 173,
+   "member_id": "p-r08149",
+   "near_cosine": 0.28381519248237697
+  },
+  {
+   "far_cosine": 0.01891995063198172,
+   "far_pool_size": 364,
+   "member_id": "p-r13688",
+   "near_cosine": 0.1579439542302475
+  },
+  {
+   "far_cosine": 0.026104061028373607,
+   "far_pool_size": 327,
+   "member_id": "p-r50479",
+   "near_cosine": 0.8631166333810281
+  },
+  {
+   "far_cosine": 0.019104469759900215,
+   "far_pool_size": 82,
+   "member_id": "p-r02976",
+   "near_cosine": 0.14192007275856036
+  },
+  {
+   "far_cosine": 0.014060648190134292,
+   "far_pool_size": 517,
+   "member_id": "p-r50737",
+   "near_cosine": 0.25837488378666196
+  },
+  {
+   "far_cosine": 0.029075217055775544,
+   "far_pool_size": 10,
+   "member_id": "p-r04203",
+   "near_cosine": 0.06203965716590858
+  },
+  {
+   "far_cosine": 0.026531791387010666,
+   "far_pool_size": 12,
+   "member_id": "p-r22892",
+   "near_cosine": 0.10200352768663629
+  },
+  {
+   "far_cosine": 0.021802911241587876,
+   "far_pool_size": 570,
+   "member_id": "p-r37372",
+   "near_cosine": 0.22248354767101094
+  },
+  {
+   "far_cosine": 0.020922084468005978,
+   "far_pool_size": 216,
+   "member_id": "p-r31310",
+   "near_cosine": 0.11189198282186348
+  },
+  {
+   "far_cosine": 0.030693269865391296,
+   "far_pool_size": 53,
+   "member_id": "p-r18654",
+   "near_cosine": 0.1924567013325916
+  },
+  {
+   "far_cosine": 0.023431204942676205,
+   "far_pool_size": 69,
+   "member_id": "p-r28184",
+   "near_cosine": 0.18409677194146967
+  },
+  {
+   "far_cosine": 0.015336187561807922,
+   "far_pool_size": 34,
+   "member_id": "p-r00978",
+   "near_cosine": 0.13234802836843373
+  },
+  {
+   "far_cosine": 0.012240382872544584,
+   "far_pool_size": 204,
+   "member_id": "p-r11913",
+   "near_cosine": 0.12602683802239942
+  },
+  {
+   "far_cosine": 0.02278103219434581,
+   "far_pool_size": 56,
+   "member_id": "p-r31516",
+   "near_cosine": 0.15349713675141125
+  },
+  {
+   "far_cosine": 0.01535827031339509,
+   "far_pool_size": 615,
+   "member_id": "p-r52236",
+   "near_cosine": 0.1698796878925284
+  },
+  {
+   "far_cosine": 0.03537393106809638,
+   "far_pool_size": 4,
+   "member_id": "p-r33570",
+   "near_cosine": 0.11326114601958243
+  },
+  {
+   "far_cosine": 0.025905343043788033,
+   "far_pool_size": 63,
+   "member_id": "p-r29332",
+   "near_cosine": 0.4516657066193866
+  },
+  {
+   "far_cosine": 0.018313521760465367,
+   "far_pool_size": 152,
+   "member_id": "p-r27216",
+   "near_cosine": 0.23598382388243935
+  },
+  {
+   "far_cosine": 0.0253313279103108,
+   "far_pool_size": 411,
+   "member_id": "p-r17250",
+   "near_cosine": 0.40817318611487396
+  },
+  {
+   "far_cosine": 0.018503414664702362,
+   "far_pool_size": 123,
+   "member_id": "p-r49811",
+   "near_cosine": 0.216260602158406
+  },
+  {
+   "far_cosine": 0.014441602746920378,
+   "far_pool_size": 114,
+   "member_id": "p-r47514",
+   "near_cosine": 0.16729858355984087
+  },
+  {
+   "far_cosine": 0.017494469682121098,
+   "far_pool_size": 144,
+   "member_id": "p-r36987",
+   "near_cosine": 0.16603363845628705
+  },
+  {
+   "far_cosine": 0.023946294267174963,
+   "far_pool_size": 24,
+   "member_id": "p-r46955",
+   "near_cosine": 0.07666609669056118
+  },
+  {
+   "far_cosine": 0.028071508926669958,
+   "far_pool_size": 16,
+   "member_id": "p-r01260",
+   "near_cosine": 0.279539949231498
+  },
+  {
+   "far_cosine": 0.01749621757442972,
+   "far_pool_size": 102,
+   "member_id": "p-r02933",
+   "near_cosine": 0.1802933235385564
+  },
+  {
+   "far_cosine": 0.01585489009778696,
+   "far_pool_size": 566,
+   "member_id": "p-r02321",
+   "near_cosine": 0.23059801085213866
+  },
+  {
+   "far_cosine": 0.017600863993400103,
+   "far_pool_size": 620,
+   "member_id": "p-r40123",
+   "near_cosine": 0.37076217130120703
+  },
+  {
+   "far_cosine": 0.022551701017519014,
+   "far_pool_size": 405,
+   "member_id": "p-r19792",
+   "near_cosine": 0.3563442486804521
+  },
+  {
+   "far_cosine": 0.026020382554663574,
+   "far_pool_size": 38,
+   "member_id": "p-r54871",
+   "near_cosine": 0.22799400834464045
+  },
+  {
+   "far_cosine": 0.023245761155499475,
+   "far_pool_size": 77,
+   "member_id": "p-r43709",
+   "near_cosine": 0.33946475953978184
+  },
+  {
+   "far_cosine": 0.02390281174946101,
+   "far_pool_size": 21,
+   "member_id": "p-r02487",
+   "near_cosine": 0.15260859590227077
+  },
+  {
+   "far_cosine": 0.021700057236587286,
+   "far_pool_size": 630,
+   "member_id": "p-r40214",
+   "near_cosine": 0.15901845875732265
+  },
+  {
+   "far_cosine": 0.022498706421731067,
+   "far_pool_size": 33,
+   "member_id": "p-r48077",
+   "near_cosine": 0.31290259041067947
+  },
+  {
+   "far_cosine": 0.02304605879060754,
+   "far_pool_size": 400,
+   "member_id": "p-r10825",
+   "near_cosine": 0.3555597166059154
+  },
+  {
+   "far_cosine": 0.020044806093767017,
+   "far_pool_size": 27,
+   "member_id": "p-r07010",
+   "near_cosine": 0.16024158683703232
+  },
+  {
+   "far_cosine": 0.021613219021213166,
+   "far_pool_size": 169,
+   "member_id": "p-r32595",
+   "near_cosine": 0.2734120997613739
+  },
+  {
+   "far_cosine": 0.019123288141081,
+   "far_pool_size": 566,
+   "member_id": "p-r06820",
+   "near_cosine": 0.5937998892086244
+  },
+  {
+   "far_cosine": 0.01964886978263092,
+   "far_pool_size": 411,
+   "member_id": "p-r28411",
+   "near_cosine": 0.35368157095176345
+  },
+  {
+   "far_cosine": 0.02395017551246191,
+   "far_pool_size": 157,
+   "member_id": "p-r42279",
+   "near_cosine": 0.2717453192029135
+  },
+  {
+   "far_cosine": 0.017473166305622286,
+   "far_pool_size": 501,
+   "member_id": "p-r43153",
+   "near_cosine": 0.7539237768702697
+  },
+  {
+   "far_cosine": 0.014842695958099124,
+   "far_pool_size": 171,
+   "member_id": "p-r22580",
+   "near_cosine": 0.5265257630467873
+  },
+  {
+   "far_cosine": 0.018092659019309863,
+   "far_pool_size": 72,
+   "member_id": "p-r39163",
+   "near_cosine": 0.06624130932559456
+  },
+  {
+   "far_cosine": 0.019665819649591295,
+   "far_pool_size": 43,
+   "member_id": "p-r27863",
+   "near_cosine": 0.7813151861062813
+  },
+  {
+   "far_cosine": 0.01869344532212308,
+   "far_pool_size": 80,
+   "member_id": "p-r08332",
+   "near_cosine": 0.14184733436393768
+  },
+  {
+   "far_cosine": 0.03566842952290192,
+   "far_pool_size": 14,
+   "member_id": "p-r41044",
+   "near_cosine": 0.24882553391110257
+  },
+  {
+   "far_cosine": 0.021285055514235353,
+   "far_pool_size": 518,
+   "member_id": "p-r39666",
+   "near_cosine": 0.22829376694474326
+  },
+  {
+   "far_cosine": 0.02174730688824599,
+   "far_pool_size": 241,
+   "member_id": "p-r35738",
+   "near_cosine": 0.3219221140401892
+  },
+  {
+   "far_cosine": 0.024801881212502187,
+   "far_pool_size": 28,
+   "member_id": "p-r36270",
+   "near_cosine": 0.258191177164471
+  },
+  {
+   "far_cosine": 0.015035051749255223,
+   "far_pool_size": 181,
+   "member_id": "p-r36583",
+   "near_cosine": 0.3666745761473817
+  },
+  {
+   "far_cosine": 0.02025839147134612,
+   "far_pool_size": 215,
+   "member_id": "p-r53461",
+   "near_cosine": 0.37251353764700507
+  },
+  {
+   "far_cosine": 0.021443099400333156,
+   "far_pool_size": 199,
+   "member_id": "p-r11374",
+   "near_cosine": 0.35331645736776734
+  },
+  {
+   "far_cosine": 0.017671360654720636,
+   "far_pool_size": 571,
+   "member_id": "p-r34224",
+   "near_cosine": 0.5551188848646689
+  },
+  {
+   "far_cosine": 0.023081075973484626,
+   "far_pool_size": 42,
+   "member_id": "p-r05073",
+   "near_cosine": 0.0798173301178153
+  },
+  {
+   "far_cosine": 0.02268477804861506,
+   "far_pool_size": 187,
+   "member_id": "p-r05365",
+   "near_cosine": 0.8642069929966734
+  },
+  {
+   "far_cosine": 0.018829311196171827,
+   "far_pool_size": 363,
+   "member_id": "p-r07761",
+   "near_cosine": 0.2993486089572986
+  },
+  {
+   "far_cosine": 0.018997032961305414,
+   "far_pool_size": 393,
+   "member_id": "p-r40086",
+   "near_cosine": 0.29060344234221264
+  },
+  {
+   "far_cosine": 0.03384323012429186,
+   "far_pool_size": 8,
+   "member_id": "p-r27665",
+   "near_cosine": 0.14155467627464935
+  },
+  {
+   "far_cosine": 0.019238767022900408,
+   "far_pool_size": 145,
+   "member_id": "p-r31452",
+   "near_cosine": 0.6758678733550834
+  },
+  {
+   "far_cosine": 0.01937677626816608,
+   "far_pool_size": 160,
+   "member_id": "p-r05758",
+   "near_cosine": 0.5920064586346405
+  },
+  {
+   "far_cosine": 0.024732475963935588,
+   "far_pool_size": 74,
+   "member_id": "p-r15432",
+   "near_cosine": 0.2174496312016752
+  },
+  {
+   "far_cosine": 0.02352981879988021,
+   "far_pool_size": 187,
+   "member_id": "p-r29207",
+   "near_cosine": 0.5880799624990604
+  },
+  {
+   "far_cosine": 0.03277194759184399,
+   "far_pool_size": 3,
+   "member_id": "p-r10067",
+   "near_cosine": 0.06810865195981819
+  },
+  {
+   "far_cosine": 0.024651964362104106,
+   "far_pool_size": 9,
+   "member_id": "p-r29142",
+   "near_cosine": 0.05678940112774722
+  },
+  {
+   "far_cosine": 0.024281047123993146,
+   "far_pool_size": 9,
+   "member_id": "p-r09299",
+   "near_cosine": 0.868575250643986
+  },
+  {
+   "far_cosine": 0.01671683397362516,
+   "far_pool_size": 130,
+   "member_id": "p-r41820",
+   "near_cosine": 0.19974563661633704
+  },
+  {
+   "far_cosine": 0.01948238277022579,
+   "far_pool_size": 191,
+   "member_id": "p-r28531",
+   "near_cosine": 0.10096407898426936
+  },
+  {
+   "far_cosine": 0.016535533167140685,
+   "far_pool_size": 135,
+   "member_id": "p-r34816",
+   "near_cosine": 0.5187260107685322
+  },
+  {
+   "far_cosine": 0.022527659805837777,
+   "far_pool_size": 145,
+   "member_id": "p-r38237",
+   "near_cosine": 0.2412512572352772
+  },
+  {
+   "far_cosine": 0.0205856921408785,
+   "far_pool_size": 133,
+   "member_id": "p-r49598",
+   "near_cosine": 0.09674078847076949
+  },
+  {
+   "far_cosine": 0.02003425423207004,
+   "far_pool_size": 590,
+   "member_id": "p-r38503",
+   "near_cosine": 0.37660301954089337
+  },
+  {
+   "far_cosine": 0.03286730240920676,
+   "far_pool_size": 29,
+   "member_id": "p-r35708",
+   "near_cosine": 0.5192551455804097
+  },
+  {
+   "far_cosine": 0.028086911345076376,
+   "far_pool_size": 30,
+   "member_id": "p-r39032",
+   "near_cosine": 0.4002259127707564
+  },
+  {
+   "far_cosine": 0.02283333032297944,
+   "far_pool_size": 30,
+   "member_id": "p-r07143",
+   "near_cosine": 0.08042005124000128
+  },
+  {
+   "far_cosine": 0.025056285302551513,
+   "far_pool_size": 468,
+   "member_id": "p-r14723",
+   "near_cosine": 0.4448917146348869
+  },
+  {
+   "far_cosine": 0.018789868357654983,
+   "far_pool_size": 557,
+   "member_id": "p-r20138",
+   "near_cosine": 0.5547199274732224
+  },
+  {
+   "far_cosine": 0.022821035819946447,
+   "far_pool_size": 563,
+   "member_id": "p-r28341",
+   "near_cosine": 0.23418273151627964
+  },
+  {
+   "far_cosine": 0.01715054552848008,
+   "far_pool_size": 143,
+   "member_id": "p-r38526",
+   "near_cosine": 0.165905652302827
+  },
+  {
+   "far_cosine": 0.019672676149451073,
+   "far_pool_size": 243,
+   "member_id": "p-r17798",
+   "near_cosine": 0.0938343228161909
+  },
+  {
+   "far_cosine": 0.026331977534083107,
+   "far_pool_size": 570,
+   "member_id": "p-r15590",
+   "near_cosine": 0.41836846760067276
+  },
+  {
+   "far_cosine": 0.022970408116148422,
+   "far_pool_size": 592,
+   "member_id": "p-r05929",
+   "near_cosine": 0.22883842929236592
+  },
+  {
+   "far_cosine": 0.018641259834298884,
+   "far_pool_size": 66,
+   "member_id": "p-r14681",
+   "near_cosine": 0.10227490429194606
+  },
+  {
+   "far_cosine": 0.019356992590586986,
+   "far_pool_size": 137,
+   "member_id": "p-r08586",
+   "near_cosine": 0.630022323846233
+  },
+  {
+   "far_cosine": 0.02023982412703401,
+   "far_pool_size": 115,
+   "member_id": "p-r52296",
+   "near_cosine": 0.6274508431300773
+  },
+  {
+   "far_cosine": 0.01892987791996112,
+   "far_pool_size": 579,
+   "member_id": "p-r27167",
+   "near_cosine": 0.6907448225426918
+  },
+  {
+   "far_cosine": 0.02039226165239415,
+   "far_pool_size": 483,
+   "member_id": "p-r53897",
+   "near_cosine": 0.6649804780546779
+  },
+  {
+   "far_cosine": 0.028874153850455515,
+   "far_pool_size": 17,
+   "member_id": "p-r13783",
+   "near_cosine": 0.05581941935837591
+  },
+  {
+   "far_cosine": 0.03384187117744794,
+   "far_pool_size": 41,
+   "member_id": "p-r31075",
+   "near_cosine": 0.5464478696887554
+  },
+  {
+   "far_cosine": 0.018761969566351757,
+   "far_pool_size": 373,
+   "member_id": "p-r34279",
+   "near_cosine": 0.663432172631318
+  },
+  {
+   "far_cosine": 0.01857908805621601,
+   "far_pool_size": 54,
+   "member_id": "p-r41655",
+   "near_cosine": 0.10154379568365998
+  },
+  {
+   "far_cosine": 0.01884772179081541,
+   "far_pool_size": 159,
+   "member_id": "p-r22376",
+   "near_cosine": 0.8166391719731789
+  },
+  {
+   "far_cosine": 0.016006155382652022,
+   "far_pool_size": 49,
+   "member_id": "p-r08089",
+   "near_cosine": 0.16756130937603714
+  },
+  {
+   "far_cosine": 0.015136239968349166,
+   "far_pool_size": 132,
+   "member_id": "p-r16241",
+   "near_cosine": 0.3829144077200165
+  },
+  {
+   "far_cosine": 0.018663463392065836,
+   "far_pool_size": 124,
+   "member_id": "p-r02055",
+   "near_cosine": 0.6606469440010778
+  },
+  {
+   "far_cosine": 0.023611664598739222,
+   "far_pool_size": 77,
+   "member_id": "p-r15984",
+   "near_cosine": 0.07164835555961319
+  },
+  {
+   "far_cosine": 0.019341799213700182,
+   "far_pool_size": 311,
+   "member_id": "p-r45854",
+   "near_cosine": 0.5241632010546139
+  },
+  {
+   "far_cosine": 0.01506213421818031,
+   "far_pool_size": 124,
+   "member_id": "p-r19761",
+   "near_cosine": 0.12223184871609576
+  },
+  {
+   "far_cosine": 0.01668439852177599,
+   "far_pool_size": 32,
+   "member_id": "p-r06976",
+   "near_cosine": 0.09084830719710274
+  },
+  {
+   "far_cosine": 0.016540995327321933,
+   "far_pool_size": 9,
+   "member_id": "p-r00833",
+   "near_cosine": 0.04768732562363835
+  },
+  {
+   "far_cosine": 0.048656840210442746,
+   "far_pool_size": 3,
+   "member_id": "p-r16084",
+   "near_cosine": 0.10070371395608736
+  },
+  {
+   "far_cosine": 0.022583346573891133,
+   "far_pool_size": 556,
+   "member_id": "p-r45217",
+   "near_cosine": 0.5990404093029639
+  },
+  {
+   "far_cosine": 0.025712317180912204,
+   "far_pool_size": 119,
+   "member_id": "p-r34553",
+   "near_cosine": 0.38147713476949
+  },
+  {
+   "far_cosine": 0.02687090742815415,
+   "far_pool_size": 47,
+   "member_id": "p-r50105",
+   "near_cosine": 0.420736991882687
+  },
+  {
+   "far_cosine": 0.01837182420434589,
+   "far_pool_size": 549,
+   "member_id": "p-r25068",
+   "near_cosine": 0.5933097711046063
+  },
+  {
+   "far_cosine": 0.02566813335115179,
+   "far_pool_size": 350,
+   "member_id": "p-r34373",
+   "near_cosine": 0.239724123835233
+  },
+  {
+   "far_cosine": 0.027339865598847657,
+   "far_pool_size": 41,
+   "member_id": "p-r15395",
+   "near_cosine": 0.18194508402669834
+  },
+  {
+   "far_cosine": 0.02702881882498685,
+   "far_pool_size": 46,
+   "member_id": "p-r36204",
+   "near_cosine": 0.3179835281761907
+  },
+  {
+   "far_cosine": 0.022536650485303424,
+   "far_pool_size": 572,
+   "member_id": "p-r03280",
+   "near_cosine": 0.169474128850954
+  },
+  {
+   "far_cosine": 0.015135411718346372,
+   "far_pool_size": 52,
+   "member_id": "p-r14383",
+   "near_cosine": 0.12294166894410899
+  },
+  {
+   "far_cosine": 0.015233107923801018,
+   "far_pool_size": 90,
+   "member_id": "p-r02707",
+   "near_cosine": 0.1697779635313733
+  },
+  {
+   "far_cosine": 0.02223404405240812,
+   "far_pool_size": 91,
+   "member_id": "p-r13821",
+   "near_cosine": 0.21998203486112808
+  },
+  {
+   "far_cosine": 0.025401276485622074,
+   "far_pool_size": 594,
+   "member_id": "p-r39643",
+   "near_cosine": 0.39374775946112844
+  },
+  {
+   "far_cosine": 0.03623483642105323,
+   "far_pool_size": 6,
+   "member_id": "p-r25085",
+   "near_cosine": 0.18161178677809944
+  },
+  {
+   "far_cosine": 0.017214763727119047,
+   "far_pool_size": 84,
+   "member_id": "p-r26126",
+   "near_cosine": 0.10723264943659216
+  },
+  {
+   "far_cosine": 0.01538112060346949,
+   "far_pool_size": 156,
+   "member_id": "p-r44090",
+   "near_cosine": 0.17464665869059925
+  },
+  {
+   "far_cosine": 0.019464066564834348,
+   "far_pool_size": 140,
+   "member_id": "p-r20587",
+   "near_cosine": 0.5640155164319115
+  },
+  {
+   "far_cosine": 0.024682937543821958,
+   "far_pool_size": 174,
+   "member_id": "p-r01621",
+   "near_cosine": 0.20256701100848803
+  },
+  {
+   "far_cosine": 0.02257602271034595,
+   "far_pool_size": 154,
+   "member_id": "p-r09674",
+   "near_cosine": 0.3723016814035132
+  },
+  {
+   "far_cosine": 0.01908834783018143,
+   "far_pool_size": 116,
+   "member_id": "p-r29044",
+   "near_cosine": 0.4874236660335575
+  },
+  {
+   "far_cosine": 0.027287900857143426,
+   "far_pool_size": 44,
+   "member_id": "p-r22689",
+   "near_cosine": 0.08316398034689675
+  },
+  {
+   "far_cosine": 0.02000935933075251,
+   "far_pool_size": 134,
+   "member_id": "p-r19939",
+   "near_cosine": 0.4178337852375314
+  },
+  {
+   "far_cosine": 0.023280036576290755,
+   "far_pool_size": 49,
+   "member_id": "p-r06839",
+   "near_cosine": 0.23974086984527854
+  },
+  {
+   "far_cosine": 0.024261572964640873,
+   "far_pool_size": 347,
+   "member_id": "p-r41118",
+   "near_cosine": 0.46790234238796574
+  },
+  {
+   "far_cosine": 0.01839387499344101,
+   "far_pool_size": 576,
+   "member_id": "p-r53786",
+   "near_cosine": 0.24138353478888774
+  },
+  {
+   "far_cosine": 0.018726056371639765,
+   "far_pool_size": 116,
+   "member_id": "p-r48480",
+   "near_cosine": 0.303082959932172
+  },
+  {
+   "far_cosine": 0.021531672745930985,
+   "far_pool_size": 510,
+   "member_id": "p-r47032",
+   "near_cosine": 0.6838558464813644
+  },
+  {
+   "far_cosine": 0.029664557296555896,
+   "far_pool_size": 304,
+   "member_id": "p-r28139",
+   "near_cosine": 0.41726181432446635
+  },
+  {
+   "far_cosine": 0.021359824475961284,
+   "far_pool_size": 122,
+   "member_id": "p-r28868",
+   "near_cosine": 0.5946696356139471
+  },
+  {
+   "far_cosine": 0.018784220851959067,
+   "far_pool_size": 61,
+   "member_id": "p-r13328",
+   "near_cosine": 0.1529460436768217
+  },
+  {
+   "far_cosine": 0.019821300984815975,
+   "far_pool_size": 140,
+   "member_id": "p-r43672",
+   "near_cosine": 0.13346759900378702
+  },
+  {
+   "far_cosine": 0.01966960628567624,
+   "far_pool_size": 133,
+   "member_id": "p-r18569",
+   "near_cosine": 0.5956127110260797
+  },
+  {
+   "far_cosine": 0.024527343329498835,
+   "far_pool_size": 145,
+   "member_id": "p-r05140",
+   "near_cosine": 0.13206877042994203
+  },
+  {
+   "far_cosine": 0.021507671220860367,
+   "far_pool_size": 381,
+   "member_id": "p-r48376",
+   "near_cosine": 0.8156593205871115
+  },
+  {
+   "far_cosine": 0.015872094850914634,
+   "far_pool_size": 120,
+   "member_id": "p-r23367",
+   "near_cosine": 0.5061482412446396
+  },
+  {
+   "far_cosine": 0.024365040376803253,
+   "far_pool_size": 88,
+   "member_id": "p-r18737",
+   "near_cosine": 0.1630594873542188
+  },
+  {
+   "far_cosine": 0.02268976012985778,
+   "far_pool_size": 254,
+   "member_id": "p-r04956",
+   "near_cosine": 0.305560825950858
+  },
+  {
+   "far_cosine": 0.023002219307088494,
+   "far_pool_size": 20,
+   "member_id": "p-r53601",
+   "near_cosine": 0.2477998110850652
+  },
+  {
+   "far_cosine": 0.021237548452252942,
+   "far_pool_size": 53,
+   "member_id": "p-r25459",
+   "near_cosine": 0.13907826445247304
+  },
+  {
+   "far_cosine": 0.02157279603994626,
+   "far_pool_size": 590,
+   "member_id": "p-r32334",
+   "near_cosine": 0.24023884484793095
+  },
+  {
+   "far_cosine": 0.026057099360022182,
+   "far_pool_size": 27,
+   "member_id": "p-r15463",
+   "near_cosine": 0.9239296729202088
+  },
+  {
+   "far_cosine": 0.01944870740375557,
+   "far_pool_size": 62,
+   "member_id": "p-r15023",
+   "near_cosine": 0.5598604331173712
+  },
+  {
+   "far_cosine": 0.022048520088255807,
+   "far_pool_size": 505,
+   "member_id": "p-r01213",
+   "near_cosine": 0.40412788604332883
+  },
+  {
+   "far_cosine": 0.022926056003755867,
+   "far_pool_size": 200,
+   "member_id": "p-r45543",
+   "near_cosine": 0.33151737580982826
+  },
+  {
+   "far_cosine": 0.026035563907388527,
+   "far_pool_size": 129,
+   "member_id": "p-r53904",
+   "near_cosine": 0.33555346016008164
+  },
+  {
+   "far_cosine": 0.0215768117558457,
+   "far_pool_size": 123,
+   "member_id": "p-r07379",
+   "near_cosine": 0.3333184509622464
+  },
+  {
+   "far_cosine": 0.02803159542087239,
+   "far_pool_size": 330,
+   "member_id": "p-r53155",
+   "near_cosine": 0.4249540871712945
+  },
+  {
+   "far_cosine": 0.01986067142800949,
+   "far_pool_size": 528,
+   "member_id": "p-r50034",
+   "near_cosine": 0.26453104325439375
+  },
+  {
+   "far_cosine": 0.026560796234568834,
+   "far_pool_size": 39,
+   "member_id": "p-r52715",
+   "near_cosine": 0.17628519940980042
+  },
+  {
+   "far_cosine": 0.024049953241217815,
+   "far_pool_size": 27,
+   "member_id": "p-r48814",
+   "near_cosine": 0.11348365229925549
+  },
+  {
+   "far_cosine": 0.028633622409020645,
+   "far_pool_size": 10,
+   "member_id": "p-r13427",
+   "near_cosine": 0.06888859300547422
+  },
+  {
+   "far_cosine": 0.02532869652487074,
+   "far_pool_size": 448,
+   "member_id": "p-r20292",
+   "near_cosine": 0.6070382461669583
+  },
+  {
+   "far_cosine": 0.020061462910698376,
+   "far_pool_size": 197,
+   "member_id": "p-r03569",
+   "near_cosine": 0.347088983019681
+  },
+  {
+   "far_cosine": 0.02502905892251063,
+   "far_pool_size": 27,
+   "member_id": "p-r00525",
+   "near_cosine": 0.7905600190788414
+  },
+  {
+   "far_cosine": 0.025450886596903522,
+   "far_pool_size": 342,
+   "member_id": "p-r03349",
+   "near_cosine": 0.4295895289932178
+  },
+  {
+   "far_cosine": 0.023808496355201013,
+   "far_pool_size": 113,
+   "member_id": "p-r33704",
+   "near_cosine": 0.521321572051379
+  },
+  {
+   "far_cosine": 0.02847119844137983,
+   "far_pool_size": 144,
+   "member_id": "p-r03060",
+   "near_cosine": 0.2539532908263447
+  },
+  {
+   "far_cosine": 0.02289121561712755,
+   "far_pool_size": 123,
+   "member_id": "p-r33998",
+   "near_cosine": 0.36917590225366315
+  },
+  {
+   "far_cosine": 0.018238615469932582,
+   "far_pool_size": 363,
+   "member_id": "p-r13354",
+   "near_cosine": 0.42086289071192573
+  },
+  {
+   "far_cosine": 0.01987133402951218,
+   "far_pool_size": 318,
+   "member_id": "p-r53012",
+   "near_cosine": 0.668026973850978
+  },
+  {
+   "far_cosine": 0.024727497138960663,
+   "far_pool_size": 87,
+   "member_id": "p-r18168",
+   "near_cosine": 0.6024059188320685
+  },
+  {
+   "far_cosine": 0.018752352035327755,
+   "far_pool_size": 89,
+   "member_id": "p-r02920",
+   "near_cosine": 0.4502383131348029
+  },
+  {
+   "far_cosine": 0.03271139455817921,
+   "far_pool_size": 6,
+   "member_id": "p-r22764",
+   "near_cosine": 0.05710880846292897
+  },
+  {
+   "far_cosine": 0.027388170329458682,
+   "far_pool_size": 83,
+   "member_id": "p-r40577",
+   "near_cosine": 0.260639607089522
+  },
+  {
+   "far_cosine": 0.02117099686993947,
+   "far_pool_size": 33,
+   "member_id": "p-r36273",
+   "near_cosine": 0.20894812572865418
+  },
+  {
+   "far_cosine": 0.016050325049441348,
+   "far_pool_size": 40,
+   "member_id": "p-r28552",
+   "near_cosine": 0.4262555564921375
+  },
+  {
+   "far_cosine": 0.02452168658776278,
+   "far_pool_size": 148,
+   "member_id": "p-r39289",
+   "near_cosine": 0.6191450063377094
+  },
+  {
+   "far_cosine": 0.014352727518905152,
+   "far_pool_size": 114,
+   "member_id": "p-r04972",
+   "near_cosine": 0.36252020813809593
+  },
+  {
+   "far_cosine": 0.04409929904366556,
+   "far_pool_size": 11,
+   "member_id": "p-r12123",
+   "near_cosine": 0.4521341493341819
+  },
+  {
+   "far_cosine": 0.016584821783984936,
+   "far_pool_size": 340,
+   "member_id": "p-r11994",
+   "near_cosine": 0.20878137476777314
+  },
+  {
+   "far_cosine": 0.022016493631306776,
+   "far_pool_size": 138,
+   "member_id": "p-r27976",
+   "near_cosine": 0.29510622431973843
+  },
+  {
+   "far_cosine": 0.0171823560929032,
+   "far_pool_size": 560,
+   "member_id": "p-r29645",
+   "near_cosine": 0.2558801460775254
+  },
+  {
+   "far_cosine": 0.024660232969123817,
+   "far_pool_size": 123,
+   "member_id": "p-r43880",
+   "near_cosine": 0.15075044643832808
+  },
+  {
+   "far_cosine": 0.023092566291778246,
+   "far_pool_size": 134,
+   "member_id": "p-r52810",
+   "near_cosine": 0.1656439524467009
+  },
+  {
+   "far_cosine": 0.022555584348333938,
+   "far_pool_size": 190,
+   "member_id": "p-r47333",
+   "near_cosine": 0.6072480076901402
+  },
+  {
+   "far_cosine": 0.018634032210348494,
+   "far_pool_size": 570,
+   "member_id": "p-r13231",
+   "near_cosine": 0.10921925020316103
+  },
+  {
+   "far_cosine": 0.026359619303113622,
+   "far_pool_size": 116,
+   "member_id": "p-r26545",
+   "near_cosine": 0.44135382231512055
+  },
+  {
+   "far_cosine": 0.021873928358884052,
+   "far_pool_size": 122,
+   "member_id": "p-r10612",
+   "near_cosine": 0.2222782901749747
+  },
+  {
+   "far_cosine": 0.01788111450982539,
+   "far_pool_size": 556,
+   "member_id": "p-r53149",
+   "near_cosine": 0.2669329489405898
+  },
+  {
+   "far_cosine": 0.02428646238000981,
+   "far_pool_size": 128,
+   "member_id": "p-r14219",
+   "near_cosine": 0.44881021372857083
+  },
+  {
+   "far_cosine": 0.02161750826338231,
+   "far_pool_size": 378,
+   "member_id": "p-r21166",
+   "near_cosine": 0.7914790078094881
+  },
+  {
+   "far_cosine": 0.015977892984121094,
+   "far_pool_size": 5,
+   "member_id": "p-r29060",
+   "near_cosine": 0.05317376743293187
+  },
+  {
+   "far_cosine": 0.0215447056494689,
+   "far_pool_size": 155,
+   "member_id": "p-r50659",
+   "near_cosine": 0.1770055518719641
+  },
+  {
+   "far_cosine": 0.018169065740852194,
+   "far_pool_size": 86,
+   "member_id": "p-r49545",
+   "near_cosine": 0.15921311406327232
+  },
+  {
+   "far_cosine": 0.02407427190555031,
+   "far_pool_size": 268,
+   "member_id": "p-r19005",
+   "near_cosine": 0.1971158261928779
+  },
+  {
+   "far_cosine": 0.023812801418024238,
+   "far_pool_size": 40,
+   "member_id": "p-r53467",
+   "near_cosine": 0.37022845829228923
+  },
+  {
+   "far_cosine": 0.02198754174802611,
+   "far_pool_size": 168,
+   "member_id": "p-r44491",
+   "near_cosine": 0.11752984281295852
+  },
+  {
+   "far_cosine": 0.027046302236848372,
+   "far_pool_size": 99,
+   "member_id": "p-r17354",
+   "near_cosine": 0.21062296408564332
+  }
+ ],
+ "gate": {
+  "cpu_seconds": 74.25,
+  "far_map_integrity_ok": true,
+  "gate_definition_sha256": "ac1dcf7ed74e571f619379e44d273564e9fc0605f9a8759b1b8cb36b82bbf949",
+  "near_identity_check_sha256": "649836b3b8d9ec9ce0e59fc98ddb1dac4906a84794c8273dd62fa4cd7251075f",
+  "population_size": 192,
+  "schema": "e01-recon-inputs/gate-result-v2",
+  "statistic_1_median_near_minus_far": 0.2462327577584179,
+  "statistic_1_pass": true,
+  "statistic_1_threshold": 0.1,
+  "statistic_2_count": 192,
+  "statistic_2_pass": true,
+  "statistic_2_share_strictly_farther": 1.0,
+  "statistic_2_threshold": 0.75,
+  "status": "PASS",
+  "tfidf_fingerprint_identical_to_original": true,
+  "values_status": "reconstructed TF-IDF cosines from a fit whose vocabulary/idf/row-id fingerprint equals the original; not recovered measurements",
+  "wall_seconds": 79.0941994190216
+ },
+ "label": "reconstructed TF-IDF cosines (original vectorizer fingerprint) and far-pool sizes; input-only"
+}

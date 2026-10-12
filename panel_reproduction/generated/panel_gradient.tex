@@ -1,0 +1,39 @@
+\begin{table}[tp]
+\centering
+\small
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Score (background 0) & Rank & Regret \\
+\midrule
+Full-network checkpoint gradient & 0.2229 & 0.2590 \\
+$G_{20}$ & 0.6372 & 0.0900 \\
+$U_4$ & 0.5936 & 0.1331 \\
+Difficulty & 0.3261 & 0.2287 \\
+Loss drop & -0.1293 & 0.4103 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.6em}
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{%
+\begin{tabular}{@{}lllr@{}}
+\toprule
+Contrast & Metric & Estimate [99.375\%] & Blocks \\
+\midrule
+$G_{20}$ $-$ gradient & rank & 0.4144 [0.2487, 0.5772] & 21/24 \\
+$G_{20}$ $-$ gradient & regret & 0.1690 [0.0931, 0.2587] & 21/24 \\
+$U_4$ $-$ gradient & rank & 0.3707 [0.1728, 0.5718] & 20/24 \\
+$U_4$ $-$ gradient & regret & 0.1259 [0.0261, 0.2318] & 17/24 \\
+Difficulty $-$ gradient & rank & 0.1032 [-0.1038, 0.3072] & 14/24 \\
+Difficulty $-$ gradient & regret & 0.0303 [-0.0759, 0.1507] & 14/24 \\
+Loss drop $-$ gradient & rank & -0.3522 [-0.5384, -0.1655] & 6/24 \\
+Loss drop $-$ gradient & regret & -0.1513 [-0.2583, -0.0559] & 6/24 \\
+\bottomrule
+\end{tabular}}
+\caption{Post-hoc comparison with the follow-up's full-network checkpoint-gradient score: the
+learning-rate-weighted sum over the four epoch checkpoints of member-minus-control gradient alignment with the
+query, over all 405,334,016 parameters (TracIn-style; no optimizer preconditioning). It was computed only on
+background 0 (24 main blocks, three seeds). Upper panel: block-mean rank and top-two regret against the
+published cross-seed benefit. Lower panel: paired contrasts, positive favouring the first score in both
+metrics; Bonferroni intervals over these eight contrasts from 20,000 whole-block draws.}
+\label{tab:panel_gradient}
+\end{table}

@@ -1,0 +1,37 @@
+\begin{table*}[tp]
+\centering
+\small
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{%
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+Top-$k$ regret & $k=1$ & $k=2$ & $k=3$ & $k=4$ & $k=5$ & $k=6$ & $k=7$ \\
+\midrule
+$G_{20}$ & 0.1198 & 0.0870 & 0.0732 & 0.0578 & 0.0435 & 0.0276 & 0.0181 \\
+$U_4$ & 0.1859 & 0.1251 & 0.0840 & 0.0661 & 0.0488 & 0.0267 & 0.0128 \\
+Difficulty & 0.2786 & 0.2240 & 0.1637 & 0.1306 & 0.0892 & 0.0607 & 0.0306 \\
+Loss drop & 0.5079 & 0.3914 & 0.3226 & 0.2473 & 0.1825 & 0.1197 & 0.0638 \\
+Checkpoint adapter & 0.1689 & 0.1318 & 0.0990 & 0.0869 & 0.0713 & 0.0444 & 0.0184 \\
+\bottomrule
+\end{tabular}}
+
+\vspace{0.6em}
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{%
+\begin{tabular}{@{}lll@{}}
+\toprule
+Budget & Loss drop $-$ $G_{20}$ regret [95\%] & Difficulty $-$ $U_4$ regret [95\%] \\
+\midrule
+$k=1$ & 0.3881 [0.2928, 0.4885] & 0.0927 [0.0238, 0.1691] \\
+$k=2$ & 0.3044 [0.2384, 0.3704] & 0.0989 [0.0448, 0.1560] \\
+$k=3$ & 0.2494 [0.1950, 0.3079] & 0.0797 [0.0362, 0.1201] \\
+$k=4$ & 0.1895 [0.1510, 0.2297] & 0.0645 [0.0291, 0.0984] \\
+$k=5$ & 0.1390 [0.1097, 0.1680] & 0.0404 [0.0170, 0.0624] \\
+$k=6$ & 0.0920 [0.0689, 0.1144] & 0.0340 [0.0165, 0.0520] \\
+$k=7$ & 0.0457 [0.0318, 0.0593] & 0.0178 [0.0073, 0.0296] \\
+\bottomrule
+\end{tabular}}
+\caption{Post-hoc selection at every audit budget $k$ (main setting, both backgrounds): top-$k$ regret is the
+mean cross-seed benefit of the best $k$ of eight focals minus that of the $k$ a score selects (nats/token;
+ties to the frozen focal order). $k=2$ is the pre-registered endpoint. Lower panel: paired regret reductions,
+nominal 95\% intervals from 20,000 whole-block draws.}
+\label{tab:panel_selection}
+\end{table*}

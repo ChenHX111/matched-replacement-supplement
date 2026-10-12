@@ -1,0 +1,17 @@
+\begin{table*}[tp]
+\centering
+\small
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Score & Far rank [95\%] & Near rank & Far regret [95\%] & Near regret \\
+\midrule
+Total loss drop & -0.1113 [-0.2257, 0.0124] & -0.0913 & 0.3827 [0.3191, 0.4479] & 0.3914 \\
+Base difficulty & 0.3745 [0.2497, 0.4864] & 0.3495 & 0.2154 [0.1578, 0.2787] & 0.2240 \\
+$U_4$ & 0.6650 [0.6004, 0.7297] & 0.6000 & 0.0879 [0.0597, 0.1184] & 0.1251 \\
+$G_{20}$ (far reference) & 0.6589 [0.6062, 0.7108] & 0.6604 & 0.0843 [0.0673, 0.1031] & 0.0870 \\
+Near $G_{20}$ on far target & 0.6015 [0.5301, 0.6725] & --- & --- & --- \\
+\bottomrule
+\end{tabular}
+\caption{Descriptive far-control levels outside the family (nominal 95\%, whole-block bootstrap). Near values are the published main-setting point estimates (Table~\ref{tab:review_fidelity}). Rank is cross-seed Spearman; regret is top-two selection regret in nats/token. The last row scores the published nearest-control reference against the far target, a mismatched description.}
+\label{tab:e01_descriptive}
+\end{table*}

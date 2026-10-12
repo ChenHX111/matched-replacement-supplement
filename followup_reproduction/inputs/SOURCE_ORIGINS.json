@@ -1,0 +1,1000 @@
+{
+  "construction_overlap_checks": [
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block000-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block000-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block000-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block001-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block001-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block001-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block002-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block002-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block002-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block003-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block003-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block003-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block004-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block004-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block004-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block005-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block005-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block005-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block006-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block006-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block006-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block007-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block007-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_corpus-block007-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block000-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block000-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block000-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block001-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block001-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block001-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block002-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block002-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block002-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block003-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block003-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block003-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block004-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block004-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block004-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block005-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block005-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block005-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block006-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block006-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block006-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block007-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block007-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block007-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block008-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block008-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block008-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block009-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block009-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block009-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block010-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block010-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block010-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block011-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block011-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block011-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block012-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block012-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block012-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block013-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block013-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block013-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block014-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block014-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block014-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block015-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block015-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block015-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block016-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block016-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block016-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block017-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block017-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block017-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block018-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block018-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block018-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block019-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block019-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block019-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block020-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block020-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block020-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block021-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block021-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block021-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block022-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block022-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block022-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block023-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block023-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_main-block023-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block000-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block000-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block000-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block001-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block001-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block001-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block002-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block002-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block002-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block003-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block003-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block003-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block004-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block004-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block004-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block005-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block005-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block005-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block006-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block006-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block006-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block007-b0-s0",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block007-b0-s1",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    },
+    {
+      "ALL_IN_rows_shared_with_half": 374,
+      "G20_rows_shared_with_half": 394,
+      "context_id": "p5_model-block007-b0-s2",
+      "disjoint_rows_shared_with_original_training": 0,
+      "half_rows_shared_with_disjoint": 374
+    }
+  ],
+  "construction_source_hashes_match_input_build_record": true,
+  "native_archive_sha256s": [
+    "7f56f6906d9e05f14aec2ee16518c484c60e0ba95b80b6c1c33c8e486090aa97",
+    "5bbe873d626c36d5683d2fd9f0528f5edb76862ce4728f7d68c5848955019ced",
+    "677986b8761f8148dbdb5fdc7cdf9830c6f4b93ebe85a7d5781a9e2b62544670",
+    "15c5787c739c58115ab71e21e74451c833388b7c7f29ed939150e03c5fc6ecc3",
+    "231e0013ea1bb4b90441903df389dc4884db0fc3cb921082e1546b4813d10628",
+    "a7e7a4cb5e3fbe53a8c0d8153c5b0c4aa3384190a211baf9b3536feeca9daa2e"
+  ],
+  "old_numerical_manifest_sha256": "e282de493ded99c44a1a17d114c52dfb2315ebc880ed9c4327bdf8cf2217da97",
+  "schema": "anonymous-followup-source-origin-identifiers-v1",
+  "source_inventory_sha256": "79d818958f3fae21fd1259a57577eef09a69a54c232c2e2ff8450ca9ce7b6bb1",
+  "source_location_semantics": "Relative logical source locations for definitions/provenance, not required runtime paths. Unsanitized native archives and source workspaces are intentionally not distributed.",
+  "source_package_archive_sha256": "72f6eaaf015a6c2b7caeb5739e272eed05838e68f8c376ac640fbadeda77f1d6",
+  "sources": [
+    {
+      "bytes": 590464,
+      "id": "accepted_analysis",
+      "lines": null,
+      "logical_source_location": "analysis/ANALYSIS.json",
+      "sha256": "a0cdd3dc02eceeb2eb6c7e719256f58cd9b295b352c2f6a9229bd90135fbbf2b"
+    },
+    {
+      "bytes": 2670825,
+      "id": "accepted_observations",
+      "lines": null,
+      "logical_source_location": "intake/OBSERVATIONS.json",
+      "sha256": "30a30c56aab5ce109d16d0f437a579fe3c4118b0725d5fc23080f48a387130da"
+    },
+    {
+      "bytes": 1348516,
+      "id": "accepted_intake",
+      "lines": null,
+      "logical_source_location": "intake/INTAKE.json",
+      "sha256": "cad936c5d10481eb46f52e3a877a9254d1d8a986a71bfa0bbb2297dd371d3e8d"
+    },
+    {
+      "bytes": 4951416,
+      "id": "original_effect_bundle",
+      "lines": null,
+      "logical_source_location": "original_scalar_inputs/ORIGINAL_ORACLES.json",
+      "sha256": "401a90d94844fd60c65cfac0edcfdce0386c5ad7a04d10d4d5cf2b558ccea723"
+    },
+    {
+      "bytes": 8246,
+      "id": "frozen_bootstrap_helper",
+      "lines": [
+        18,
+        59
+      ],
+      "logical_source_location": "analysis_bootstrap.py",
+      "sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab"
+    },
+    {
+      "bytes": 8246,
+      "id": "frozen_interval_law",
+      "lines": [
+        113,
+        186
+      ],
+      "logical_source_location": "analysis_bootstrap.py",
+      "sha256": "a070a26cca202a233b762e8b2d2a43217102a41bcb969cf2a869bfec2ff513ab"
+    },
+    {
+      "bytes": 44153,
+      "id": "accepted_endpoint_rules",
+      "lines": [
+        223,
+        399
+      ],
+      "logical_source_location": "analysis/endpoint_analysis.py",
+      "sha256": "5fef367a54df3df2298734518e93d2540769dbe7bdfd90e253da18de2f843ec6"
+    },
+    {
+      "bytes": 37413,
+      "id": "E01_construction",
+      "lines": [
+        322,
+        411
+      ],
+      "logical_source_location": "reference_inputs/core.py",
+      "sha256": "3bcba6a08297556747aa2ab90ad7969fbb00544c944781cf45b3d62a2f2ee7d1"
+    },
+    {
+      "bytes": 37413,
+      "id": "k4_support_rule",
+      "lines": [
+        236,
+        255
+      ],
+      "logical_source_location": "reference_inputs/core.py",
+      "sha256": "3bcba6a08297556747aa2ab90ad7969fbb00544c944781cf45b3d62a2f2ee7d1"
+    },
+    {
+      "bytes": 37413,
+      "id": "E03_construction",
+      "lines": [
+        690,
+        718
+      ],
+      "logical_source_location": "reference_inputs/core.py",
+      "sha256": "3bcba6a08297556747aa2ab90ad7969fbb00544c944781cf45b3d62a2f2ee7d1"
+    },
+    {
+      "bytes": 40752,
+      "id": "budget_and_reuse",
+      "lines": [
+        145,
+        247
+      ],
+      "logical_source_location": "reference_inputs/assemble_inputs.py",
+      "sha256": "75fe43536cd3f1160f841108c9bb55f107b4b5eeb26bd442a23b72142cf25bd1"
+    },
+    {
+      "bytes": 646765,
+      "id": "frozen_assignments",
+      "lines": null,
+      "logical_source_location": "inputs/E01_ASSIGNMENTS.jsonl",
+      "sha256": "53078b53554796fd8b976a0660b330df2c31dc07191a2fafd5a15ec4ad050152"
+    },
+    {
+      "bytes": 4762076,
+      "id": "frozen_draws",
+      "lines": null,
+      "logical_source_location": "inputs/E03_DRAWS.jsonl",
+      "sha256": "ab661458ae161d1e7bca078154d4d2d0f52d6b522949c4228f3b75924451e3fb"
+    },
+    {
+      "bytes": 939456,
+      "id": "support_counts",
+      "lines": null,
+      "logical_source_location": "inputs/COVERAGE_METRICS.jsonl",
+      "sha256": "bba72b369c3fe2e02a90389e25aec21a33b178726619339deb363ad7986b9439"
+    },
+    {
+      "bytes": 48882,
+      "id": "development_split",
+      "lines": null,
+      "logical_source_location": "inputs/E02_DEVELOPMENT_BLOCKS.json",
+      "sha256": "e7afff2724dadd76ace55a8160d02eb517e4362d22c3ff006b00005864d00901"
+    },
+    {
+      "bytes": 2915,
+      "id": "accepted_asset_manifest",
+      "lines": null,
+      "logical_source_location": "assets/ASSET_MANIFEST.json",
+      "sha256": "120830189965548551c063be0e57f9de41f4c3d42e2bb99ebbc652e4fcc3fb4b"
+    },
+    {
+      "bytes": 52044,
+      "id": "accepted_diagnostics",
+      "lines": null,
+      "logical_source_location": "diagnostics/DIAGNOSTIC_MANIFEST.json",
+      "sha256": "4322b0ddcd1532bd5ff642e0ec9b75901467ca4aeb077c84a49a027882b6f1ff"
+    }
+  ]
+}

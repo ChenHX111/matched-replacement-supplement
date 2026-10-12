@@ -1,0 +1,17 @@
+% Generated from fixed saved results; do not hand-edit numerical cells.
+\begin{table*}[tp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrr}
+\toprule
+Setting & Same-seed $N_s,\theta_s$ & $N_s$, other-two mean & $N_s,\theta_t$, $s\ne t$ \\
+\midrule
+Main & -0.6422 [-0.7075, -0.5686] & -0.5002 [-0.5919, -0.4010] & -0.4621 [-0.5470, -0.3700] \\
+IMDb & -0.5332 [-0.6231, -0.4435] & -0.4281 [-0.5010, -0.3681] & -0.4053 [-0.5022, -0.3172] \\
+GPT-2 & -0.4350 [-0.6270, -0.2416] & -0.4266 [-0.6220, -0.2331] & -0.4325 [-0.6257, -0.2408] \\
+\bottomrule
+\end{tabular}
+\caption{Within-context component Spearman associations. The same-seed column retains its original 5,000-draw nominal 95\% intervals; the two new columns use 20,000 draws. The last column averages all six ordered different-seed pairs within each background. The new operands do not share an OUT realization, but still share a selected query and background. These are descriptions, not causal or noise-floor estimates.}
+\label{tab:review_components}
+\end{table*}

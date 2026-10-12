@@ -1,0 +1,17 @@
+\begin{table*}[tp]
+\centering
+\small
+\begin{tabular}{@{}lllll@{}}
+\toprule
+& Endpoint & Far estimate [99\%] & Near & Result \\
+\midrule
+E1 & Far: $G_{20}$ rank $-$ loss-drop rank & 0.7702 [0.5685, 0.9482] & 0.7517 & positive \\
+E2 & Far: $U_4$ rank $-$ difficulty rank & 0.2905 [0.1511, 0.4355] & 0.2505 & positive \\
+E3 & Far: loss-drop regret $-$ $G_{20}$ regret & 0.2984 [0.2056, 0.3864] & 0.3044 & positive \\
+E4 & Far $-$ near: ($U_4$ $-$ difficulty) rank & 0.0400 [-0.0564, 0.1356] & 0.2505 & unresolved \\
+E5 & Far $-$ near: ($G_{20}$ $-$ loss drop) rank & 0.0185 [-0.0848, 0.1209] & 0.7517 & unresolved \\
+\bottomrule
+\end{tabular}
+\caption{Pre-registered far-control family: 24 main blocks, two backgrounds, three seeds, eight focals; equal block weights, 20,000 whole-block draws, Bonferroni 99\% intervals over five tests. E1--E3 evaluate scores against the far-control cross-seed benefit. E4--E5 subtract, block by block, the published nearest-control advantage shown under Near. Near values are the published point estimates, recomputed from retained values. An unresolved interval does not establish invariance.}
+\label{tab:e01_endpoints}
+\end{table*}

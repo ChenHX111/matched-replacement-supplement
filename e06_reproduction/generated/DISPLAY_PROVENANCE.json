@@ -1,0 +1,259 @@
+{
+ "e06_endpoints.X1": {
+  "components": {
+   "first": {
+    "estimate": 0.39285714285714285,
+    "metric": "spearman",
+    "vector": "G20@1"
+   },
+   "second": {
+    "estimate": -0.2748015873015873,
+    "metric": "spearman",
+    "vector": "A@1"
+   }
+  },
+  "endpoint_id": "E06_X1_G20e1_vs_Ae1_rank",
+  "leave_one_block_out": [
+   0.6407867494824017,
+   0.7028985507246376
+  ],
+  "positive_blocks": 22,
+  "source": "results/E06_ANALYSIS_RESULT.json and results/POSTHOC_E06.json"
+ },
+ "e06_endpoints.X2": {
+  "components": {
+   "first": {
+    "estimate": 0.5525793650793651,
+    "metric": "spearman",
+    "vector": "U4"
+   },
+   "second": {
+    "estimate": 0.30654761904761907,
+    "metric": "spearman",
+    "vector": "D"
+   }
+  },
+  "endpoint_id": "E06_X2_U4_vs_D_rank_e1",
+  "leave_one_block_out": [
+   0.21842650103519667,
+   0.2646652864044169
+  ],
+  "positive_blocks": 22,
+  "source": "results/E06_ANALYSIS_RESULT.json and results/POSTHOC_E06.json"
+ },
+ "e06_endpoints.X3": {
+  "components": {
+   "first": {
+    "estimate": 0.19822035646753133,
+    "metric": "top_two_regret",
+    "vector": "A@1"
+   },
+   "second": {
+    "estimate": 0.08802904108159752,
+    "metric": "top_two_regret",
+    "vector": "G20@1"
+   }
+  },
+  "endpoint_id": "E06_X3_Ae1_minus_G20e1_regret",
+  "leave_one_block_out": [
+   0.1015642911030531,
+   0.12015751255317042
+  ],
+  "positive_blocks": 22,
+  "source": "results/E06_ANALYSIS_RESULT.json and results/POSTHOC_E06.json"
+ },
+ "e06_endpoints.X4": {
+  "components": {
+   "first": {
+    "estimate": 0.09753908601923617,
+    "metric": "top_two_regret",
+    "vector": "D"
+   },
+   "second": {
+    "estimate": 0.0702201827677808,
+    "metric": "top_two_regret",
+    "vector": "U4"
+   }
+  },
+  "endpoint_id": "E06_X4_D_minus_U4_regret_e1",
+  "leave_one_block_out": [
+   0.0187068720284767,
+   0.042030204114301896
+  ],
+  "positive_blocks": 14,
+  "source": "results/E06_ANALYSIS_RESULT.json and results/POSTHOC_E06.json"
+ },
+ "e06_endpoints.Y1": {
+  "components": {
+   "first": {
+    "estimate": 0.6603835978835979,
+    "metric": "spearman",
+    "vector": "G20"
+   },
+   "second": {
+    "estimate": 0.2853835978835979,
+    "metric": "spearman",
+    "vector": "Adam"
+   }
+  },
+  "endpoint_id": "E06_Y1_G20_vs_Adam_rank",
+  "leave_one_block_out": [
+   0.36059351276742585,
+   0.3909592822636301
+  ],
+  "positive_blocks": 24,
+  "source": "results/E06_ANALYSIS_RESULT.json and results/POSTHOC_E06.json"
+ },
+ "e06_endpoints.Y2": {
+  "components": {
+   "first": {
+    "estimate": 0.6000330687830687,
+    "metric": "spearman",
+    "vector": "U4"
+   },
+   "second": {
+    "estimate": 0.2853835978835979,
+    "metric": "spearman",
+    "vector": "Adam"
+   }
+  },
+  "endpoint_id": "E06_Y2_U4_vs_Adam_rank",
+  "leave_one_block_out": [
+   0.2995169082125604,
+   0.3386818495514148
+  ],
+  "positive_blocks": 22,
+  "source": "results/E06_ANALYSIS_RESULT.json and results/POSTHOC_E06.json"
+ },
+ "e06_endpoints.Y3": {
+  "components": {
+   "first": {
+    "estimate": 0.25839328634871184,
+    "metric": "top_two_regret",
+    "vector": "Adam"
+   },
+   "second": {
+    "estimate": 0.08696497754051148,
+    "metric": "top_two_regret",
+    "vector": "G20"
+   }
+  },
+  "endpoint_id": "E06_Y3_Adam_minus_G20_regret",
+  "leave_one_block_out": [
+   0.16338975970813194,
+   0.17946295693294576
+  ],
+  "positive_blocks": 23,
+  "source": "results/E06_ANALYSIS_RESULT.json and results/POSTHOC_E06.json"
+ },
+ "e06_endpoints.Y4": {
+  "components": {
+   "first": {
+    "estimate": 0.25839328634871184,
+    "metric": "top_two_regret",
+    "vector": "Adam"
+   },
+   "second": {
+    "estimate": 0.12508502075188146,
+    "metric": "top_two_regret",
+    "vector": "U4"
+   }
+  },
+  "endpoint_id": "E06_Y4_Adam_minus_U4_regret",
+  "leave_one_block_out": [
+   0.1236123233136589,
+   0.14161325649646753
+  ],
+  "positive_blocks": 17,
+  "source": "results/E06_ANALYSIS_RESULT.json and results/POSTHOC_E06.json"
+ },
+ "e06_exposure": {
+  "source": "results/E06_ANALYSIS_RESULT.json descriptive_outside_family (theta_and_nonfocal_means, cross_seed_repeatability, exposure_components); results/POSTHOC_E06.json (P5 mean_A, rank_N_vs_T; P6)"
+ },
+ "e06_gradient": {
+  "source": "results/E06_ANALYSIS_RESULT.json descriptive_outside_family (attribution_absolute.pooled, far_targets); results/POSTHOC_E06.json (P3)"
+ },
+ "e06_main.X1": {
+  "branch": "HOLDS_AFTER_ONE_PASS",
+  "endpoint_id": "E06_X1_G20e1_vs_Ae1_rank",
+  "estimate": 0.6676587301587301,
+  "interval": [
+   0.45105200066137513,
+   0.8764911954365071
+  ],
+  "source": "results/E06_ANALYSIS_RESULT.json"
+ },
+ "e06_main.X2": {
+  "branch": "HOLDS_AFTER_ONE_PASS",
+  "endpoint_id": "E06_X2_U4_vs_D_rank_e1",
+  "estimate": 0.24603174603174605,
+  "interval": [
+   0.12334656084656086,
+   0.3888888888888889
+  ],
+  "source": "results/E06_ANALYSIS_RESULT.json"
+ },
+ "e06_main.X3": {
+  "branch": "HOLDS_AFTER_ONE_PASS",
+  "endpoint_id": "E06_X3_Ae1_minus_G20e1_regret",
+  "estimate": 0.11019131538593381,
+  "interval": [
+   0.051512156147831334,
+   0.17175852887223755
+  ],
+  "source": "results/E06_ANALYSIS_RESULT.json"
+ },
+ "e06_main.X4": {
+  "branch": "UNRESOLVED_AFTER_ONE_PASS",
+  "endpoint_id": "E06_X4_D_minus_U4_regret_e1",
+  "estimate": 0.027318903251455365,
+  "interval": [
+   -0.03353040564206405,
+   0.07731882868733854
+  ],
+  "source": "results/E06_ANALYSIS_RESULT.json"
+ },
+ "e06_main.Y1": {
+  "branch": "ACCESS_AWARE_OUTRANKS_GRADIENT",
+  "endpoint_id": "E06_Y1_G20_vs_Adam_rank",
+  "estimate": 0.375,
+  "interval": [
+   0.2644670758928571,
+   0.47792710400132266
+  ],
+  "source": "results/E06_ANALYSIS_RESULT.json"
+ },
+ "e06_main.Y2": {
+  "branch": "ACCESS_AWARE_OUTRANKS_GRADIENT",
+  "endpoint_id": "E06_Y2_U4_vs_Adam_rank",
+  "estimate": 0.3146494708994709,
+  "interval": [
+   0.1913850653108465,
+   0.43634259259259256
+  ],
+  "source": "results/E06_ANALYSIS_RESULT.json"
+ },
+ "e06_main.Y3": {
+  "branch": "ACCESS_AWARE_OUTRANKS_GRADIENT",
+  "endpoint_id": "E06_Y3_Adam_minus_G20_regret",
+  "estimate": 0.17142830880820034,
+  "interval": [
+   0.11221908011271935,
+   0.233685078090981
+  ],
+  "source": "results/E06_ANALYSIS_RESULT.json"
+ },
+ "e06_main.Y4": {
+  "branch": "ACCESS_AWARE_OUTRANKS_GRADIENT",
+  "endpoint_id": "E06_Y4_Adam_minus_U4_regret",
+  "estimate": 0.13330826559683034,
+  "interval": [
+   0.058884438600944854,
+   0.20676997949461867
+  ],
+  "source": "results/E06_ANALYSIS_RESULT.json"
+ },
+ "e06_posthoc": {
+  "source": "results/POSTHOC_E06.json (P1, P4)"
+ }
+}

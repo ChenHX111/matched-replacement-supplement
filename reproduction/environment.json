@@ -1,0 +1,18 @@
+{
+  "python": "3.11 (validated3.11.9)",
+  "numpy": "1.26.4",
+  "required_packages": [
+    "numpy==1.26.4"
+  ],
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "flags": {
+    "PYTHONUTF8": "1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "models_or_network_required": false,
+  "vector_figures": "Pure Python PDF writer; no plotting or model dependency"
+}

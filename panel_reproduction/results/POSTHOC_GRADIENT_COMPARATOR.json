@@ -1,0 +1,194 @@
+{
+ "schema": "posthoc-gradient-comparator-v1",
+ "status": "post hoc; background 0 only; specified after the main analyses",
+ "inputs": {
+  "near_bundle": {
+   "path": "e01_reproduction\\inputs\\NEAR_INPUT_BUNDLE.json",
+   "sha256": "e3e5a9cf750eaca3e894a91d6dbab2ece054cc1cdc878a6b8a3ff009eab1a12c"
+  },
+  "followup_contexts": {
+   "path": "followup_reproduction\\inputs\\CONTEXTS.json",
+   "sha256": "1be362477773f1a735bf7640e730593f18199541c12dfabe8360e57f1f1c8e0a"
+  }
+ },
+ "score_definitions": {
+  "plain_gradient": "sum over 4 epoch-end live checkpoints of eta*(g_q.g_q - g_q.g_c), all 405,334,016 parameters, g = gradient of 255-target mean NLL of member query (q) / matched control window (c)",
+  "target": "mean near-control theta over the other two seeds, same background"
+ },
+ "draws": 20000,
+ "root_seed": 202610111930,
+ "unit": "block (24), seeds averaged within block",
+ "reproduction_of_published_bg0": {
+  "plain_gradient": {
+   "rank": 0.222884,
+   "regret": 0.258979,
+   "published": [
+    0.222884,
+    0.258979
+   ],
+   "match": true
+  },
+  "G20": {
+   "rank": 0.637235,
+   "regret": 0.090005,
+   "published": [
+    0.637235,
+    0.090005
+   ],
+   "match": true
+  },
+  "difficulty": {
+   "rank": 0.326058,
+   "regret": 0.228715,
+   "published": [
+    0.326058,
+    0.228715
+   ],
+   "match": true
+  }
+ },
+ "block_level_summary": {
+  "G20": {
+   "rank": 0.6372354497354498,
+   "regret": 0.09000493558404392
+  },
+  "U4": {
+   "rank": 0.5935846560846562,
+   "regret": 0.1330548409697938
+  },
+  "difficulty": {
+   "rank": 0.3260582010582011,
+   "regret": 0.22871521687971183
+  },
+  "loss_drop": {
+   "rank": -0.12929894179894183,
+   "regret": 0.4103223389713844
+  },
+  "plain_gradient": {
+   "rank": 0.2228835978835979,
+   "regret": 0.25897859446300364
+  }
+ },
+ "contrasts": [
+  {
+   "contrast": "G20_minus_plain_rank",
+   "estimate": 0.4143518518518519,
+   "nominal95": [
+    0.29629629629629634,
+    0.5287698412698414
+   ],
+   "bonferroni_family": [
+    0.2486772486772487,
+    0.5772166418650791
+   ],
+   "bonferroni_level": 0.99375,
+   "positive_blocks": 21,
+   "blocks": 24
+  },
+  {
+   "contrast": "plain_minus_G20_regret",
+   "estimate": 0.16897365887895974,
+   "nominal95": [
+    0.11370993471304978,
+    0.23025645975081116
+   ],
+   "bonferroni_family": [
+    0.09313434714795367,
+    0.25865087545365917
+   ],
+   "bonferroni_level": 0.99375,
+   "positive_blocks": 21,
+   "blocks": 24
+  },
+  {
+   "contrast": "U4_minus_plain_rank",
+   "estimate": 0.3707010582010583,
+   "nominal95": [
+    0.22718253968253974,
+    0.5135582010582012
+   ],
+   "bonferroni_family": [
+    0.17278129133597886,
+    0.5717613260582007
+   ],
+   "bonferroni_level": 0.99375,
+   "positive_blocks": 20,
+   "blocks": 24
+  },
+  {
+   "contrast": "plain_minus_U4_regret",
+   "estimate": 0.1259237534932098,
+   "nominal95": [
+    0.05286185275217956,
+    0.20336775600021817
+   ],
+   "bonferroni_family": [
+    0.026131512259663304,
+    0.2318410768421735
+   ],
+   "bonferroni_level": 0.99375,
+   "positive_blocks": 17,
+   "blocks": 24
+  },
+  {
+   "contrast": "difficulty_minus_plain_rank",
+   "estimate": 0.10317460317460318,
+   "nominal95": [
+    -0.045304232804232826,
+    0.25066137566137564
+   ],
+   "bonferroni_family": [
+    -0.10383804563492066,
+    0.3072089947089947
+   ],
+   "bonferroni_level": 0.99375,
+   "positive_blocks": 14,
+   "blocks": 24
+  },
+  {
+   "contrast": "plain_minus_difficulty_regret",
+   "estimate": 0.030263377583291822,
+   "nominal95": [
+    -0.04771330343516082,
+    0.1143062627037534
+   ],
+   "bonferroni_family": [
+    -0.07590163206123075,
+    0.1506507710959561
+   ],
+   "bonferroni_level": 0.99375,
+   "positive_blocks": 14,
+   "blocks": 24
+  },
+  {
+   "contrast": "loss_drop_minus_plain_rank",
+   "estimate": -0.3521825396825397,
+   "nominal95": [
+    -0.4877728174603176,
+    -0.2162615740740748
+   ],
+   "bonferroni_family": [
+    -0.5383597883597885,
+    -0.1655082258597886
+   ],
+   "bonferroni_level": 0.99375,
+   "positive_blocks": 6,
+   "blocks": 24
+  },
+  {
+   "contrast": "plain_minus_loss_drop_regret",
+   "estimate": -0.1513437445083808,
+   "nominal95": [
+    -0.22795498293556465,
+    -0.0805665307786773
+   ],
+   "bonferroni_family": [
+    -0.25833956701835786,
+    -0.0559332745760867
+   ],
+   "bonferroni_level": 0.99375,
+   "positive_blocks": 6,
+   "blocks": 24
+  }
+ ]
+}

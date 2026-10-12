@@ -1,0 +1,828 @@
+{
+ "draws": 20000,
+ "inputs": {
+  "asset_scalars_sha256": "05b0a49f3d8de9691acf5e2f5e437e168223bef4bc4b06a738285f88b5cd0d84",
+  "cpu_inputs_sha256": "58d3d9f6c18be94c84f11601ac71b38c300117716b28350629f08644dc6c6c5b"
+ },
+ "interval": "nominal 95% whole-block percentile bootstrap",
+ "label": "post_hoc_saved_data_checks_3",
+ "root_seed": 202610121930,
+ "settings": {
+  "p5_corpus": {
+   "G20_operating_points": {
+    "cells_signed_error_above_0_5": 127,
+    "contexts": 48,
+    "focal_cells": 384,
+    "share_signed_error_above_0_5": 0.3307291666666667,
+    "share_top_two_equal": 0.22916666666666666,
+    "top_two_equal_to_cross_seed_top_two": 11
+   },
+   "absolute": {
+    "G20": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.5882936507936509,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.4985119047619049,
+       0.6835317460317462
+      ]
+     },
+     "regret": {
+      "blocks": 8,
+      "estimate": 0.1242283451199084,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.09025030564037319,
+       0.16317069135751783
+      ]
+     }
+    },
+    "U4": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.6294642857142858,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.4697420634920636,
+       0.7777777777777779
+      ]
+     },
+     "regret": {
+      "blocks": 8,
+      "estimate": 0.1137180013226291,
+      "favourable_blocks": 7,
+      "nominal95": [
+       0.043602605903450095,
+       0.19902051655853453
+      ]
+     }
+    },
+    "difficulty": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.638888888888889,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.48611111111111116,
+       0.7787698412698414
+      ]
+     },
+     "regret": {
+      "blocks": 8,
+      "estimate": 0.1137180013226291,
+      "favourable_blocks": 7,
+      "nominal95": [
+       0.04378169629405772,
+       0.19841638393349698
+      ]
+     }
+    },
+    "final_loss": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.13988095238095238,
+      "favourable_blocks": 7,
+      "nominal95": [
+       -0.02878224206349207,
+       0.29067460317460325
+      ]
+     },
+     "regret": {
+      "blocks": 8,
+      "estimate": 0.3637707224105279,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.23358399221474227,
+       0.5007043847990743
+      ]
+     }
+    },
+    "loss_drop": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.47569444444444453,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.3407738095238096,
+       0.6165674603174605
+      ]
+     },
+     "regret": {
+      "blocks": 8,
+      "estimate": 0.1942901029523598,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.13669601775841134,
+       0.24806360495462512
+      ]
+     }
+    },
+    "member_free_reference_loss": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.6964285714285714,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.5689484126984127,
+       0.8060515873015873
+      ]
+     },
+     "regret": {
+      "blocks": 8,
+      "estimate": 0.08699600802623528,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.043264203212795435,
+       0.14114427527560705
+      ]
+     }
+    }
+   },
+   "blocks": 8,
+   "capture_share_top2": {
+    "G20": {
+     "blocks": 8,
+     "estimate": 0.9591968979986343,
+     "favourable_blocks": 8,
+     "nominal95": [
+      0.9449471429746195,
+      0.9708260590447687
+     ]
+    },
+    "U4": {
+     "blocks": 8,
+     "estimate": 0.9607963578809189,
+     "favourable_blocks": 8,
+     "nominal95": [
+      0.92983787521382,
+      0.9857253036461416
+     ]
+    },
+    "difficulty": {
+     "blocks": 8,
+     "estimate": 0.9607963578809189,
+     "favourable_blocks": 8,
+     "nominal95": [
+      0.9299625308514061,
+      0.9856596827244751
+     ]
+    },
+    "final_loss": {
+     "blocks": 8,
+     "estimate": 0.8797008794260308,
+     "favourable_blocks": 8,
+     "nominal95": [
+      0.8369835099868583,
+      0.9198982647068065
+     ]
+    },
+    "loss_drop": {
+     "blocks": 8,
+     "estimate": 0.9343220884121933,
+     "favourable_blocks": 8,
+     "nominal95": [
+      0.9128568493560568,
+      0.9558111160643827
+     ]
+    },
+    "member_free_reference_loss": {
+     "blocks": 8,
+     "estimate": 0.9703129610621984,
+     "favourable_blocks": 8,
+     "nominal95": [
+      0.9491758201696823,
+      0.9861882780004045
+     ]
+    }
+   },
+   "label": "IMDb/Pythia",
+   "paired": {
+    "G20_over_final_loss": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.4484126984126985,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.26140873015873023,
+       0.6582341269841271
+      ]
+     },
+     "regret_reduction": {
+      "blocks": 8,
+      "estimate": 0.23954237729061945,
+      "favourable_blocks": 7,
+      "nominal95": [
+       0.10108536805376878,
+       0.3895517355099052
+      ]
+     }
+    },
+    "G20_over_member_free_reference_loss": {
+     "rank": {
+      "blocks": 8,
+      "estimate": -0.10813492063492057,
+      "favourable_blocks": 3,
+      "nominal95": [
+       -0.2033730158730158,
+       -0.014880952380952321
+      ]
+     },
+     "regret_reduction": {
+      "blocks": 8,
+      "estimate": -0.03723233709367313,
+      "favourable_blocks": 2,
+      "nominal95": [
+       -0.0825560780392231,
+       0.0042488963035941865
+      ]
+     }
+    },
+    "member_free_reference_loss_over_U4": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.06696428571428567,
+      "favourable_blocks": 7,
+      "nominal95": [
+       0.0014880952380951842,
+       0.1383928571428571
+      ]
+     },
+     "regret_reduction": {
+      "blocks": 8,
+      "estimate": 0.02672199329639381,
+      "favourable_blocks": 3,
+      "nominal95": [
+       -0.0022178627944905577,
+       0.07017705543673111
+      ]
+     }
+    },
+    "member_free_reference_loss_over_difficulty": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.0575396825396825,
+      "favourable_blocks": 5,
+      "nominal95": [
+       -0.0049727182539682805,
+       0.1378968253968254
+      ]
+     },
+     "regret_reduction": {
+      "blocks": 8,
+      "estimate": 0.02672199329639381,
+      "favourable_blocks": 3,
+      "nominal95": [
+       -0.002551528582880622,
+       0.07064689340675503
+      ]
+     }
+    }
+   }
+  },
+  "p5_main": {
+   "G20_operating_points": {
+    "cells_signed_error_above_0_5": 89,
+    "contexts": 144,
+    "focal_cells": 1152,
+    "share_signed_error_above_0_5": 0.07725694444444445,
+    "share_top_two_equal": 0.4236111111111111,
+    "top_two_equal_to_cross_seed_top_two": 61
+   },
+   "absolute": {
+    "G20": {
+     "rank": {
+      "blocks": 24,
+      "estimate": 0.660383597883598,
+      "favourable_blocks": 24,
+      "nominal95": [
+       0.6008597883597884,
+       0.7179232804232805
+      ]
+     },
+     "regret": {
+      "blocks": 24,
+      "estimate": 0.08696497754051148,
+      "favourable_blocks": 23,
+      "nominal95": [
+       0.0648968024932255,
+       0.10955161130386788
+      ]
+     }
+    },
+    "U4": {
+     "rank": {
+      "blocks": 24,
+      "estimate": 0.600033068783069,
+      "favourable_blocks": 24,
+      "nominal95": [
+       0.5003306878306879,
+       0.6956059854497353
+      ]
+     },
+     "regret": {
+      "blocks": 24,
+      "estimate": 0.12508502075188146,
+      "favourable_blocks": 22,
+      "nominal95": [
+       0.08748033128025627,
+       0.16474843776842912
+      ]
+     }
+    },
+    "difficulty": {
+     "rank": {
+      "blocks": 24,
+      "estimate": 0.34953703703703703,
+      "favourable_blocks": 19,
+      "nominal95": [
+       0.21990740740740744,
+       0.4771825396825397
+      ]
+     },
+     "regret": {
+      "blocks": 24,
+      "estimate": 0.22396077361974384,
+      "favourable_blocks": 22,
+      "nominal95": [
+       0.17285666459165508,
+       0.27414536515255417
+      ]
+     }
+    },
+    "final_loss": {
+     "rank": {
+      "blocks": 24,
+      "estimate": 0.4722222222222223,
+      "favourable_blocks": 23,
+      "nominal95": [
+       0.37103174603174605,
+       0.5651455026455027
+      ]
+     },
+     "regret": {
+      "blocks": 24,
+      "estimate": 0.17524952871505217,
+      "favourable_blocks": 24,
+      "nominal95": [
+       0.13646056445366145,
+       0.21713855207826907
+      ]
+     }
+    },
+    "loss_drop": {
+     "rank": {
+      "blocks": 24,
+      "estimate": -0.09126984126984128,
+      "favourable_blocks": 8,
+      "nominal95": [
+       -0.19246031746031753,
+       0.015046296296296308
+      ]
+     },
+     "regret": {
+      "blocks": 24,
+      "estimate": 0.39138447807043525,
+      "favourable_blocks": 24,
+      "nominal95": [
+       0.3329879475241947,
+       0.4490710817097416
+      ]
+     }
+    },
+    "member_free_reference_loss": {
+     "rank": {
+      "blocks": 24,
+      "estimate": 0.7025462962962964,
+      "favourable_blocks": 24,
+      "nominal95": [
+       0.6438492063492064,
+       0.7576058201058201
+      ]
+     },
+     "regret": {
+      "blocks": 24,
+      "estimate": 0.0736732448955517,
+      "favourable_blocks": 23,
+      "nominal95": [
+       0.047726552644204716,
+       0.10099788776139695
+      ]
+     }
+    }
+   },
+   "blocks": 24,
+   "capture_share_top2": {
+    "G20": {
+     "blocks": 24,
+     "estimate": 0.8916292872162902,
+     "favourable_blocks": 24,
+     "nominal95": [
+      0.8634283845605996,
+      0.9200153559402245
+     ]
+    },
+    "U4": {
+     "blocks": 24,
+     "estimate": 0.8315704545915095,
+     "favourable_blocks": 24,
+     "nominal95": [
+      0.777623061117696,
+      0.8840915284823259
+     ]
+    },
+    "difficulty": {
+     "blocks": 24,
+     "estimate": 0.716560262849273,
+     "favourable_blocks": 24,
+     "nominal95": [
+      0.6445366440076244,
+      0.7857770054941583
+     ]
+    },
+    "final_loss": {
+     "blocks": 24,
+     "estimate": 0.7766773002878654,
+     "favourable_blocks": 24,
+     "nominal95": [
+      0.7158838173778863,
+      0.8302844995492479
+     ]
+    },
+    "loss_drop": {
+     "blocks": 24,
+     "estimate": 0.5528011085781501,
+     "favourable_blocks": 24,
+     "nominal95": [
+      0.5034000426142304,
+      0.602264148909685
+     ]
+    },
+    "member_free_reference_loss": {
+     "blocks": 24,
+     "estimate": 0.9027649943164219,
+     "favourable_blocks": 24,
+     "nominal95": [
+      0.8665979734968526,
+      0.9368927783519945
+     ]
+    }
+   },
+   "label": "MultiEURLEX/Pythia (main)",
+   "paired": {
+    "G20_over_final_loss": {
+     "rank": {
+      "blocks": 24,
+      "estimate": 0.18816137566137567,
+      "favourable_blocks": 20,
+      "nominal95": [
+       0.09556878306878304,
+       0.2822420634920635
+      ]
+     },
+     "regret_reduction": {
+      "blocks": 24,
+      "estimate": 0.08828455117454069,
+      "favourable_blocks": 20,
+      "nominal95": [
+       0.04852878740582269,
+       0.13352448517473295
+      ]
+     }
+    },
+    "G20_over_member_free_reference_loss": {
+     "rank": {
+      "blocks": 24,
+      "estimate": -0.04216269841269841,
+      "favourable_blocks": 10,
+      "nominal95": [
+       -0.09739169973544975,
+       0.009920634920634922
+      ]
+     },
+     "regret_reduction": {
+      "blocks": 24,
+      "estimate": -0.01329173264495978,
+      "favourable_blocks": 7,
+      "nominal95": [
+       -0.030864294895267166,
+       0.0042578025576885115
+      ]
+     }
+    },
+    "member_free_reference_loss_over_U4": {
+     "rank": {
+      "blocks": 24,
+      "estimate": 0.1025132275132275,
+      "favourable_blocks": 17,
+      "nominal95": [
+       0.04861111111111107,
+       0.16253306878306875
+      ]
+     },
+     "regret_reduction": {
+      "blocks": 24,
+      "estimate": 0.05141177585632976,
+      "favourable_blocks": 13,
+      "nominal95": [
+       0.015418668005084851,
+       0.09024692412938029
+      ]
+     }
+    },
+    "member_free_reference_loss_over_difficulty": {
+     "rank": {
+      "blocks": 24,
+      "estimate": 0.3530092592592593,
+      "favourable_blocks": 21,
+      "nominal95": [
+       0.24619708994709,
+       0.4580026455026456
+      ]
+     },
+     "regret_reduction": {
+      "blocks": 24,
+      "estimate": 0.15028752872419213,
+      "favourable_blocks": 20,
+      "nominal95": [
+       0.09794213843719475,
+       0.20282477580833208
+      ]
+     }
+    }
+   }
+  },
+  "p5_model": {
+   "G20_operating_points": {
+    "cells_signed_error_above_0_5": 0,
+    "contexts": 48,
+    "focal_cells": 384,
+    "share_signed_error_above_0_5": 0.0,
+    "share_top_two_equal": 0.7291666666666666,
+    "top_two_equal_to_cross_seed_top_two": 35
+   },
+   "absolute": {
+    "G20": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.9479166666666667,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.9265873015873016,
+       0.9672619047619049
+      ]
+     },
+     "regret": {
+      "blocks": 8,
+      "estimate": 0.0051979683091291085,
+      "favourable_blocks": 5,
+      "nominal95": [
+       0.0014796875838768893,
+       0.00951931516636975
+      ]
+     }
+    },
+    "U4": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.7693452380952382,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.625,
+       0.8769965277777769
+      ]
+     },
+     "regret": {
+      "blocks": 8,
+      "estimate": 0.02654929163126372,
+      "favourable_blocks": 7,
+      "nominal95": [
+       0.012829129800391435,
+       0.04083279831582462
+      ]
+     }
+    },
+    "difficulty": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.47023809523809534,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.3174603174603175,
+       0.6314484126984128
+      ]
+     },
+     "regret": {
+      "blocks": 8,
+      "estimate": 0.07617060668022918,
+      "favourable_blocks": 7,
+      "nominal95": [
+       0.03538822542725081,
+       0.12636859494269426
+      ]
+     }
+    },
+    "final_loss": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.6775793650793651,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.5535714285714287,
+       0.7812500000000001
+      ]
+     },
+     "regret": {
+      "blocks": 8,
+      "estimate": 0.03381260327070694,
+      "favourable_blocks": 7,
+      "nominal95": [
+       0.009265648088826933,
+       0.07082285583141178
+      ]
+     }
+    },
+    "loss_drop": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.03025793650793654,
+      "favourable_blocks": 4,
+      "nominal95": [
+       -0.2003968253968254,
+       0.2321428571428572
+      ]
+     },
+     "regret": {
+      "blocks": 8,
+      "estimate": 0.14171141122078731,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.09327795966212996,
+       0.19644003271555793
+      ]
+     }
+    },
+    "member_free_reference_loss": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.8090277777777779,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.7172619047619049,
+       0.8779761904761906
+      ]
+     },
+     "regret": {
+      "blocks": 8,
+      "estimate": 0.009099007380847419,
+      "favourable_blocks": 6,
+      "nominal95": [
+       0.0038985975166068955,
+       0.014201911391358627
+      ]
+     }
+    }
+   },
+   "blocks": 8,
+   "capture_share_top2": {
+    "G20": {
+     "blocks": 8,
+     "estimate": 0.989009308424647,
+     "favourable_blocks": 8,
+     "nominal95": [
+      0.9798620892079202,
+      0.9967560522968895
+     ]
+    },
+    "U4": {
+     "blocks": 8,
+     "estimate": 0.9417534402295715,
+     "favourable_blocks": 8,
+     "nominal95": [
+      0.909985031451469,
+      0.9723253744150215
+     ]
+    },
+    "difficulty": {
+     "blocks": 8,
+     "estimate": 0.8183018490428873,
+     "favourable_blocks": 8,
+     "nominal95": [
+      0.7035900334296259,
+      0.912941041287551
+     ]
+    },
+    "final_loss": {
+     "blocks": 8,
+     "estimate": 0.9223772869701053,
+     "favourable_blocks": 8,
+     "nominal95": [
+      0.8467827062090663,
+      0.9768925378860792
+     ]
+    },
+    "loss_drop": {
+     "blocks": 8,
+     "estimate": 0.6788710755121563,
+     "favourable_blocks": 8,
+     "nominal95": [
+      0.549435866156277,
+      0.7926324628799368
+     ]
+    },
+    "member_free_reference_loss": {
+     "blocks": 8,
+     "estimate": 0.9792148622882686,
+     "favourable_blocks": 8,
+     "nominal95": [
+      0.9670348491121137,
+      0.9912983846233167
+     ]
+    }
+   },
+   "label": "MultiEURLEX/GPT-2",
+   "paired": {
+    "G20_over_final_loss": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.2703373015873016,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.17063492063492064,
+       0.39781746031746035
+      ]
+     },
+     "regret_reduction": {
+      "blocks": 8,
+      "estimate": 0.028614634961577835,
+      "favourable_blocks": 5,
+      "nominal95": [
+       0.0014168351076093188,
+       0.06802387584871614
+      ]
+     }
+    },
+    "G20_over_member_free_reference_loss": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.1388888888888889,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.07837301587301587,
+       0.23065476190476195
+      ]
+     },
+     "regret_reduction": {
+      "blocks": 8,
+      "estimate": 0.0039010390717183104,
+      "favourable_blocks": 4,
+      "nominal95": [
+       -0.003491919290332428,
+       0.01045746478995856
+      ]
+     }
+    },
+    "member_free_reference_loss_over_U4": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.03968253968253969,
+      "favourable_blocks": 5,
+      "nominal95": [
+       -0.021329365079365073,
+       0.10367063492063494
+      ]
+     },
+     "regret_reduction": {
+      "blocks": 8,
+      "estimate": 0.017450284250416302,
+      "favourable_blocks": 5,
+      "nominal95": [
+       0.0001798489635961048,
+       0.03482967690955362
+      ]
+     }
+    },
+    "member_free_reference_loss_over_difficulty": {
+     "rank": {
+      "blocks": 8,
+      "estimate": 0.33878968253968256,
+      "favourable_blocks": 8,
+      "nominal95": [
+       0.21875,
+       0.4538690476190476
+      ]
+     },
+     "regret_reduction": {
+      "blocks": 8,
+      "estimate": 0.06707159929938175,
+      "favourable_blocks": 7,
+      "nominal95": [
+       0.028849791807882177,
+       0.11630977308800945
+      ]
+     }
+    }
+   }
+  }
+ }
+}
